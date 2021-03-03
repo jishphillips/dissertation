@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{introduction}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{the notion of TAM prominence}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Verbal inflection in Djambarrpuyŋu}{12}{0}{1}
-\beamer@sectionintoc {2}{Negative asymmetry}{28}{0}{2}
-\beamer@sectionintoc {3}{An irrealis semantics}{44}{0}{3}

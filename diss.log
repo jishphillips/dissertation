@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  1 MAR 2021 17:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  3 MAR 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2506,8 +2506,8 @@ LaTeX Font Info:    Try loading font information for U+euf on input line 1174.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [6]
-File: KCH06-95-WTframe.png Graphic file (type bmp)
-<KCH06-95-WTframe.png>
+File: figs/KCH06-95-WTframe.png Graphic file (type bmp)
+<figs/KCH06-95-WTframe.png>
 
 [7] [8]
 
@@ -4268,7 +4268,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1567.
 (\end occurred when \ifx on line 615 was incomplete) 
 Here is how much of TeX's memory you used:
  55054 strings out of 492970
- 1039699 string characters out of 6133938
+ 1039714 string characters out of 6133938
  1238620 words of memory out of 5000000
  58043 multiletter control sequences out of 15000+600000
  563181 words of font info for 241 fonts, out of 8000000 for 9000

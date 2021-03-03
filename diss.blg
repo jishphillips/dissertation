@@ -2,63 +2,63 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: diss.aux
 The style file: biblo/sp.bst.bst
-Illegal, another \bibstyle command---line 838 of file diss.aux
+Illegal, another \bibstyle command---line 839 of file diss.aux
  : \bibstyle
  :          {biblo/sp.bst}
 I'm skipping whatever remains of this command
 Reallocated field_info (elt_size=4) to 12306 items from 5000.
 Database file #1: biblo/library.bib
-Repeated entry---line 2834 of file biblo/library.bib
- : @inproceedings{Condoravdi2003
- :                              ,
-I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
 Reallocated out_buf (elt_size=1) to 40000 items from 20000.
 Reallocated name_tok (elt_size=4) to 40000 items from 20000.
 Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
-Repeated entry---line 15889 of file biblo/library.bib
+Repeated entry---line 17402 of file biblo/library.bib
+ : @inproceedings{Condoravdi2003
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21757 of file biblo/library.bib
  : @article{Anderson2008
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22756 of file biblo/library.bib
- : @article{Schaden2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22769 of file biblo/library.bib
- : @article{Traugott2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22788 of file biblo/library.bib
- : @incollection{Eckardt2009
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22861 of file biblo/library.bib
+Repeated entry---line 22855 of file biblo/library.bib
  : @incollection{Condoravdi2014
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22889 of file biblo/library.bib
+Repeated entry---line 22887 of file biblo/library.bib
  : @article{Deo2015
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22926 of file biblo/library.bib
+Repeated entry---line 22896 of file biblo/library.bib
  : @article{Eckardt2011
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23056 of file biblo/library.bib
- : @book{Traugott1991
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 23064 of file biblo/library.bib
+Repeated entry---line 22967 of file biblo/library.bib
  : @article{Deo2015a
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23083 of file biblo/library.bib
+Repeated entry---line 23038 of file biblo/library.bib
+ : @book{Traugott1991
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23046 of file biblo/library.bib
+ : @article{Schaden2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23100 of file biblo/library.bib
  : @book{Eckardt2006
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23169 of file biblo/library.bib
+Repeated entry---line 23132 of file biblo/library.bib
+ : @article{Traugott2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23227 of file biblo/library.bib
+ : @incollection{Eckardt2009
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23314 of file biblo/library.bib
  : @book{Bybee1994
  :                ,
 I'm skipping whatever remains of this entry
@@ -98,37 +98,37 @@ Warning--empty year in Wilkinson; set to ????
 Warning--empty note in Wilkinson
 You've used 280 entries,
             3147 wiz_defined-function locations,
-            2444 strings with 47040 characters,
-and the built_in function-call counts, 156301 in all, are:
-= -- 13416
+            2444 strings with 46968 characters,
+and the built_in function-call counts, 156345 in all, are:
+= -- 13420
 > -- 4329
 < -- 304
 + -- 1521
 - -- 1231
-* -- 9147
-:= -- 24338
+* -- 9152
+:= -- 24342
 add.period$ -- 1289
 call.type$ -- 280
 change.case$ -- 2040
 chr.to.int$ -- 300
 cite$ -- 312
-duplicate$ -- 13011
-empty$ -- 13303
+duplicate$ -- 13014
+empty$ -- 13309
 format.name$ -- 1762
-if$ -- 32215
+if$ -- 32225
 int.to.chr$ -- 11
 int.to.str$ -- 1
 missing$ -- 2564
 newline$ -- 1518
 num.names$ -- 1252
-pop$ -- 5133
+pop$ -- 5131
 preamble$ -- 1
 purify$ -- 1483
 quote$ -- 0
-skip$ -- 4816
+skip$ -- 4815
 stack$ -- 0
-substring$ -- 7144
-swap$ -- 5991
+substring$ -- 7153
+swap$ -- 5997
 text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
