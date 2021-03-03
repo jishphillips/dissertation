@@ -1,0 +1,125 @@
+
+\synctex=1
+
+\documentclass[10pt]{article}
+\usepackage[lmargin=30pt,rmargin=115pt,tmargin=70pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+
+\usepackage{booktabs}
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+\makeatletter
+\def\@xfootnote[#1]{%
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+
+\title{Data from Mel's complementation notes}
+
+\date{}
+\begin{document}
+	
+	
+\pex\begingl\glpreamble `without second \textit{dhu}, p.9'//
+\gla ŋula nhe ga dhäkay-ŋäma, ŋayi dhu galki Gamanydjan'tja bunan maypal-mirri-nydja//
+\endgl\xe
+
+\pex\begingl\gla birrka'yun ŋarra ga balanya-mirri-y ŋunhi ŋayi ga Gamanydjan'thu buma maypal, bala ŋayi galkirrin//
+\glb reflect.on.I 1s \textsc{ipfv} -\textsc{prop-erg} \textsc{comp} 3s \textsc{ipfv} \textsc{skin-erg} collect shellfish then 3s ?//
+\endgl\xe
+
+
+\textbf{IV}
+\pex \begingl \glpreamble USe of IV in cfact//
+\gla ŋäthil ŋarra ŋuli bamaŋ ḻiya-̵namaŋamayumi-nya//
+\glb before 1s \textsc{hyp} \textsc{irr} think-IV//
+\glft`Had i thought about it (myself) previously...'\trailingcitation{1991:159}//\endgl
+\xe
+	
+\end{document}

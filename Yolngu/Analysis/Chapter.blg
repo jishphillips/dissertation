@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Chapter.aux
+The style file: apa.bst
+Illegal, another \bibstyle command---line 55 of file Chapter.aux
+ : \bibstyle
+ :          {apa}
+I'm skipping whatever remains of this command
+Database file #1: ../../FullBiblio.bib
+Warning--empty school in McLellan1992
+Warning--empty school in Wilkinson1991
+You've used 8 entries,
+            1940 wiz_defined-function locations,
+            526 strings with 4691 characters,
+and the built_in function-call counts, 2188 in all, are:
+= -- 214
+> -- 56
+< -- 8
++ -- 16
+- -- 16
+* -- 168
+:= -- 418
+add.period$ -- 21
+call.type$ -- 8
+change.case$ -- 44
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 96
+empty$ -- 154
+format.name$ -- 24
+if$ -- 403
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 40
+num.names$ -- 24
+pop$ -- 37
+preamble$ -- 1
+purify$ -- 48
+quote$ -- 0
+skip$ -- 79
+stack$ -- 0
+substring$ -- 115
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 2
+while$ -- 18
+width$ -- 0
+write$ -- 97
+(There was 1 error message)

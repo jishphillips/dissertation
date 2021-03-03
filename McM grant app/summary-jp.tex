@@ -1,0 +1,199 @@
+ \documentclass[11pt]{article}
+ \usepackage[margin=1.2in,a4paper]{geometry}
+ \usepackage[T1]{fontenc}
+ \usepackage{textcomp}
+ \usepackage{ragged2e}
+ \usepackage{booktabs}
+		  \usepackage{epltxfn} %expex footnotes
+ \usepackage{bold-extra}
+ \usepackage{fancyhdr}
+ \usepackage{fontspec,xltxtra,xunicode}
+ \usepackage[labelsep=period,font=small,labelfont=bf,small]{caption}
+ \defaultfontfeatures{Mapping=tex-text}
+ \setmainfont{Cambria}
+ \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+ %\setromanfont[Mapping=tex-text]{Hoefler Text}
+ %\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+ %\setmonofont[Scale=MatchLowercase]{Andale Mono}
+ 
+
+ \usepackage{Sanremo,lettrine}
+ \renewcommand\LettrineFontHook{\Sanremofamily}
+ 
+ % \usepackage[margin=.7in,nohead,right=1.5in]{geometry}
+ \def\singlesidestandardsetup{
+ 	%\textwidth 6in
+ 	%\oddsidemargin 0in
+ 	%\evensidemargin 0in
+ 	%\topmargin -.5in
+ 	
+ 	%\textheight 9.5in
+ 	%\columnwidth \textwidth
+ 	\parindent 1em
+ 	%\parskip 8pt
+ 	\pagenumbering{roman}
+ 	\parindent 1em
+ 	\parskip 10pt
+ 	
+ }
+ \usepackage{marginnote}
+ \xdef\marginnotetextwidth{\the\textwidth}
+ 
+ \usepackage{wrapfig}
+ %\newcommand{\longsquiggly}{\xymatrix@C=1.915em{{}\ar@{~>}[r]&{}}}
+
+\fancypagestyle{plain}{%
+	\rhead{\footnotesize MacMillan International Dissertation Research Fellowship -- \textbf{Project proposal} -- May 2018} % clear all header and footer fields
+	\fancyfoot[C]{\sffamily\fontsize{9pt}{9pt}\selectfont\thepage} % except the center
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+\pagestyle{plain}
+
+ 
+ \newcommand{\mcom}[1]
+ {\marginpar{\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+ \newcommand{\cb}[1]
+ {\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.8}\footnotesize{#1}}}
+ \newcommand{\hk}[1]
+ {\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.8}\footnotesize{#1}}}
+
+\newcommand{\mmp}[1]
+{\marginpar{\color{green}\raggedleft\raggedright\hspace{0pt}\linespread{0.8}\footnotesize{#1}}}
+
+ \newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+ 
+ \newcommand{\glem}[1]
+ {\MakeUppercase{\scriptsize{\textbf{#1}}}}
+ 
+ 
+ %%%%cancel margin notes
+ \renewcommand{\mcom}[1]{}
+ \renewcommand{\mmp}[1]{}
+ \renewcommand{\cb}[1]{}
+ \renewcommand{\hk}[1]{}
+ 
+ \newcommand{\specialcell}[2][c]{%
+ 	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+ 
+ \makeatletter
+ \def\@xfootnote[#1]{%
+ 	\protected@xdef\@thefnmark{#1}%
+ 	\@footnotemark\@footnotetext}
+ \makeatother
+ 
+ 
+ \newcommand{\xmark}{\ding{55}}
+ 
+ 
+ 
+ \author{Josh}
+ \date{\today}
+ 
+ \usepackage{subfigure}
+ \usepackage{amsthm}
+ \usepackage[normalem]{ulem}
+ \usepackage{amssymb}
+ \usepackage{multirow}
+ \usepackage{mathrsfs}
+ \usepackage{pifont}
+ \usepackage{mathtools}
+ \usepackage{tikz}
+ \usepackage{qtree}
+ \usepackage{tikz-qtree}
+ %\usepackage{tipa}
+ \usetikzlibrary{decorations.pathreplacing}
+ \usepackage{textcomp}
+ \usepackage[normalem]{ulem}
+ \usepackage{url}
+ \usepackage[all]{xy}
+ \usepackage{multicol}
+ \usepackage{hanging}
+ \usepackage{booktabs}
+ \usepackage{setspace}
+ \usetikzlibrary{shapes,backgrounds}
+ \usepackage{geometry}
+ 
+ 
+ 
+ \newtheorem{definition}{Definition}
+ \newtheorem{theorem}{Theorem}
+ 
+ 
+ \usepackage{enumerate}
+  \usepackage{enumitem}
+ %\usepackage{gb4e} \let\eachwordone=\sl
+ \usepackage{expex}
+ 
+ 
+ 
+ %\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+ \newcommand{\concat}{\mbox{$^\frown$}}
+ \newcommand{\ph}{\varphi}
+ \newcommand{\vsep}{\vspace{8pt}}
+ \newcommand{\linesep}{\rule{6.5in}{.5pt}}
+ \def\attop#1{\leavevmode\vtop{\strut\vskip-\baselineskip\vbox{#1}}}
+ \newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+ \newcommand{\exref}[1]{~(\ref{#1})}
+ 
+ \newcounter{nextsec}
+ \newcommand\nextsection{%
+ 	\setcounter{nextsec}{\thesection}%
+ 	\stepcounter{nextsec}%
+ 	\thenextsec%
+ }
+ \newcommand\nextsubsection{%
+ 	\setcounter{nextsec}{\expandafter\parsesub\thesubsection\relax}%
+ 	\stepcounter{nextsec}%
+ 	\thesection.\thenextsec%
+ }
+ \def\parsesub#1.#2\relax{#2}
+ \def\parsesubsub#1.#2.#3\relax{#3}
+ %\input{setup}
+ 
+ %\singlesidestandardsetup
+ 
+ %\parindent 1em
+ 
+ %\input{psfig-scale}
+ 
+ 
+ \newcommand{\verteq}{\rotatebox{90}{$\,=$}}
+ \newcommand{\equalto}[2]{\underset{\scriptstyle\overset{\mkern4mu\verteq}{#2}}{#1}}
+ 
+ 
+ \newcommand{\secsep}{\hrulefill}
+ \renewcommand*{\marginfont}{\small}
+ \usepackage{qtree}
+ \qtreecenterfalse
+ 
+ \renewcommand{\baselinestretch}{1} %% this is the linespacing
+ 
+ \newcommand{\la}{\langle}
+ \newcommand{\ra}{\rangle}
+ \newcommand{\lamda}{\lambda}
+ \usepackage{framed}
+
+\begin{document}
+	
+
+\textbf{The intersection of temporal \& modal interpretation:}
+			
+\textit{			The Yolŋu Matha verbal inflectional domain}
+
+
+		
+		
+	\paragraph{Motivation.} Displacement --- a stated universal and distinctive feature of human language ---  permits us to make assertions that are embedded in different times, locations and possible worlds (\textit{e.g.} Hockett's `design features of human language' 1960:90). Linguistic work --- descriptive, pedagogical, theoretical --- has traditionally assumed a categorical distinction between subtypes of verbal inflection: \textit{viz.} the \textsc{temporal} and \textsc{modal} domains. Whether or not these basic claims are intended as heuristic, they quickly unravel upon close inquiry into cross-linguistic data; a challenge for linguistic theory, and one that a growing body of literature is identifying (\textit{e.g. }Condoravdi 2002, Laca 2008, Rullman \& Matthewson to appear \textit{i.a.}).% This will become clear in section \ref{phen} of this prospectus.
+	
+	The \textbf{empirical focus} of the dissertation proposed here is the tense-mood-aspect (TMA) systems of a set of languages in the Arnhem Land linguistic area of Northern Australia. Arnhem Land is `linguistically dense' --- an area of close historic and contemporary contact between unrelated languages. The verbal systems of many of these languages have evaded an adequate, unified account and exhibit various features that have been identified elsewhere as typologically rare (and certainly sharply diverge from better described Indo-European systems).
+	
+\paragraph{Proposal.} In order to improve our understanding of the meanings of verbal inflections in Yolŋu Matha (and in so doing, nuance our semantic theory), I propose to travel to Northern Australia, to live in-community and perform semantic fieldwork with native speakers of these varieties. This fieldwork comprises recorded interviews and structured elicitation tasks (i.e. targeted methodologies to prompt speakers to make use of particular constructions/express particular concepts) with speakers. 
+
+The Yolŋu homeland is in north eastern Arnhem Land. In particular, I am requesting funding to perform the proposed work in the communities of Gapuwiyak and Galiwin'ku (Elcho Island) and the neighbouring outstations (e.g. Donydji, Gawa).
+	
+	
+Interviews generally last roughly an hour and are recorded. I transcribe the interviews by hand using specialist software. Prior to making an initial recording, consultants sign a consent form which describes the purpose of the interviews, and they are informed that they can stop at any point and can have their recordings deleted, if they wish. Consultants are asked whether (and how) they wish to be credited in any resulting academic material, or whether they wish to remain anonymous.\footnote[*]{See `Linguistic rights of Aboriginal and Islander communities' as published in \textit{Australian Linguistic Society Newsletter 84(4)}. Retrieved from \url{http://www.als.asn.au/activities.html}} Linguistic fieldwork is not subject to Yale’s IRB, as identifying information about the consultants is not collected (Yale’s IRB has confirmed this by email.)
+
+Consultants expect to be compensated for their time, and this is considered to be best practice in linguistic fieldwork.* My work will be done under the auspices of language centres and community schools, as a result the budget attached to this application accounts for a fee of A\$30 per consultant hour to be paid to, and distributed by, relevant institutions. 
+	
+	\end{document}

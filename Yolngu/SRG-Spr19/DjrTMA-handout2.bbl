@@ -1,0 +1,82 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Austin}{1998}]{Austin1998}
+Austin, P.~K. (1998).
+\newblock {Temporal reference, tense and aspect in Australian aboriginal
+  languages}.
+\newblock In Nagano, Y., editor, {\em Jikan to kotoba: Time and Language},
+  pages 143--169. National Museum of Ethnology, Osaka.
+
+\bibitem[\protect\astroncite{Bohnemeyer}{2018}]{Bohnemeyer2018}
+Bohnemeyer, J. (2018).
+\newblock {Temporal remoteness markers in a tenseless language}.
+
+\bibitem[\protect\astroncite{Cable}{2013}]{Cable2013}
+Cable, S. (2013).
+\newblock {Beyond the past, present, and future: towards the semantics of
+  ‘graded tense' in Gĩkũyũ}.
+\newblock {\em Natural Language Semantics}, 21(3):219--276.
+
+\bibitem[\protect\astroncite{Comrie}{1983}]{Comrie1983}
+Comrie, B. (1983).
+\newblock {\em {Language Universals and Linguistic Typology}}.
+\newblock Blackwell, Oxford.
+
+\bibitem[\protect\astroncite{Condoravdi and Deo}{2014}]{Condoravdi2014}
+Condoravdi, C. and Deo, A. (2014).
+\newblock {Aspect shifts in Indo-Aryan and trajectories of semantic change}.
+\newblock In Gianollo, C., J{\"{a}}ger, A., and Penka, D., editors, {\em
+  Language Change at the Syntax-Semantics Interface}, volume Language C. Mouton
+  de Gruyter, Berlin.
+
+\bibitem[\protect\astroncite{Dahl}{1983}]{Dahl1983}
+Dahl, {\"{O}}. (1983).
+\newblock {Temporal distance: remoteness distinctions in tense-aspect systems}.
+\newblock {\em Linguistics}, 21(1):105--122.
+
+\bibitem[\protect\astroncite{Eather}{2011}]{Eather2011}
+Eather, B. (2011).
+\newblock {\em {A grammar of Nakkara (Central Arnhem Land coast)}}.
+\newblock Lincom, Munich.
+
+\bibitem[\protect\astroncite{Glasgow}{1964}]{Glasgow1964}
+Glasgow, K. (1964).
+\newblock {\em {Frame of reference for two Burera tenses}}.
+
+\bibitem[\protect\astroncite{Hamblin}{1971}]{Hamblin1971}
+Hamblin, C.~L. (1971).
+\newblock {Starting and Stopping}.
+\newblock In {Open Court}, editor, {\em Basic Issues in the Philosophy of
+  Time}, pages 86--101. La Salle, IL.
+
+\bibitem[\protect\astroncite{Klecha and Bochnak}{2016}]{Klecha2016}
+Klecha, P. and Bochnak, M.~R. (2016).
+\newblock {Temporal remoteness and relativity}.
+\newblock In Hammerly, C. and Prickett, B., editors, {\em Proceedings of
+  North-East Linguistic Society (NELS) 46}, pages 213--26.
+
+\bibitem[\protect\astroncite{Klein}{2009}]{Klein2009}
+Klein, W. (2009).
+\newblock {Concepts of Time}.
+\newblock In Klein, W., Li, P., and Levinson, S.~C., editors, {\em The
+  Expression of Time}, The Expression of Cognitive Categories. Mouton de
+  Gruyter, Berlin; New York.
+
+\bibitem[\protect\astroncite{Partee}{1973}]{Partee1973}
+Partee, B.~H. (1973).
+\newblock {Some Structural Analogies between Tenses and Pronouns in English}.
+\newblock {\em The Journal of Philosophy}, 70:601--609.
+
+\bibitem[\protect\astroncite{Tonhauser}{2011}]{Tonhauser2011}
+Tonhauser, J. (2011).
+\newblock {Temporal reference in Paraguayan Guaran{\'{i}}: a tenseless
+  language}.
+\newblock {\em Linguistics {\&} Philosophy}, 34:257--303.
+
+\bibitem[\protect\astroncite{Wilkinson}{1991}]{Wilkinson1991}
+Wilkinson, M.~P. (1991).
+\newblock {\em {Djambarrpuyŋu: a Yolŋu variety of Northern Australia}}.
+\newblock PhD thesis, NSW.
+
+\end{thebibliography}

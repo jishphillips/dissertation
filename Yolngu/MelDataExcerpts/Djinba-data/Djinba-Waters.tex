@@ -1,0 +1,621 @@
+\synctex=1
+
+\documentclass[11pt]{report}
+\usepackage[lmargin=30pt,rmargin=115pt,tmargin=70pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+\renewcommand{\baselinestretch}{1.1}
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+	 \newcommand{\specialcell}[2][c]{%
+		\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+	
+\def\@xfootnote[#1]{%
+
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+	}
+	\resetatcatcode
+	
+
+		
+	
+	
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+ \newcommand{\xmark}{\ding{55}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+
+
+
+
+
+	%%%%%%GLOSSARIES
+		\usepackage[nonumberlist]{glossaries}
+		\newglossary*{lang}{Language index}
+		\newglossary*{gloss}{List of abbreviations}
+		\makeglossaries
+		% abbreviations:
+		\newglossaryentry{rit}{
+			name = \texttt{rit} ,
+			description = Ritharrŋu (Pama-Nyungan: Yolŋu (Yaku)),
+			type=lang,	}
+		\newglossaryentry{jay}{
+			name = \texttt{jay} ,
+			description = Yan-nhaŋu (Pama-Nyungan: Yolŋu (Nhaŋu)),
+			type=lang,	}
+	
+		\newglossaryentry{djr}{
+			name = \texttt{djr} ,
+			description = Djambarrpuyŋu (Pama-Nyungan: Yolŋu (Dhuwal)),
+			type=lang,	}
+		\newglossaryentry{guf}{
+			name = \texttt{guf} ,
+			description = Gupapuyŋu (Pama-Nyungan: Yolŋu (Dhuwala)),
+			type=lang,	}
+		
+		
+		
+		
+			\newglossaryentry{dwu}{
+			name = \texttt{dwu} ,
+			description = Dhuwal (proper) (Pama-Nyungan: Yolŋu (Dhuwal)),
+			type=lang,	}
+		
+		\newglossaryentry{dji}{
+		name = \texttt{dji} ,
+		description = Djinaŋ (Pama-Nyungan: Yolŋu),
+		type=lang,	}
+	
+		\newglossaryentry{djb}{
+		name = \texttt{guf} ,
+		description = Djinba (Pama-Nyungan: Yolŋu),
+		type=lang,	}
+	
+		\newglossaryentry{lja}{
+		name = \texttt{lja} ,
+		description = Golpa (Pama-Nyungan: Yolŋu (Nhaŋu)),
+		type=lang,	}
+	
+		\newglossaryentry{bvr}{
+		name = \texttt{bvr} ,
+		description = Burarra (Maningrida),
+		type=lang,	}
+	
+		\newglossaryentry{wga}{
+		name = \texttt{wga} ,
+		description = Wakaya (Pama-Nyungan: Ngarna),
+		type=lang,	}
+	
+	
+		\newglossaryentry{gge}{
+		name = \texttt{gge} ,
+		description = Gurr-goni (Maningrida),
+		type=lang,	}
+	
+		\newglossaryentry{nck}{
+			name = \texttt{nck} ,
+			description = Nakkara (Maningrida),
+			type=lang,	}
+		
+		%%%
+			\newglossaryentry{hop}{
+			name = \texttt{hop} ,
+			description = Hopi (N. Uto-Aztecan\, Arizona),
+			type=lang,	}
+	
+	%%%%GLOSSING	
+		
+			\newglossaryentry{mod}{
+			name = \textsc{mod} ,
+			description = modal operator,
+			type=gloss,	} 
+			\newglossaryentry{refl}{
+			name = \textsc{r/r} ,
+			description = reflexive-reciprocal marker,
+			type=gloss,	} 
+			\newglossaryentry{pl}{
+			name = \textsc{pl} ,
+			description = plural,
+			type=gloss,	} 
+		
+		
+		\newglossaryentry{irr}{
+			name = \textsc{irr} ,
+			description = irrealis (modality)marker,
+			type=gloss,	} 
+			\newglossaryentry{comp}{
+			name = \textsc{comp} ,
+			description = complementiser,
+			type=gloss,	} 
+		\newglossaryentry{malk}{
+			name = \textsc{\textit{malk}} ,
+			description = Skin name (cultural `subsection'),
+			type=gloss,	} 
+			\newglossaryentry{cplv}{
+			name = \textsc{cplv} ,
+			description = completive aspect,
+			type=gloss,	} 
+		\newglossaryentry{priv}{
+			name = \textsc{priv} ,
+			description = privative case , 
+			type = gloss , }
+		
+		\newglossaryentry{sn}{
+			name = SN ,
+			description = standard negation/negator, 
+			type = gloss , }
+		
+		\newglossaryentry{indef}{
+			name = \textsc{indef} ,
+			description = indefinite indexical \citet[280]{Wilkinson1991}, 
+			type = gloss , }
+		
+%		\newglossaryentry{obls}{
+%		name = \textsc{obls} ,
+%		description = standard negation/negator, 
+%		type = gloss , }
+	
+		
+		
+		\newglossaryentry{NP}{
+			name = \textsc{NP} ,
+			description = noun phrase,
+			type = gloss , }
+		
+		\newglossaryentry{TFA}{
+			name = \textsc{tfa} ,
+			description = temporal frame adverbial,
+			type = gloss , }
+		
+		\newglossaryentry{proh}{
+			name = \textsc{proh} ,
+			description = prohibitive,
+			type = gloss , }
+		\newglossaryentry{recip}{
+			name = \textsc{recip} ,
+			description = reciprocal,
+			type = gloss , }
+		
+			\newglossaryentry{perf}{
+			name = \textsc{perf} ,
+			description = perfect aspect,
+			type = gloss , }
+		\newglossaryentry{neg}{
+			name = \textsc{neg} ,
+			description = negator,
+			type = gloss , }
+		\newglossaryentry{all}{
+			name = \textsc{all} ,
+			description = allative case,
+			type = gloss , }
+		\newglossaryentry{abl}{
+			name = \textsc{abl} ,
+			description = ablative case,
+			type = gloss , }
+		
+		
+			\newglossaryentry{dp}{
+			name = \textsc{dp} ,
+			description = discourse particle,
+			type = gloss , }
+		
+		\newglossaryentry{acc}{
+			name = \textsc{acc} ,
+			description = accusative case,
+			type = gloss , }
+		\newglossaryentry{nom}{
+			name = \textsc{nom} ,
+			description = nominative case,
+			type = gloss , }
+			\newglossaryentry{mvtawy}{
+			name = \textsc{mvtawy} ,
+			description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
+			type = gloss , }
+		
+			\newglossaryentry{add}{
+			name = \textsc{add} ,
+			description = additive particle,
+			type = gloss , }
+		
+		\newglossaryentry{neu}{
+			name = \textsc{neu} ,
+			description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
+			type = gloss , }
+		
+			\newglossaryentry{mvttwd}{
+			name = \textsc{mvttwd} ,
+			description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
+			type = gloss , }
+			
+		\newglossaryentry{cfact}{
+			name = \textsc{cfact} ,
+			description = counterfactual,
+			type = gloss , }
+		\newglossaryentry{pres}{
+			name = \textsc{pres} ,
+			description = present tense,
+			type = gloss , }
+		\newglossaryentry{erg}{
+			name = \textsc{erg} ,
+			description = ergative case,
+			type = gloss , }
+		\newglossaryentry{dm}{
+			name = \textsc{dm} ,
+			description = ``discourse clitic'' \citep{McLellan1992},
+			type = gloss , }
+		\newglossaryentry{intens}{
+			name = \textsc{intens} ,
+			description = intensifier,
+			type = gloss , }
+		\newglossaryentry{negex}{
+			name = \textsc{negex} ,
+			description = negative existential/quantifier,
+			type = gloss , }
+		\newglossaryentry{red}{
+			name = \textsc{redup} ,
+			description = reduplicant,
+			type = gloss , }
+		\newglossaryentry{negq}{
+			name = \textsc{negq} ,
+			description = negative quantifier (existential) $\nexists$,
+			type = gloss , }
+		
+		\newglossaryentry{comit}{
+			name = \textsc{comit} ,
+			description = comitative case,
+			type = gloss , }
+		
+		\newglossaryentry{instr}{
+		name = \textsc{instr} ,
+		description = instrumental case,
+		type = gloss , }
+		\newglossaryentry{temp}{
+		name = \textsc{temp} ,
+		description = temporal case (see \citealt[585]{Wilkinson1991}),
+		type = gloss , }
+		\newglossaryentry{prop}{
+			name = \textsc{prop} ,
+			description = proprietive case,
+			type = gloss , }
+		
+			\newglossaryentry{kinprop}{
+			name = \textsc{prop} ,
+			description = proprietive case -- kinship augment,
+			type = gloss , }
+		
+		\newglossaryentry{perl}{
+			name = \textsc{perl} ,
+			description = perlative case,
+			type = gloss , }
+		
+		\newglossaryentry{inch}{
+			name = \textsc{inch} ,
+			description = inchoative,
+			type = gloss , }
+		\newglossaryentry{seq}{
+			name = \textsc{seq} ,
+			description = sequential,
+			type = gloss , }
+		\newglossaryentry{abs}{
+			name = \textsc{abs} ,
+			description = absolutive case,
+			type = gloss , }
+		
+		\newglossaryentry{prom}{
+			name = \textsc{prom} ,
+			description = prominence marker ($\approx$ focus),
+			type = gloss , }
+		\newglossaryentry{nmlzr}{
+			name = \textsc{nmlzr} ,
+			description = nominaliser (derivation),
+			type = gloss , }
+		
+			\newglossaryentry{tr}{
+			name = \textsc{tr} ,
+			description = transitiviser (derivation),
+			type = gloss , }
+		
+			\newglossaryentry{tfa}{
+			name = \textsc{tfa} ,
+			description = temporal frame adverbial,
+			type = gloss , }
+		
+		
+		\newglossaryentry{emph}{
+			name = \textsc{emph} ,
+			description = (em)phatic particle \textcolor{red}{Wilk91},
+			type = gloss , }
+		
+		\newglossaryentry{ana}{
+			name = \textsc{ana} ,
+			description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
+			type = gloss , }
+		
+			\newglossaryentry{hab}{
+			name = \textsc{hab} ,
+			description = ``habitual (aspect)'',
+			type = gloss , }
+		
+		\newglossaryentry{caus}{
+			name = \textsc{caus} ,
+			description = causative,
+			type = gloss , }
+		
+		\newglossaryentry{foc}{
+			name = \textsc{foc} ,
+			description = focus marker
+			type = gloss , }
+		\newglossaryentry{loc}{
+			name = \textsc{loc} ,
+			description = locative case,
+			type = gloss , }
+		\newglossaryentry{per}{
+			name = \textsc{per} ,
+			description = pergressive case,
+			type = gloss , }
+		\newglossaryentry{excl}{
+			name = \textsc{excl} ,
+			description = exclusive (1ns-pronoun),
+			type = gloss , }
+		\newglossaryentry{pst}{
+			name = \textsc{pst} ,
+			description = past tense,
+			type = gloss , }
+		\newglossaryentry{incl}{
+			name = \textsc{incl} ,
+			description = inclusive (1ns-pronoun),
+			type = gloss , }
+		\newglossaryentry{dist}{
+			name = \textsc{dist} ,
+			description = distal (demonstrative),
+			type = gloss , }
+		\newglossaryentry{prox}{
+			name = \textsc{prox} ,
+			description = proximal (demonstrative),
+			type = gloss , }
+		\newglossaryentry{med}{
+			name = \textsc{med} ,
+			description = medial (demonstrative),
+			type = gloss , }
+		\newglossaryentry{texd}{
+			name = \textsc{endo} ,
+			description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
+			type = gloss , }
+		\newglossaryentry{obl}{
+			name = \textsc{obl} ,
+			description = oblique case,
+			type = gloss , }
+		\newglossaryentry{dat}{
+			name = \textsc{dat} ,
+			description = dative case,
+			type = gloss , }
+		\newglossaryentry{ds}{
+			name = \textsc{ds} ,
+			description = different subject (subordinate clause),
+			type = gloss , }
+		
+		\newglossaryentry{ipfv}{
+			name = \textsc{ipfv} ,
+			description = imperfective (aspect),
+			type = gloss , }
+		\newglossaryentry{imp}{
+			name = \textsc{imp} ,
+			description = imperative,
+			type = gloss , }
+		
+		\newglossaryentry{pfv}{
+			name = \textsc{pfv} ,
+			description = perfective (aspect),
+			type = gloss , }
+		
+		\newglossaryentry{fut}{
+			name = \textsc{fut} ,
+			description = future (tense),
+			type = gloss , }
+
+		\newglossaryentry{assoc}{
+		name = \textsc{assoc} ,
+		description = associative,
+		type = gloss , }
+	
+	
+	\newglossaryentry{hyp}{
+		name = \textsc{hyp} ,
+		description = hypothetical (modality),
+		type = gloss , }
+
+\date{}
+ \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{secnumdepth}{3}
+
+\begin{itemize}
+	\item \textit{ban} for (past) ``continuous'' (171) --- is this also \textsc{dist?} Occurs with other inflections as well.
+	\item \textsc{pot} is derived from \textsc{fut?} (172). Formally related to \textsc{imp} (175)
+	
+\end{itemize}
+\begin{document}
+	\textbf{Present}
+	\pex \a\begingl\gla nyan ban-nyu wandja-n //
+\glb 3s \gls{dist}-2s\textsc{.dat} look.for/wait-\gls{pres}//
+\glft`He/she is waiting/looking for you.' (386)//\endgl
+\a\begingl\gla nyan ban wandja-n djarak-wu//
+\glb 3s \gls{dist} look.for-\gls{pres} spear-\gls{dat}//
+\glft`He's looking for a spear'//\endgl\xe
+
+
+\textbf{YestPst}
+\pex\a\begingl\gla nyan bu-mi buṉḏguk-ir//
+\glb 3s hit-\textsc{ypa} woomera-\gls{instr}//
+\glft `He hit (her) with a woomera.'//\endgl
+\a\begingl\gla ripurrum nyan gar-mi guya-wu, ban bim gar-mi wali-wu//
+\glb yessterday 3sg go-YPA fish-\gls{dat} \gls{comp} go-YPA food-\gls{dat}//
+\glft `Yesterday he hunted fish, then he went for vegetable food.'//\endgl
+
+
+\a \begingl\gla naw gukirr gari-mi naw nya-mi gari-m-ani nganaparra//
+\glb 1p-exc walk.about-YPA PROG-YPA 1p.exc-ERG see-YPA PROG-YPA-TF buffalo//
+\glft`We were walking about and seeing buffalo (while we walked).'//\endgl
+
+\a \begingl\gla nyan djiJdja-n gari-m-ani//
+\glb 3sgNOM leak/rain-PRES HABIT-PRES-TF//
+\glft It always rains (at the present season) now.//\endgl
+
+
+\xe
+
+\textbf{Today Past}
+\pex\a\begingl\gla ngarri marri djaya] ngarr garri-yi+n//
+\glb 1s little.bit slowly 1s sick-\textsc{gls-tpa}//
+\glft I am not feeling well. (lit. I am a little bit sick.)//\endgl\xe
+
+\textbf{Future}
+\pex\a\begingl \gla nganuwi naw nyina-k Marrpi//
+\glb 1p.\gls{excl} 1p.\gls{excl} sit-\gls{fut} Marrpi//
+\glft`We will stay at Marrpi.'//\endgl
+
+\a\begingl\gla nguniny bilak nyan burrpil-yi-rrak, ngan.ga-rr ngaya-k//
+\glb that \textsc{frame} 3s die-\gls{inch}-\gls{fut} 3s.\gls{dat}\textdblhyphen 1s cry-\gls{fut}//
+\glft`If he dies I will mourn for him.'//\endgl
+
+
+\a\begingl\glpreamble \textbf{negated}//
+\gla waba gar-mak//
+\glb \gls{neg} go-\textsc{fut}//
+\glft`He won't go.'//\endgl
+\xe
+
+\textbf{Potential}
+\pex\begingl\gla barra ḻay-ḻay-ya-n djininy ga biḏap-ani rany baḻ	war-mitj//
+\glb 1s \gls{red}-busy-\textsc{fact}-\gls{pres}	\gls{prox} then later-TF 1s.\gls{acc} come.to-\textsc{pot}//
+\glft`I am busy right now, so visit me later on.'//\endgl\xe
+
+\textbf{\textit{ŋalpim}} `\textsc{perf}' (395)
+
+\section*{Djinaŋ}
+\begin{itemize}
+	\item \textit{kiri} `\textsc{prog'}, \textit{giri} \textsc{`hab'}
+	\item <*\textit{gara} `go' (cf. Nhaŋu, Djinba) pg 283
+	\item \textsc{imp} and \textsc{ypi} identical (173,5)
+\end{itemize}
+\textbf{Recent past continuous}
+\pex\a\begingl\glpreamble Cooccurs with \textit{nyini} \textsc{prog} (cognate w `sit', \textit{kiri} also appears, sometimes no auxiliary appears (exx 216,223))//
+\gla Libi kiri-ny nyini-ny+a,//
+\glb 1plexcNOM come-RPC PROG-RPC+DUR//
+\glft`We were walking along.' (241)//\endgl\xe
+
+
+
+\end{document}

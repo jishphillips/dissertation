@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: CommitteeHandout-30Oct.aux
+The style file: apa.bst
+Illegal, another \bibstyle command---line 27 of file CommitteeHandout-30Oct.aux
+ : \bibstyle
+ :          {apa}
+I'm skipping whatever remains of this command
+Database file #1: ../FullBiblio.bib
+Warning--there's a number but no volume in Webber2001
+You've used 4 entries,
+            1940 wiz_defined-function locations,
+            505 strings with 4495 characters,
+and the built_in function-call counts, 1695 in all, are:
+= -- 166
+> -- 64
+< -- 4
++ -- 20
+- -- 20
+* -- 139
+:= -- 289
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 29
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 72
+empty$ -- 125
+format.name$ -- 28
+if$ -- 341
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 14
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 29
+quote$ -- 0
+skip$ -- 53
+stack$ -- 0
+substring$ -- 105
+swap$ -- 17
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 1
+while$ -- 14
+width$ -- 0
+write$ -- 56
+(There was 1 error message)

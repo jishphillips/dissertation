@@ -1,0 +1,149 @@
+
+
+\documentclass[9pt,usenames,dvipsnames,a6,landscape]{article}%[trans] for handouts
+
+
+%\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+%\setromanfont[Mapping=tex-text]{Hoefler Text}
+%\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+
+
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+% \usepackage{subfigure}
+\usepackage{amsthm}
+\usepackage[normalem]{ulem}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{mathrsfs}
+\usepackage{pifont}
+\usepackage{mathtools}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+%\usepackage{tipa}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{textcomp}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage[all]{xy}
+\usepackage{multicol}
+\usepackage{hanging}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usetikzlibrary{shapes.geometric,backgrounds}
+\usepackage{geometry}
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+
+
+% \newtheorem{definition}{Definition}
+%\newtheorem{theorem}{Theorem}
+
+
+\usepackage{enumerate}
+%\usepackage{gb4e} \let\eachwordone=\sl
+\usepackage{expex}
+
+
+
+%\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\concat}{\mbox{$^\frown$}}
+\newcommand{\ph}{\varphi}
+\newcommand{\vsep}{\vspace{8pt}}
+\newcommand{\linesep}{\rule{6.5in}{.5pt}}
+\def\attop#1{\leavevmode\vtop{\strut\vskip-\baselineskip\vbox{#1}}}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\exref}[1]{~(\ref{#1})}
+
+
+%\input{setup}
+
+%\singlesidestandardsetup
+
+%\parindent 1em
+
+%\input{psfig-scale}
+%\usetikzlibrary{trans}
+
+\newcommand{\verteq}{\rotatebox{90}{$\,=$}}
+\newcommand{\equalto}[2]{\underset{\scriptstyle\overset{\mkern4mu\verteq}{#2}}{#1}}
+
+
+\newcommand{\secsep}{\hrulefill}
+% \renewcommand*{\marginfont}{\small}
+\usepackage{qtree}
+
+
+\renewcommand{\baselinestretch}{1.2} 
+
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\lamda}{\lambda}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+\usepackage{framed}
+%\usetheme{Warsaw}
+%\usecolortheme{wolverine}
+
+\begin{document}
+%\begin{figure}
+
+\begin{tikzpicture}
+\draw[<->, line width=.5mm] (0,0) -- (12,0);
+	\draw[line width=.8mm,densely dotted] (5,1.8) -- (5,-1.8); 
+	\draw[line width=.8mm,densely dotted] (9,1.8) -- (9,-1.8);
+	\draw[line width=2mm,nearly transparent] (7.35,1.8) -- (7.3,-1.8) node [at end,yshift=-2mm] {\textit{\textsc{now}}};
+
+		
+\filldraw[nearly transparent,green](3,0)		ellipse [x radius=2cm,y radius=1cm];
+	\draw (2.25,.25) node[color=blue] {\textbf{III}};
+\filldraw[nearly transparent,blue,xshift=0.2cm](2,0)		ellipse [x radius=1.2cm,y radius=.6cm];
+	\draw (4.25,.25) node[color=forest] {\textbf{I}};
+\filldraw[nearly transparent,green,xshift=.28cm](6,0)		ellipse [x radius=1.2cm,y radius=.8cm];
+		\draw (7.3,.25) node[color=black] {\textbf{I}};
+\filldraw[nearly transparent,blue,xshift=.15cm](6,0)		ellipse [x radius=1.05cm,y radius=.5cm];
+	\draw (6,.25) node[color=blue] {\textbf{III}};
+	
+	
+	\fill[very nearly transparent,violet] (9.5,1) -- (9.5,-1) -- (11.5,-1) -- (11.5,1); 
+
+ 
+ 
+ 	\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+ (5.1,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+ {\footnotesize \textsc{today}};
+ 
+ 	\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+ (0,0.5) -- (4.9,0.5) node [black,midway,yshift=0.35cm] 
+ {\footnotesize \textsc{before}};
+ 
+ 	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+ (3.5,0.5) -- (4.8,0.5) node [black,midway,yshift=0.35cm] 
+ {\footnotesize \textit{barpuru}};
+ 
+  	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+ (0.5,0.5) -- (3,0.5) node [black,midway,yshift=0.35cm] 
+ {\footnotesize \textit{baman'}};
+ 
+ \draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+ (9.25,0.5) -- (11.8,0.5) node [black,midway,yshift=0.35cm] 
+ {\footnotesize \textit{goḏarr}};
+		
+\end{tikzpicture}
+
+
+
+
+%\end{figure}
+\end{document}

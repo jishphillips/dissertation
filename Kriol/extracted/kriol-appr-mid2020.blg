@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: kriol-appr-mid2020.aux
+The style file: apa.bst
+Database file #1: ../../FullBiblio.bib
+Repeated entry---line 10213 of file ../../FullBiblio.bib
+ : @misc{Kamp1979
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Heath-nmet"
+Warning--empty school in Dickson2015
+Warning--there's a number but no series in Merlan1983
+Warning--empty year in PhilKotek
+Warning--empty note in PhilKotek
+Warning--empty school in Troy1994
+Warning--empty school in VonFintel1994
+Warning--empty institution in Webber2001
+You've used 49 entries,
+            1940 wiz_defined-function locations,
+            827 strings with 11256 characters,
+and the built_in function-call counts, 17493 in all, are:
+= -- 1715
+> -- 527
+< -- 60
++ -- 151
+- -- 151
+* -- 1344
+:= -- 3057
+add.period$ -- 160
+call.type$ -- 49
+change.case$ -- 288
+chr.to.int$ -- 49
+cite$ -- 56
+duplicate$ -- 801
+empty$ -- 1372
+format.name$ -- 214
+if$ -- 3520
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 55
+newline$ -- 244
+num.names$ -- 177
+pop$ -- 299
+preamble$ -- 1
+purify$ -- 304
+quote$ -- 0
+skip$ -- 590
+stack$ -- 0
+substring$ -- 1045
+swap$ -- 169
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 266
+warning$ -- 7
+while$ -- 159
+width$ -- 0
+write$ -- 650
+(There was 1 error message)

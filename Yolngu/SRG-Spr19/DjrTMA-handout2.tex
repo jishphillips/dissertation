@@ -1,0 +1,741 @@
+\synctex=1
+
+\documentclass[11pt,dvipsnames]{article}
+\usepackage[lmargin=55pt,rmargin=55pt,tmargin=70pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+				
+				
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\newcommand{\specialcell}[2][c]{%
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+
+\def\@xfootnote[#1]{%
+	
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+}
+\resetatcatcode
+
+
+
+
+
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\newcommand{\xmark}{\ding{55}}
+
+\newcommand{\gls}{\textsc}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+\begin{document}
+\noindent\textbf{\Large{Understanding cyclicity}\\
+\large{Towards a theory of Djambarrpuyŋu temporal expression}\\
+\small{\textit{Yale semantics \textsc{rg}}\hfill 21 February, 2019}}
+
+\vspace*{3em}
+\begin{abstract}
+\noindent	Among its aims, (the presently relevant component of) my dissertation seeks to understand:
+	
+
+	\begin{itemize}
+		\item \textbf{The proper semantics for (\textit{sc.} meaning contribution of) Yolŋu inflectional categories \&}
+		\item \textbf{How temporal relations are encoded and understood in Yolŋu.}
+\end{itemize}
+\end{abstract}
+
+\gathertags
+
+\section*{Background}
+
+\begin{itemize}
+	\item Yolŋu Matha is a language group (Pama-Nyungan) spoken in Northern Arnhem Land (the `Top End' of Australia.)
+	\item It is a Pama-Nyungan `exclave' of sorts, surrounded by a number of genetically unrelated languages from a number of different families.
+	\item Yolŋu languages are fusional (suffixing), predominantly dependent-marking, have a relatively free word order  (w information structural implications).
+	\item There is significant variation in strategies for encoding TAM(PE) information across thee languages, although this semantic work is (predominantly) carried out by some combination of \textbf{• verbal inflection}, \textbf{• auxiliaries \& (uninflecting) particles} and pragmatic/discourse/lexical strategies.
+	\item The data I'm examining in this presentation is from the Dhuwal(a) language (especially its \textit{Djambarrpuyŋu} and \textit{Gupapuyŋu} varieties.)
+	\item This language has a number of verb classes (\textit{sc. }conjugations). All verbs stems are taken to obligatorily inflect for exactly one of four `inflectional categories'
+	\item Here I label them \textbf{I, II, III, IV} --- all data is appended to facilitate presentation.
+	\end{itemize}
+\section*{The phenomenon}
+\begin{itemize}
+
+
+\item \textsc{tense} is a grammatical category understood as encoding a relation between times:
+
+
+\begin{tabbing}
+\textsc{fut} ~~~~ \= $ t_e\succ t_r $\\
+\textsc{pres} \> $t_e=t_r$\\
+\textsc{pst} \>  $ t_e\prec t_r$
+\end{tabbing}
+
+\item  For deictic theories of tense, $ t_r $ is identified as the time of speech (for matrix clauses, compare \textbf{Matrix clause rule} in \citealp[270]{Tonhauser2011})
+
+\end{itemize}
+
+
+\subsection*{Metricality}
+
+\begin{minipage}{.65\textwidth}
+
+
+\begin{itemize}
+\item \textbf{Temporal remoteness} (``metrical/graded'' tense) has received a number of treatments in the recent literature \citep[e.g][]{Klecha2016,Cable2013,Bohnemeyer2018}.
+\begin{itemize}
+\item Grammaticalisation of finegrained markers of temporal location  (\citealp[84]{Comrie1983},\citealp{Dahl1983})
+\item It is likely not a unified phenomenon semantically; authors show different ways in which their object languages encode temporal remoteness.
+\item All provide evidence for an unmarked tense marker which is blocked in particular situations by \textsc{MaxPresupp} or similar principles.
+\end{itemize}
+\item Djambarrpuyŋu does indeed seem to have a grammatical reflex for temporal remoteness (\getref{MetPst}-\getref{MetFut})
+
+\end{itemize}
+\end{minipage}
+\hfill\begin{minipage}{.3\textwidth}
+
+\textbf{\textsc{Contributions of Gikũyũ \textsc{pst }TRMs}} \citep[257]{Cable2013}
+\begin{tabbing}
+	\textsc{impst}~~~~\=$ t_e\circ\textsc{imm}(t_u) $\\
+	\textsc{nrpst}\>$ t_e\circ\textsc{day}(t_u)$\\
+	\textsc{recpst}~~\>$t_e\circ\textsc{rec}(t_u)  $\\
+	\textsc{rempst}~~\>$ t_e\prec t_u $
+	
+\end{tabbing}
+
+\vfill
+
+\textsc{\textbf{The inventory in \texttt{DJR}}}
+
+ Future~~  
+	\tikz[remember picture] \node[coordinate,yshift=0.5em] (n1) {}; \\
+Today~~~
+	\tikz[remember picture] \node[coordinate] (n2) {};\\
+ Today~~~
+	\tikz[remember picture] \node[coordinate] (n3) {};\\
+Recent~~
+	\tikz[remember picture] \node[coordinate] (n4) {};\\
+Remote
+	\tikz[remember picture] \node[coordinate] (n5) {};\\
+	
+
+\begin{tikzpicture}[overlay,remember picture]
+\path (n2) -| node[coordinate] (np) {} (n1);
+\draw[thick,decorate,decoration={brace,amplitude=3pt}]
+(n1) -- (n2) node[midway, right=4pt] {\textsc{nonpast}};
+
+
+\path (n3) -| node[coordinate] (p) {} (n5);
+\draw[thick,decorate,decoration={brace,amplitude=3pt}]
+(n3) -- (n5) node[midway, right=4pt] {\textsc{past}};
+
+\end{tikzpicture}
+
+
+
+\end{minipage}
+\subsection*{Cyclicity}
+\begin{itemize}
+
+\item What are the forms associated with these five categories?
+
+\item \textbf{I} is obligatory in \textsc{present} (\getfullref{today.I})  \textbf{and} \textsc{recent past} \getfullref{MetPst.I}) contexts
+
+\item \textbf{III} is to refer to an earlier event on the day of speech (\getfullref{today.III}) as well as in the \textsc{remote past} (\getfullref{MetPst.III}).
+
+\gathertags
+
+\begin{itemize}
+	\item Times compatible with \textbf{I} and \textbf{III} are \textbf{discontinuous}.
+	
+	\textbf{Cyclic tense} \citep[88]{Comrie1983} has been reported only in languages spoken in this area of Arnhem Land.
+\end{itemize}
+	
+	\begin{figure}[H]\centering\caption{Temporal expression in the Yolŋu Matha varieties of Central Arnhem, demonstrating two descriptive phenomena: (a) cyclicity --- the interspersion/discontinuity of \textbf{I} and \textbf{III} forms and (b) metricality --- the (subjective) division of the past domain between these two forms.\\$\lfloor{\sl today}\big)$ indicates the boundaries of the privileged interval {\sl today}. $\boldsymbol{t*}$ is utterance time}\label{TempSchem}
+		\begin{tikzpicture}[scale=.85]
+		% draw horizontal line   
+		\draw[<->, line width=.5mm] (0,0) -- (12,0);
+		
+		%draw rex
+		\shade[left color=blue!15!white, right color=green!15!white] (0,0.02) rectangle (4.8,1.5);
+		%	\fill[green!10!white] (2.5,0.02) rectangle (4.8,1.5);
+		\fill[blue!10!white] (4.8,0.02) rectangle (6.8,1.5);
+		\fill[green!10!white] (6.8,0.02) rectangle (9.5,1.5);
+		\fill[orange!10!white] (9.5,0.02) rectangle (12,1.5);
+		
+		% draw nodes
+		\draw (1.25,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};
+		\draw (3.675,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textbf{I}};
+		\draw (5,0)   node[circle,fill,label=below:$\lfloor{\sl today}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+		\draw (7,0) node[diamond,shade,outer color=black, inner color  = ochre,label=below:$\boldsymbol{t*}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {\textsc{}};
+		\draw (5.8,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};	
+		\draw (8.15,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{I}}};	
+		\draw (10.75,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};	
+		\draw (9.5,0)   node[circle,fill,label=below:${\sl today}\big)$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+		
+		
+		%%%braces
+		
+		\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=35pt]
+		(0.5,0.5) -- (4.5,0.5) node [black,midway,yshift=0.35cm] 
+		{\footnotesize metricality};
+		
+		\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+		(3.5,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+		{\footnotesize cyclicity};
+		
+		\end{tikzpicture}\end{figure}
+	
+	
+	\item Descriptions (particularly of the neighbouring `Maningrida' lanugage family') have adopted a schema like the one in Table \ref{GlaswegianTR} (originally due to \citet{Glasgow1964}).
+	\item \citet{Wilkinson1991} and other Yolŋuists discuss but seem uncommitted to this style of analysis (they've treated it largely as a type of polysemy, \textit{pers. comm.})
+	
+	\begin{table}[H]\centering\onehalfspacing
+		\begin{tabular}{@{}llll@{}}\toprule
+			
+			&                 & \multicolumn{2}{c}{\textsc{frame}}          \\ 
+			&                 & \multicolumn{1}{c}{\textbf{today}}         & \multicolumn{1}{c}{\textbf{before today}}      \\\midrule
+			\multirow{2}{*}{\textsc{\rotatebox[origin=c]{90}{infl}}} & \textbf{\phantom{I}I}    & now           & yesterday/recently \\
+			& \textbf{III} & earlier today & long ago           \\ \bottomrule%(l){2-4} 
+		\end{tabular}
+		\caption{A \citet{Glasgow1964}-style analysis of \textbf{past-time restrictions} introduced by the verbal inflections, adapted for the Dhuwal(a) data. \textbf{I} and \textbf{III} inflections correspond to Eather's \textbf{contemporary} and \textbf{precontemporary} ``tenses'' (``precontemporary'' is Eather's \citeyearpar[166]{Eather2011} relabelling of Glasgow's ``remote'' tense.)}\label{GlaswegianTR}
+	\end{table}
+	
+
+
+
+
+\end{itemize}
+Can we get at this with a standard semantics? Only if we make this pretty \textit{ad hoc} set of claims...
+\begin{framed}
+\noindent \textsc{potential presuppositional-indexical treatment of the \texttt{djr} primary inflection (\textbf{I})}\\
+$\llbracket\textbf{I}\rrbracket^{g,c}=\lambda t:\begin{cases}t\in today\leftrightarrow t\succcurlyeq t_0\quad.\,t\\
+t\notin today \leftrightarrow t\prec t_0\wedge\mu(t,t_0)<s_c\quad.\,t
+\end{cases}$\\
+\textbf{I} is only defined if the context $c$ provides a \textbf{either} a time $t$ within the span of \textit{today} that coincides with or follows speech time $t_0$ \textbf{or} it precedes \textit{today} by some contextually-constrained period $s$.\\
+If it is defined then $\llbracket\textbf{I}\rrbracket=t$
+
+
+A defense of this would require entail:
+\begin{enumerate}%[label=\alph*.]
+	\item motivating the introduction of a privileged interval (and understanding the temporal span of) \textit{today} into Yolŋu temporal ontology (requires additional empirical verification of the precise nature of \textit{today} as a relevant interval);
+	\item motivating the joint grammaticalisation of these disjoint presuppositions (a defining characteristic of \textbf{`cyclicity'}); and
+	\item understanding whether and how a contextual standard is retrieved in order to predict in which past contexts the verb is inflected with \textbf{I} in lieu of \textbf{III} (a defining characteristic of \textbf{`metricality'}).
+\end{enumerate}
+\texttt{\textbackslash end\{straw-man\}}
+\end{framed}
+\begin{itemize}
+\item It may be the case that deploying an interval semantics gets us closer to an elegant solution...
+
+\end{itemize}
+
+
+\subsection*{Temporal adverbials \& deixis}
+
+
+\begin{quote}
+\small	In all Australian languages there is a single term for the temporal deictic centre, however its reference is always imprecise and it shows great polysemy depending on the contrastive context (ranging over ‘now, today, nowadays (in contrast to the past’)).\\\hspace*{\fill}\citep[147]{Austin1998}
+\end{quote}
+
+\begin{itemize}
+	\item Dhuwal(a) has a set of lexicalised temporal adverbials: \textit{gäthur(a)} `today', \textit{yawungu/barpuru} `yesterday', \textit{goḏarr/boŋguŋ} `tomorrow' etc.\\
+	\textit{Per} the Austin quote above, \textit{barpuru} and \textit{boŋguŋ} really seem to refer constrain temporal reference to \textsc{recent past} and \textsc{near future} respectively. Examples in (\getref{tfa})
+	
+
+	
+	\item Temporal frames can also be derived by \textsc{erg}-inflection on nominals (\getref{ḏaŋgay})
+	
+
+	\begin{minipage}[t]{.65\textwidth}
+
+
+	
+	\item Dhuwal(a) has an elaborated demonstrative system. Four stems participate in the paradigm and inflect as nominals:
+
+
+\item All four of these stems participate in spatial/personal demonstrations.
+
+Temporal deixis `at this/that time' is normally lexicalised using the \textsc{prox} or \textsc{endo} stem.
+	\end{minipage}\hfill
+\begin{minipage}[t]{.2\textwidth}
+\begin{tabbing}
+	\textit{dhuwal(a)}\quad \=  \textsc{prox}\\
+	\textit{dhuwali}  \> \textsc{med}\\
+	\textit{ŋunha} \> \textsc{dist}\\
+	\textit{ŋunhi} \> \textsc{endophoric}
+\end{tabbing}
+\end{minipage}
+
+\item There are two demonstratives that target temporal frames:
+
+\textit{\textbf{dhiyaŋ bala}} `(away from) this time'\\
+\textbf{\textit{ŋuriŋi bala}} `(away from) that time'
+
+\begin{itemize}
+	\item \textit{dhiyaŋu bala} is invariably given as the translation for `now' 
+	\item \textit{dhiyaŋu bala} is also compatible with a `nowadays' type reading.
+	\item The interval picked out by \textit{dhiyaŋ bala} is compatible with non-present interpretations (e.g. \getref{dhiyaŋ})
+	\item They do (provisionally) seem to be constrained to \textit{gäthur(a)} `today'.
+	
+	
+\end{itemize}
+
+
+
+
+\item This contrasts with \textbf{\textit{ŋuriŋi bala}}, an expression that picks out some ``other'' (nonpresent) time (sc. some salient time in the past or future, \textit{`at that time'...})
+
+
+
+\item The vagueness built into these frame adverbials potentially provides a clue for how \texttt{djr} is organising temporal reference.
+
+\item The inflections might be able receive a unified denotation that allows them to be indexed either \textsc{exo-} or \textsc{endocentrically}.
+
+\end{itemize}
+
+\begin{figure}[H]\centering
+	\begin{tikzpicture}[scale=.85]
+	% draw horizontal line   
+	\draw[<->, line width=.5mm] (0,0) -- (12,0);
+	
+	%draw rex
+	\shade[left color=blue!15!white, right color=green!15!white] (0,0.02) rectangle (4.8,1.5);
+	%	\fill[green!10!white] (2.5,0.02) rectangle (4.8,1.5);
+	\fill[blue!10!white] (4.8,0.02) rectangle (6.8,1.5);
+	\fill[green!10!white] (6.8,0.02) rectangle (9.5,1.5);
+	\fill[orange!10!white] (9.5,0.02) rectangle (12,1.5);
+	
+	% draw nodes
+	\draw (1.25,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};
+	\draw (3.675,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textbf{I}};
+	\draw (5,0)   node[circle,fill,label=below:$\lfloor{\sl today}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	\draw (7,0) node[diamond,shade,outer color=black, inner color  = ochre,label=below:$\boldsymbol{t*}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {\textsc{}};
+	\draw (5.8,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};	
+	\draw (8.15,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{I}}};	
+	\draw (10.75,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};	
+	\draw (9.5,0)   node[circle,fill,label=below:${\sl today}\big)$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	
+	
+	%%%braces
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+	(0.5,0.5) -- (4.5,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{ŋuriŋi}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+	(4.75,0.5) -- (9.25,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{dhiyaŋu}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+	(9.75,0.5) -- (11.75,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{ŋuriŋi}};
+	
+	\end{tikzpicture}
+\caption{Interactions between temporal reference and temporal demonstratives (w/r/t) verbal inflection in Gupapuyŋu}\end{figure}
+
+\section*{Towards a theory of Dhuwal(a) temporal reference}
+\begin{itemize}
+\item We're thinking that an elegant formalisation for cyclic tense may emerge out of interval semantics. The analysis would need to predict:
+
+\begin{itemize}
+\item The exponence of \textbf{III} in \textsc{remote past} and \textsc{today past} situations;
+\item The infelicity of \textbf{III} in \textit{non-today} \textsc{recent past} situations
+\end{itemize}
+
+\item Given that \textit{dhiyaŋ bala}, our \textsc{proximal temporal demonstrative} appears to be capable of indexing any eventuality from sunrise on the day of utterance, there is an argument for `day of utterance' as a privileged interval.
+
+\item \textbf{I} seems to be licensed when $ t_e \in i $
+\item \textbf{III} seems to be licensed when $\exists j[j\sqsupseteq_{nf} i] \wedge t_e \in  j\setminus i$
+
+\end{itemize}
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[<->, line width=.5mm] (0,0) -- (12,0);
+\draw[line width=.8mm,densely dotted] (5,1.8) -- (5,-1.8); 
+\draw[line width=.8mm,densely dotted] (9,1.8) -- (9,-1.8);
+\draw[line width=2mm,nearly transparent] (7.35,1.8) -- (7.3,-1.8) node [at end,yshift=-2mm] {\textit{\textsc{now}}};
+
+
+\filldraw[nearly transparent,green](3,0)		ellipse [x radius=2cm,y radius=1cm];
+\draw (2.25,.25) node[color=blue] {\textbf{$ j $}};
+\filldraw[nearly transparent,blue,xshift=0.2cm](2,0)		ellipse [x radius=1.2cm,y radius=.6cm];
+\draw (4.25,.25) node[color=forest] {\textbf{$ i $}};
+\filldraw[nearly transparent,green,xshift=.28cm](6,0)		ellipse [x radius=1.2cm,y radius=.8cm];
+\draw (7.3,.25) node[color=black] {\textbf{$ i $}};
+\filldraw[nearly transparent,blue,xshift=.15cm](6,0)		ellipse [x radius=1.05cm,y radius=.5cm];
+\draw (6,.25) node[color=blue] {\textbf{$ j $}};
+
+
+\fill[very nearly transparent,ochre] (9.5,1) -- (9.5,-1) -- (11.5,-1) -- (11.5,1); 
+
+
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+(5.1,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+{\footnotesize \textsc{today}};
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+(0,0.5) -- (4.9,0.5) node [black,midway,yshift=0.35cm] 
+{\footnotesize \textsc{before}};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+(3.5,0.5) -- (4.8,0.5) node [black,midway,yshift=0.35cm] 
+{\footnotesize \textit{barpuru}};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+(0.5,0.5) -- (3,0.5) node [black,midway,yshift=0.35cm] 
+{\footnotesize \textit{baman'}};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+(9.25,0.5) -- (11.8,0.5) node [black,midway,yshift=0.35cm] 
+{\footnotesize \textit{goḏarr'}};
+
+\end{tikzpicture}
+\caption{Appealing to `nonfinal instantiation' to provide a unified entry for the temporal reference of \textbf{III}}
+
+
+\end{figure}
+\subsection*{A potential formal account}
+\begin{itemize}
+\item  A formal tool for relating a reference interval to a related interval comes from \citet{Condoravdi2014}.
+\item  In order to capture the meaning component of the \textsc{Perfect} aspect they define a relation \textsc{Nonfinal instantiation} that holds between a property and two intervals $i,j$:
+$$\textsc{NfInst}(P,j,i)\leftrightarrow\exists k [\textsc{Inst}(P,k)\wedge k\sqsubseteq j\wedge k\prec i]$$
+
+such that this relation holds when we can find some interval $k$ contained in $j$, \textbf{preceding} the reference interval $i$, in which $P$ is instantiated.
+
+\item \textbf{A first tilt}
+\begin{itemize}
+
+
+\item Adapting from a treament of the \textsc{Perfect} in \citet{Condoravdi2014}:
+$$\llbracket\textbf{III}\rrbracket^{g,c}=\lambda P\lambda i_c.\exists j\big[i_c\sqsubseteq_{\text{final}}j\wedge\textsc{NfInst}(P,j,i)\big]$$
+
+\item  Which may for current purposes be equivalent to a simpler denotation...(?)
+$$\llbracket\textbf{III}\rrbracket^{g,c}=\lambda P\lambda j_c.\exists k\big[k\sqsubseteq_{\text{nonfinal}}j_c\wedge\textsc{Inst}(P,k)\big]$$
+
+\end{itemize}
+
+\item What this genre of analysis would buy us is a situation in which $i$ is identified either as the time-of-speech (roughly \textbf{now}) or some constrained (recent) period \textit{prior to the day-of-speech}.
+
+
+\item \textbf{III} is then licensed when the property which is denoted by the verb that it inflects is instantiated within $j$ (a superinterval of $i$ that shares its right boundary) but not in $i$ itself.
+
+
+
+
+\item An implication of this initial treatment would be that the temporal work that \textbf{III} is not really that of an absolute tense marker (taken by, e.g. \citealt{Klein2009} to be the relation of utterance time to a reference time. Here eventuality time is directly built in to the semantics.)
+\
+\item It's likely possible to maintain a pronominal treatment of tense in the style of \citet{Partee1973} (roughly, $\llbracket\textsc{pst}\rrbracket=\lambda t:t\prec\textbf{now}.t$), but how to do or what the implications are aren't immediately clear to me as I get this handout together.
+
+\item The temporal contribution of future-tense operator \textit{dhu} might be simply analysed as placing a presupposition on the temporal location of $ i $ (or at least on the \textsc{inst} relation) such that $ \tau(\varepsilon)\succ \textsc{now} $
+\begin{itemize}
+	\item This is likely to be truth-conditionally insufficient given that it says nothing about the modal (necessity) contribution of \textit{dhu}.
+\end{itemize}
+
+\end{itemize}
+
+\subsection*{A potential functional explanation}
+\begin{itemize}
+
+\item The \textsc{today} and \textsc{nontoday} frames in the descriptive lit correspond to two different discourse modes: \textbf{\textit{conversational}} and \textbf{\textit{narrative}} respectively.
+\item  In \textbf{\textit{conversation}}, where we might be less concerned with remote displacement, we might expect to be concerned with the immediate past as distinguished from the non-past. These presuppositions are grammaticalised as \textbf{III} (the Glaswegian ``remote''/``precontemporary'') and \textbf{I} (the Glaswegian ``contemporary'') respectively.
+\item  Conversely, in \textbf{\textit{narration}}, which concerns the past almost exclusively, a distinction between states-of-affairs that hold in (relative) here-and-now as against the remote past is (arguably) more relevant than past/nonpast.
+\end{itemize}
+\subsection*{Interactions with modality}
+\begin{itemize}
+	\item The picture becomes more complicated when we admit data describing \textbf{non-instantiated} events (which includes negated, modalised, and generic/habitual predications)
+
+	
+	
+	
+	\begin{figure}[h]\caption{The effect of negation as a licensing condition for verbal inflections}\centering	\begin{tikzpicture}[scale=.85]
+		% draw horizontal line   
+		\draw[<->, line width=.5mm] (0,0) -- (12,0);
+		
+		%draw rex
+		\shade[left color=RoyalPurple!15!white, right color=orange!15!white] (0,0.02) rectangle (4.8,1.5);
+		%	\fill[green!10!white] (2.5,0.02) rectangle (4.8,1.5);
+		\fill[RoyalPurple!10!white] (4.8,0.02) rectangle (6.8,1.5);
+		\shade[left color=orange!10!white, right color=Green!10!white] (6.8,0.02) rectangle (9.5,1.5);
+		\fill[orange!10!white] (9.5,0.02) rectangle (12,1.5);
+		
+		% draw nodes
+		\draw (1.25,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{IV}}};
+		\draw (3.675,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textbf{II}};
+		\draw (5,0)   node[circle,fill,label=below:$\lfloor{\sl today}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+		\draw (7,0) node[diamond,shade,inner color=ochre,outer color=black,label=below:$\boldsymbol{t*}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {\textsc{}};
+		\draw (5.8,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{IV}}};	
+		\draw (7.5,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};
+		\draw (9,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{I}}};	
+		\draw (10.75,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};	
+		\draw (9.5,0)   node[circle,fill,label=below:${\sl today}\big)$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+		
+		
+		\end{tikzpicture}\end{figure}
+	
+	\item The basic picture is given in \ref{negneut}:
+	
+	
+	\begin{table}[h]\centering
+		\begin{tabular}{ccc}
+			&\multicolumn{2}{c}{\textsc{\textbf{polarity}}} \\
+			& \textsc{--neg} & \textsc{+neg}\\\midrule
+			&	\textbf{I} & \multirow{2}{*}{\textbf{II}}\\
+			& \textbf{II} \\\midrule
+			&	\textbf{III} & \multirow{2}{*}{\textbf{IV}}\\
+			& \textbf{IV} \\\bottomrule
+		\end{tabular}
+		\caption{Neutralisation of \textbf{I} and \textbf{III} inflections under negation.}\label{negneut}
+	\end{table}
+	
+	\item This provides support for the semanticisation of an \textsc{instantiation} relation in the verbal inflections
+	
+	\item I assume that it is not a coincidence that \textbf{II} is licensed in both \textsc{future} predications and the negations/modalisations of \textbf{I}-predications.
+	
+	\item Note, importantly, that today-nonpast utterances \textbf{still receive I}-marking. I expect that the analysis will build in something to do with perceptual access and/or a \textsc{plan} type operator. Things that are \textbf{currently not happening} can be thought of as perceptually-supportable facts of the world. 
+	
+	
+	
+	
+\end{itemize}
+\newpage
+\small
+\section*{Appendices}
+
+\subsection*{Implications}
+
+\begin{itemize}
+	\item Independent support for interval-based logics of tense in NL (what's \textit{now}?)
+	\item Indexicality
+	\item Gradability
+\end{itemize}
+
+\subsection*{An interval-based tense logic \textit{per} \citet{Hamblin1971} \textit{\& seq.}}
+\begin{itemize}
+	\item \textsc{Axioms}
+
+		\begin{enumerate}[i.]
+			\item antisymmetry of $\mathcal I\times\!\prec$
+			\item transitivity of $\mathcal I\times\!\prec$
+			\item connexity of $\mathcal I\times\!\prec$
+			\item intersection
+			\item join
+			\item divisibility (density of $\mathcal I$)
+			\item universe (infinity)
+			
+		\end{enumerate}
+		
+ \item  Three-valued truth system: $p(i)=1,p(i)=0$ or $p$ changes in $i$
+
+\end{itemize}
+
+
+\bibliographystyle{apa}\bibliography{../../FullBiblio.bib}
+\vfill\hspace*{\fill}\scriptsize$\boxdot$ \textsc{jp}
+
+\normalsize
+
+
+
+\newpage
+\section*{data}
+\small
+
+
+\pex \textbf{Temporal remoteness (past)}
+\a\deftagex{MetPst}\deftaglabel{I}\begingl\glpreamble\textsc{Recent past} with \textbf{I}//
+\gla yo barpuru-ny ŋarra \textbf{marrtji}(*-na) shop-lil//
+\glb yes, yesterday{\sc-prom} 1s fo-\textbf{I/*III} shop-{\sc all}//
+\glft`Yes, I went to the store yesterday.'//\endgl
+
+
+\a
+\deftaglabel{III}\begingl\glpreamble\textsc{Remote past} with \textbf{III}//
+\gla yo ŋarra marrtji-\textbf{na} ŋunhawala ŋäthil baman'//
+\glb yes 1s go-\textbf{III} \gls{dist.all} before long.ago//
+\glft`Yes, I went there long ago.'//
+\endgl
+\xe
+
+\pex\deftagex{MetFut}\textbf{Temporal remoteness (future)}
+
+\a\deftaglabel{I}\begingl\gla yalala ŋarra dhu nhokal lakara-\textbf{m}//
+\glb later 1s \textsc{fut} 2s\textsc{.obl} tell-\textbf{I}//
+\glft `Later (today) I'll tell you.' \trailingcitation{\citep[373]{Wilkinson1991}}//\endgl
+
+ \a\begingl\deftaglabel{II}\gla Barpuru goḏarr ŋarra dhu nhä(\textbf{-ŋu/$^*$-ma})//
+\glb funeral tomorrow 1s \gls{fut} see(-\textbf{II}/$^*$-\textbf{I})//
+\glft `I'll see the funeral tomorrow'\trailingcitation{[AW~20180730]}//\endgl
+\xe
+
+
+\pex\textbf{Cyclicity (the \textsc{hodiernal} ``frame'')}\deftagex{today}
+\a\deftaglabel{I}\begingl\glpreamble\textsc{Present} with \textbf{I}//
+\gla ŋarra ga nhä-\textbf{ma} warrkun' (dhiyaŋ bala)//
+\glb 1s \textsc{ipfv}-\textbf{I} see.\textbf{I} bird \textsc{endo}.\textsc{erg} \textsc{mvtawy}//
+\glft`I'm looking at a bird (now)'//
+\endgl
+
+\a\deftaglabel{III}\begingl\glpreamble\textsc{Today past} with \textbf{III}//
+\gla ŋe gäthur ŋarra ŋanya nhä-\textbf{ŋal} (*nhäma) goḏarr dhiyal//
+\glb	yes, today 1s 3s{\sc.acc} see-\textbf{III} (*see.\textbf{I}) morning {\sc prox-loc}//
+\glft`Yes, I saw him here this morning'\trailingcitation{\citep{Wilkinson1991}}//\endgl
+
+\xe
+
+\pex\textbf{Vagueness in the TFA domain}\deftagex{tfa}
+\a\begingl\gla ga \textbf{(yawungu)} \textbf{ŋuriŋi-ny} \textbf{bala} ga dhuwal ḏumurru'-ŋu-y, + bäyŋu-n yolŋu walal wukirri waŋara-n ga dhärra//
+\glb and (yesterday) \textbf{\gls{texd}.\gls{erg}}-\gls{prom} \gls{mvtawy} \gls{ipfv}.\textbf{I} \gls{prox} big-\textit{ŋu}-\gls{erg} \gls{negq}-\gls{seq} people 3p school empty-\gls{seq} \gls{ipfv}.\textbf{I} stand.\textbf{I}//
+\glft`Last week there was nobody at school.'\trailingcitation{\citep[256]{Wilkinson1991}}//\endgl
+
+\a\deftaglabel{II}\begingl Compatibility of \textsc{future} \textbf{II} with \textit{ŋuriŋi bala}\glpreamble//
+\gla ga \textbf{ŋuriŋi-n} \textbf{bala} dhu boŋguŋ, bäyŋu-n goḻ, + waŋara-n dhu gi dhärri//
+\glb and \textbf{\gls{texd}.\gls{erg}}-\gls{seq} \gls{mvtawy} \gls{fut} tomorrow  \gls{negq}-\gls{seq} school empty-\gls{seq} \gls{fut} \gls{ipfv}.\textbf{II} stand.\textbf{II}//
+\glft`And next (week), there'll be nobody at school, it'll be empty.'\trailingcitation{\citep[256]{Wilkinson1991}}//\endgl
+	
+\a	\begingl\gla ḏirramu-wal yothu-wal bäpa-'mirriŋu-y rrupiya \textbf{barpuru} djuy'yu-\textbf{n} märr \textbf{barpuru} ga barpuru \textbf{buna}-ny dhiyal-nydja//
+\glb man-\gls{obl} kid-\gls{obl} father-\gls{kinprop}-\textsc{erg} money yesterday send.\textbf{I} somewhat yesterday and yesterday arrive.\textbf{I}-\textsc{prom} \gls{prox}.\gls{erg}-\gls{prom}//
+\glft`The father sent money to the boy recently and it arrived here yesterday'\trailingcitation{\citep[343]{Wilkinson1991}}//\endgl
+\xe
+
+	\pex\deftagex{ḏaŋgay}\begingl\glpreamble\textbf{Productive derivation of temporal frame from nominal}//
+\gla bala ŋayi yaryu'\textasciitilde{yaryu}-n \textbf{ḏaŋga-y} \textbf{wäŋa-y}//
+\glb \textsc{mvtawy} 3s wade\textasciitilde{\textsc{red}}-\textbf{I} \textbf{fine-\textsc{erg}} \textbf{place-\textsc{erg}}//
+\glft`Then he went along the water's edge (hunting) while it was fine out (not raining).'\trailingcitation{\citep[159]{Wilkinson1991}}//\endgl\xe
+
+	
+\pex\textbf{Compatibility of \textit{dhiyaŋ bala} with non-present reference}\deftagex{dhiyaŋ}
+\a\begingl\gla \textbf{dhiyaŋ} \textbf{bala} napurr bäpi nhä-ŋal gäthur//
+\glb \textbf{\gls{prox}.\gls{erg}} \textbf{\gls{mvtawy}} 1p.\gls{excl} snake see-\textbf{III} today//
+\glft`We saw a snake today'\trailingcitation{\citep[256]{Wilkinson1991}}//\endgl
+
+\a\begingl\gla \textbf{dhiyaŋ bala} walal dhu buna, yalala//
+\glb \textbf{\gls{prox}.\gls{erg}}~\textbf{\gls{mvtawy}} 3p \gls{fut} arrive.\textbf{I} later//
+\glft`They're coming later today.'\trailingcitation{\citep[256]{Wilkinson1991}}//\endgl
+\xe
+
+
+
+\pex \begingl\glpreamble \textbf{\textit{Ŋuriŋi bala} `at (some other) time'}//
+\gla Way, marŋgi nhe (ŋarra-kalaŋa-w bäpa-'mirriŋu-w-nydja [\textbf{ŋunhi} [ŋayi dhiŋga\textbf{-ma}-ny \textbf{ŋuriŋi} \textbf{bala} dhuŋgara-y]])//
+\glb hey know 2s 1s-\gls{obl}-\gls{dat} father-\gls{kinprop}-\gls{dat}-\gls{prom} \textbf{\gls{texd}} 3s die-\textbf{I}-\gls{prom} \gls{texd}-\gls{erg} then year-\gls{erg}//
+\glft`Hey, did you know my father, who died last year?'\trailingcitation{\citep[343]{Wilkinson1991}}//\endgl\xe
+
+\end{document}

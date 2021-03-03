@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: NegexAust-JP.aux
+The style file: apa.bst
+Illegal, another \bibstyle command---line 289 of file NegexAust-JP.aux
+ : \bibstyle
+ :          {apa}
+I'm skipping whatever remains of this command
+Database file #1: PrivBib.bib
+Warning--empty publisher in Bowern2009
+Warning--can't use both author and editor fields in Bowern2012
+Warning--empty school in Brammall1991
+Warning--empty note in Creissels2014
+Warning--empty publisher in Deo2018
+Warning--empty school in Francez2007
+Warning--empty booktitle in Hercus1996
+Warning--can't use both author and editor fields in KaytetyeDict
+Warning--empty school in McLellan1992
+Warning--there's a number but no volume in McNally2016
+Warning--can't use both author and editor fields in Miestamo2005
+Warning--empty school in Ogrady1963
+Warning--empty school in Stevens2007
+Warning--there's a number but no volume in vanderAuwera2008
+Warning--empty school in Wilkins1989
+Warning--empty school in Wilkinson1991
+You've used 81 entries,
+            1940 wiz_defined-function locations,
+            1014 strings with 14298 characters,
+and the built_in function-call counts, 27862 in all, are:
+= -- 2708
+> -- 790
+< -- 94
++ -- 252
+- -- 229
+* -- 2191
+:= -- 4891
+add.period$ -- 262
+call.type$ -- 81
+change.case$ -- 476
+chr.to.int$ -- 80
+cite$ -- 97
+duplicate$ -- 1270
+empty$ -- 2182
+format.name$ -- 334
+if$ -- 5553
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 97
+newline$ -- 407
+num.names$ -- 273
+pop$ -- 475
+preamble$ -- 1
+purify$ -- 504
+quote$ -- 0
+skip$ -- 932
+stack$ -- 0
+substring$ -- 1652
+swap$ -- 254
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 430
+warning$ -- 16
+while$ -- 233
+width$ -- 0
+write$ -- 1080
+(There was 1 error message)

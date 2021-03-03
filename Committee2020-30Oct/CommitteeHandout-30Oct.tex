@@ -1,0 +1,617 @@
+
+\synctex=1
+
+\documentclass[11pt,dvipsnames]{article}
+\usepackage[lmargin=55pt,rmargin=55pt,tmargin=70pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+				
+				
+ \usepackage[nonumberlist]{glossaries}
+\newglossary*{gloss}{List of abbreviations}
+
+% abbreviations:
+\newglossaryentry{I}{
+	name = \textbf{\textcolor{blue}{I}} ,
+	description = \textsc{primary},
+	type=gloss,	}
+\newglossaryentry{II}{
+	name = \textbf{\textcolor{ochre}{II}} ,
+	description = \textsc{primary},
+	type=gloss,	}
+\newglossaryentry{III}{
+	name = \textbf{\textcolor{forest}{III}} ,
+	description = \textsc{primary},
+	type=gloss,	}
+\newglossaryentry{IV}{
+	name = \textbf{\textcolor{violet}{IV}} ,
+	description = \textsc{primary},
+	type=gloss,	}
+
+	\newglossaryentry{mod}{
+	name = \textsc{mod} ,
+	description = modal operator,
+	type=gloss,	} 
+\newglossaryentry{refl}{
+	name = \textsc{r/r} ,
+	description = reflexive-reciprocal marker,
+	type=gloss,	} 
+\newglossaryentry{pl}{
+	name = \textsc{pl} ,
+	description = plural,
+	type=gloss,	} 
+
+
+\newglossaryentry{irr}{
+	name = \textsc{irr} ,
+	description = irrealis (modality)marker,
+	type=gloss,	} 
+\newglossaryentry{comp}{
+	name = \textsc{comp} ,
+	description = complementiser,
+	type=gloss,	} 
+\newglossaryentry{malk}{
+	name = \textsc{\textit{mälk}} ,
+	description = Skin name (cultural `subsection'),
+	type=gloss,	} 
+\newglossaryentry{cplv}{
+	name = \textsc{cplv} ,
+	description = completive aspect,
+	type=gloss,	} 
+\newglossaryentry{priv}{
+	name = \textsc{priv} ,
+	description = privative case , 
+	type = gloss , }
+
+\newglossaryentry{sn}{
+	name = SN ,
+	description = standard negation/negator, 
+	type = gloss , }
+
+\newglossaryentry{indef}{
+	name = \textsc{indef} ,
+	description = indefinite indexical \citet[280]{Wilkinson1991}, 
+	type = gloss , }
+
+%		\newglossaryentry{obls}{
+%		name = \textsc{obls} ,
+%		description = standard negation/negator, 
+%		type = gloss , }
+
+
+
+\newglossaryentry{NP}{
+	name = \textsc{NP} ,
+	description = noun phrase,
+	type = gloss , }
+
+\newglossaryentry{TFA}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+\newglossaryentry{proh}{
+	name = \textsc{proh} ,
+	description = prohibitive,
+	type = gloss , }
+\newglossaryentry{recip}{
+	name = \textsc{recip} ,
+	description = reciprocal,
+	type = gloss , }
+
+\newglossaryentry{perf}{
+	name = \textsc{perf} ,
+	description = perfect aspect,
+	type = gloss , }
+\newglossaryentry{neg}{
+	name = \textsc{neg} ,
+	description = negator,
+	type = gloss , }
+\newglossaryentry{all}{
+	name = \textsc{all} ,
+	description = allative case,
+	type = gloss , }
+\newglossaryentry{abl}{
+	name = \textsc{abl} ,
+	description = ablative case,
+	type = gloss , }
+
+
+\newglossaryentry{dp}{
+	name = \textsc{dp} ,
+	description = discourse particle,
+	type = gloss , }
+
+\newglossaryentry{acc}{
+	name = \textsc{acc} ,
+	description = accusative case,
+	type = gloss , }
+\newglossaryentry{nom}{
+	name = \textsc{nom} ,
+	description = nominative case,
+	type = gloss , }
+\newglossaryentry{mvtawy}{
+	name = \textsc{mvtawy} ,
+	description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
+	type = gloss , }
+
+\newglossaryentry{add}{
+	name = \textsc{add} ,
+	description = additive particle,
+	type = gloss , }
+
+\newglossaryentry{neu}{
+	name = \textsc{neu} ,
+	description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
+	type = gloss , }
+
+\newglossaryentry{mvttwd}{
+	name = \textsc{mvttwd} ,
+	description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
+	type = gloss , }
+
+\newglossaryentry{cfact}{
+	name = \textsc{cfact} ,
+	description = counterfactual,
+	type = gloss , }
+\newglossaryentry{pres}{
+	name = \textsc{pres} ,
+	description = present tense,
+	type = gloss , }
+\newglossaryentry{erg}{
+	name = \textsc{erg} ,
+	description = ergative case,
+	type = gloss , }
+\newglossaryentry{dm}{
+	name = \textsc{dm} ,
+	description = ``discourse clitic'' \citep{McLellan1992},
+	type = gloss , }
+\newglossaryentry{intens}{
+	name = \textsc{intens} ,
+	description = intensifier,
+	type = gloss , }
+\newglossaryentry{negex}{
+	name = \textsc{negex} ,
+	description = negative existential/quantifier,
+	type = gloss , }
+\newglossaryentry{red}{
+	name = \textsc{redup} ,
+	description = reduplicant,
+	type = gloss , }
+\newglossaryentry{negq}{
+	name = \textsc{negq} ,
+	description = negative quantifier (existential) $\nexists$,
+	type = gloss , }
+
+\newglossaryentry{comit}{
+	name = \textsc{comit} ,
+	description = comitative case,
+	type = gloss , }
+
+\newglossaryentry{vblzr}{
+	name = \textsc{vblzr} ,
+	description = `\textit{-Thu-} verbalizer' (derivational suffix),
+	type = gloss , }
+
+\newglossaryentry{instr}{
+	name = \textsc{instr} ,
+	description = instrumental case,
+	type = gloss , }
+\newglossaryentry{temp}{
+	name = \textsc{temp} ,
+	description = temporal case (see \citealt[585]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{prop}{
+	name = \textsc{prop} ,
+	description = proprietive case,
+	type = gloss , }
+
+\newglossaryentry{kinprop}{
+	name = \textsc{prop} ,
+	description = proprietive case -- kinship augment,
+	type = gloss , }
+
+\newglossaryentry{perl}{
+	name = \textsc{perl} ,
+	description = perlative case,
+	type = gloss , }
+
+\newglossaryentry{inch}{
+	name = \textsc{inch} ,
+	description = inchoative,
+	type = gloss , }
+\newglossaryentry{seq}{
+	name = \textsc{seq} ,
+	description = sequential,
+	type = gloss , }
+\newglossaryentry{abs}{
+	name = \textsc{abs} ,
+	description = absolutive case,
+	type = gloss , }
+
+\newglossaryentry{prom}{
+	name = \textsc{prom} ,
+	description = prominence marker ($\approx$ focus),
+	type = gloss , }
+\newglossaryentry{nmlzr}{
+	name = \textsc{nmlzr} ,
+	description = nominaliser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tr}{
+	name = \textsc{tr} ,
+	description = transitiviser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tfa}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+
+\newglossaryentry{emph}{
+	name = \textsc{emph} ,
+	description = (em)phatic particle \textcolor{red}{Wilk91},
+	type = gloss , }
+
+\newglossaryentry{ana}{
+	name = \textsc{ana} ,
+	description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
+	type = gloss , }
+
+\newglossaryentry{hab}{
+	name = \textsc{hab} ,
+	description = ``habitual (aspect)'',
+	type = gloss , }
+
+\newglossaryentry{caus}{
+	name = \textsc{caus} ,
+	description = causative,
+	type = gloss , }
+
+\newglossaryentry{foc}{
+	name = \textsc{foc} ,
+	description = focus marker
+	type = gloss , }
+\newglossaryentry{loc}{
+	name = \textsc{loc} ,
+	description = locative case,
+	type = gloss , }
+\newglossaryentry{per}{
+	name = \textsc{per} ,
+	description = pergressive case,
+	type = gloss , }
+\newglossaryentry{excl}{
+	name = \textsc{excl} ,
+	description = exclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{pst}{
+	name = \textsc{pst} ,
+	description = past tense,
+	type = gloss , }
+\newglossaryentry{incl}{
+	name = \textsc{incl} ,
+	description = inclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{dist}{
+	name = \textsc{dist} ,
+	description = distal (demonstrative),
+	type = gloss , }
+\newglossaryentry{prox}{
+	name = \textsc{prox} ,
+	description = proximal (demonstrative),
+	type = gloss , }
+\newglossaryentry{med}{
+	name = \textsc{med} ,
+	description = medial (demonstrative),
+	type = gloss , }
+\newglossaryentry{texd}{
+	name = \textsc{endo} ,
+	description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{obl}{
+	name = \textsc{obl} ,
+	description = oblique case,
+	type = gloss , }
+\newglossaryentry{dat}{
+	name = \textsc{dat} ,
+	description = dative case,
+	type = gloss , }
+\newglossaryentry{ds}{
+	name = \textsc{ds} ,
+	description = different subject (subordinate clause),
+	type = gloss , }
+
+\newglossaryentry{ipfv}{
+	name = \textsc{ipfv} ,
+	description = imperfective (aspect),
+	type = gloss , }
+\newglossaryentry{imp}{
+	name = \textsc{imp} ,
+	description = imperative,
+	type = gloss , }
+
+\newglossaryentry{pfv}{
+	name = \textsc{pfv} ,
+	description = perfective (aspect),
+	type = gloss , }
+
+\newglossaryentry{fut}{
+	name = \textsc{fut} ,
+	description = future (tense),
+	type = gloss , }
+
+\newglossaryentry{assoc}{
+	name = \textsc{assoc} ,
+	description = associative,
+	type = gloss , }
+
+
+\newglossaryentry{hyp}{
+	name = \textsc{hyp} ,
+	description = hypothetical (modality),
+	type = gloss , }
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\newcommand{\specialcell}[2][c]{%
+	\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+
+\def\@xfootnote[#1]{%
+	
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+}
+\resetatcatcode
+
+
+
+
+
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\newcommand{\xmark}{\ding{55}}
+
+%\newcommand{\gls}{\textsc}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\begin{document}
+\noindent\textbf{{Dissertation Committee Meeting}\hfill 16 September 2019}\\
+\textit{At the intersection of temporal and modal expression}\\
+
+
+\subsubsection*{agenda}
+\begin{itemize}
+
+	\item the current state of the dissertation
+	\item schedule to completion \& defense date
+	\item 	
+\end{itemize}
+
+
+\subsection*{the dissertation}
+
+\paragraph{Adapted from the introduction.}  
+The body of this dissertation consists of a number of more or less related studies that consider the roles of conventionalised linguistic expressions and context (\textit{sc.} the interplay of semantics and pragmatics) in ``displacing'' discourse -- that is, how, in a given discourse context, reference is established to different possible worlds and different times. The role of this introduction is to introduce (and motivate) the major assumptions and theoretical commitments that underpin these essays and to highlight how, they connect with one another and (hopefully) constitute data and analyses that have the potential to further refine and nuance theories of natural language semantics, specifically in terms of what these have to say about the mechanics of displacement.
+
+The essays variously consider data from English and from a number of languages spoken in Aboriginal Australia, on the basis of both published and original data, collected in consultation with native speakers.%todo highlight/topicalise ALs as emp focus
+
+\begin{description}
+	\item[\textit{otherwise}]
+	
+	\begin{itemize}
+		\item\textbf{ \textsc{Resubmitted} manuscript to J. Semant w/ Hadas a month ago}
+		\item Following \citet{Webber2001}, a ``discourse anaphor''---signals `discourse relations between adjacent discourse units'. 
+		\item analysis of the meaning and interpretation constraints on the English lexical item \textit{otherwise}. 
+			\item  we argue that the antecedent is accommodated from the pronounced utterance preceding \textit{otherwise} --- analysis crucially deploys \citeauthor{Roberts1989}'s ``modal subordination'' framework 
+		\item  also appeals to information structural notions---the QuD---in determining the nature of the antecedent. 
+		\item Consequently, the chapter constitutes a \textbf{dynamic analysis of a discourse anaphor}  (\textit{sc.}, one that considers the development of discourse participants' information states over time)
+		\item  accounts for flexible distribution and previously unobserved limitations on its use.
+		
+		{\color{violet}\item Potentially can migrate the content of appendix (our extension of the DRL) into the main body of the chapter, spell out some more of the formalism (e.g. $ \Cap $)
+		\item Possibility for variables over worlds in the domain of $ g/X $}
+		
+		%todo about (mod.) disc. anaphora rather than English ``otherwise'' --- ow is the ``way into the topic''. foregrond thbeoretical ideas (smooths over eemp. things) --- the reason working on o/w, problem with bambai, highlights links. Add para about "Generalised disc. anaphora" 
+\end{itemize}
+\item[\textit{bambai}] \textbf{unpublished manuscript: qualifying paper, developed into an LSP submission, significantly further developed since.}
+
+	\begin{itemize}
+\item formal semantic account of ``\textbf{apprehensionality}''
+\item paying particular attention to an apparent meaning change trajectory, where future-oriented TFAs develop modal readings. 
+\item  An observation originally due to \citet{Angelo2016,Angelo2018}, \textit{bambai} started its life as a TFA $ \approx $ `soon'; developed so-called ``apprehensional'' uses.
+\item In many contexts \textit{bambai} is translatable as `otherwise' -- on account of its reliance on accommodation processes, the account defended here treats \textit{bambai}-type apprehensives as discourse anaphors that involve the modal subordination of their prejacent to elements of foregoing discourse.
+\item Detailed explanation of the range of uses available to \textit{bambai} in both its temporal and modal functions.
+\item Lexical entry that unifies these uses
+\item Account of the emergence of explicitly modal readings in a future-oriented (``subsequential'') temporal adverb, as well as a semantics for apprehensional marking.%todo about apprehensionality and temporality (subjectivity, speaker evaluativity and the links between temporality and modality etc.) and discourse relations
+{\color{violet}
+	\item Needs significantly more detail on ``finding the antecedent'' (that is, the connections with \textit{otherwise})
+	\item Needs some more detail on use-conditions probably (how much of the 2-dimensional/$ \mathcal L_{\textsc{ci}} $ stuff do we think is necessary?)
+	\item May need to spell out a c'factual example
+	\item Potentially something akin to \textit{insubordination} to get the non-precautioning/monoclausal/non-coordinate uses of \textit{bambai}
+	\item Unclear what adjustments will need to be made to get the epistemic future type uses as in ex. 108, pg. 55.
+	
+}
+\end{itemize}
+\item[The \textit{NEC}] \textbf{The version currently in the document is a chapter \textsc{to appear} in a volume published by LSP in the next few months. The formal treatment is \textit{somewhat} sidelined, but this has been at least partly published in the NELS50 proceedings.}
+	\begin{itemize}
+		
+	\item 	formal semantic treatment of \textbf{the Negative Existential Cycle}
+	\item comparative data from Thura-Yura, Yolŋu Matha and Arandic, arguing for semantic change cycle. 
+	\item  \textsc{privative} is taken to realise the semantics of a negative existential. 
+	\item Diachronic evidence that erstwhile privatives generalise into sentential negators: this interpreted as an instantiation of the NEC
+	\item Unified semantics for nominal and verbal negation.
+	\item Taken to provide support for a treatment of \textbf{negation as a two-place (modal) operator} 
+	\item Suggests that this cycle can be united with general observations made in the grammaticalisation literatures regarding the functional pressures underpinning meaning change.
+	\begin{itemize}
+		\item In particuar Ashwini's work on ``discretional indexicality'' (M-in-F and maybe some colloquia? though I don't know where else this exists?)
+	\end{itemize}
+	
+	{\color{violet} \item The proceedings paper/LSA talk both provide more detail about the formal NEC treatment. The main points are in this LSP piece but they'll be centred a bit more and there'll be more motivation of the treatment of existential predication (Francez, McNally...)
+	\item  More discussion of the theoretical implications (spelled out more in proceedings paper?)
+	\item I have some djr data elicited that tries to get at • scope judgments and • constraints on the possible semantic relations between subject/coda and pivot. These haven't been written up or incorporated into the work
+	\item \href{https://sashawilmoth.com/}{Sasha Wilmoth} has spoken about a similar effect in the WD language she works on which i'd like to look into, though this is almost certainly a reach goal dissertationwise. This said she does have some \href{https://sashawilmoth.files.wordpress.com/2020/07/wilmoth_alw2020_negation.pdf}{written up here} (just seeing this now, so I'll at least incorporate some what she has which sits v nicely w the data i do speak about.)}
+
+
+\end{itemize}
+\item[Yolŋu] What was originally going to be the main thrust of the dissertation is still likely to appear in some form, but \textit{that} dissertation is now a postdoctoral monograph in my mind if someone gives me a job one day  ʕ  ̊ ̯͑ ̊ʔ
+\begin{itemize}
+	\item Section on \textbf{lexical aspect} \& statives (currently billed a description of present-time reference.])
+	\begin{itemize}
+		\item claim: djr verb (stems) strictly denote properties of events
+	\end{itemize}
+\end{itemize}
+	\begin{description}
+		
+		\item[cyclic tense] (P instantiation at discontinuous intervals.)
+		\begin{itemize}
+			\item Had made some amount of progress on this last Winter, significant way to go
+			\item There's a \textsc{today} and \textsc{pre-today} frame, retrieved from context
+			\item Treats \textbf{I} (cognate with \textsc{pres} in other yolŋu) as realising an instantiation relation between an event/time/world
+			\item Treats \textbf{III} (cognate with \textsc{past} in other yolŋu) as realising non-final instantiation of some event
+			\item A \textsc{MaxPresupp}-type constraint gets us cyclicity?
+			\item The ``frames'': Possibility of bringing insights from Culioli (\textit{opérations énonciatives}) to bear on this question (given the apparent success they've had in dealing w IE aorists.)
+						\end{itemize}
+		\item[negation-based asymmetries in reality-status marking] (mood distinctions are collapsed in negative predications)\\
+		Content here is pretty much the facts/bones of the analysis from the FoDS4 talk.
+		\begin{itemize}
+					\item Neg sentences inflect similarly to other ``unrealized'' predications (future, cfact, circ. possibility, (past) habituality)
+					\begin{itemize}
+						\item comparison to Krifka's treatment of the Daakie ``mood-based'' (Bhat) inflectional system
+					\end{itemize}
+					\item Re-invokes possible treatments of sentential negators as modal expressions --- or at least djr has reinterpreted \textsc{neg} as a modal operator \textbf{(compare this to the conclusion in the NEC chapter)}
+					\item Same day negative future is immune to this neutralization : evidence for distinct status/ grammaticalized futurate
+
+			\end{itemize}
+		\end{description}
+{\color {violet}\begin{itemize}
+		\item An additional observation is a perhaps kind of quirky observation about the structure of the ``nonrealized'' domain/modal displacement which needs to be worked out:
+		\begin{itemize}
+		\item	\textsc{fut/neg/circ.~modal/pst.hab} all categorically trigger the asymmetry.
+		\item epistemic modals / propositional attitudes / other subjunctive-like constructions don't participate in it.
+		\end{itemize}
+		\item  These two phenomena (to varying degrees) represent areal  features of central Arnhem Land languages.
+		\item There's ofc a lot to be said about semantic change in this domain (the original thought from which the project sprung, the FoDS 4 comparison of djr and rit) -- (ironically) now likely out of the remit of the diss.
+\end{itemize}	}
+
+
+\end{description}
+
+\vfill\small\bibliographystyle{apa}\bibliography{../FullBiblio.bib}
+
+
+\end{document}

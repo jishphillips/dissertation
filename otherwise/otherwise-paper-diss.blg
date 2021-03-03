@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: otherwise-paper-diss.aux
+The style file: sp.bst
+Illegal, another \bibstyle command---line 301 of file otherwise-paper-diss.aux
+ : \bibstyle
+ :          {sp}
+I'm skipping whatever remains of this command
+Database file #1: bibexport.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--there's a number but no volume in Corblin1986
+Warning--missing school in VonFintel1994
+Warning--missing publisher in VonFintel2010
+Warning--empty note in VonFintel2011
+Warning--there's a number but no volume in Franke2007
+Warning--missing school in Hacquard2006
+Warning--missing school in Heim
+Warning--empty journal in nouwen2003
+Warning--missing school in Rubinstein2012
+Warning--there's a number but no volume in Webber2001
+Warning--can't use both author and editor fields in Yalcin2016
+You've used 59 entries,
+            3147 wiz_defined-function locations,
+            1022 strings with 12855 characters,
+and the built_in function-call counts, 32713 in all, are:
+= -- 2824
+> -- 892
+< -- 62
++ -- 315
+- -- 254
+* -- 1923
+:= -- 5122
+add.period$ -- 258
+call.type$ -- 59
+change.case$ -- 420
+chr.to.int$ -- 59
+cite$ -- 70
+duplicate$ -- 2725
+empty$ -- 2770
+format.name$ -- 370
+if$ -- 6684
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 541
+newline$ -- 318
+num.names$ -- 260
+pop$ -- 1065
+preamble$ -- 1
+purify$ -- 311
+quote$ -- 0
+skip$ -- 980
+stack$ -- 0
+substring$ -- 1565
+swap$ -- 1246
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 513
+warning$ -- 11
+while$ -- 273
+width$ -- 0
+write$ -- 815
+(There was 1 error message)

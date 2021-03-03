@@ -1,0 +1,773 @@
+\synctex=1
+
+\documentclass[11pt]{article}
+%\usepackage{2up}
+%\usepackage{twoup}
+
+\usepackage[lmargin=30pt,rmargin=50pt,tmargin=50pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+%\renewcommand{\baselinestretch}{1.1}
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+	 \newcommand{\specialcell}[2][c]{%
+		\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+	
+\def\@xfootnote[#1]{%
+
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+	}
+	\resetatcatcode
+	
+
+		
+	
+	
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+ \newcommand{\xmark}{\ding{55}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+
+
+
+
+
+	%%%%%%GLOSSARIES
+		\usepackage[nonumberlist]{glossaries}
+		\newglossary*{lang}{Language index}
+		\newglossary*{gloss}{List of abbreviations}
+		\makeglossaries
+		% abbreviations:
+		\newglossaryentry{rit}{
+			name = \texttt{rit} ,
+			description = Ritharrŋu (Pama-Nyungan: Yolŋu (Yaku)),
+			type=lang,	}
+		\newglossaryentry{jay}{
+			name = \texttt{jay} ,
+			description = Yan-nhaŋu (Pama-Nyungan: Yolŋu (Nhaŋu)),
+			type=lang,	}
+	
+		\newglossaryentry{djr}{
+			name = \texttt{djr} ,
+			description = Djambarrpuyŋu (Pama-Nyungan: Yolŋu (Dhuwal)),
+			type=lang,	}
+		\newglossaryentry{guf}{
+			name = \texttt{guf} ,
+			description = Gupapuyŋu (Pama-Nyungan: Yolŋu (Dhuwala)),
+			type=lang,	}
+		
+		
+		
+		
+			\newglossaryentry{dwu}{
+			name = \texttt{dwu} ,
+			description = Dhuwal (proper) (Pama-Nyungan: Yolŋu (Dhuwal)),
+			type=lang,	}
+		
+		\newglossaryentry{dji}{
+		name = \texttt{dji} ,
+		description = Djinaŋ (Pama-Nyungan: Yolŋu),
+		type=lang,	}
+	
+		\newglossaryentry{djb}{
+		name = \texttt{guf} ,
+		description = Djinba (Pama-Nyungan: Yolŋu),
+		type=lang,	}
+	
+		\newglossaryentry{lja}{
+		name = \texttt{lja} ,
+		description = Golpa (Pama-Nyungan: Yolŋu (Nhaŋu)),
+		type=lang,	}
+	
+		\newglossaryentry{bvr}{
+		name = \texttt{bvr} ,
+		description = Burarra (Maningrida),
+		type=lang,	}
+	
+		\newglossaryentry{wga}{
+		name = \texttt{wga} ,
+		description = Wakaya (Pama-Nyungan: Ngarna),
+		type=lang,	}
+	
+	
+		\newglossaryentry{gge}{
+		name = \texttt{gge} ,
+		description = Gurr-goni (Maningrida),
+		type=lang,	}
+	
+		\newglossaryentry{nck}{
+			name = \texttt{nck} ,
+			description = Nakkara (Maningrida),
+			type=lang,	}
+		
+		%%%
+			\newglossaryentry{hop}{
+			name = \texttt{hop} ,
+			description = Hopi (N. Uto-Aztecan\, Arizona),
+			type=lang,	}
+	
+	%%%%GLOSSING	
+		
+			\newglossaryentry{mod}{
+			name = \textsc{mod} ,
+			description = modal operator,
+			type=gloss,	} 
+			\newglossaryentry{refl}{
+			name = \textsc{r/r} ,
+			description = reflexive-reciprocal marker,
+			type=gloss,	} 
+			\newglossaryentry{pl}{
+			name = \textsc{pl} ,
+			description = plural,
+			type=gloss,	} 
+		
+		
+		\newglossaryentry{irr}{
+			name = \textsc{irr} ,
+			description = irrealis (modality)marker,
+			type=gloss,	} 
+			\newglossaryentry{comp}{
+			name = \textsc{comp} ,
+			description = complementiser,
+			type=gloss,	} 
+		\newglossaryentry{malk}{
+			name = \textsc{\textit{malk}} ,
+			description = Skin name (cultural `subsection'),
+			type=gloss,	} 
+			\newglossaryentry{cplv}{
+			name = \textsc{cplv} ,
+			description = completive aspect,
+			type=gloss,	} 
+		\newglossaryentry{priv}{
+			name = \textsc{priv} ,
+			description = privative case , 
+			type = gloss , }
+		
+		\newglossaryentry{sn}{
+			name = SN ,
+			description = standard negation/negator, 
+			type = gloss , }
+		
+		\newglossaryentry{indef}{
+			name = \textsc{indef} ,
+			description = indefinite indexical \citet[280]{Wilkinson1991}, 
+			type = gloss , }
+		
+%		\newglossaryentry{obls}{
+%		name = \textsc{obls} ,
+%		description = standard negation/negator, 
+%		type = gloss , }
+	
+		
+		
+		\newglossaryentry{NP}{
+			name = \textsc{NP} ,
+			description = noun phrase,
+			type = gloss , }
+		
+		\newglossaryentry{TFA}{
+			name = \textsc{tfa} ,
+			description = temporal frame adverbial,
+			type = gloss , }
+		
+		\newglossaryentry{proh}{
+			name = \textsc{proh} ,
+			description = prohibitive,
+			type = gloss , }
+		\newglossaryentry{recip}{
+			name = \textsc{recip} ,
+			description = reciprocal,
+			type = gloss , }
+		
+			\newglossaryentry{perf}{
+			name = \textsc{perf} ,
+			description = perfect aspect,
+			type = gloss , }
+		\newglossaryentry{neg}{
+			name = \textsc{neg} ,
+			description = negator,
+			type = gloss , }
+		\newglossaryentry{all}{
+			name = \textsc{all} ,
+			description = allative case,
+			type = gloss , }
+		\newglossaryentry{abl}{
+			name = \textsc{abl} ,
+			description = ablative case,
+			type = gloss , }
+		
+		
+			\newglossaryentry{dp}{
+			name = \textsc{dp} ,
+			description = discourse particle,
+			type = gloss , }
+		
+		\newglossaryentry{acc}{
+			name = \textsc{acc} ,
+			description = accusative case,
+			type = gloss , }
+		\newglossaryentry{nom}{
+			name = \textsc{nom} ,
+			description = nominative case,
+			type = gloss , }
+			\newglossaryentry{mvtawy}{
+			name = \textsc{mvtawy} ,
+			description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
+			type = gloss , }
+		
+			\newglossaryentry{add}{
+			name = \textsc{add} ,
+			description = additive particle,
+			type = gloss , }
+		
+		\newglossaryentry{neu}{
+			name = \textsc{neu} ,
+			description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
+			type = gloss , }
+		
+			\newglossaryentry{mvttwd}{
+			name = \textsc{mvttwd} ,
+			description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
+			type = gloss , }
+			
+		\newglossaryentry{cfact}{
+			name = \textsc{cfact} ,
+			description = counterfactual,
+			type = gloss , }
+		\newglossaryentry{pres}{
+			name = \textsc{pres} ,
+			description = present tense,
+			type = gloss , }
+		\newglossaryentry{erg}{
+			name = \textsc{erg} ,
+			description = ergative case,
+			type = gloss , }
+		\newglossaryentry{dm}{
+			name = \textsc{dm} ,
+			description = ``discourse clitic'' \citep{McLellan1992},
+			type = gloss , }
+		\newglossaryentry{intens}{
+			name = \textsc{intens} ,
+			description = intensifier,
+			type = gloss , }
+		\newglossaryentry{negex}{
+			name = \textsc{negex} ,
+			description = negative existential/quantifier,
+			type = gloss , }
+		\newglossaryentry{red}{
+			name = \textsc{redup} ,
+			description = reduplicant,
+			type = gloss , }
+		\newglossaryentry{negq}{
+			name = \textsc{negq} ,
+			description = negative quantifier (existential) $\nexists$,
+			type = gloss , }
+		
+		\newglossaryentry{comit}{
+			name = \textsc{comit} ,
+			description = comitative case,
+			type = gloss , }
+		
+		\newglossaryentry{instr}{
+		name = \textsc{instr} ,
+		description = instrumental case,
+		type = gloss , }
+		\newglossaryentry{temp}{
+		name = \textsc{temp} ,
+		description = temporal case (see \citealt[585]{Wilkinson1991}),
+		type = gloss , }
+		\newglossaryentry{prop}{
+			name = \textsc{prop} ,
+			description = proprietive case,
+			type = gloss , }
+		
+			\newglossaryentry{kinprop}{
+			name = \textsc{prop} ,
+			description = proprietive case -- kinship augment,
+			type = gloss , }
+		
+		\newglossaryentry{perl}{
+			name = \textsc{perl} ,
+			description = perlative case,
+			type = gloss , }
+		
+		\newglossaryentry{inch}{
+			name = \textsc{inch} ,
+			description = inchoative,
+			type = gloss , }
+		\newglossaryentry{seq}{
+			name = \textsc{seq} ,
+			description = sequential,
+			type = gloss , }
+		\newglossaryentry{abs}{
+			name = \textsc{abs} ,
+			description = absolutive case,
+			type = gloss , }
+		
+		\newglossaryentry{prom}{
+			name = \textsc{prom} ,
+			description = prominence marker ($\approx$ focus),
+			type = gloss , }
+		\newglossaryentry{nmlzr}{
+			name = \textsc{nmlzr} ,
+			description = nominaliser (derivation),
+			type = gloss , }
+		
+			\newglossaryentry{tr}{
+			name = \textsc{tr} ,
+			description = transitiviser (derivation),
+			type = gloss , }
+		
+			\newglossaryentry{tfa}{
+			name = \textsc{tfa} ,
+			description = temporal frame adverbial,
+			type = gloss , }
+		
+		
+		\newglossaryentry{emph}{
+			name = \textsc{emph} ,
+			description = (em)phatic particle \textcolor{red}{Wilk91},
+			type = gloss , }
+		
+		\newglossaryentry{ana}{
+			name = \textsc{ana} ,
+			description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
+			type = gloss , }
+		
+			\newglossaryentry{hab}{
+			name = \textsc{hab} ,
+			description = ``habitual (aspect)'',
+			type = gloss , }
+		
+		\newglossaryentry{caus}{
+			name = \textsc{caus} ,
+			description = causative,
+			type = gloss , }
+		
+		\newglossaryentry{foc}{
+			name = \textsc{foc} ,
+			description = focus marker
+			type = gloss , }
+		\newglossaryentry{loc}{
+			name = \textsc{loc} ,
+			description = locative case,
+			type = gloss , }
+		\newglossaryentry{per}{
+			name = \textsc{per} ,
+			description = pergressive case,
+			type = gloss , }
+		\newglossaryentry{excl}{
+			name = \textsc{excl} ,
+			description = exclusive (1ns-pronoun),
+			type = gloss , }
+		\newglossaryentry{pst}{
+			name = \textsc{pst} ,
+			description = past tense,
+			type = gloss , }
+		\newglossaryentry{incl}{
+			name = \textsc{incl} ,
+			description = inclusive (1ns-pronoun),
+			type = gloss , }
+		\newglossaryentry{dist}{
+			name = \textsc{dist} ,
+			description = distal (demonstrative),
+			type = gloss , }
+		\newglossaryentry{prox}{
+			name = \textsc{prox} ,
+			description = proximal (demonstrative),
+			type = gloss , }
+		\newglossaryentry{med}{
+			name = \textsc{med} ,
+			description = medial (demonstrative),
+			type = gloss , }
+		\newglossaryentry{texd}{
+			name = \textsc{endo} ,
+			description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
+			type = gloss , }
+		\newglossaryentry{obl}{
+			name = \textsc{obl} ,
+			description = oblique case,
+			type = gloss , }
+		\newglossaryentry{dat}{
+			name = \textsc{dat} ,
+			description = dative case,
+			type = gloss , }
+		\newglossaryentry{ds}{
+			name = \textsc{ds} ,
+			description = different subject (subordinate clause),
+			type = gloss , }
+		
+		\newglossaryentry{ipfv}{
+			name = \textsc{ipfv} ,
+			description = imperfective (aspect),
+			type = gloss , }
+		\newglossaryentry{imp}{
+			name = \textsc{imp} ,
+			description = imperative,
+			type = gloss , }
+		
+		\newglossaryentry{pfv}{
+			name = \textsc{pfv} ,
+			description = perfective (aspect),
+			type = gloss , }
+		
+		\newglossaryentry{fut}{
+			name = \textsc{fut} ,
+			description = future (tense),
+			type = gloss , }
+
+		\newglossaryentry{assoc}{
+		name = \textsc{assoc} ,
+		description = associative,
+		type = gloss , }
+	
+	
+	\newglossaryentry{hyp}{
+		name = \textsc{hyp} ,
+		description = hypothetical (modality),
+		type = gloss , }
+
+\date{}
+\renewcommand{\abstractname}{\textsc{summary}} 
+ \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{secnumdepth}{3}
+\begin{document}\begin{center}
+\textbf{\large Mid-fieldwork review \\\small\it Ramingiṉiŋ, mid-April 2019}
+
+\begin{quotation}
+\large things are being emphasised in dharrwa different ways
+
+\footnotesize \textit{Dhuḻumburrk, On Semantics }
+
+\end{quotation}
+
+\end{center}
+\begin{abstract}\small
+At this point I've been in Raminiṉing for 17 days, with roughly 17 to go. In this time I've had 8 consulting sessions, recorded \& transcribed \textit{ca.} 10.5 hours of audio data (\textsc{a}\$5oo). I've worked with 3 consultants on W. Dhuwal (2 Yirritja \& 1 Dhuwa speaker). The elicitation has taken the form of translation tasks (with some contextual enrichment via verbal vignettes and basic storyboards). This elicitation has targeted the expression of \textsc{temporal, modal} and \textsc{aspectual} and aspectual categories entirely.
+
+Moving forward I expect to firm up the remaining weak judgments in this data (these are emphasised in this document) over the next few working days (likely to be slightly disrupted by Easter) and then to work on \textbf{(i)} text elicitation (\textit{dhäwu mala}), \textbf{(ii)} other semantic-typology questions (\textit{sc.} negation, quantification and adjectival predicates), \textbf{(iii)} produce materials for basic TMA elicitation for Ritharrŋu \& Wägilak, which Salome Harris will carry out in Ŋilipitji in May/June and \textbf{(iv)} perform my own basic narrative- and sentence-level elicitation for Djinba (Ganalbiŋu \& Manydjalpiŋu) and/or Djinaŋ (Marraŋu) varieties for which I have access to speakers.
+\end{abstract}
+
+\section{Matrix temporal reference --- a clearer exposition}
+\begin{itemize}
+	\item One of the initial goals was eliciting (near-)minimal $ n $-tuples
+\end{itemize}
+
+\pex\a\begingl\glpreamble\textit{ \textbf{I} vs \textbf{II}: metricality in the future}//
+\gla dhiyaŋ~bala milmitjpa ŋarra dhu \textbf{marrtji} \textbf{buma} (mala) maypal ...bili napurr dhu \textbf{ḻuki} goḏarr//
+\glb now evening 1s \textsc{fut} go.\textbf{I} collect\textbf{.I} \textsc{pl} shellfish \textsc{cplv} 1p\textsc{.excl} \textsc{fut} eat.\textbf{II} tomorrow//
+\glft`I'll go out collecting shellfish this evening because we'll eat them tomorrow'\trailingcitation{[AW~20150415]}//\endgl
+\a\begingl\glpreamble \textit{\textbf{I} vs \textbf{III}: metricality in the past}//
+\gla  barpuru ŋarra \textbf{buny'tjun}; \textbf{buny'tjurruna} rra gäthura ga munhagu//
+\glb yesterday 1s smoke.\textbf{I} smoke.\textbf{III} 1s today and morning//
+\glft`I smoked yesterday and I smoked this morning'\trailingcitation{[BM20190416]}//\endgl
+\xe
+\pex \textbf{III} vs. \textbf{IV}: metricality in the negative past
+\a\begingl\gla  bäyŋu ŋarra (ganha) \textbf{ŋänha} waltjan/dharyunhawuy (yawungu)//
+\glb \textsc{negq} 1s \textsc{ipfv}\textbf{.IV} hear.\textbf{IV} rain yesterday//
+\glft`I didn't hear the rain yesterday'\trailingcitation{[AW20190422]}//\endgl
+\a\begingl\gla bäyŋu ŋarra \textbf{ŋäku} waltjan/dharyunhawuy (gathur)//
+\glb \textsc{negq} 1s hear.\textbf{II} rain today//
+\glft`I didn't hear the rain this morning.'\trailingcitation{[AW20190422]}//\endgl\xe
+
+
+\section{Lexical and grammatical aspect}
+\begin{framed}\centering
+	\textbf{\textsc{claim.}} All verbal predicates receive an default \textsc{pfv} interpretation
+\end{framed}
+
+\begin{itemize}
+\item Unless describing the \textsc{recent past (perfective)}, \textbf{I} forms obligatorily cooccur with an auxiliary
+\item This diverges from Wilkinson's observations about Yurrwi Djambarrpuyŋu on a number of levels
+\item \textsc{pres} interpretations \textit{require} an \textsc{ipfv} auxiliary.
+
+\pex\deftagex{pres}\textbf{\textit{ga$_{N}$} obligatory} for present interpretation
+\a\begingl\glpreamble\textbf{\textit{ga} required for present reference}//
+\gla Ŋarra $^{\#}$(ga) ḻuka gapu//
+\glb 1s \textbf{\textsc{ipfv}.I} eat.\textbf{I} water//
+\glft`I'm drinking water.'\trailingcitation{[DG20190405]}//\endgl
+
+\a\begingl\glpreamble\textbf{No present interpetation available.} Ungrammatical with present TFA.//
+\gla Ŋarra *(ga) waṉḏirri shoplili dhiyaŋu~bala//
+\glb 1s *(\textsc{ipfv}) run.\textbf{I} shop.\textsc{all} now//
+\glft`I'm running to the shop now.'  \trailingcitation{[DG20190405]}//\endgl
+
+\a\begingl\glpreamble\textbf{No futurate interpetation available.} Ungrammatical with present TFA.//
+\gla Ŋarra *(dhu) (ga) waṉḏirri shoplili dhiyaŋu~bala//
+\glb 1s *(\textsc{fut}) (\textsc{ipfv}) run.\textbf{I} shop.\textsc{all} now//
+\glft`I'll run(/go running) to the shop now.'  \trailingcitation{[DG20190405]}//\endgl
+\xe
+
+
+\item \textbf{\getref{pres}a} is also compatible with a recent past reading (\textit{e.g.} I was drinking water yesterday.) \textbf{\getref{pres}b} can also cooccur with a past TFA like \textit{barpuru} `yesterday' rather than \textit{dhiyaŋu bala}.
+
+\item Note that this is also the case for a wide range of predicates (e.g. psych verbs) whose translation is thought of as stative:
+
+\pex\textbf{Obligatory \textsc{ipfv} marking for present states}
+\a\begingl\gla ŋarra ga märr-yuwalkthirri ŋunhi nhe manymak ḏirramu//
+\glb 1s \textsc{\textbf{ipfv.I}} believe that 2s good man//
+\glft`I think you're a good guy.'\trailingcitation{[DG20190517]}//\endgl
+\a\begingl\gla Ŋarra ga gatjpu'yun ŋayi dhu buna dhiyaŋ~bala yolŋu//
+\glb 1s \textsc{ipfv.\textbf{I}} hope.\textbf{I} 3s \textsc{fut} arrive,\textbf{I} now person//
+\glft`I hope the person will arrive imminently.'\trailingcitation{[BM20190416]}//\endgl
+
+\a\begingl\gla Ŋarra ga djulŋi'thirri; bili ŋarra ga music ŋäma//
+\glb 1s \textsc{ipfv.\textbf{I}} be.happy.\textbf{I} \textsc{cplv} 1s \textsc{ipfv.I} music hear.\textbf{I}//
+\glft`I'm happy because I'm listening to music.'\trailingcitation{[DG20190517]}//
+\endgl
+\xe
+
+\item Similarly \textit{nhäma} `see', \textit{rirrikthun} `be sick', \textit{djulŋithirri} `be happy', \textit{maḏakarritj'yun} `be cross' \textit{etc.} all obligatorily take \textsc{ipfv} marking to describe present eventualities.
+\item It is likely that these might better be understood as \textsc{change-of-state}-denoting predicates (in which case a telic semantics makes sense.)
+
+\item However, \textbf{nonverbal predicates}: \textit{e.g.} \textsc{locatives}, attributive predicates and the ``adjectival predicates''\footnote{This term due to Wilkinson p557} \textit{djäl} `want/like/need', \textit{marŋgi} `know' and \textit{dhuŋa} `not.know' are \textit{incompatible with \textbf{ga}}. Inherently stative, they receive no tense or aspect marking.
+
+\pex
+\a\begingl\gla maku ŋarra dhu (*gi) ovalŋura//
+\glb maybe 1s \textsc{fut} \textbf{(*\textsc{ipfv.II}) oval.\textsc{loc}}//
+\glft`I might be down at the oval.'\trailingcitation{[DG20190417]}//\endgl
+
+\a\begingl\gla ŋarra (*gana) shopŋura//
+\glb 1s \textbf{(*\textsc{ipfv.III})} shop.\textsc{loc}//
+\glft`I was at the shop this morning.'\trailingcitation{[DG20190417]}//\endgl
+
+\a\begingl\gla Ŋarra gana nhinana schoolŋura//
+\glb 1s \textbf{\textsc{ipfv.III})} sit.\textbf{III} shop.\textsc{loc}//
+\glft`I was at the shop this morning.'\trailingcitation{[DG20190417]}//\endgl
+\xe
+
+\pex\textbf{Ungrammaticality of \textsc{ipfv} with nonverbal stative predicates}
+\a\begingl\gla Ŋarritjan (*ga) marŋgi baŋarḏiwa //
+\glb \textsc{mälk} \textbf{(*\textsc{ipfv}.I)} know \textsc{\textit{mälk}}.\textsc{dat}//
+\glft `Ngarritjan knows Bangardi.'\trailingcitation{[BM20190416]}//\endgl
+\a\begingl\gla Ŋarritjan (*gana) marŋgi Bäŋaḏiwa 20~years~ago//
+\glb \textsc{mälk} \textbf{(*\textsc{ipfv}.III)} know \textsc{\textit{mälk}}.\textsc{dat} 20~years~ago//
+\glft `Ngarritjan knew Bangardi 20 years ago.'\trailingcitation{[DG20190417]}//\endgl
+\a\begingl\gla Ŋäthili ŋarra yaka (*gana) djäl ḻatjin'gu,  dhiyaŋu~bala ŋarra (*ga) djäl ḻatjin'gu//
+\glb Earlier 1s \textsc{neg} \textsc{(*ipfv.III)} want mangrove~worm.\textsc{dat} now 1s \textbf{(*\textsc{ipfv})} want mangrove~worm.\textsc{dat}//
+\glft`I used to dislike mangrove worms, but now I like them.'\trailingcitation{[DG20191417]}//\endgl
+\xe
+\end{itemize}
+
+
+\section{Futurity}
+\begin{itemize}
+	\item \textit{dhu} seems to be pretty well behaved in its absolute-future orientation
+	\item It's been nigh impossible to get anything that looks like a future perfect: ambiguous periphrases are offered, one consultant suggested that Yolŋu would misinterpret a future perfect in English.
+	\item As alluded to above, \textit{dhu} is \textbf{obligatory} for future-tensed sentences for my 3 speakers. 
+	\pex\a\begingl\glpreamble\textbf{No bare-\textbf{I} `futurate'}//
+	\gla ŋarra \textbf{*(dhu)} nhäma ŋarraku ŋaṉḏinha dhiyaŋu~bala//
+	\glb 1s \textbf{*(\textsc{fut})} see.\textbf{I} 1s.\textsc{dat} mother.\textsc{acc} now//
+	\glft`I'm seeing \textit{ŋäṉḏi} shortly.'\trailingcitation{[BM20190405~22']}//\endgl
+	\a\begingl\glpreamble\textbf{No bare-II `future'}//
+	\gla Ŋarra \textbf{*(dhu)} nhäŋu mukulnha (goḏarr)//
+	\glb 1s \textbf{*({\textsc{fut})}} see.\textbf{II} aunt.\textsc{acc} (tomorrow)//
+	\glft`I'll see \textit{mukul} tomorrow.'\trailingcitation{[AW20190409~46']}//\endgl
+	\xe
+
+\item there are a \textit{couple} of cases where it \textit{seems} as though \textit{dhu} is bringing up a relative past including \textbf{possibly} \textbf{\nextx}, and also the bible passage lifted from the dissy draft below.
+\end{itemize}
+\pex\begingl\glpreamble Here I was attempting to elicit `I was going to win a lot of money but then I had to help \textit{mukul} so I needed to leave.'// 
+\gla ŋarra gana buḻ'yurruna dopulu' ovalŋura ga ŋarra märraŋala märr dharrwa rrupiya beŋuri gan?? mukul ŋarraku riŋimap bili ŋayi djäl rrupiyawu ga ŋarra \textbf{dhu} gäma rrupiya mukulgu//
+\glb 1s \textsc{ipfv.III} play.\textbf{III} cards oval.\textsc{loc} and 1s get.\textbf{III} ? many money \textsc{indef.?} \textsc{ipfv.III?} aunt 1s.\textsc{dat} telephone \textsc{cplv} 3s want money\textsc{.dat} and 1s \textbf{\textsc{fut}} take.\textbf{I} money aunt.\textsc{dat}//
+\glft`I was playing cards down at the oval and I got lots of money, then mukul called me because she wanted/needed money and I had to/have to give mukul money'\trailingcitation{[DG20190417]}//\endgl\xe
+ 
+
+\begin{framed}
+\textcolor{violet}{I suspect that \textit{dhu} isn't an absolute future marker:}
+
+\pex \begingl \gla Bala ŋayi marrtji-nya-mara-ŋala lakara-ŋal-nydja dhäwu-ny birrŋ'mara-ŋala [ŋunhi-ŋu-wuy-yi yothu-walaŋu-wuy-nydja] yolŋu'-yulŋu-wal-nydja bukmak-kal-nha, [ŋunhi walal ŋuli ga-nha gatjpu'yu-na ga dhukarr-nhäma ŋuriki-yi], ŋunhi \textbf{dhu} God-thu dhawaṯmarama-n ŋunhi-yi wäŋa-ny garrpi-na-mirri-ŋur-nydja rom-ŋur mala-ŋu-ŋur//
+\glb then 3s go-\textbf{IV}-\gls{tr}-\textbf{III} tell-\textbf{III}-\gls{prom} story-\textsc{prom} spread-\textbf{III} [\gls{texd}-\textit{ŋu}-\textsc{obl}-\textsc{ana} child-\gls{obl}-\textsc{dat}-\textsc{prom}] people-\textsc{dat-prom} all-\textsc{dat-acc} [\textsc{texd} 3p \textsc{hab} \textsc{ipfv}-\textbf{IV} hope-\textbf{III?} \textsc{ipfv} road-see.\textbf{I} \textsc{texd.dat-assoc}] \textsc{texd} \textsc{\textbf{fut}} God-\textsc{erg} expel-\textbf{I?} \textsc{texd-ana} land-\textsc{prom} bind-\textbf{IV}=\gls{prop}-\gls{abl}-\gls{prom} law-\textsc{abl} group-\textit{ŋu}-\textsc{abl}//
+\glft`Then she went about spreading the news [of that child] to all the people [that were hoping and looking out for it], that God would free the place from the laws that bound it'\trailingcitation{Godku dharuk p20}//\endgl\xe
+
+\textcolor{violet}{Other big question is how obligatory \textit{dhu} is in matrix clauses to get the future readings. So \textit{dhu} in (\lastx) is picking out a time in the absolute past, but the future of a reference time established in the matrix clause. This suggests that \textit{dhu} relates event time (here the \textsc{free} predicate) and a ref (or top) time set by the embedding predicate. Note that it also seems to have coupled with a \textbf{I} inflection (although this isn't super clear.)}
+\end{framed}
+\section{Sequence of Tense}
+%\subsection{Relative clauses}
+\begin{itemize}
+	\item Homemade storyboard elicitation to elicit a triple of \textsc{pst(pst)} sentences
+
+\pex \textbf{Relative clauses:} \textit{I saw the wallaby that \textsc{be} eating grass}\hfill{[AW20190412]}
+\a\begingl\glpreamble $ t_{see}\succ t_{eat} $//
+\gla gäthur ŋarra \textbf{nhäŋal} ŋunhi bili weṯi ŋunhi barpuru ŋarra \textbf{nhäma}, \textbf{ḻuka} \textbf{ga} mulmu//
+\glb today 1s see.\textbf{III} \textsc{endo} \textsc{cplv} wallaby \textsc{endo} yesterday 1s see.\textbf{I} eat\textbf{.I} \textsc{ipfv}.\textbf{I} grass//
+\glft`Earlier today I saw that same wallaby that I saw eating grass yesterday.'\trailingcitation{[AW20190415]}//
+\endgl
+
+\a\begingl\glpreamble $ t_{see}\circ t_{eat} $//
+\gla dhiyaŋ~bili ŋarra \textbf{nhäŋal} weṯi \textbf{ḻukan} \textbf{gan} (mulmu) //
+\glb  just~before 1s see.\textbf{III} wallaby eat.\textbf{III} \textsc{ipfv}.\textbf{III} (grass)//
+\glft`I just saw the wallaby eating grass (at the time that I saw it).'\trailingcitation{[AW20190415]}//
+\endgl
+%\a\begingl\glpreamble $ t_{see}\not\mathcal R t_{eat} $//
+%\gla dhiyaŋ~bili ŋarra \textbf{nhäŋal} ŋunhi bili weṯi \textbf{ḻuka} \textbf{ga} mulmu (dhiyaŋ~bala)//
+%\glb just~before 1s see.\textbf{III} \textsc{endo} \textsc{cplv} wallaby eat.\textbf{I} \textsc{ipfv}.\textbf{I} grass (now)//
+%\glft`Earlier today I saw the same wallaby that's eating grass now.'//\endgl
+
+
+\a\begingl\glpreamble $ t_{see}\not\mathcal R t_{eat} $//
+\gla barpuru ŋarra \textbf{nhäma} weṯi ŋunhi bili ŋunhi \textbf{gan} \textbf{ḻukan} mulmu//
+\glb  yesterday 1s see.\textbf{I} wallaby \textsc{endo} \textsc{cplv} \textsc{endo} \textsc{ipfv}.\textbf{III} eat.\textbf{III} grass//
+\glft`Yesterday, I saw the same wallaby that was eating grass this morning.'\trailingcitation{[AW20190422~110']}//\endgl
+
+\xe
+\item Note that (a) could also mean `Earlier I saw the wallaby that's eating grass now.' (also has been elicited in AW20190412)
+\item (b) could also be homophonous in a situation where I have assumed that the wallaby is still there grass-eating.
+\item preliminary evidence of a non-sequence-of-tense situation in \texttt{djr}?
+\item need to check with SCls:\textit{ I thought Gela was collecting maypal (at the moment)} versus
+\textit{I thought Gela was collecting maypal (this morning)} (\textbf{hyp:} ought not to be homophonous)
+%\item Will re-elicit (c) with a subordinate past tense (done, that is now (c))
+\end{itemize}
+\section{Intensional predicates \& modality}
+\begin{itemize}
+ 	\item Given that \textbf{II} and \textbf{IV} are described as \textsc{irrealis} categories, we may well have hypothesised that various (intensionalising) verbal predicates license the same ``conversion'' as operators like \textit{yaka/bäyŋu} `\textsc{neg}' and \textit{balaŋu} `\textsc{mod'}..., similar to a \textbf{subjunctive}.
+ 	\item They don't seem to.
+ 	\item Similarly, I haven't found all that much support for \textit{yanbi} `mistakenly, erroneously' (MW's \textsc{counterfact}) triggering the irrealis conversion either. (This needs to be re-elicited; AW seems to have some \textbf{III/IV} syncretism in some classes or has \textit{marrtjina/nha}).
+ 	
+ 	This said, the Bible seems to provide some evidence in support of MW's claim so it's worth investigating more.
+ 	
+ 	s
+ \pex\a%\begingl\glpreamble \textit{\textbf{märr-djuḻkthun}} `disbelieve, doubt'//
+% \gla 
+ 
+ 
+ \xe
+\end{itemize}
+
+
+
+
+
+
+\section{Temporal demonstratives}
+\begin{itemize}
+	\item The distinction between \textit{dhiyaŋ bala} and \textit{dhiyaŋ bili} is \textit{not} as I described it (and some of the crucial judgments from MW leading to this analysis were rejected by speakers.)
+	
+	\pex\a\begingl\glpreamble (Probable) incompatibility bw \textit{dhiyaŋ bala} and past//
+	\gla \judge{$ ^{??}$} dhiyaŋ~bala napurr bäpi nhäŋal gäthur//
+	\glb ~ now 1p.\textsc{excl} snake see.\textbf{III} today//
+	\glft `I saw a snake just now.'\trailingcitation{[AW20190409]}//\endgl
+	\a\begingl\glpreamble Incompatibility bw \textit{dhiyaŋ bili} and non-past//
+	\gla ŋarra ga waṉḏirr shoplil dhiyaŋ~bala (*dhiyaŋ~bili)//
+	\glb 1s \textsc{ipfv}.\textbf{I} shop\textsc{.all} now (*now)//
+	\glft`I'm going to the shop now.'\trailingcitation{[AW20190409]}//\endgl
+	\xe
+	\item As vDW suggests \textit{dhiyaŋ bili} seems to refer to \textsc{immediate past} and \textit{dhiyaŋ bala} is compatible with speaking time and \textsc{immediate future}.
+	\item \textit{ŋuriŋi bala/bili} do seem to be how I'd described them: they seem to refer to non-\textsc{now} times with varying degrees of precision.
+	\item This isn't a \textit{bad} finding per se: while it may make the table less immediately elegant it may be that this follows from the strict perfectivity that we'd seen in verbal predicates.
+\end{itemize}
+
+\end{document}

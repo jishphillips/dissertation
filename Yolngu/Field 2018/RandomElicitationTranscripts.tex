@@ -1,0 +1,144 @@
+
+ \documentclass[10pt,a4paper]{article}%[trans] for handouts
+\usepackage[letterpaper,margin=.5in,foot=0in]{geometry}
+ 
+ \usepackage[T1]{fontenc}
+ \usepackage{textcomp}
+ \usepackage{ragged2e}
+ \usepackage{booktabs}
+% \usepackage{newtxmath,newtxtext}
+ \usepackage{fontspec,xltxtra,xunicode}
+ \usepackage{comment}
+ \defaultfontfeatures{Mapping=tex-text}
+ %\setromanfont[Mapping=tex-text]{Hoefler Text}
+ %\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans}
+ %\setmonofont[Scale=MatchLowercase]{Andale Mono}
+ 
+\usepackage{wrapfig}
+ \setmainfont{Cambria}
+\makeatletter
+\def\@xfootnote[#1]{%
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext}
+\makeatother
+
+ 
+
+ \pagenumbering{gobble}
+ \usepackage{subcaption}
+ \captionsetup{compatibility=false}
+ % \usepackage{subfigure}
+ \usepackage{amsthm}
+ \usepackage[normalem]{ulem}
+ \usepackage{amssymb}
+ \usepackage{multirow}
+ \usepackage{mathrsfs}
+ \usepackage{pifont}
+ \usepackage{mathtools}
+ \usepackage{tikz}
+ \usepackage{qtree}
+ \usepackage{tikz-qtree}
+ %\usepackage{tipa}
+ \usetikzlibrary{decorations}
+ \usetikzlibrary{decorations.pathreplacing}
+ \usepackage{textcomp}
+ \usepackage[normalem]{ulem}
+ \usepackage{url}
+ \usepackage[all]{xy}
+ \usepackage{multicol}
+ \usepackage{hanging}
+ \usepackage{booktabs}
+ \usepackage{setspace}
+ \usetikzlibrary{shapes,backgrounds}
+ \usepackage{geometry}
+ 
+ 
+ 
+ % \newtheorem{definition}{Definition}
+ %\newtheorem{theorem}{Theorem}
+ 
+ 
+ \usepackage{enumerate}
+ %\usepackage{gb4e} \let\eachwordone=\sl
+ \usepackage{expex}	
+	 \lingset{exnoformat={\bf\it X},labelformat={\bf\it A},labeloffset=0.05em}
+ 
+ 
+ 
+ %\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+ \newcommand{\concat}{\mbox{$^\frown$}}
+ \newcommand{\ph}{\varphi}
+ \newcommand{\vsep}{\vspace{8pt}}
+ \newcommand{\linesep}{\rule{6.5in}{.5pt}}
+ \def\attop#1{\leavevmode\vtop{\strut\vskip-\baselineskip\vbox{#1}}}
+ \newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+ \newcommand{\exref}[1]{~(\ref{#1})}
+ \newcommand{\glem}[1]
+ {\MakeUppercase{\scriptsize{\textbf{#1}}}}
+  \newcommand{\textbc}[1]
+  {\MakeUppercase{\footnotesize{\textbf{#1}}}}
+
+ 
+ %\input{setup}
+ 
+ %\singlesidestandardsetup
+ 
+ %\parindent 1em
+ 
+ %\input{psfig-scale}
+ 
+ 
+ \newcommand{\verteq}{\rotatebox{90}{$\,=$}}
+ \newcommand{\equalto}[2]{\underset{\scriptstyle\overset{\mkern4mu\verteq}{#2}}{#1}}
+ 
+ 
+ \newcommand{\secsep}{\hrulefill}
+ % \renewcommand*{\marginfont}{\small}
+ \usepackage{qtree}
+ \qtreecenterfalse
+ 
+% \renewcommand{\baselinestretch}{1.2} 
+ \usepackage{xcolor}
+ \definecolor{dgreen}{rgb}{0.,0.6,0.}
+ 
+ \newcommand{\la}{\langle}
+ \newcommand{\ra}{\rangle}
+ \newcommand{\lamda}{\lambda}
+ \definecolor{ochre}{cmyk}{0, .42, .83, .20}
+ \definecolor{forest}{cmyk}{.57, .13, .57, .08}
+ \definecolor{maroon}{cmyk}{0, 1, .07, .5}
+ \definecolor{peri}{cmyk}{.2,.2,0,0}
+ \usepackage{framed}
+
+\lingset{textoffset=.8em}
+
+\begin{document}
+	
+\textbf{21 July: Charlene \& Albert}
+\textit{Charlene} is a Ganalbingu speaker. Her dhuway Albert speaks Djambarrpuyŋu and some Djinba varieties I think, with some command of Burarra. Charlene declined to be recorded, but I spent 20minutes (and \$30) there in any case getting the baselines with my storyboard \textit{Ḻarrunhawuy waṯuwuy} (`Looking for the dog'). It was transcribed as accurately as possible in real time and is glossed here.
+
+
+\pex \a\begingl\gla ŋirri bilak ra nya-nyiri djanyarr?//
+\glb ? \textsc{frame?} ? see-? dog//	\endgl
+
+
+
+\a\begingl\gla ripurrum ŋarri nyami ga gupurru-mi ŋarr wali.//
+\glb yesterday 1s  what? and give\textsc{-ypa} 1s food//	\endgl
+
+\a\begingl\gla juwali muning ŋarr nyaŋa-n. ga ban ruryan.//
+\glb before ? 1s see-\textsc{ypa?/tpa?} and ? noise-\textsc{tpc}???//	\endgl
+
+\a\begingl\gla bala ngarr garrakal shop-ril djanyarr ngatyurr-al? (shop djamanakan)//
+\glb then 1s ?? shop-\textsc{all} dog ask-\textsc{ypi/pri?} shop worker//	\endgl
+
+
+
+\a \begingl\gla djinirpany ngarri nya-ŋan wali ban rukmim nyukung djanyarr//
+\glb \textsc{prox.erg} 1s see-? food ? 2s\textsc{.or} dog// \endgl
+
+
+\xe
+	
+	
+\end{document}

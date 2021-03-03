@@ -1,0 +1,1842 @@
+\synctex=1
+
+\documentclass[11pt,dvipsnames]{report}
+%\usepackage{import}
+%\usepackage[subpreambles=true]{standalone}
+\usepackage[lmargin=1.5in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\color{gray!80}\sffamily\small}
+\xdef\marginnotetextwidth{\the\textwidth}
+\usepackage{amssymb,amsthm}
+\usepackage{IEEEtrantools}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+\renewcommand{\baselinestretch}{1.1}
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+
+\usepackage{ulem}
+\usepackage{amsmath,nccmath} 
+\let\nr\relax%
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+%\usepackage{qtree}
+\usepackage{tikz-qtree}
+%\usepackage{pdfcomment}
+\usepackage{covington}
+\providecommand{\xdrs}[1]
+{
+	{
+		\em\begin{centering}
+			\begin{tabular}{|m{2.5em}|}
+				\hline
+				\\
+				#1
+				\\ \\% can't vspace here or the line will come out wrong
+				\hline
+		\end{tabular}\end{centering}
+	}
+}
+\usepackage{expex}
+\def\beginsubsub{%
+	\par
+	\begingroup
+	\advance\leftskip by 2em
+	\def\b##1{\par\leavevmode\llap{\hbox to 2em{##1\hfil}}\ignorespaces}}
+\def\endsubsub{\par\endgroup}
+
+
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing,decorations.markings}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\newcommand*\circled[1]{\tikz[baseline=(C.base)]\node[draw,circle,inner sep=1.2pt,line width=0.2mm,](C) {\small #1};}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\newcommand{\specialcell}[2][l]{%
+	\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\usepackage{array}
+\newcolumntype{$}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
+	#1\ignorespaces}
+\usepackage{mathtools}
+\newtagform{roman}[\renewcommand{\theequation}{\roman{equation}}]()
+\usepackage[all]{xy}
+
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+\newcommand{\Sem}[2][]{\ensuremath{\left\llbracket \mbox{#2}\right\rrbracket^{#1}}}
+\def\@xfootnote[#1]{%
+	
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+}
+\resetatcatcode
+
+
+
+
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+%\providecommand{\denote}[1]{\ensuremath{\llbracket{#1}\rrbracket}}
+\providecommand{\denote}[2][]{\ensuremath{\llbracket{#2}\rrbracket^{#1}}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\newcommand{\xmark}{\ding{55}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+
+
+
+
+
+%%%%%%GLOSSARIES
+\usepackage[nonumberlist]{glossaries}
+\newglossary*{lang}{Language index}
+\newglossary*{gloss}{List of metalinguistic abbreviations}
+\newglossary*{kinship}{List of kinship abbreviations}
+\newglossary*{text}{General (textual) abbreviations}
+%		\newglossary*{lang}{Language index}
+%		\newglossary*{gloss}{List of abbreviations}
+\makeglossaries
+%			\input{NEC/NEC-gloss.tex}
+% textual
+\newglossaryentry{xnow}{
+	name = \textsc{xnow} ,
+	description = Extended Now,
+	type=text,	}
+% abbreviations:
+\newglossaryentry{rit}{
+	name = \texttt{rit} ,
+	description = Ritharrŋu (Pama-Nyungan: Yolŋu (Yaku)),
+	type=lang,	}
+\newglossaryentry{aux}{
+	name = \textsc{aux} ,
+	description = auxiliary,
+	type=gloss,	}
+\newglossaryentry{jay}{
+	name = \texttt{jay} ,
+	description = Yan-nhaŋu (Pama-Nyungan: Yolŋu (Nhaŋu)),
+	type=lang,	}
+
+\newglossaryentry{djr}{
+	name = \texttt{djr} ,
+	description = Djambarrpuyŋu (Pama-Nyungan: Yolŋu (Dhuwal)),
+	type=lang,	}
+\newglossaryentry{guf}{
+	name = \texttt{guf} ,
+	description = Gupapuyŋu (Pama-Nyungan: Yolŋu (Dhuwala)),
+	type=lang,	}
+
+
+
+
+\newglossaryentry{dwu}{
+	name = \texttt{dwu} ,
+	description = Dhuwal (proper) (Pama-Nyungan: Yolŋu (Dhuwal)),
+	type=lang,	}
+
+\newglossaryentry{dji}{
+	name = \texttt{dji} ,
+	description = Djinaŋ (Pama-Nyungan: Yolŋu),
+	type=lang,	}
+
+\newglossaryentry{djb}{
+	name = \texttt{guf} ,
+	description = Djinba (Pama-Nyungan: Yolŋu),
+	type=lang,	}
+
+\newglossaryentry{lja}{
+	name = \texttt{lja} ,
+	description = Golpa (Pama-Nyungan: Yolŋu (Nhaŋu)),
+	type=lang,	}
+
+\newglossaryentry{bvr}{
+	name = \texttt{bvr} ,
+	description = Burarra (Maningrida),
+	type=lang,	}
+
+\newglossaryentry{djj}{
+	name = \texttt{djj} ,
+	description = Ndjébanna (Maningrida),
+	type=lang,	}
+\newglossaryentry{wga}{
+	name = \texttt{wga} ,
+	description = Wakaya (Pama-Nyungan: Ngarna),
+	type=lang,	}
+
+
+\newglossaryentry{gge}{
+	name = \texttt{gge} ,
+	description = Gurr-goni (Maningrida),
+	type=lang,	}
+
+\newglossaryentry{yua}{
+	name = \texttt{yua} ,
+	description = Yucatec Maya (Mayan -- Central America),
+	type=lang,	}
+
+\newglossaryentry{nck}{
+	name = \texttt{nck} ,
+	description = Nakkara (Maningrida),
+	type=lang,	}
+
+%%%
+\newglossaryentry{hop}{
+	name = \texttt{hop} ,
+	description = Hopi (N. Uto-Aztecan\, Arizona),
+	type=lang,	}
+
+%%%%GLOSSING	
+
+\newglossaryentry{mod}{
+	name = \textsc{mod} ,
+	description = modal operator,
+	type=gloss,	} 
+\newglossaryentry{refl}{
+	name = \textsc{r/r} ,
+	description = reflexive-reciprocal marker,
+	type=gloss,	} 
+\newglossaryentry{pl}{
+	name = \textsc{pl} ,
+	description = plural,
+	type=gloss,	} 
+
+
+\newglossaryentry{irr}{
+	name = \textsc{irr} ,
+	description = irrealis (modality)marker,
+	type=gloss,	} 
+\newglossaryentry{comp}{
+	name = \textsc{comp} ,
+	description = complementiser,
+	type=gloss,	} 
+\newglossaryentry{malk}{
+	name = \textsc{\textit{mälk}} ,
+	description = Skin name (cultural `subsection'),
+	type=gloss,	} 
+\newglossaryentry{cplv}{
+	name = \textsc{cplv} ,
+	description = completive aspect,
+	type=gloss,	} 
+\newglossaryentry{priv}{
+	name = \textsc{priv} ,
+	description = privative case , 
+	type = gloss , }
+
+\newglossaryentry{sn}{
+	name = SN ,
+	description = standard negation/negator, 
+	type = gloss , }
+
+\newglossaryentry{indef}{
+	name = \textsc{indef} ,
+	description = indefinite indexical \citet[280]{Wilkinson1991}, 
+	type = gloss , }
+
+
+
+\newglossaryentry{appr}{
+	name = \textsc{appr} ,
+	description = apprehensional,
+	type = gloss , }
+
+\newglossaryentry{anim}{
+	name = \textsc{anim} ,
+	description = animate (3rd-person discourse participant), 
+	type = gloss , }
+
+\newglossaryentry{inan}{
+	name = \textsc{inan} ,
+	description = inanimate (3rd-person discourse participant), 
+	type = gloss , }
+\newglossaryentry{prog}{
+	name = \textsc{prog} ,
+	description = progressive aspect,
+	type = gloss , }
+\newglossaryentry{iter}{
+	name = \textsc{iter} ,
+	description = iterative aspect,
+	type = gloss , }
+\newglossaryentry{dur}{
+	name = \textsc{dur} ,
+	description = durative aspect,
+	type = gloss , }
+\newglossaryentry{hort}{
+	name = \textsc{hort} ,
+	description = hortative (mood),
+	type = gloss , }
+\newglossaryentry{npst}{
+	name = \textsc{npst} ,
+	description = nonpast tense,
+	type = gloss , }
+\newglossaryentry{aug}{
+	name = \textsc{aug} ,
+	description = augment,
+	type = gloss , }
+
+\newglossaryentry{pneg}{
+	name = \textsc{pneg} ,
+	description = past negative,
+	type = gloss , }
+\newglossaryentry{deic}{
+	name = \textsc{deic} ,
+	description = deictic,
+	type = gloss , }
+
+%		\newglossaryentry{obls}{
+%		name = \textsc{obls} ,
+%		description = standard negation/negator, 
+%		type = gloss , }
+
+
+
+\newglossaryentry{NP}{
+	name = \textsc{NP} ,
+	description = noun phrase,
+	type = gloss , }
+
+\newglossaryentry{TFA}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+\newglossaryentry{proh}{
+	name = \textsc{proh} ,
+	description = prohibitive,
+	type = gloss , }
+\newglossaryentry{recip}{
+	name = \textsc{recip} ,
+	description = reciprocal,
+	type = gloss , }
+
+\newglossaryentry{perf}{
+	name = \textsc{perf} ,
+	description = perfect aspect,
+	type = gloss , }
+\newglossaryentry{neg}{
+	name = \textsc{neg} ,
+	description = negator,
+	type = gloss , }
+\newglossaryentry{all}{
+	name = \textsc{all} ,
+	description = allative case,
+	type = gloss , }
+\newglossaryentry{abl}{
+	name = \textsc{abl} ,
+	description = ablative case,
+	type = gloss , }
+
+
+\newglossaryentry{dp}{
+	name = \textsc{dp} ,
+	description = discourse particle,
+	type = gloss , }
+
+\newglossaryentry{acc}{
+	name = \textsc{acc} ,
+	description = accusative case,
+	type = gloss , }
+\newglossaryentry{nom}{
+	name = \textsc{nom} ,
+	description = nominative case,
+	type = gloss , }
+\newglossaryentry{mvtawy}{
+	name = \textsc{mvtawy} ,
+	description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
+	type = gloss , }
+
+\newglossaryentry{add}{
+	name = \textsc{add} ,
+	description = additive particle,
+	type = gloss , }
+
+\newglossaryentry{neu}{
+	name = \textsc{neu} ,
+	description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
+	type = gloss , }
+
+\newglossaryentry{mvttwd}{
+	name = \textsc{mvttwd} ,
+	description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
+	type = gloss , }
+
+\newglossaryentry{cfact}{
+	name = \textsc{cfact} ,
+	description = counterfactual,
+	type = gloss , }
+\newglossaryentry{pres}{
+	name = \textsc{pres} ,
+	description = present tense,
+	type = gloss , }
+\newglossaryentry{erg}{
+	name = \textsc{erg} ,
+	description = ergative case,
+	type = gloss , }
+\newglossaryentry{dm}{
+	name = \textsc{dm} ,
+	description = ``discourse clitic'' \citep{McLellan1992},
+	type = gloss , }
+\newglossaryentry{intens}{
+	name = \textsc{intens} ,
+	description = intensifier,
+	type = gloss , }
+\newglossaryentry{negex}{
+	name = \textsc{negex} ,
+	description = negative existential/quantifier,
+	type = gloss , }
+\newglossaryentry{red}{
+	name = \textsc{redup} ,
+	description = reduplicant,
+	type = gloss , }
+\newglossaryentry{negq}{
+	name = \textsc{negq} ,
+	description = negative quantifier (existential) $\nexists$,
+	type = gloss , }
+
+\newglossaryentry{comit}{
+	name = \textsc{comit} ,
+	description = comitative case,
+	type = gloss , }
+
+\newglossaryentry{vblzr}{
+	name = \textsc{vblzr} ,
+	description = `\textit{-Thu-} verbalizer' (derivational suffix),
+	type = gloss , }
+\newglossaryentry{dim}{
+	name = \textsc{dim} ,
+	description = diminuitive,
+	type = gloss , }
+\newglossaryentry{instr}{
+	name = \textsc{instr} ,
+	description = instrumental case,
+	type = gloss , }
+\newglossaryentry{temp}{
+	name = \textsc{temp} ,
+	description = temporal case (see \citealt[585]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{prop}{
+	name = \textsc{prop} ,
+	description = proprietive case,
+	type = gloss , }
+\newglossaryentry{SS}{
+	name = \textup{SS} ,
+	description = Signals identity between the subjects of a subordinate clause and its matrix,
+	type = gloss , }
+
+\newglossaryentry{kinprop}{
+	name = \textsc{prop} ,
+	description = proprietive case -- kinship augment,
+	type = gloss , }
+
+\newglossaryentry{perl}{
+	name = \textsc{perl} ,
+	description = perlative case,
+	type = gloss , }
+
+\newglossaryentry{inch}{
+	name = \textsc{inch} ,
+	description = inchoative,
+	type = gloss , }
+\newglossaryentry{seq}{
+	name = \textsc{seq} ,
+	description = sequential,
+	type = gloss , }
+\newglossaryentry{abs}{
+	name = \textsc{abs} ,
+	description = absolutive case,
+	type = gloss , }
+
+\newglossaryentry{prom}{
+	name = \textsc{prom} ,
+	description = prominence marker ($\approx$ focus),
+	type = gloss , }
+\newglossaryentry{nmlzr}{
+	name = \textsc{nmlzr} ,
+	description = nominaliser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tr}{
+	name = \textsc{tr} ,
+	description = transitiviser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tfa}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+
+\newglossaryentry{emph}{
+	name = \textsc{emph} ,
+	description = (em)phatic particle \textcolor{red}{Wilk91},
+	type = gloss , }
+
+\newglossaryentry{ana}{
+	name = \textsc{ana} ,
+	description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
+	type = gloss , }
+
+\newglossaryentry{hab}{
+	name = \textsc{hab} ,
+	description = ``habitual (aspect)'',
+	type = gloss , }
+
+\newglossaryentry{caus}{
+	name = \textsc{caus} ,
+	description = causative,
+	type = gloss , }
+
+\newglossaryentry{foc}{
+	name = \textsc{foc} ,
+	description = focus marker
+	type = gloss , }
+\newglossaryentry{loc}{
+	name = \textsc{loc} ,
+	description = locative case,
+	type = gloss , }
+\newglossaryentry{per}{
+	name = \textsc{per} ,
+	description = pergressive case,
+	type = gloss , }
+\newglossaryentry{excl}{
+	name = \textsc{excl} ,
+	description = exclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{pst}{
+	name = \textsc{pst} ,
+	description = past tense,
+	type = gloss , }
+\newglossaryentry{incl}{
+	name = \textsc{incl} ,
+	description = inclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{dist}{
+	name = \textsc{dist} ,
+	description = distal (demonstrative),
+	type = gloss , }
+\newglossaryentry{prox}{
+	name = \textsc{prox} ,
+	description = proximal (demonstrative),
+	type = gloss , }
+\newglossaryentry{med}{
+	name = \textsc{med} ,
+	description = medial (demonstrative),
+	type = gloss , }
+\newglossaryentry{texd}{
+	name = \textsc{endo} ,
+	description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{obl}{
+	name = \textsc{obl} ,
+	description = oblique case,
+	type = gloss , }
+\newglossaryentry{dat}{
+	name = \textsc{dat} ,
+	description = dative case,
+	type = gloss , }
+\newglossaryentry{ds}{
+	name = \textsc{ds} ,
+	description = different subject (subordinate clause),
+	type = gloss , }
+\newglossaryentry{fact}{
+	name = \textsc{fact} ,
+	description = factative (mood),
+	type = gloss , }
+
+\newglossaryentry{ipfv}{
+	name = \textsc{ipfv} ,
+	description = imperfective (aspect),
+	type = gloss , }
+\newglossaryentry{imp}{
+	name = \textsc{imp} ,
+	description = imperative,
+	type = gloss , }
+
+\newglossaryentry{pfv}{
+	name = \textsc{pfv} ,
+	description = perfective (aspect),
+	type = gloss , }
+
+\newglossaryentry{fut}{
+	name = \textsc{fut} ,
+	description = future (tense),
+	type = gloss , }
+
+\newglossaryentry{assoc}{
+	name = \textsc{assoc} ,
+	description = associative,
+	type = gloss , }
+
+\newglossaryentry{ncl}{
+	name = \textsc{ncl} ,
+	description = noun (class) marker,
+	type = gloss , }
+
+\newglossaryentry{hyp}{
+	name = \textsc{hyp} ,
+	description = hypothetical (modality),
+	type = gloss , }
+
+
+
+\newglossaryentry{mo}{
+	name = \textsc{Mo} ,
+	description = mother,
+	type = kinship, }
+
+\newglossaryentry{ch}{
+	name = \textsc{Ch} ,
+	description = child,
+	type = kinship, }
+\newglossaryentry{da}{
+	name = \textsc{Da} ,
+	description = daughter,
+	type = kinship, }
+\newglossaryentry{so}{
+	name = \textsc{son} ,
+	description = son,
+	type = kinship, }	
+
+\newglossaryentry{fa}{
+	name = \textsc{Fa} ,
+	description = father,
+	type = kinship, }
+
+\newglossaryentry{si}{
+	name = \textsc{Si} ,
+	description = sister,
+	type = kinship, }
+\newglossaryentry{bro}{
+	name = \textsc{Bro} ,
+	description = brother,
+	type = kinship, }
+
+%from NEC paper
+\newglossaryentry{yil}{
+	name = \texttt{yil} ,
+	description =  Bularnu (Pama-Nyungan: Warluwaric),
+	type=lang,	}
+
+\newglossaryentry{wrb}{
+	name = \texttt{wrb} ,
+	description =  Warluwarra (Pama-Nyungan: Warluwaric),
+	type=lang,	}
+
+\newglossaryentry{fud}{
+	name = \texttt{fud} ,
+	description =  East Futunan (Polynesian),
+	type=lang,	}
+
+
+\newglossaryentry{dhg}{
+	name = \texttt{dhg} ,
+	description = Wangurri (Pama-Nyungan: Yolŋu (Dhaŋu)),
+	type=lang,	}
+
+\newglossaryentry{nna}{
+	name = \texttt{nna} ,
+	description = Nyangumarta (Pama-Nyungan: Marrngu),
+	type=lang,	}
+
+
+\newglossaryentry{dif}{
+	name = \texttt{dif} ,
+	description = Diyari (Pama-Nyungan: Karnic),
+	type=lang,	}
+
+\newglossaryentry{mem}{
+	name = \texttt{mem} ,
+	description = Mangala (Pama-Nyungan: Marrngu),
+	type=lang,	}
+
+\newglossaryentry{ptv}{
+	name = \texttt{ptv} ,
+	description = Daakie (C. Vanuatu: Ambrym),
+	type=lang,	}
+
+\newglossaryentry{aer}{
+	name = \texttt{aer} ,
+	description = Upper Arrernte (Pama-Nyungan: Arandic),
+	type=lang,	}
+
+\newglossaryentry{mao}{
+	name = \texttt{mao} ,
+	description = Maori (Polynesian; New Zealand),
+	type=lang,	}
+
+
+\newglossaryentry{mec}{
+	name = \texttt{mec} ,
+	description = Marra (?Arnhem: Marran),
+	type=lang,	}
+
+\newglossaryentry{nid}{
+	name = \texttt{nid} ,
+	description = Marra (?Arnhem: East),
+	type=lang,	}
+
+\newglossaryentry{wgu}{
+	name = \texttt{wgu} ,
+	description = Wirangu (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+
+
+\newglossaryentry{bcj}{
+	name = \texttt{bcj} ,
+	description = Bardi (Pama-Nyungan: Nyulnyulan),
+	type=lang,	}
+
+
+\newglossaryentry{wyb}{
+	name = \texttt{wyb} ,
+	description = Ngiyambaa (Pama-Nyungan: Wiradhuric),
+	type=lang,	}
+\newglossaryentry{pjt}{
+	name = \texttt{pjt} ,
+	description = Pitjantjatjara (Pama-Nyungan: Wati),
+	type=lang,	}
+\newglossaryentry{kdd}{
+	name = \texttt{kdd} ,
+	description = Yankunytjatjara (Pama-Nyungan: Wati),
+	type=lang,	}
+
+\newglossaryentry{wrg}{
+	name = \texttt{wrg} ,
+	description = Warrongo (Pama-Nyungan: Maric),
+	type=lang,	}
+
+
+\newglossaryentry{bym}{
+	name = \texttt{bym} ,
+	description = Bidjara (Pama-Nyungan: Maric),
+	type=lang,	}
+\newglossaryentry{dbl}{
+	name = \texttt{dbl} ,
+	description = Dyirbal (Pama-Nyungan: Dyirbalic),
+	type=lang,	}
+
+
+\newglossaryentry{gbb}{
+	name = \texttt{gbb} ,
+	description = Kaytetye (Pama-Nyungan: Arandic),
+	type=lang,	}
+
+\newglossaryentry{bjb}{
+	name = \texttt{bjb} ,
+	description = Barngarla (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+\newglossaryentry{adt}{
+	name = \texttt{adt} ,
+	description = Adnyamathanha (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+\newglossaryentry{gvy}{
+	name = \texttt{gvy} ,
+	description = Kuyani (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+\newglossaryentry{nnv}{
+	name = \texttt{nnv} ,
+	description = Nukunu (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+\newglossaryentry{nwo}{
+	name = \texttt{nwo} ,
+	description = Nauo (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+\newglossaryentry{zku}{
+	name = \texttt{zku} ,
+	description = Kaurna (Pama-Nyungan: Thura-Yura),
+	type=lang,	}
+
+
+\newglossaryentry{nyt}{
+	name = \texttt{nyt} ,
+	description = Nyawaygi (Pama-Nyungan: Dyirbalic),
+	type=lang,	}
+
+
+\newglossaryentry{kgs}{
+	name = \texttt{kgs} ,
+	description = Gumbaynggir (Pama-Nyungan: Southeast NSW),
+	type=lang,	}
+\newglossaryentry{zmu}{
+	name = \texttt{zmu} ,
+	description = Muruwari (Pama-Nyungan: Southeast NSW),
+	type=lang,	}
+
+\newglossaryentry{ktd}{
+	name = \texttt{ktd} ,
+	description = Kokata (Pama-Nyungan: Wati),
+	type=lang,	}
+
+
+
+
+
+
+\newglossaryentry{np}{
+	name = \textsc{NP} ,
+	description = noun phrase,
+	type = gloss , }
+
+
+\newglossaryentry{s}{
+	name = \textsc{.sg} ,
+	description = singular (number),
+	type = gloss , }
+\newglossaryentry{d}{
+	name = \textsc{.dl} ,
+	description = dual (number),
+	type = gloss , }
+\newglossaryentry{p}{
+	name = \textsc{.pl} ,
+	description = plural (number),
+	type = gloss , }
+
+\newglossaryentry{1}{
+	name = 1,
+	description = first-person,
+	type = gloss , }
+\newglossaryentry{3}{
+	name = 3,
+	description = third-person,
+	type = gloss , }
+\newglossaryentry{2}{
+	name = 2,
+	description = second-person,
+	type = gloss , }
+
+\newglossaryentry{infl}{
+	name = \textsc{infl} ,
+	description = verbal inflection (TMA),
+	type = gloss , }
+
+
+\date{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{secnumdepth}{3}
+\begin{document}\pagenumbering{roman}
+	
+	The previous chapter (Ch. \ref{descY}) introduces a number of challenges for our theories of natural language semantics. Here, I provide an analysis of these phenomena, in an effort to demonstrate the utility of formal approaches to semantics and pragmatics in understanding the linguistic strategies deployed by Yolŋu Matha speakers to displace and intensionalise discourse. The analysis that follows is based on the Dhuwal language variety described above. The following chapter considers the substantial linguistic variation that occurs across the Yolŋusphere and proposes a diachronic account of the emergence of these phenomena.
+
+The goal of this chapter (and a central aim of the dissertation) is to shed light on the meaning contributions of verbal inflections and other particles that are used in Yolŋu Matha to instantiate grammatical categories including tense, modality, polarity, aspect and evidentiality. The diagram in Figure \ref{wilk} represents an attempted schematisation of the Djambarrpuyŋu `TMA system' from Wilkinson's detailed description of the language \citeyearpar[362]{Wilkinson1991}. This diagram makes manifest the ways in which the conventional meanings associated with this language's verbal inflection diverge from those of more familiar languages and underscores the difficulty of proposing a unified semantics, compositional for Yolŋu inflectional categories.
+
+In §\ref{cycTns}, I explore the notions of ``cyclic'' and ``metrical'' tense that are manifested in a number of Yolŋu Matha varieties (as well as the unrelated non-Pama-Nyungan languages spoken elsewhere in Arnhem Land) and in §\ref{MOOD}, I consider interactions between speaker mood and felicity conditions for the verbal inflections.
+
+
+	
+
+
+
+
+%
+%\begin{figure}[h]\centering
+%\includegraphics[width=0.8\textwidth]{WilkinsonDiagram362Col}
+%	\caption{Melanie Wilkinson's diagrammatic treatment of the distributional properties of Djambarrpuyŋu's four verbal inflections \citeyearpar[362]{Wilkinson1991}. Colourised by author for facilitated presentation of the `domains' of the four inflections.} \label{wilk}
+%\end{figure}
+
+\section{Temporal expression in Western Dhuwal(a)}\label{cycTns}
+\mcom{similarly, probably too specific a heading --- need either temporal expression above this or cyclicity below this? the section atm includes a discussion of lexical and grammatical aspect.}
+\noindent In §\ref{infls}, I provided a description of the distributional facts of the four `inflectional classes' of Dhuwal(a). As we saw, these inflections are in a paradigmatic relation; all finite verbs receive exactly one inflection (caveat the formal identity of some of these inflections in particular verb classes (\textit{sc. }`conjugations.')) In the Western Dhuwal(a) varieties (as in other Yolŋu languages) verbal inflections play a central role in temporal expression. The basic function of inflections \textbf{I} and \textbf{III} in determining the temporal location of a predicate, for example, is shown in (\nextx).
+
+\mcom{These examples are constructed: need to be checked}
+\pex\deftagex{minpair}\textbf{Temporal contributions of \textbf{I} and \textbf{III}}\a\deftaglabel{minpair}\begingl\glpreamble \textsc{Present temporal reference} with \textbf{I}//
+\gla gäthura ŋarra ga nhina-$\boldsymbol\varnothing$ wäŋaŋura//
+\glb today 1s \gls{ipfv}.\textbf{I} sit.\textbf{I} home.\gls{loc}//
+\glft`I am staying at home today.'//
+\endgl
+\a\deftaglabel{pst}\begingl\glpreamble\textsc{Past temporal reference} with \textbf{III}//
+\gla gäthura ŋarra ga-na nhina-\textbf{na} wäŋaŋura//
+\glb today 1s \gls{ipfv}-\textbf{III} sit.\textbf{III} home.\gls{loc}//
+\glft`I was sitting at home (earlier) today.'//
+\endgl
+\xe
+
+The data in (\getref{minpair}) suggest a present-past distinction encoded by \textbf{I} and \textbf{III} respectively (which is a reasonable analysis for the cognate paradigm in other varieties, see Ch \ref{diaY}). However, as discussed in Ch. \ref{descY}, data of the type shown in (\nextx) quickly throw up problems for a straightforward tense-marking account of these inflections.
+
+\pex \textbf{Temporal contributions of I and III (non-today frame)}
+\a\deftagex{MetPst}\deftaglabel{I}\begingl\glpreamble\textsc{Recent past} with \textbf{I}//
+%\gla yo barpuru-ny ŋarra \textbf{marrtji}(*-na) shop-lil//
+%\glb yes, yesterday{\sc-prom} 1s go-\textbf{I/*III} shop-{\sc all}//
+%\glft`Yes, I went to the store yesterday.'//\endgl
+\gla Ŋarra ḻuka mänha barpuru//
+\glb 1s drink.\textbf{I} water yesterday//
+\glft`I drank water yesterday.'\trailingcitation{[BM~20190405]}//\endgl
+\a\deftaglabel{III}\begingl\glpreamble\textsc{Remote past} with \textbf{III}//
+%\gla yo ŋarra marrtji-\textbf{na} ŋunhawala ŋäthil baman'//
+%\glb yes 1s go-\textbf{III} \gls{dist}.\gls{all} before long.ago//
+%\glft`Yes, I went there long ago.'//
+\gla Ŋunhi ŋarra yothu yäna, ŋarra marrtji-\textbf{na} Sydney-lili//
+\glb \gls{texd} 1s child only, 1s go-\textbf{III} Sydney.-\gls{all}//
+\glft`When I was a kid, I went to Sydney.'\trailingcitation{[BM~20190405]}//
+\endgl
+\xe
+
+
+
+Represented in Figure \ref{wilk}, A major consequence of these data is that, assuming a model where times are naturally, linearly ordered, the intervals to which \textbf{I}- and \textbf{III}-inflected predicates can refer are \textsc{discontinuous.} Figure \ref{TempSchem} schematises this discontinuity.
+
+\begin{figure}[h]\centering\caption{Past-time temporal expression in the Yolŋu Matha varieties of Central Arnhem, demonstrating two descriptive phenomena: (a) cyclicity --- the interspersion/discontinuity of \textbf{I} and \textbf{III} forms and (b) metricality --- the (subjective) division of the past domain between these two forms.\\$\lfloor{\sl today}\rfloor$ indicates the boundaries of the privileged interval {\sl today}. $\boldsymbol{t*}$ is utterance time.}\label{TempSchem}
+	
+	
+	\begin{tikzpicture}[scale=1]
+	% draw horizontal line   
+%	\draw[<->, line width=.5mm] (0,0) -- (12,0);
+	\draw[<-, line width=.5mm] (0,0) -- (9.5,0);	
+	%draw rex
+	\shade[left color=blue!15!white, right color=green!15!white] (0,0.02) rectangle (4.8,1.5);
+	%	\fill[green!10!white] (2.5,0.02) rectangle (4.8,1.5);
+	\fill[blue!10!white] (4.8,0.02) rectangle (6.8,1.5);
+	\fill[green!10!white] (6.8,0.02) rectangle (9.5,1.5);
+%	\fill[orange!10!white] (9.5,0.02) rectangle (12,1.5);
+	
+	% draw nodes
+	\draw (1.25,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};
+	\draw (3.675,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textbf{I}};
+	\draw (5,0)   node[circle,fill,label=below:$\big\lfloor{\sl today}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	\draw (6.8,0) node[diamond,shade,outer color=black, inner color  = ochre,label=below:$\boldsymbol{t*}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {\textsc{}};
+	\draw (5.8,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{III}}};	
+	\draw (8.15,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{I}}};	
+%	\draw (10.75,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};	
+	\draw (9.5,0)   node[circle,fill,label=below:${\sl today}\big\rfloor$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	
+	
+	%%%braces
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=35pt]
+	(0.5,0.5) -- (4.5,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize metricality};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+	(3.5,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize cyclicity};
+	
+	\end{tikzpicture}\end{figure}
+
+
+
+
+Previous accounts of this phenomenon have described the data in terms of the oppositions between two binary categories: ``contemporary'' (\textbf{I}) vs. ``precontemporary'' (\textbf{III}) tense marking and a contextually provided ``today'' and ``non-today'' reference frame. This interaction was shown in Table  \ref{GlaswegianTR} (\textit{p.} \pageref{GlaswegianTR}), each cell of which is represented by one of the datapoints in (\getref{minpair}-\getref{MetPst}). This schema introduced by \citet{Glasgow1964} for Burarra data [\gls{bvr}], terminology adopted and adapted by numerous other authors for languages of Arnhem Land \citep[see][]{Eather2011,Green1987,Green1995}.
+
+
+While, as cited above, \citet[89]{Comrie1985} recommends `appeal to its rarity as an excuse for according it [cyclic tense] marginal status in the theory', the current work contends that we should be desirous of a ``unified'' semantics for each of the verbal inflections. The following sections consider the status of the WD verbal inflections and the relation they bear to temporal expression.
+
+
+
+\subsection{Talking about the present}\mcom{This section needs to go somewhere --- specific arguments against an ``aspect-based system'' being at the core of the temporal expression in djr. It's less clear that this is the place.}
+
+
+
+
+\begin{quotation}
+	[T]he present is like the window of a railway carriage in which we are sitting. If it were an infinitesimal slit we could not see out properly, and we could not see the countryside laid out with its features in their proper relations; but since it has a width light can enter and we can see each thing in relation to the next and so form for ourselves a picture of the whole...\hfill{\citep[325]{Hamblin1972}}
+\end{quotation}
+
+
+
+The obligatory occurrence of \textit{ga} `\gls{ipfv}.\textbf{I}' with present-tensed event descriptions has led some authors \citep[e.g.][46]{Heath1980}\footnote{Compare with Table \ref{Infl-Comparisons-Wilk}. Note that Heath suggests that `the [temporal] value of [\textbf{I} and \textbf{II}] depends on context, including the presence of particles. He does not attempt a compositional analysis of the verbal inflections \citeyearpar[38,46]{Heath1980}. Additionally, in various texts \textit{ga} (similarly to \textit{gan}) is glossed as a \textsc{dur}ative marker. He does, however, suggest that in various dialects of Dhuwal (particularly Djapu', the variety that seems to diverge more from the Western Dhuwal(a)) that marking this category is uncommon (and in fact the auxiliary may be inflection-invariant.)} to describe this item as a present-tense marker. As we will see here, this is not the most parsimonious analysis of the Dhuwal(a) inflectional system. The categorical appearance of \textit{ga} (or, in fact, other aspect morphology) is, I will argue, an epiphenomenon of to the well-understood incompatibility between \textsc{present} and \textsc{perfective} (\citealp[66\textit{ff}]{Comrie1976}, \citealp[110]{Smith1997}, \citealp{Malchukov2009} a.o.) in addition to a \textsc{lexical constraint} on the situation aspect (Aktionsart) of verbal predicates in W Dhuwal(a). An analysis that treats \textit{ga} as encoding a present tense presupposition, in fact can be dismissed by data such as those in (\nextx) where the reference time for each sentence is clearly located in the past of utterance time.
+
+\pex \textbf{\textit{ga} `\textsc{ipfv.I}' in past-referring sentences}
+\a\begingl\gla barpuru ŋali \textbf{ga} waŋanha-mi-rr//
+\glb yesterday 1d.\textsc{incl} \textbf{\gls{ipfv}}.\textbf{I} speak.IV-\gls{recip}-\textbf{I}//
+\glft`We were speaking to each other yesterday.'\trailingcitation{[AW~20190426]}//\endgl
+\a\begingl\gla nhä nhe \textbf{ga} djäma barpuru?//
+\glb what 2s \textsc{\textbf{ipfv}}.\textbf{I} work yesterday//
+\glft`What were you doing yesterday?'\trailingcitation{[DhG 20190413]}//\endgl
+\a\begingl\gla ŋäthili dhuŋgarra-y djäma ŋarra \textbf{ga} shopŋura//
+\glb previous year-\textsc{erg} work 1s \textsc{\textbf{ipfv.I}} shop.\gls{loc}//
+\glft`Last year I was working at the shop.'\trailingcitation{[BM~20190416]}//\endgl
+\xe
+
+In fact, there is significant evidence that all verbal predicates in Dhuwal(a) (or at least those varieties spoken in Ramingining) are lexically event-denoting. This has already been suggested by the data in (\getref{psychPreds}), where stative concepts like \textsc{be sick} and \textsc{be tired} appear to be implicated by (de-nominal) \textbf{III}-inflected verb forms (literally \textit{rirrikthurruna} ``I became sick''$ \rightsquigarrow $ `I am (currently) sick'). This is shown in (\getfullref{sick.III}). Explicit predications about current states may require periphrasis (e.g. the nominal predication in \getfullref{sick.dhaka}). Meanwhile, the \textit{ga}-marked \textbf{I} form (\getref{sick.I}) results in a state-change reading. Relatedly, in (\getref{hungry}), \textit{gutharra} is understood to be in the process of asking for food in view of her current `hunger' state. That her hunger holds in the present is an implicature of a past-tensed eventuality of `becoming hungry.'
+
+\pex\textbf{\textit{rirrikthun} `sick': state or state-change denoting?}
+\a\deftagex{sick}\deftaglabel{III}\begingl\gla Ŋarra rirrik-thu-\textbf{rruna}//
+\glb 1s sick-\gls{vblzr}-\textbf{III}//
+\glft`I'm sick.'\trailingcitation[BM~20190405]//\endgl
+
+\a\begingl\gla Ŋarra dhäkay-ŋänha-mirri rirrikthu-\textbf{n}\deftaglabel{dhaka}//
+\glb 1s feeling.\gls{erg}-hear.\textbf{IV}-\gls{prop} sick-\textsc{incl}-\textbf{I}//
+\glft`I'm feeling sick.'\trailingcitation[BM~20190405]//\endgl
+
+
+\a\begingl\gla Dhuwala ŋarra ga rirrikthu-\textbf{n}
+\deftaglabel{I} //
+\glb  \gls{prox} 1s \textsc{ipfv.\textbf{I}} sick-\gls{inch}-\textbf{I}//
+\glft`I'm getting sick.'\trailingcitation[BM~20190405]//\endgl
+
+\xe
+
+\mcom{this example is the guf title from Waymamba Gaykamaŋu's 20171208 translation of a djr text composed by Galathi Dhurrkay from 20141015}\ex\begingl\glpreamble\textbf{\textit{djaṉŋarrthin} `hungry': post-state \& present-predication}\deftagex{hungry}//
+\gla Gutharra-y ga waŋa märi-nha ŋatha-wa bili ŋayi djaṉŋarr-thi-na//
+\glb \gls{da}\gls{ch}-\gls{erg} \gls{ipfv}.\textbf{I} speak.\textbf{I} \gls{mo}\gls{mo}-\gls{acc} food-\gls{dat} because 3s hunger-\gls{inch}-\textbf{III}//
+\glft`\textit{Gutharra} asks \textit{märi} for food because she's hungry.'\trailingcitation{[]}//\endgl\xe
+
+
+As well as derived (de-nominal) verbs, simplex verbal stems with psychological (incl. perception) semantics --- e.g. \textit{nhäma} `see', \textit{dharaŋan} `understand', \textit{guyaŋa} `think' --- seem to lexically encode \textit{events}. When predicating of a presently-holding state, these verbs require imperfective marking. Otherwise, a \textbf{III}-inflected form appears to implicate that the post-state of the event described by the predicate still holds. This is shown for \textit{nhäma} `see' in (\nextx) below. In these cases an (eventive) predicate denotes a bounded, telic type of situation: an \textsc{achievement} in the sense of \citet{Vendler1957} or \textsc{happening} per \citet{Bach1986}. %all require explicit imperfective marking when predicating of a present state. 
+
+\pex\textbf{\textit{nhäma} `see': perception as a telic event}
+\a\begingl\gla Ŋarra nhä-\textbf{ŋala} wuŋgan//
+\glb 1s see-\textbf{III} dog//
+\glft`I see the dog.'\trailingcitation{[BM~20190405]}//\endgl
+\a\begingl\gla Ŋarra \#(\textbf{ga}) nhä-\textbf{ma} wuŋgan dhiyaŋu bala//
+\glb 1s \#(\textsc{\textbf{ipfv.I}}) see-\textbf{I} dog \gls{texd}.\gls{erg} \gls{mvtawy}//
+\glft\textbf{Intended. }`I'm watching the dog currently.'\trailingcitation{[BM~20190405]}//\endgl\xe
+
+
+%Consequently, futurate readings emerge when context provides a `today frame' to a \textbf{I} inflection, as was shown in (\getfullref{futI.marrtji}) -- here repeated as (\nextx).
+%
+%\pex\deftagex{plan}\begingl\gla ŋarra marrtji-n dhiyaŋu-n bala//
+%\glb 1s go-\gls{seq} \textbf{\gls{prox}.\gls{erg}}-\gls{seq} \textbf{\gls{mvtawy}}//
+%\glft`I'm going now.'\trailingcitation{\citep[256]{Wilkinson1991}}//\endgl
+%\xe
+%
+%In (\getref{plan}), the cooccurrence of an eventive predicate \textit{marrtji} `go' without imperfective marking appears to lead to a futurate reading. If eventive predicates receive default perfective interpretations in Dhuwal(a), a present-inflected event is likely to license a \textsc{plan} type reading (following \citealt{Copley2009}.)
+
+Additionally, \citet[557]{Wilkinson1991} describes a `minor [word] class' : the ``adjectival''-predicates. These three commonly-occurring predicates are all lexical statives (whose semantics correspond to those for the category of \textit{psych verbs} cross-linguistically): \textit{djäl} `want, like', \textit{marŋgi} `know' and \textit{dhuŋa} `not.know.'\footnote{These verbs also have a range of circumstantial modal readings (ability, bouletic, preferential), perhaps predictable given their propositional attitude-type semantics. Examples of these readings are given in \getref{dhuŋa}, and additionally in Wilkinson 1991:648.} Morphosyntactically, each takes an intransitive frame (selecting for a \textsc{nom} experiencer and \textsc{dat} theme) and resists co-occurrence with verbal particles (\textit{i.e.} aspect marking). Like other nominal elements, productive suffixation (notably \textit{-thirr(i)} `\gls{inch}.\textbf{I}', \textit{-kum(a)} `\gls{caus}.\textbf{I}' and \textit{-thun/-'yun} \gls{vblzr}.\textbf{I}) is available to derive verbal forms (intransitive and transitive, respectively). The contrast between the two continuations in (\getfullref{latjin}) below shows incompatibility between stative predicate \textit{djäl} `like' and aspect marking (\getref{latjin.bare}), which, conversely, is obligatory for the derived verbal predicate in (\getref{latjin.inch}). A similar effect is shown for the predicate \textit{marŋgi} `know' (\getref{marŋgi}), where the eventive (``change of state'') semantics of the verbal predicate \textit{marŋgithirr(i)} `learn $ \approx $ come to know' are transparent.
+
+
+\pex\deftagex{latjin}\textbf{Stative \textit{djäl} `like, want': incompatible with \textit{ga }`\gls{ipfv}' marking}\\
+\begingl\gla Ŋäthili ŋarra bäyŋu \textbf{djäl} ḻatjin'-gu...//
+\glb previously 1s \gls{negq} like mangrove.worm-\gls{dat}//
+\glft`I didn't used to like \emph{ḻatjin}... //\endgl
+\a\deftaglabel{bare}\begingl\gla \nogloss{...} dhiyaŋunydja~bala ŋarra (*ga) \textbf{djäl} ḻatjin'-gu//
+\glb now 1s (*\textsc{ipfv}) like \textit{ḻatjin}-\gls{dat}//
+\endgl
+\a\deftaglabel{inch}\begingl\gla \nogloss{...} dhiyaŋunydja~bala ŋarra *(ga) \textbf{djäl-thi-rri} ḻatjin'-gu.//
+\glb now 1s *(\textsc{ipfv}) like-\gls{inch}-\textbf{I} \textit{ḻatjin}-\gls{dat}//
+\glft`...now I do like them.'\trailingcitation{[DhG~20190417]}//\endgl
+%\a\begingl\gla ŋarra djäl ḻatjin'-gu yurru ŋarra yaka djälthina//
+%\glb 1s like mangrove.worm-\gls{dat} but 1s \gls{neg} like-\gls{inch}-\textbf{IV}//
+%\glft`I like \textit{ḻatjin}, but I didn't want (any).'\trailingcitation{[AW~20190422]}//\endgl
+\xe
+
+
+
+
+
+\pex\deftagex{marŋgi}\textbf{Stative \textit{marŋgi} `know' incompatible with \textit{ga }`\textsc{ipfv}' marking}
+\a\begingl\gla Ŋarritjan (*ga) \textbf{marŋgi} Baŋaḏi-wa//
+\glb \gls{malk} (*\gls{ipfv}.\textbf{I}) know \gls{malk}-\gls{dat}//
+\glft`\textit{Ŋarritjan} knows \textit{Baŋaḏi}.'\trailingcitation{[DhG~20190417]}//\endgl
+\a\begingl\gla Dhiyaŋu~bala Wamuttjan \textbf{ga} \textbf{marŋgi-thi-rri} Bäŋaḏi-wa//
+\glb now \gls{malk} \gls{ipfv}.\textbf{I} know-\gls{inch}-\textbf{I} \gls{malk}-\gls{dat}//
+\glft`\textit{Wamuttjan} is getting to know (learning about) \textit{Baŋaḏi}.'\trailingcitation{[DhG~20190417]}//\endgl\xe
+
+Similarly, the stative predicate \textit{dhuŋa} resists aspectual marking. (\getfullref{dhuŋa.swim}) shows the establishment of a (remote past) reference time with a subordinate temporal clause while (\getref{dhuŋa.dance}) shows how the corresponding verb form (as with its counterparts in the examples above) requires explicit imperfective marking for a present stative predication.
+
+
+\pex\deftagex{dhuŋa}\textbf{Stative \textit{dhuŋa} `ignorant'}
+\a\deftaglabel{swim}\begingl\gla Ŋunhi ŋarra yothu yän, ŋarra \textbf{dhuŋa} ḻupḻupthunara-w//
+\glb\gls{texd} 1s child only, 1s ignorant swim.\textbf{IV}-\gls{dat}//
+\glft`When I was a kid, I couldn't swim.'\trailingcitation{[AW~20190429]}//\endgl
+\a \deftaglabel{dance}\textsc{context.} I decline an invitation to dance at a forthcoming ceremony.\beginsubsub\b{i.}\begingl \gla \nogloss{---} Ŋarra \textbf{dhuŋa} girritjinara-w //
+\glb 1s ignorant dance.\textbf{IV}-\gls{dat}//
+\endgl
+\b{ii.}\begingl\gla \nogloss{---} Bili nhe \textbf{*(ga)} \textbf{dhumbal'yu-n} \upshape{for the step/the beat}.//
+\glb because 2s *(\gls{ipfv}.\textbf{I}) not.know-\textbf{I}//
+\glft --- `I don't know how to dance (at the \textit{buŋguḻ}).'\\
+--- `Because you don't know the steps, the beat.'\trailingcitation{[AW~20190429]}//\endgl
+\endsubsub\xe
+
+
+The behaviour of these nonverbal predicates (i.e. their resistance to explicit aspect marking) is consistent with cross-linguistic behaviour of stative predicates.\footnote{By way of examples:\begin{itemize}\item The infelicity on progressive-marking of stative verbs in English (\citealp[e.g.][55]{Dowty1979}, \citealp[205]{Taylor1977} a.o.)
+		\item Whereas dynamic verbs in Russian all appear with imperfective and (inflected) perfective stems, the latter is unavailable for stative verbs \citep[227]{Smith1997}.
+		\item In Navajo, `overt viewpoint [aspectual] marking' only occurs in non-stative sentences\citep[297]{Smith1997}.\end{itemize}}
+	
+%\citeauthor{Dowty1986}'s (1986) analysis of the 
+
+
+So far in this section, we have seen evidence of an organising principle in W. Dhuwal(a) where all verbal (inflecting) predicates lexically encode eventive (dynamic) situations which are temporally bound (i.e. have endpoints). This principle is formulated in (\nextx).
+
+
+
+\ex \textbf{\textsc{verbal stems as inherently eventive in W. Dhuwal(a)}}\deftagex{IEC}\\
+W. Dhuwal(a) verbal predicates denote properties of events.
+\xe
+
+
+As mentioned above, situations that obtain in the present `must be open and unbounded, without endpoints... ongoing events; particular states and general states' \citet[230]{Smith2008}. This is formulated as a basic pragmatic principle as the constraint in (\nextx).
+
+\ex  \textsc{\textbf{the \textit{Bounded Event} constraint}}\deftagex{BEC}\\
+Bounded situations may not be located in the present.\hfill\citep[231]{Smith2008}
+\xe
+
+
+A consequence of the interaction of the two contraints in (\getref{IEC}) and (\getref{BEC}) is that\textbf{ unmodified verbal stems} (which denote bounded, eventive situations) \textbf{are} \textbf{infelicitous with present temporal reference}. As we have seen here, W. Dhuwal(a) encodes stative situation types by way of three strategies:
+\pex[nopreamble]\deftagex{stat-predn}\a nominal predications,
+	\a post-state implicatures (through both derived and simplex past-denoting predicates) or 
+	\a the explicit marking of imperfectivity (normally with inflecting auxiliary \textit{ga} or stance/motion verbs (see §~\ref{ipfvty}) or with the habitual marker \textit{ŋuli}.)\xe
+
+In fact, \citet{Dowty1979,Dowty1986} --- along with \citet{Taylor1977} --- defines criteria for progressive marking and stative sentences which theorise that ``no matter what the aspectual class of the lexical verb'' any progressive-marked sentence will be stative. These conditions as laid out in \citet[42-4]{Dowty1986} are recapitulated in (\getref{AspClForm}) below:\mcom{It's not super clear that this doesn't belong in a lit reviewy section which then gets cross-referenced here. Also the semantics for the \textsc{prog} is fine for current purposes (may not as we continue forward but it gets the imperfective-stative theorem)}
+\pex\a \deftagex{AspClForm}\textbf{\textsc{stative criterion} (the `subinterval property')}\\
+$ \textsc{stative}(\varphi) \leftrightarrow \varphi(i)\to\forall i'\big(i'\sqsubseteq i\to\varphi(i')\big)$\\
+A sentence $ \varphi $ is stative iff it follows from the truth of $ \varphi $ at $ i $ that $ \varphi $ is true at all of $ i $'s possible subintervals $ i' $\deftaglabel{stat}
+
+\a\textbf{\textsc{A semantics for the progressive}}\\
+$  \textsc{prog}(\varphi)(i)\leftrightarrow\exists i'\big(i'\sqsupset i \wedge\varphi(i')\big)$
+The progressive form of $ \varphi(i) $ is true iff there is some proper superinterval $ i' $ at which $ \varphi $ is tue.\deftaglabel{prog}
+\xe
+
+That progressive-marked sentences necessarily meet the stative criterion is deduced in (\nextx) below.
+
+
+\pex[exno=68]\a[label=c.]\textbf{\textit{Theorem.}} \textit{Progressive-marked sentences entail stativity (the subinterval property holds.)}\\
+\begin{tikzpicture}[baseline,node distance=.1ex]
+\node (1) {$\textsc{prog}\varphi (i) $};
+\node (2) [below=of 1] {$\exists i'\sqsupset i \wedge\textsc{prog}\varphi(i')$};
+\node (3) [below=of 2] {$\forall i''(i''\sqsubseteq i\to i''\sqsubseteq i')$};
+\node (4) [below= of 3] {$\textsc{prog}\varphi(i'')$};
+\node (5) [below=of 4] {$\textsc{prog}\varphi(i)\to\forall i''\big(i''\sqsubseteq i\to\textsc{prog}\varphi(i'')\big)$};
+\node (6) [below=of 5] {$\textsc{stat\big(prog}\varphi(i)\big) $};
+%\path (BvC) edge[-] (B);
+%\path (BvC) edge[-] (C);
+\node (1n) [left=3cm of 1] {i.};
+\node (2n) at (1n |- 2) {ii.};
+\node (3n) at (1n |- 3) {iii.};
+\node (4n) at (1n |- 4) {iv.};
+\node (5n) at (1n |- 5) {v.};
+\node (5n) at (1n |- 6) {vi.};
+\node (r1) [right=3cm of 1, label=right:{\textit{\textsc{premise}}}] {};
+\node (r2) at (r1 |- 2) [label=right:{(\getfullref{AspClForm.prog}), i.}] {};
+\node (r3) at (r1 |- 3) [label=right:{def. $\sqsubseteq$, ii.}] {};
+\node (r4) at (r1 |- 4) [label=right:{(\getfullref{AspClForm.prog}), i,ii i.}] {};
+\node (r5) at (r1 |- 5) [label=right:{i,iii,iv}] {};
+\node (r6) at (r1 |- 6) [label=right:(\getfullref{AspClForm.stat}) $ \qed $]	{};
+\end{tikzpicture}
+\xe
+
+All this is to suggest that all W. Dhuwal(a) verbal predicates denote properties of bounded events, a class of situations that are incompatible with present temporal reference. Nominal predication (including the adjectival and locative predicates) and sentences with imperfective marking denote states. Consequently, all verbal predicates obligatorily cooccur with \textit{ga} `\gls{ipfv}.\textbf{I}' when referring to a presently-holding state. 
+
+
+\subsection{Modelling present predication}\mcom{Unsure about the implications of this direction rather than (the prima facie perhaps more intuitive/standard claim) that verb stems select for inflection i.e. are\\In fact this doesn't make sense really if the inflections are just going to quantify over intensions..... it would have to be the stem...hnnngggg} This apparent lexical constraint can be modelled in the semantics for the W. Dhuwal(a) verbal inflections. %Under such an analysis, each inflection can be interpreted only with respect to \textit{eventive predicates.} As we will see, this can be modelled by having c	{\color{gray!90}This is modelled by treating each inflection as presupposing an event variable which it situates with respect to time/modality.} 
+Consequently, our ontology will contain a \textit{domain of eventualities} $ D_\varepsilon $ partitioned into stative and eventive subtypes. Variables over events will be notated $ e $, over states $ s $, summarised in (\nextx)
+
+\ex $ D_\varepsilon \begin{cases}
+\mathcal E_\epsilon	& \text{eventive situations}\hspace{.5in} e,e',e'',e'''\\
+\mathcal E_s	& \text{stative situations}\hspace{.6in} s,s',s'',s'''...
+\end{cases} $\xe
+
+
+Verbal (inflecting) predicates are then understood to denote properties of events $ \langle \varepsilon_e,t\rangle $. These obligatorily combine with an aspectual operator (e.g. \textit{ga} `\gls{ipfv}' or $ \varnothing $ `\gls{pfv}') %\footnote{Other aspectual operators discussed in Chapter 4, notably \textit{ŋuli} `\gls{hab}'} may also introduce a time variable. } 
+to yield a predicate of intervals $ \langle\imath,t\rangle $. Following the neo-davidsonian approach assumed in \citealt{Deo2015}, these operators ``map properties of [events] to sets of intervals relative to which these predicates are instantiated via existential quantification over the Davidsonian event variable'' (11).
+
+
+The differential contributions of each inflection are investigated in detail in the remainder of this chapter, although the basic structure of each is taken to
+% \textbf{relate an eventive situation} to \textbf{the context of evaluation}. 
+The denotation in (\nextx) is intended to capture these shared elements (although will be significantly revised through this chapter.)
+
+\ex \textbf{Meaning kernel for the inflectional categories} (\ul{temporal contribution}: to be revised)\\
+\denote[i*]{\textsc{infl}}$ =\lambda P:\exists e\in\mathcal E_\epsilon[P(e)]\,.\,\tau(e)\,\mathcal{R}\,i* $\\
+The category of \textsc{inflectional suffixes} in W Dhuwal(a) presupposes that the situation described by the predicate $ P $ is eventive $ e $ and (depending on the nature of the inflection) relates the runtime of that event $ \tau(e) $ to the evaluation time $ i* $.
+\xe
+\mcom{No this is changed now based on the fact that the inflections are gonna be taken to compose with properties of intervals (i.e. the semantic domain of \textbf{AspP})}
+
+
+%A consequence of this denotation is that the four verbal inflections in Djambarrpuyŋu are to be modelled as properties of events $\langle\varepsilon_e,t\rangle $. 
+
+Above, we saw examples of derived (de-nominal) verbs with change-of-state semantics. Whereas we have seen that nominal predicates are often used to encode stative situation types productive suffixation --- \textit{-ˀThu-} `\gls{vblzr}', \textit{-Thi-} `\gls{inch}', \textit{-ku-/-Thi-} `\gls{tr}' and \textit{-mara-} `\gls{caus}'\footnote{The forms of these  suffixes are subject to significant allomorphy. I generalise over each category following the proposals of \citet[§ 7.5]{Wilkinson1991}.} --- derives inflecting verbal predicates with accordingly eventive semantics.\footnote{According to \citet{Dowty1972,Dowty1979}, statives are in fact the ``basic'' predicate type which composes with a finite number of [situation] aspectual operators/connectives to yield predicates of events.} \citet{Wilkinson1991} demonstrates the paradigmatic relation between these predicates. Some examples are given in Table \ref{sit-deriv} below (predominantly from her description) and formal proposals for the contributions of a number of these operators are given in (\nextx) below.
+
+
+\begin{table}[h]
+\centering	\caption{Morphological derivation of inflecting eventive predicates}\label{sit-deriv}
+	\begin{tabular}{>{\em}ll>{\em}ll}
+\toprule
+	\multicolumn{2}{c}{\textbf{\textsc{stative predicate}}} & \multicolumn{2}{c}{\textbf{\textit{-Thi }`\gls{inch}'}}        \\
+		baṉḏany         & `shallow'           & baṉḏany-dhin  & `dry up.\textbf{I}'              \\
+		gorrmur         & `hot'               & gorrmur-'yin  & `get hot, have fever.\textbf{I}' \\
+		buthalak        & yellow              & buthalak-thin & `be(come).yellow.\textbf{I}'       \\\midrule
+		\multicolumn{2}{c}{\textbf{\textsc{stative predicate}}} & \multicolumn{2}{c}{\textbf{\textit{-Thu} `\gls{vblzr}'}}       \\
+		warwu           & `sorrow'            & warwu-'yun    & `worry, feel.upset.\textbf{I}'     \\
+		bilma           & clapstick           & bilma-'yun    & `use.clapstick.\textbf{I}'       \\
+		ŋaḏi            & `discontent'        & ŋaḏi-'yun     & `sulk.\textbf{I}'                \\\midrule
+		\multicolumn{2}{c}{\textbf{\textsc{stative predicate}}} & \multicolumn{2}{c}{\textbf{\textit{-ku/-Tha }`\gls{tr}'}}    \\
+		baṉḏany         & `shallow'           & baṉḏany-kuma & `dry.\textbf{I}'                 \\
+		dhunupa         & `straight'          & dhunuka-kuma & `put.right.\textbf{I}'           \\
+		galki           & `close'             & galki-kuma   & `bring.close.\textbf{I}'        \\\bottomrule
+	\end{tabular}
+\end{table}
+
+\pex\deftagex{sit-deriv}\textbf{The functions of verbal derivation}\a \textbf{A semantics for \textit{-Thi} `\gls{inch}oative' }\beginsubsub
+\b{i.} % \textbf{The operator \textsc{become} (adapted from \citealt{Dowty1972,Dowty1979})}
+$ \textsc{become}\,\varphi(i)\underset{\text{def}}{=}\exists j[j\underset{\text{init}}{\sqsubseteq}i\wedge\neg \varphi(i)]\wedge\exists k[k\underset{\text{fin}}{\sqsubseteq}i\wedge \varphi(i)]$\\
+A formula  \textsc{become} $ \varphi $ is true at $i$ if $\varphi $ is both: true at a final subinterval $k$ and false at an initial subinterval$ (j) $. \hfill \citep[Adapting liberally from][]{Dowty1979}\\This is diagrammatised in Figure \ref{become-dia}. 
+ \footnote{This predicate, labelled \textsc{come about} in Dowty's \citeyear[45ff]{Dowty1972} dissertation appeals to a dense series of moments in time before being updated to an interval semantics in \citeyear[139ff]{Dowty1979}, following \citet{Bennett}. Where Dowty appeals to an initial/final overlap relation ($ \circ $), here I replace that with notions of initial/final subintervals which seems to partially avoid some of the problems he discusses (140-2). Nevertheless, as formulated here the definition is still too weak and does permit for $ i $'s theoretically unbounded length. Dowty partially solves this by stipulating that $ i $ is the largest interval for which these properties hold.}
+\b{ii.} \denote{\textit{ -Thi }}$_{\langle\langle\varepsilon_s,t\rangle,\langle\varepsilon_\epsilon,t\rangle\rangle}=\lambda P^s.\lambda e[\textsc{become}(P^s)(e)]  $
+
+\textit{-Thi} `\gls{inch}' is a situation operator which takes a property of states $ P^s \subseteq \mathcal E$ and returns the set of events \textsc{become} $ P^s\subseteq\mathcal E_\epsilon$.
+\endsubsub
+\a\textbf{A semantics for  \textit{-Thu} `\gls{tr}ansitiviser'}\\%\beginsubsub
+	\denote{\text{-Thu}}$_{\langle\langle\varepsilon_s,t\rangle,\langle e,\langle\varepsilon_e,t\rangle\rangle\rangle}=\lambda y\lambda P^s.\exists e[\textsc{cause}(y,\textsc{become}(P^s)(e))]$
+	
+	\textit{-Thu} `\gls{tr}' is a situation operator which takes a property of states  $ P^s $ and returns a function from individuals (agents/causers) to events $ (\lambda y. y\,\textsc{cause}\,\textsc{become}\,P^s\subseteq E\times\mathcal E_\epsilon)$ %\endsubsub
+	
+\xe\mcom{need to revise \textit{-Thu} at least}
+
+Relevantly for current purposes, the nominal predicates in the first column of table \ref{sit-deriv} are all state-denoting and, consequently, are incompatible with verbal inflections and imperfective marking (sc. \textit{ga}). As (\getref{sit-deriv}) shows, on a neo-Dowtian treatment, when verbs are derived from these stative predicates, an eventive interpretation is generated. This captures the intuition that \textbf{predicates of events, in effect, denote changes in state over time} (``dynamicity''). 
+
+\begin{figure}[h]
+\caption{Truth conditions for state change operator \textsc{become} (adapted from \citealp{Dowty1979})}\label{become-dia}\centering
+\begin{tikzpicture}
+\draw[<->, line width=.5mm] (0,0) -- (6,0);
+\draw (3,.25) node[color=forest] {$ \boldsymbol i $};
+\filldraw[nearly transparent,cyan](3,0)		ellipse [x radius=2cm,y radius=.8cm];
+\draw (2,.17) node[color=blue,yshift=.1cm] {$j$};
+\filldraw[nearly transparent,yellow,xshift=0.2cm](1.6,0)		ellipse [x radius=.8cm,y radius=.5cm];
+\draw (4.25,.2) node[color=red] {\textbf{$k$}};
+\filldraw[nearly transparent,yellow,xshift=-0.2cm](4.4,0)		ellipse [x radius=.8cm,y radius=.5cm];
+
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt] %%%BECOME BRACE
+(1.2,0) -- (4.8,0) node [black,midway,yshift=0.375cm] 
+{\footnotesize \textsc{become} $P^s$};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=25pt] %%%% HOLD BRACE
+(3.5,-0.0) -- (4.8,-0.0) node [black,midway,yshift=0.35cm] 
+{\footnotesize $ P^s $};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=25pt] %%%%NOT HOLD BRACE
+(1.2,-0.0) -- (2.5,-0.0) node [black,midway,yshift=0.35cm] 
+{\footnotesize  $ \neg P^s $};
+
+\end{tikzpicture}
+\end{figure}
+
+This treatment further evinces the infelicity of present-tensed eventive predication with which we have been concerned so far in this section. Given that eventive predicates of the \textsc{become}-type assert a \textbf{state-change} over time, reference to an entire, bounded eventuality of this type must be located within an extended interval in which both $ P $ and $ \neg P $ hold.
+
+In this subsection we have made the following observations:
+\begin{itemize}
+	\item Dhuwal(a) verbal predicates denote properties of events;
+	\item Eventive predication is incompatible with present-reference;
+	\item Properties of states (which are present-tense compatible) are predicated by the three strategies given in (\getref{stat-predn}), spelled out in (\nextx) below. 
+\end{itemize}
+
+\mcom{of course at this stage i haven't included semantics for \textbf{I}/\textbf{III}}
+\ex[glwidth=.35\linewidth]\textbf{Strategies for achieving present temporal reference in W Dhuwal(a)}\deftagex{pres-schemata}\\\vtop{\halign{%
+#\hfil&& \qquad #\hfil\cr\toprule
+\textbf{\textsc{type}}& \textbf{\textsc{example}} & \textsl{\textsc{schema}}\cr\midrule
+\textbf{nominal}& \begingl\gla baŋaḏi djawar-mirr//
+\glb \gls{malk} tired-\gls{prop}//
+\glft $ \lambda s.Jb(s) $//
+\endgl& \begin{tikzpicture}[baseline=(current bounding box.north)]
+\draw[<->, line width=.5mm] (0,0) -- (6,0);
+\draw (3,.25) node[color=forest] {$ \boldsymbol i $};
+\filldraw[nearly transparent,cyan](3,0)		ellipse [x radius=2cm,y radius=.8cm];
+
+
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=30pt] %%%BECOME BRACE
+(1.2,0) -- (4.8,0) node [black,midway,yshift=0.375cm] 
+{\footnotesize $J(b)$};
+
+
+
+\end{tikzpicture}\cr
+\textbf{post-state}&\begingl\gla baŋaḏi djawar-yu-rr(una)//
+\glb \gls{malk} tired-\gls{vblzr}-\textbf{III}//
+\glft $ \lambda s.\exists e[\textsc{become}(Jb)(e)\wedge\tau(e)\prec\textbf{now}](s) $//
+\endgl& \begin{tikzpicture}[baseline=(current bounding box.north)]
+\draw[<->, line width=.5mm] (0,0) -- (6,0);
+\draw (3,.25) node[color=forest] {$ \boldsymbol i $};
+\filldraw[nearly transparent,cyan](3,0)		ellipse [x radius=2cm,y radius=.8cm];
+\draw (2,.17) node[color=blue,yshift=.1cm] {$j$};
+\filldraw[nearly transparent,yellow,xshift=0.2cm](1.6,0)		ellipse [x radius=.8cm,y radius=.5cm];
+\draw (4.25,.2) node[color=red] {\textbf{$k$}};
+\filldraw[nearly transparent,yellow,xshift=-0.2cm](4.4,0)		ellipse [x radius=.8cm,y radius=.5cm];
+
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt] %%%BECOME BRACE
+(1.2,0) -- (4.8,0) node [black,midway,yshift=0.375cm] 
+{\footnotesize \textsc{become} $J$};
+
+\begin{scope}
+\clip (3,0.0) rectangle(4.7,2);
+\draw [decorate,decoration={brace,amplitude=3.975pt},xshift=-0pt,yshift=25pt] (3.5,0) -- (4.8,0) node [black,midway,yshift=0.35cm] 
+{\footnotesize  $ J $};
+\end{scope};
+\draw[-{stealth},yshift=27pt,decorate,decoration={zigzag,amplitude=1pt,segment length=4.75}] (4.67,0) -- (5.3,0) ;
+%\path[postaction=decorate,decoration={markings,mark=at position 0.9 with {\arrow{>}}}] decorate[decoration={brace,amplitude=4pt}] { (0,0.7) to (5,0.7)};
+
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=25pt] %%%%NOT HOLD BRACE
+(1.2,-0.0) -- (2.5,-0.0) node [black,midway,yshift=0.35cm] 
+{\footnotesize  $ \neg J $};
+
+\draw[line width=2mm,nearly transparent] (5.35,1.25) -- (5.3,-.8) node [at end,yshift=-2mm] {\textit{\textsc{now}}};
+
+\end{tikzpicture}\cr
+\textbf{imperfective}& \begingl\gla baŋaḏi ga djawar-yu-n//
+\glb \gls{malk} \gls{ipfv}.\textbf{I} tired-\gls{vblzr}-\textbf{I}//
+\glft $ \lambda s.\exists e[\textsc{become}(Jb)(e)\wedge\tau(e)\sqsupset\textbf{now}](s) $//
+\endgl& \begin{tikzpicture}[baseline=(current bounding box.north)]
+\draw[<->, line width=.5mm] (0,0) -- (6,0);
+\draw (3,.25) node[color=forest] {$ \boldsymbol i $};
+\filldraw[nearly transparent,cyan](3,0)		ellipse [x radius=2cm,y radius=.8cm];
+\draw (2,.17) node[color=blue,yshift=.1cm] {$j$};
+\filldraw[nearly transparent,yellow,xshift=0.2cm](1.6,0)		ellipse [x radius=.8cm,y radius=.5cm];
+\draw (4.25,.2) node[color=red] {\textbf{$k$}};
+\filldraw[nearly transparent,yellow,xshift=-0.2cm](4.4,0)		ellipse [x radius=.8cm,y radius=.5cm];
+
+
+\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt] %%%BECOME BRACE
+(1.2,0) -- (4.8,0) node [black,midway,yshift=0.375cm] 
+{\footnotesize \textsc{become} $J$};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=25pt] %%%% HOLD BRACE
+(3.5,-0.0) -- (4.8,-0.0) node [black,midway,yshift=0.35cm] 
+{\footnotesize $ J $};
+
+\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=25pt] %%%%NOT HOLD BRACE
+(1.2,-0.0) -- (2.5,-0.0) node [black,midway,yshift=0.35cm] 
+{\footnotesize  $ \neg J $};
+
+\draw[line width=2mm,nearly transparent] (3.35,1.25) -- (3.3,-.8) node [at end,yshift=-2mm] {\textit{\textsc{now}}};
+
+\end{tikzpicture}\cr\bottomrule
+}}
+
+\xe
+
+Note that, in the formal and schematic presentation of the sentences in (\lastx), for the sake of exposition, we are abstracting away from a number of important details, including more sophisticated treatments of properties of \gls{ipfv} (e.g. the intensional interpretive component of the \textsc{progressive} as first proposed in \citet{Dowty1977})\footnote{\textit{Viz.} what has been referred to in subsequent literature as quantification over `inertia futures/worlds.'} but crucially also a proper account of the contribution of the verbal inflections \textbf{I} and \textbf{III} in determining temporal reference. We turn to this in the below subsections (§\ref{past-pred}). The derivation in (\nextx) below spells out a number of assumptions about the composition of an eventive predication in Gupapuyŋu.
+
+
+\mcom{As we've seen, I have the bones of a derivation ready to go on this (assuming I've got the data right). I need to know what existential closure in order to get it to come out. Is it a composition rule distinct from fn appl?}
+
+
+\pex\textbf{ A compositional derivation of \textit{Baŋaḏi ga djaṉŋarthina}\\`Baŋaḏi is hungry' (lit.~`Baŋaḏi~got~hungry')}
+
+%\begin{tikzpicture}[scale=.9]\tikzset{baseline=(current bounding box.north),every tree node/.style={align=center},level distance=50pt,sibling distance=0pt}
+%\Tree [.{\textbf{IP$ _{t} $}\\$ \exists i'\Big[\textbf{III}(i*,i')\wedge\exists i''[i''\sqsupset i' \wedge\exists e\big[\textsc{become-}Jb(e)\circ\tau(e)\circ i'']\big]\Big] $} [.{\textbf{\textit{-na$ _{\langle\langle i,t\rangle,t\rangle} $}}\\$\lambda P.\exists i'[\textbf{III}(i*,i')\wedge P(i')]$} ] [.{$\textbf{AspP}_{\langle i,t\rangle}$\\ $\lambda i\exists i'\big[i'\sqsupset i\wedge\exists e[\textsc{become-}Jb(e)\wedge\tau(e)\circ i']\big] $} [.{\textbf{\textit{ga$_{\langle\langle i,\langle\varepsilon,t\rangle\rangle,\langle i,\langle\varepsilon,t\rangle\rangle\rangle}$}}\\$ \lambda P^\epsilon\lambda i.\exists i'\big[i'\sqsupset i\wedge\exists e[P(e)\wedge\tau(e)\circ i']\big] $} ] [.{$\boldsymbol{\mathcal E}\textbf{P}_{\langle i,\langle\varepsilon_e,t\rangle\rangle}$\\$ \lambda i\lambda e[\lambda s.\textsc{become-}Jb(e)(i)] $} [.{\textbf{PredP}$_{\langle \varepsilon_s,t\rangle}$\\$ \lambda s.J(b)(s)$} [.{\textbf{\textit{baŋaḏi$ _{e} $}}\\$ b $} ] [.{\textbf{\textit{djaṉŋar}}$ _{\langle e,\langle\varepsilon_s,t\rangle\rangle} $\\$\lambda x\lambda s.J(x)(s)  $} ] ] [.{\textbf{\textit{-thi}}$_{\langle\langle\varepsilon_s,t\rangle,\langle i,\langle\varepsilon_\epsilon,t\rangle\rangle\rangle}$\\$ \lambda P^s\lambda i\lambda e.\textsc{become-}P^s(e)(i)  $} ] ] ] ]  
+%\end{tikzpicture}
+%
+
+\begin{tikzpicture}[scale=.9]\tikzset{baseline=(current bounding box.north),every tree node/.style={align=center},level distance=50pt,sibling distance=0pt}
+\Tree [.{\textbf{IP$ _{t} $}\\$ \exists i'\Big[\textbf{III}(i*,i')\wedge\exists i''[i''\sqsupset i' \wedge\exists e\big[\textsc{become-}Jb(e)\circ\tau(e)\circ i'']\big]\Big] $} [.{\textbf{\textit{-na$ _{\langle\langle i,t\rangle,t\rangle} $}}\\$\lambda P.\exists i'[\textbf{III}(i*,i')\wedge P(i')]$} ] [.{$\textbf{AspP}_{\langle i,t\rangle}$\\ $\lambda i\exists i'\big[i'\sqsupset i\wedge\exists e[\textsc{become-}Jb(e)\wedge\tau(e)\circ i']\big] $} [.{\textbf{\textit{ga$_{\langle\langle \varepsilon_\epsilon,t\rangle,\langle i,t\rangle\rangle}$}}\\$ \lambda P^\epsilon\lambda i.\exists i'\big[i'\sqsupset i\wedge\exists e[P(e)\wedge\tau(e)\circ i']\big] $} ] [.{VP$ _{\langle\varepsilon{_e},t\rangle} $\\$ \lambda e.\textsc{become}(\lambda s.Js)(e)\sqcap\vartheta(b,e) $} [.{\textbf{NP}$ _{\langle\varepsilon,t\rangle} $\\$ \lambda e.\vartheta(b,e) $} [.{\textbf{\textit{baŋaḏi}}$ _e $\\$ b $} ] [.{$ \boldsymbol{\underset{nom}{\varnothing}}_{\langle e,\langle\varepsilon,t\rangle\rangle} $\\$ \lambda x\lambda e.\vartheta(x,e) $} ] ] [.{V$ _{\langle\varepsilon_e,t\rangle} $\\$ \lambda e.\textsc{become}(\lambda s.Js)(e)$} [.{\textit{djaṉŋar}$ _{\langle\varepsilon_s,t\rangle}$\\$ \lambda s.Js $} ] [.{\textbf{\textit{-thi}}$_{\langle\langle \varepsilon_s,t\rangle,\langle \varepsilon_e,t\rangle\rangle}$\\$ \lambda P^s\lambda e.\textsc{become}(P^s)(e) $} ] ] ] ] ]     
+\end{tikzpicture}
+
+
+\xe
+
+
+A number of observations to prosify once this analysis has firmed up a bit:
+\begin{itemize}
+	\item A nominal predication (PredP) is taken to be a set of states saturated by its theme (absolutive marked argument)
+	\begin{itemize}
+		\item This has been kind of modified now s.t. the stative property first composes with a verbalising suffix to derive an eventive property.  This probably makes more sense. In a neodavidsonian sort of way I'm kind of abstracting away from how the nominal arguments compose (assuming there's a intersective composition rule $ \boldsymbol\sqcap $ that modifies the event description (Champollion for a summary). I have absolutely zero-commitment to anything beyond events.)
+		\item Though this is quite nice in transitive cases where the ergative can be seen as instantiating $ \lambda x\lambda e.\textsc{ag}(x,e) $ and the accusative $ \lambda x\lambda e.\textsc{pat}(x,e) $. For nominative though, we'd probably need two denotations? maybe not. maybe it'd just be typed more generally... let's see.
+	\end{itemize}
+	\item the verbalising suffix \textit{-thi} as shown in (71) above maps a set of states to events of becoming that state. Given that these require inflection ultimately, this is currently modified as a function from sets of states to functions to time-relativised events.
+	\item Viewpoint aspect (\textsc{ipfv}) is a predicate modifier: it takes a set of events and maps it to a predicate of intervals (this meshes with Deo 2015:11)
+	\begin{itemize}
+		\item consequence of Aspº introducting $ i $ is that i'm gonna need to say that there's a silent \textsc{pfv} operator in complementary distribution with \textit{ga} that introduces a variable over times.
+	\end{itemize}
+	\item The verbal inflection then maps a predicate (of intervals?) to a proposition, `instantiating these properties at reference time' (ibid.)
+	\item {\color{orange}There is a typing problem at the AspP level where maybe there's some existential binding of the event variable. Can we just say that this is one of the things that \textsc{asp} is doing? Or do we need an $ \exists $-closure operator in the syntax (with a Champollion-like semantics, i.e $ \lambda\mathcal E.\exists e[\mathcal E(e)] $)?} I'm still so confused by what the meaning of this could be? It must just be a theory-internal sleight-of-hand right?
+	\item {\color{forest} One thing that is likely to simplify the representation here a wee bit (especially when we move up type-wise and start thinking about modality) is using a \textsc{coin} relation (kinda Dowty's \textbf{AT}). This \textbf{does} do the exisntial closure work (acc. Ashwini)}
+	\item $ i $  presumably needs to be in the syntax somewhere
+\end{itemize}
+
+
+\pex\mcom{from memory the following verse also had a nice example of nhäŋal}
+\begingl\glpreamble \textbf{Dynamic \textit{nhina}}//
+\gla walal marrtji-n dhaŋal-ku-ŋal-nha gurtha-n ḻithan-mara-nha-mi-nyara-w-nha walala-ŋgu-wuy walal. Bala ŋayiny Betany dhunupan marrtjin, dhutnha nhinan walala-ŋgal.//
+\glb 3p go-\textbf{III} stoke-\gls{caus}-\textbf{III}-\textsc{seq} fire-\gls{prom} dry-\gls{caus}-\gls{nmlzr}-\gls{recip}-\gls{nmlzr}-\gls{dat}-\gls{seq} 3p-\gls{dat}-\gls{assoc} 3p then 3s.\gls{prom} Peter.\gls{prom} straght.\gls{seq} go-\textbf{III} sit.\gls{seq} sit.\textbf{III} 3p-\gls{obl}//
+\glft`They were stoking the fire in order to dry each other off. Then Peter came straight in, he sat down with them.'//\endgl
+\xe
+
+\pex \begingl\glpreamble \textbf{Continuous reading with \textit{ga} \gls{ipfv}.\textbf{I}}//
+\gla \nogloss{...} bili ŋuriŋiyiny ga maŋutji-lakaram ŋunhi God-Waŋarrwuny djeŋarra'mirrnydja Birrimbirr ga nhina-n nhokala.//
+\glb because \gls{texd}.\gls{erg}.\gls{ana}.\gls{prom} \gls{ipfv}.\textbf{I} eye-tell.\textbf{I} \gls{texd} God-holy.\gls{prom} bright.\gls{prop}.\gls{prom} spirit \gls{ipfv}.\textbf{I} sit-\gls{seq} 2s.\gls{obl}//
+\glft`...because that shows ($ ^{??} $is showing) that the bright spirit of God rests ($ ^{??} $is resting) on you.'\trailingcitation{[\textit{1 Betawuŋ Dhäwu}/1Pet 4:14]}//\endgl\xe
+
+\pex\begingl\glpreamble\textbf{A ḻatjin example from MW (648)}//
+\gla wiripu+ny balanda mala marŋgi+mirr ḻatjin+gu ḻuka+nhara+w, ga wiripu+ny mala bäyŋu\ ḻurrkun' marŋgi+ny ḻuka+nhara+w, ga djäl+nydja ḻuka+nhara+w\ ga dharrwa+ny bäyŋu//
+\glb certain+PROM white person PL know+PROP mangrove worm+DAT eat+4th+DAT and certain+PROM PL NEGQ few/three know+PROM eat+4th+DAT and want+PROM eat+4th+DAT and many+PROM NEGQ//
+\glft`There are some white people who know about eating mangrove worms and others
+that do not. A few have eaten (them) and like eating (them) but many don't.'//\endgl
+
+\xe
+%In both examples in (\lastx) above, the contribution of \textit{ga} `\textsc{ipfv.\textbf{I}}' is clearly one of viewpoint aspect.
+
+
+\subsection{Talking about the past}\label{past-pred}
+
+
+
+Perhaps the most important distinction between \textbf{I} and \textbf{III} is that events that are predicated as \textbf{including the time of speech} ($\boldsymbol{t*} $) are felicitious only with \textbf{I}, modulo the caveats about post-state predication discussed above.)
+
+
+At the beginning of this section (in addition to various points in Chapter \ref{descY}), we that past temporal reference for W. Dhuwal(a) eventive predicates can b e established with either \textbf{I} or \textbf{III} inflection. This is clearly demonstrated again by the conjoined sentences in (\ref{coord-pst}) below.
+
+\pex\glpreamble \textbf{Past reference with I and III (conjunction)}\label{coord-pst}//
+\a\begingl\gla \nogloss{[} ŋarra ḻuk-\textbf{a} mänha barpuru \nogloss{]} ga \nogloss{[} ŋarra ḻuk-\textbf{ana} mänha dhiyaŋu bili \nogloss{]}//
+\glb 1s drink-\textbf{I} water yesterday and 1s drink-\textbf{III} water \gls{prox}.\gls{erg} \gls{cplv} //
+\glft`I drank water yesterday and I drank water just before (earlier today).'\trailingcitation{[BM~20190405]}//\endgl
+
+
+\a\begingl\gla ŋarra barpuru munhagu ŋarra \textbf{ḻuka} djinydjalma ga \textcolor{red}{\textbf{raŋunhaŋala}} bäpawa märr ŋayi dhu \textbf{ḻuka} dhiyaŋu bala goḏarrmirri//
+\glb 1s yesterday night 1s eat.\textbf{I} crab and return-\textbf{III} father-\gls{dat} so 3s \gls{fut} eat \gls{prox}.\gls{erg} \gls{mvtawy} morning//
+ \glft`I ate some crab last night and this morning brought some back for Dad so that he can eat (some).'\trailingcitation{[BM~20190416]}//\endgl
+
+\xe
+
+
+
+
+Ultimately, we can think of the temporal interval (i.e. range of possible times) that are made available by each inflection can be described as follows (this is schematised in Figure \ref{TempSchem-pst} below.) 
+\begin{description}
+	\item[\phantom{I}I\phantom{I}]$ \tau(e) \circ$ \textbf{[}\textsc{recent past} \textbf{,} \textsc{end}.day-of-speech\textbf{)}
+	\item[III]$ \tau(e) \circ$ \textbf{(}\textsc{remote past} \textbf{,} time-of speech\textbf{]} 
+\end{description}
+
+Below, we consider various options for theorising the distributional differences between (and meaning contribution of) \textbf{I} and \textbf{III}.
+\subsubsection{\textbf{I} as a present tense marker}
+
+
+Given that: • \textbf{I} is most clearly distinguished from \textbf{III} by its compatibility with present temporal reference, and also that • cognates of \textbf{I} in closely related Yolŋu varieties clearly realise present tense (see Chapter \ref{diaY}), a possible model of the distribution of \textbf{I} and \textbf{III}, then, analyse \textbf{I} a \ul{\textsc{present-}tense marker}.
+
+Of course, a semantics where the semantic contribution of \textbf{I} restricts the event to overlap with speech-time is untenable in view of \textbf{I}'s compatibility with past-reference. Consequently, an analysis of \textbf{I}-as-\textsc{present} would need to invoke the notion of an \textsc{extended now} (\gls{xnow}, \textit{sc.} ``a time interval reaching back from the time of utterance'' \citep[49]{Cover2010}).\footnote{Note that this definition of \gls{xnow} differs from (i.e. is a subset of) that which is formalised in \citealt[225]{Stump1985}, for whom it is a relation between \textsl{any} arbitary interval $ i $ such that $ \textsc{xnow}(i) = \{i'\mid i'\underset{\text{final}}{\sqsupseteq} i\}$.}  A consequence of an analysis of this type would be that, past-referring utterances with \textbf{I}-morphology must be understood ``not [as locating] a situation at some definite point in the past, but only to offer it as \ul{relevant to the current situation}'', a semantic domain traditionally associated with the \textsc{anterior} or \textsc{perfect} aspect (\citealp[62]{Bybee1994}, underlining added).
+
+
+
+%This present-reference for \textbf{I} is then compared against a general past-tense semantics for \textbf{III}.
+
+
+  Appeal to the notion \gls{xnow} has been deployed in a number of influential accounts of the English present perfect (\citealp[notably][]{McCoard1978, Portner2003} a.o.) to explain both • intuitions about the `current relevance' of present perfect predications and, importantly • ``the present perfect puzzle'' \citep[see][]{Klein1992,Schaden2009}, \textit{sc.} the incompatibility of the present perfect with TFAs for the past (e.g. \textit{*I have eaten a few hours ago}.)
+
+Of course, as we have seen, this reasoning fails to account for the WD data. \textbf{I}, in fact, frequently co-occurs with TFAs for the past (e.g. \textit{barpuru} `yesterday', which does \textit{not }cooccur with \textbf{III} in these varieties.) This is shown again in (\getref{barpuru}):
+\pex\deftagex{barpuru}Interactions between \textbf{I} and \textbf{III} and recent past-denoting TFA \textit{barpuru}\a\begingl\deftaglabel{I}\gla ḏirramuwal yothuwal bäpa'mirriŋuy rrupiya barpuru \textbf{djuy'yu-n}, \textbf{märr} \textbf{barpuru} + ga \textbf{barpuru} \textbf{buna}-ny dhiyal-nydja.//
+\glb man.\gls{obl} child.\gls{obl} father.\gls{kinprop}.\gls{erg} money yesterday send-\textbf{I} kinda yesterday and yesterday arrive.\textbf{I}-\gls{prom} \gls{prox}.\gls{loc}-\gls{prom}//
+\glft`The father sent money to the boy recently and it arrived here yesterday.'\trailingcitation{\citep[343]{Wilkinson1991}}//
+\endgl
+
+\a\deftaglabel{III}\begingl\gla ŋarra ga-na \textbf{ḻuka-na} barpuru//
+\glb 1s \gls{ipfv}-\textbf{III} consume-\textbf{III} yesterday//
+\glft\textsc{Intended.} `I was drinking water yesterday.'\trailingcitation{[DhG~20190405]}//\endgl
+
+
+\xe
+
+Given that TFAs for the past ought to be compatible with past-tense marking and incompatible present-tense marking, the \textsc{pres/pst} analysis of these inflectional categories makes false predictions of infelicity with \textbf{I}  (\getfullref{barpuru.I}) and felicity with \textbf{III} (\getfullref{barpuru.III}). On the basis of this data we can dismiss a treatment that treats \textbf{I} as \textsc{pres}-denoting and accounts for the \textit{recent past} uses as emerging out of a \textsc{perfect/anterior} reading of the present.
+
+Relatedly, the relationship between (erstwhile) present perfect constructions and past temporal reference. in Peninsular Spanish varieties, ``perfective uses of the [present] perfect are restricted to certain temporal contexts, such as describing events that happened during the `today' or `yesterday' intervals... [whereas the \textit{préterito} is] found in virtually any type of context when past reference is made'' (\citealp[72]{Howe2006}, also \citealp[115ff]{CurelliGotor1990} for Catalan.) This is argued to be an instantiation of a grammaticalisation pathway where the distribution of a particular grammatical marker acquires \textsc{perfect} meaning before further developing into a \textsc{perfective} or \textsc{past} tense operator.\footnote{The ``pathway'' \textsc{perf $ \to $ pfv} has been referred to as the ``Aoristic drift'' \citep{Schaden2009,Schaden2012}. See \citep{Schwenter1994} for the Alicante variety of Peninsular Spanish, \citep{Condoravdi2014} for the instantiation of this pathway in Indo-Aryan.} This phenomenon and its relevance for an analysis of the Yolŋu data presented here is treated below (§ \ref{hod}).
+
+
+
+
+
+\subsubsection{Disjunctive presuppositions}
+A consequence of these data for theories of tense is that, if we assume an ``off-the-shelf'' account of tense marking as encoding a presupposition about the relation between a contextually-provided reference time and the time of speech, we are left with the disjunctive presuppositions in (\nextx).
+
+
+\pex\textbf{A polysemy treatment of the temporal contribution of \textbf{I} and \textbf{III}}\a$\llbracket\textbf{\phantom{I}I\phantom{I}}\rrbracket^{c}=\lambda t:\begin{cases}t\in today\leftrightarrow t\circ t_0&.\,t\qquad\textsc{[nonpast]}\\
+t\notin today \leftrightarrow t\prec t_0\wedge\mu(t,t_0)<s_c&.\,t\qquad\textsc{[recent past]}
+\end{cases}$
+
+\textbf{I} enforces a presupposition that: the reference time $ t $ coincides with speechtime $ t_0 $, \textbf{\textsc{or}}\\ if $ t $ does \textsc{not} fall within the interval `$ today $', then the temporal distance by which $ t $ precedes $ t_0 $ is \textit{\textbf{below} some contextually provided standard} $ s_c $
+
+\a$\llbracket\textbf{III}\rrbracket^{c}=\lambda t:\begin{cases}t\in today\leftrightarrow t\prec t_0&.\,t\qquad\textsc{[today past]}\\
+t\notin today \leftrightarrow t\prec t_0\wedge\mu(t,t_0)>s_c&.\,t\qquad\textsc{[remote past]}
+\end{cases}$
+
+\textbf{III} enforces a presupposition that: for a reference time $ t $ that falls within the interval `$ today $', then it precedes speechtime $ t_0 $, \textbf{\textsc{or}}\\ if $ t $ does \textsc{not} fall within the interval `$ today $', then the temporal distance by which $ t $ precedes $ t_0 $ is \textit{\textbf{above} some contextually provided standard} $ s_c $
+
+\xe
+
+In effect, the ``disjunctive presupposition'' account captures the descriptive facts of the ``cyclic'' tense systems that characterise western Arnhem languages and the \textsc{tense-frame} interactions of \citealt{Glasgow1964} \textit{et seq.} (see \ref{GlaswegianTR}) It treats each of \textbf{I} and \textbf{III} as having two possible denotations which are adjudicated by the contextual retrieval of a topic time $ t $ and a process of ``checking'' whether $ t $ falls within a privileged interval, \textit{viz.} \textit{today} \textsc{(day-of-speech)}.
+
+As described above, typologically, there appears to be evidence in favour of a \textsc{day-of-speech} interval with linguistic consequences. For example, for a number of Romance languages, ``present perfect'' constructions have generalised into simple \textsc{perfective} or \textsc{past} tense markers (the so-called ``Aoristic drift'' \citealp[cf.][]{Schaden2012}). In an ostensible transition stage, the use of the present perfect with past temporal reference is restricted to the day of speech (\textit{hodiernal} temporal reference;\label{hod} \citealp{Comrie1985,Dahl1985}). This phenomenon is shown for Alicante Spanish in (\nextx) below where, according to \cite{Schwenter1994}, there are very few recorded utterances of the type given in (\getref{alicante.pret}), particularly among younger speakers.\footnote{As suggested above, a similar distinction appears to be drawn in Catalan according to \citet{CurelliGotor1990}. This may point to an areal diffusion of the innovation/grammaticalisation of perfective/hodiernal past readings of the perfect construction through the \textit{Països Catalans.}} Schwenter's data points to the loss of a grammaticalised \textsc{perfect}, the two past tenses now rather encoding differential temporal remoteness (\textit{sc.} metricality.)
+
+\pex\textbf{In Alicante Spanish, the (erstwhile) present perfect assumes a \textsc{pfv} reading (restricted to same day utterances)}\deftagex{alicante}
+\a\begingl\gla Hoy me he~levantado a las siete//
+\glb today me have.1s~arisen at the seven//
+\glft`Today I have got up at 7 o'clock.'\deftaglabel{pp}//\endgl
+\a\begingl\gla\nogloss{\ljudge{$ ^{*\%} $}} Hoy me levanté a las siete\deftaglabel{pret}//
+\glb today me arose.3s at the seven//
+\glft`Today I got up at 7 o'clock.'\trailingcitation{\citep[91]{Schwenter1994}}//\endgl\xe
+
+
+%Additionally, recent work on
+
+
+As mentioned above, two major issues for an analysis of temporal reference in this language are \textsc{metricality} and \textsc{cyclicity}. These will be treated in turn.
+
+\subsubsection{Metricality (temporal remoteness) in the past}\label{metr-sec}
+
+In the past number of years, formal semanticists have paid attention to the tense systems of languages that appear to subdivide the \textsc{past} and \textsc{future} tenses according to (perceived) remoteness from speech time (\citealp[e.g.][]{Cable2013,Klecha2016} in addition to \citealp{Bohnemeyer2018} on `temporal remoteness marking in [Yucatec Maya, \gls{yua}] a tenseless language').
+
+For \cite{Cable2013}, Gikũyũ's system of `temporal remoteness morphemes' (4 for the past, 2 for the future) constrain the event (instantiation) time of the predicate they modify. Cable's TRMs are analysed as identity functions over sets of events that enforce a presupposition of temporal remoteness (\nextx).
+
+\pex\denote[g,t*]{\textsc{cur}}$ =\lambda e:\tau(e)\,\infty\,\text{day surrounding }t*.e $\\
+\textsc{cur} denotes an identity function on events, one whose domain is restricted to events whose runtime $ \tau(e) $ overlaps with the day surrounding the utterance time $ t* $\trailingcitation{\citep[253]{Cable2013}}
+\xe
+
+Similarly, Cable's \textsc{imm} `immediate past' and \textsc{nrpst} `near past' make presuppositions that the runtime of the described event overlaps with intervals related to $ t* $ (\textsc{impst} and \textsc{rec} $ :\mathcal I\to\mathcal I $ respectively).
+
+\begin{figure}[H]\centering\caption{W. Dhuwal(a) predicates inflected with \textbf{I} and \textbf{III} make overlapping reference intervals available. They are both felicitous with past predications.}\label{TempSchem-pst}
+	
+	
+	\begin{tikzpicture}[scale=1]
+	% draw horizontal line   
+	%	\draw[<->, line width=.5mm] (0,0) -- (12,0);
+	\draw[<-, line width=.5mm] (0,0) -- (9.5,0);	
+	%draw rex
+	\shade[left color=blue!15] (0,0.02) rectangle (6.8,1.5);
+	%	\fill[green!10!white] (2.5,0.02) rectangle (4.8,1.5);
+	\shade[left color=white,right color=green!20] (0,1.5) rectangle (6.8,1.75);
+	\fill[green!15!white] (4.8,0.02) rectangle (9.5,1.75);
+		\fill[blue!15!white] (4.8,0.02) rectangle (6.8,1.5);
+	%	\fill[orange!10!white] (9.5,0.02) rectangle (12,1.5);
+	
+	% draw nodes
+	\draw (1.25,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{}}};
+	\draw (3.675,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textbf{}};
+	\draw (5,0)   node[circle,fill,label=below:$\big\lfloor{\sl today}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	\draw (6.8,0) node[diamond,shade,outer color=black, inner color  = forest,label=below:$\boldsymbol{t*}$] {} node[below=3pt] {\textbf{}} node[above=3pt] {\textsc{}};
+	\draw (5.8,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{}}};	
+	\draw (8.15,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{}}};	
+	%	\draw (10.75,0) node[below=3pt] {\textbf{}} node[above=10pt] {\textsc{\textbf{II}}};	
+	\draw (9.5,0)   node[circle,fill,label=below:${\sl today}\big\rfloor$] {} node[below=3pt] {\textbf{}} node[above=3pt] {};
+	
+	
+	%%%braces
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=40pt]
+	(0,0.5) -- (4.5,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textbf{III}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=50pt]
+	(2.5	,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textbf{I}};
+	
+	\end{tikzpicture}\end{figure}
+
+
+
+The contrast between the two sentences in (\getref{metr1}) excerpts from \citet[343]{Wilkinson1991} provide interesting insights about the subjectivity and context-dependence of temporal remoteness.
+\pex\deftagex{metr1}\textbf{\textsc{last year} temporal frames licensing \textbf{I} and \textbf{III}}\a\begingl\gla way marŋgi nhe ŋarra-kalaŋa-w bäpa-'mirriŋu-w-nydja ŋunhi ŋayi dhiŋga-\textbf{ma}-ny ŋuriŋi bala dhuŋgarra-y//
+\glb hey know 2s 1s-\gls{obl}-\gls{dat} father-\gls{kinprop}-\gls{dat}-\gls{prom} \gls{texd} 3s die-\textbf{I}-\gls{prom} \gls{texd}.\gls{erg} \gls{mvtawy} year-\gls{erg}//
+\glft`Hey, did you know my father who died last year?'//\endgl
+\a\begingl\gla nhä nhokiyin-gal wäwa-'mirriŋu-y warkthu-\textbf{rr} ŋäthil rarranhdharr-yu//
+\glb what 2s.\gls{emph}-\gls{obl} brother-\gls{kinprop}-\gls{erg} work-\textbf{III} before summer-\gls{erg}//
+\glft`What did your brother do last summer?'\trailingcitation{\citep[343]{Wilkinson1991}}//\endgl
+\xe
+
+
+
+
+\pex\textbf{\textsc{Context.}} Wamut has been living in Sydney for a long time. Visiting Ramingining, he's speaking to his \textit{gathu} about \textit{ḻatjin}.
+\a\begingl\gla \nogloss{last}~week, baman'nha ŋarra nhä-\textbf{ma} ḻatjin bili ŋarra ga-\textbf{n} barrku nhina-\textbf{n}.//
+\glb prior-\gls{seq} 1s see-\textbf{I} \textsl{teredo} because 1s \gls{ipfv}-\textbf{III} far sit-\textbf{III}//
+\glft`Last week I saw \textit{ḻatjin}, I had been living far away.'//\endgl
+\a\begingl\gla ŋäthil/baman' ŋarra ga-\textbf{l} nhä-\textbf{ŋal}//
+\glb previously 1s \gls{ipfv}-\textbf{III} see-\textbf{III}//
+\glft`I saw one long ago.'//\endgl
+\a\begingl\gla nhä-\textbf{nha} yan ŋarra li ganha ŋunhi ŋarra yothu yan//
+\glb see-\textbf{IV} just 1s \gls{hab} \gls{ipfv}-\textbf{IV} \gls{texd} 1s child just//
+\glft`I used to see them when I was a kid.'\trailingcitation{[AW~20190422]}//\endgl\xe
+
+\clearpage\subsubsection{A \textsc{MaxPresupp} account}
+
+Previous descriptions have seized on the demonstrably broad distribution of \textbf{I} to assign it metalinguistic labels including \textsc{base} and \textsc{neutral} (these were summarised in \ref{Infl-Comparisons-Wilk}). Drawing on this, I propose a lexical entry for the meaning contribution of \textbf{I} and \textbf{III}, which draws on principles of pragmatic blocking in order to derive the distribution exhibited in WD.
+
+
+In their 2014 interval-semantic treatment of the Indo-Aryan \textsc{perfect}, \citeauthor{Condoravdi2014} develop a set of formal tools for relating a property (formally a set of eventualities or times) to a reference interval. As shown in (\nextx), for predicates of eventualities, $ \textsc{Inst}(P,i) $ holds whenever the runtime of a $ P $-event is contained within $ i $.
+
+\pex\textbf{Property instantiation}\hfill\citep[278]{Condoravdi2014}
+
+$\textsc{Inst}(P,i)=\begin{cases}
+\exists e[(P(e)\wedge\tau(e)\sqsubseteq i]&\leftarrow P\subseteq\mathcal E\\
+P(i)&\leftarrow P\subseteq\mathcal T\footnotemark
+\end{cases}
+$
+\xe
+\footnotetext{Consequently, for predicates of times the equivalence $ \textsc{Inst}(t,p)\leftrightarrow\textbf{AT}(t,p) $ holds (a 2-place \textbf{AT} relation familiar since \citealt{Dowty1979} \textit{et seq.}) Note however that for \citet[68,78]{Deo2006}, \textsc{at}$\subseteq$\textsc{Inst}}
+
+A maximally underspecified lexical entry for \textbf{I} is given in (\nextx) below. Here, \textbf{I} is taken simply to realise an \textsc{Inst} relation between its prejacent (a predicate of events $ P_{\langle\varepsilon_e,t\rangle} $) and a contextually given reference interval $ (i) $. It notably makes no restrictions on the nature of the relation between $ i $ and utterance time $ i* $. This is motivated by the data shown above, where \textbf{I} is felicitous with \textsc{past, present} and \textsc{future} reference (modulo a number of distributional restrictions).
+
+\pex\textbf{A first attempt at a general denotation for the \textsc{first} inflection}
+\label{denoteI}
+$ \denote[g,c]{\textbf{I}}=\lambda P\lambda i.\textsc{Inst}(P,i) $
+\xe
+
+\mcom{where is $ i $ going to be represented in the obj lang?}
+
+
+A derivation for a transitive \textbf{I}-sentence is given in (\nextx). This sentence is incompatible with present reference given the constraints described in the previous section: namely that \textit{nhäma} `see' denotes an property of events. Seeing as eventive properties are inherently bounded, they are incompatible with present reference. The event time can be further constrained by past-denoting TFAs (e.g. \textit{barpuru} `yesterday')
+
+\pex\begingl\gla Gotjan-dhu nhäma Buḻany-nha//
+\glb \gls{malk}-\gls{erg} see.\textbf{I} \gls{malk}-\gls{acc}//
+\glft`Gotjan saw Buḻany.'//\endgl
+
+\begin{tikzpicture}[scale=.9]\tikzset{baseline=(current bounding box.north),every tree node/.style={align=center},level distance=50pt,sibling distance=0pt}
+
+\Tree [.{IP\\$ \lambda i.\textsc{Inst}\big(\textsc{See}(g,b),i\big)$} [.{I\\$ \lambda P\lambda i.\textsc{Inst}(P,i)$\\\textbf{I}} ] [.{vP\\$ \lambda e.\textsc{see}(e,b,g) $} [.{NP\\$ \textsc{ag}(g) $\\\textbf{Gotjandhu}} ] [.VP [.{V\\$\lambda x\lambda y\lambda e.\textsc{see}(e,x,y)$\\$\surd\textbf{nhä-}$} ] [.{NP\\\textsc{pat}(b)\\\textbf{Buḻanynha} } ] ] ] ] 
+\end{tikzpicture}
+\xe
+
+
+Of course, as shown, \textbf{I} is incompatible with both \textsc{today past} and \textsc{remote past} situations. I model this incompatibility as emerging from a blocking effect associated with the relative assertoric strength of \textbf{III} (which is a \textit{bona fide} past tense albeit with additional use restrictions.) \textsc{Nonfinal Instantiation} is a subcase of the \textsc{Property Instantiation} relation which holds only if the $ P $-event \textbf{does not overlap} with the end of the reference interval $ i $.
+
+
+\pex\textbf{Non-final instantiation}\hfill\citep[279]{Condoravdi2014}
+
+\a Defined iff $ j\underset{\textsc{final}}{\sqsubset}i $;\\ \phantom{Defined iff $ j\underset{\textsc{final}}{\sqsubset}i $}$\textsc{NfInst}(P,i,j)\leftrightarrow\exists k(\textsc{Inst}(P,k)\wedge k\sqsubseteq i\wedge k\prec j) $
+
+\centering\begin{tikzpicture}[scale=1.2]
+\draw[<->, line width=.5mm] (0,0) -- (6,0);
+
+
+
+\filldraw[nearly transparent,gray!60](3,0)		ellipse [x radius=2cm,y radius=.9cm];
+\draw (2.75,.5) node[color=blue] {\textbf{$ i $}};
+\filldraw[nearly transparent,gray!80,xshift=0.52cm](3.5,0)		ellipse [x radius=1cm,y radius=.6cm];
+\draw (4.45,.25) node[color=forest] {\textbf{$ j $}};
+\filldraw[semitransparent,gray!80,xshift=0.45cm](1.8,0)		ellipse [x radius=.7cm,y radius=.4cm];
+\draw (1.86,.2) node[color=red] {\footnotesize\textbf{$ k $}};
+\filldraw[semitransparent,gray!90,xshift=0.47cm](1.8,0)		ellipse [x radius=.35cm,y radius=.3cm];
+%\filldraw[nearly transparent,green,xshift=.28cm](6,0)		ellipse [x radius=1.2cm,y radius=.8cm];
+%\draw (7.3,.25) node[color=black] {\textbf{$ i $}};
+%\filldraw[nearly transparent,blue,xshift=.15cm](6,0)		ellipse [x radius=1.05cm,y radius=.5cm];
+%\draw (6,.25) node[color=blue] {\textbf{$ j $}};
+\end{tikzpicture}
+
+\mcom{maybe this doesn't work? It ought to come out as false if there is an event of P type that occurs as a final subinterval... as long as P-instantiation doesn't PROPERLY occur in a final subinterval maybe\\\textbf{i.e. does this predict (for me? for C\&D?) that \textit{i have eaten before and i'm eating now} ought to be bad?}}
+%\a The definition above is equivalent to one that makes use of a relation `non-final subinterval' $ (\underset{\text{nonfin}}{\sqsubset}\subset\mathcal I\times\mathcal I )$. It can be reformulated as:
+%
+%$ \textsc{NfInst}(P,i)=\exists k[k\underset{\text{nonfin}}{\sqsubset}i\wedge\,\textsc{Inst}(P,k)\big] $
+
+\textsc{NfInst} holds between a property $ P $, some interval $ i $ and one of its \textbf{final subintervals} $ j $ iff $ P $ is \textsc{instantiated} at some other subinterval $ k $ that wholly precedes the final subinterval $ j $.
+
+\xe
+
+Armed with these two relations, we can stipulate that WD makes available two possible candidates for the ``reference interval'' $ i_c $ : namely \textsl{today} and \textsl{before today}. This permits for a treatment of \textbf{III} as predicating a \textsc{nonfinal instantiation} relation between a property and one of these two reference intervals. This is given in (\nextx).
+
+\pex\textbf{A first attempt at a lexical entry for the \textsc{third} inflection}
+
+$ \denote[g,c]{\textbf{III}} = \lambda P\lambda i_c.\exists j[j\underset{\textsc{final}}{\sqsubseteq} i_c\wedge\textsc{NfInst}(P,i_c,j)]$\\
+The \textsc{third} inflection asserts that, for $ i $, there is a final subinterval $ j $ and $ P $ is instantiated at some subinterval of $ i $ that wholly precedes $ j $ (i.e. that \textsc{NfInst}($ P,i_c,j $) holds.)
+\xe\mcom{\lastx\textbf{\textit{ is}} just the denotation for \textsc{Perf} for C\&D though}
+Having stipulated that $ i_c $ is saturated by either \textsl{today} or \textsl{before today}, \textsc{NfInst} makes salient two sets of intervals which correspond to the \textsc{contemporary/precontemporary} distinction described for the inflectional systems of the Maningrida languages \citep{Glasgow1964,Eather2011,Green1995}. \textsc{Contemporary} eventualities are those that are situated in a \textsc{final} subinterval of the reference interval $ \{j\mid j\underset{\textsc{final}}\sqsubseteq i\} $. \textsc{Precontemporary} eventualies are situated in a \textsc{nonfinal} subinterval of $ i_c $, i.e. $ \{k\mid k\underset{\textsc{nonfin}}{\sqsubset}i_c\}$. These intervals are summarised in Table \ref{InstInts} below.
+
+
+
+
+
+\begin{table}[h]
+	\caption{Instantiation intervals $ j,k $ made available by different flavours of $ i_c $}\centering\label{InstInts}
+	\begin{tabular}{cc|ll}\toprule
+		\multicolumn{2}{c}{\textsc{interval type}} & \textsc{today} frame & \textsc{fore-today} frame\\\midrule
+		\textbf{reference} &$ \boldsymbol{i_c} $ & $\boldsymbol{\big(\textit{\textbf{today}},i\!*\,\big] }$ & $ \boldsymbol{\big(\,\_\_,\textit{\textbf{today}}\,\big]} $	\\[1ex]%\midrule
+		\textbf{\textsc{contemporary}} &$\boldsymbol j\underset{\textsc{final}}{\sqsubseteq}i_c $ & \textit{dhiyaŋ bala} `now' & \textit{barpuru} `recently'	\\
+		\textbf{\textsc{precontemporary}} &$ \boldsymbol k\underset{\textsc{nonfin}}{\sqsubset}i_c $	& \textit{dhiyaŋ bili} `now' & \textit{baman'} `previously'	\\\bottomrule
+	\end{tabular}
+\end{table}
+
+As shown above the semantic contribution of \textbf{III} is taken to situate the runtime of an event in a non-final interval of $ i_c $. The consequences of this treatment for each of these temporal frames are explicated below.
+
+\paragraph{The \textsc{today} frame} Any arbitrary final subinterval $ j $ of $ (\textsl{today},i*) $ necessarily overlaps with speech time.\footnote{
+$ j \underset{\textsc{final}}{\sqsubseteq}(\text{today},i*]\leftrightarrow j\circ i*$\\
+Simply, all final subintervals of the interval $ (\text{today},i*] $ contain $ i* $ (by def $ \underset{\textsc{final}}{\sqsubseteq} $)
+}
+From this, we can simply derive the incompatibility of \textbf{III} with \textsc{present}-referring event descriptions: all non-final subintervals of $ (\textit{today}, i*] $ forcibly exclude $ i* $.\mcom{I can prove this as a theorem of $ \mathcal L $ if necessary but it's pretty intuitive right?} As a result, \textsc{NfInst}$ (P,{\small [\textsl{today},i*)},j) $ yields the \textsc{today past }distribution for \textbf{III}.
+
+\paragraph{The \textsc{nontoday} frame} Further, the ``subjective'' nature of the \textsc{recent} v. \textsc{remote} distinction (shown in §\ref{metr-sec}) also falls out of this treatment. In principle, given that the \textsc{before-today} frame has no left boundary, \textsc{NfInst} makes available any subinterval of $ i_c $ that does not include its right edge. As a result, the duration of final subinterval $ j $ is contextually determined, presumably adjudicated by what the Speaker considers to count as \textsc{contemporary} in a given discourse context. 
+
+The infelicity of \textbf{III} with a class of temporal frame adverbials, most clearly \textit{barpuru, yawungu} `yesterday' and points to a conventionalised principle of ``minimum duration'' for $ j $ in these contexts. While these adverbials are glossed as `yesterday', it can be demonstrated that they are compatible with a wider range of \textsc{recent past} interpretations. This was discussed in §\ref{tfa} above. See also the variable interpretations of \textit{barpuru} (and its composition with \textit{märr} `somewhat' in ex. \getref{barpuru} above).
+
+
+
+\begin{figure}[h]
+	\centering	\caption{Appealing to `nonfinal instantiation' to provide a unified entry for the temporal reference of \textbf{III}}\label{NFI}
+	
+	\begin{tikzpicture}
+	\draw[<->, line width=.5mm] (0,0) -- (12,0);
+	\draw[line width=.8mm,densely dotted] (5,1.8) -- (5,-1.8); 
+	\draw[line width=.8mm,densely dotted] (9,1.8) -- (9,-1.8);
+	\draw[line width=2mm,nearly transparent] (7.35,1.8) -- (7.3,-1.8) node [at end,yshift=-2mm] {\textit{\textsc{now}}};
+	
+	
+	\filldraw[nearly transparent,green](3,0)		ellipse [x radius=2cm,y radius=1cm];
+	\draw (2.25,.25) node[color=blue] {\textbf{$ k $}};
+	\filldraw[nearly transparent,blue,xshift=0.2cm](2,0)		ellipse [x radius=1.2cm,y radius=.6cm];
+	\draw (4.25,.25) node[color=forest] {\textbf{$ i $}};
+	\filldraw[nearly transparent,green,xshift=.28cm](6,0)		ellipse [x radius=1.2cm,y radius=.8cm];
+	\draw (7.3,.25) node[color=black] {\textbf{$ i $}};
+	\filldraw[nearly transparent,blue,xshift=.15cm](6,0)		ellipse [x radius=1.05cm,y radius=.5cm];
+	\draw (6,.25) node[color=blue] {\textbf{$ k $}};
+	
+	
+	\fill[very nearly transparent,ochre] (9.5,1) -- (9.5,-1) -- (11.5,-1) -- (11.5,1); 
+	
+	
+	
+	\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+	(5.1,0.5) -- (9,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textsc{today}};
+	
+	\draw [decorate,decoration={brace,amplitude=6pt},xshift=-0pt,yshift=40pt]
+	(0,0.5) -- (4.9,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textsc{before}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+	(3.5,0.5) -- (4.8,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{barpuru}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+	(0.5,0.5) -- (3,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{baman'}};
+	
+	\draw [decorate,decoration={brace,amplitude=4pt},xshift=-0pt,yshift=20pt]
+	(9.25,0.5) -- (11.8,0.5) node [black,midway,yshift=0.35cm] 
+	{\footnotesize \textit{goḏarr'}};
+	
+	\end{tikzpicture}
+	
+\end{figure}
+
+The infelicity of \textbf{I}-inflected predicates with \textsc{remote} and \textsc{today past} instantiation times then emerges as a result of pragmatic blocking. It is well demonstrated that oppositions between specific and general meanings give rise to a division of pragmatic labour in which the general form is conventionally restricted to the complement of the domain of the specific form (\citealp{Deo2015}, citing \citealp{Horn1984} \& \citealp{Horn2012a}).
+
+
+ Given that $ \denote{\textbf{I}} \supsetneq \denote{\textbf{III}}$,\footnote{
+ 	Given that \textsc{Inst} is a relation between a property $ P $ and interval $ i $, whereas \textsc{NfInst} is a relation between a property $ P $ and a proper subinterval of $ i $, \textsc{NfInst} $ \subsetneq $ \textsc{Inst}.
+ 	\begin{fleqn}
+ 		\begin{equation*}
+ 		\begin{split}
+ 		& \textsc{NfInst}(P,i,j) & =\,  \textsc{Inst}\big(P,\underset{\textsc{nfin}}{\sqsubset}\!(i)\big)\\
+ 		\therefore\quad &\textsc{Inst}(P,i)&\supsetneq\, \textsc{Inst}\big(P,\underset{\textsc{nfin}}{\sqsubset}\!(i)\big)
+ 		\end{split} \end{equation*} \end{fleqn}
+ }
+ a scalar implicature $ \langle \textbf{I},\textbf{III}\rangle$ obtains between these two inflections.
+ 
+
+
+That is, a sentence of the form \textbf{I}$ (\varphi) $ conventionally implicates $ \neg\big(\textbf{III}(\varphi)\big) $. As a consequence, while the lexical entry for \textbf{I} provided in (\ref{denoteI}) provides for the property instantiation in \textit{any} subinterval of $ i_c $, in competition with the truth-conditionally stronger \textbf{III}, its distribution is restricted to \textsc{final subintervals} of $ i_c $ (i.e. those green areas $ (i-k) $ in Figure \ref{NFI} above). The blocking of \textbf{I}'s realisation of the \textsc{nonfinal instantiation} relation by \textbf{III} is derived in (\nextx) below.
+
+\pex\textbf{Pragmatic strengthening of I}
+
+%\begin{fleqn}
+%\begin{equation*}
+%\begin{split}
+
+
+\usetagform{roman}\begin{align}
+\denote{\textbf{I}}(P)(i_c)&\rightsquigarrow \textsc{Inst}(P,i_c)\setminus\denote{\textbf{III}} \\
+&\rightsquigarrow \textsc{Inst}(P,i_c)\setminus \exists j\underset{\textsc{fin}}{\sqsubset}i_c\wedge\exists k\big[\textsc{Inst}(P,k)\wedge k\sqsubseteq i_c\wedge k\prec j\big]\\
+&\rightsquigarrow  \exists j\big[j\underset{\textsc{fin}}{\sqsubseteq}i_c\wedge\textsc{Inst}(P,i_c)\wedge\nexists k[k\sqsubset i_c\wedge k\prec j\wedge\textsc{Inst}(P,k)]\big]\\
+&\rightsquigarrow\exists j\big[j\underset{\textsc{fin}}{\sqsubseteq} i\wedge\forall k[k\sqsubset i_c\wedge k\prec j\to\textsc{Inst}(P,\{i_c-k\})]\big] \\
+&\rightsquigarrow \exists j\big[j\underset{\textsc{fin}}{\sqsubseteq}i\wedge\textsc{Inst}(P,j)\big]
+\end{align}
+%\lambda P\lambda i.\textsc{Inst}(P,(i-k))
+%\end{split}
+%\end{equation*}
+% \end{fleqn}
+
+\small\textbf{I} realises property instantiation but, via competition with the more specific form--\textbf{III}--its use is conventionally restricted to the relative complement of \textbf{III}'s domain \textbf{\textit{(i)}}. That is, the relative complement of \textsc{nonfinal instantiation} \textbf{\textit{(ii)}}. Therefore \textbf{I} is felicitously uttered when there is no subinterval $ k $ that wholly precedes the final subinterval $ j $ at which $ P $ is instantiated \textbf{\textit{(iii)}}. \textbf{I} is therefore felicitous when predicating instantiation of $ P $ at the complement of $ i $ relative to any its nonfinal subintervals $ k $---sc $ i-k $ \textbf{\textit{(iv)}}. Consequently, \textbf{I} is felicitous when predicating instantiation of some property $ P $ only at a \textbf{final subinterval} $( i-k=\boldsymbol j )$ of the reference interval \textbf{\textit{(v)}}.
+\xe
+
+Given the blocking and strengthening effects described here, \textbf{I} and \textbf{III} are in complementary distribution. Where \textbf{III} realises \textsc{nonfinal instantiation} (the domain of the `Precontemporary' tense), \textbf{I} realises \textsc{final instantiation} (the domain of the `Contemporary', cf. Table \ref{InstInts} above.) The discontinuous timespans that license the use of \textbf{I} are spelled out below.
+
+\paragraph{The \textsc{today} frame}
+
+\paragraph{The \textsc{nontoday} frame}
+
+\subsection{}
+
+
+
+
+$ \denote{\textsc{woll}}=\lambda P\lambda w\lambda t.\forall w'\big[w\in\textbf{MB}(w,t)\to\textsc{at}\big([t,\_),w,P\big)\big] $
+\begin{itemize}
+	\item Unlike Cleo's \textsc{woll} here there's prob no way of getting away from relativising this to an ordering source
+\end{itemize}
+
+\clearpage\section{mood, reality status \& the speech act}\label{mood}
+%\input{Yolngu/Analysis/asymmetries}
+	\end{document}

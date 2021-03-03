@@ -1,0 +1,1409 @@
+
+
+\documentclass[11pt]{article}
+\usepackage[lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb,amsthm}
+\usepackage{IEEEtrantools}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+\graphicspath{ {figs/} }
+\renewcommand{\baselinestretch}{1.1}
+
+\usepackage{Sanremo,lettrine}
+\usepackage{booktabs}
+
+
+\usepackage{amsmath,nccmath} 
+\let\nr\relax%
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+%\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+\def\beginsubsub{%
+	\par
+	\begingroup
+	\advance\leftskip by 2em
+	\def\b##1{\par\leavevmode\llap{\hbox to 2em{##1\hfil}}\ignorespaces}}
+\def\endsubsub{\par\endgroup}
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing,decorations.markings}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\newcommand{\specialcell}[2][l]{%
+	\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+\usepackage{array}
+\newcolumntype{$}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
+	#1\ignorespaces}
+\usepackage{mathtools}
+\newtagform{roman}[\renewcommand{\theequation}{\roman{equation}}]()
+\usepackage[all]{xy}
+
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{pifont}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+\usepackage{soul}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+
+%\RequirePackage{expex}
+%\makeatletter
+%\def\everyfootnote{%
+%	\keepexcntlocal
+%	\excnt=1
+%	\lingset{exskip=1ex,exnotype=roman,sampleexno=,
+%		labeltype=alpha,labelanchor=numright,labeloffset=.6em,
+%		textoffset=.6em}
+%}
+%\renewcommand{\@makefntext}[1]{%
+%	\everyfootnote
+%	\parindent=1em
+%	\noindent
+%	\footnotemark\enspace #1%
+%}
+%\resetatcatcode
+%	
+%	\makeatletter
+
+\def\@xfootnote[#1]{%
+	
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext
+	\makeatother
+}
+\resetatcatcode
+
+
+
+
+
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+%\providecommand{\denote}[1]{\ensuremath{\llbracket{#1}\rrbracket}}
+\providecommand{\denote}[2][]{\ensuremath{\llbracket{#2}\rrbracket^{#1}}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{white}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\newcommand{\xmark}{\ding{55}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+
+
+
+
+
+%%%%%%GLOSSARIES
+\usepackage[nonumberlist]{glossaries}
+\newglossary*{lang}{Language index}
+\newglossary*{gloss}{List of metalinguistic abbreviations}
+\newglossary*{kinship}{List of kinship abbreviations}
+\newglossary*{text}{General (textual) abbreviations}
+\makeglossaries
+
+% textual
+\newglossaryentry{xnow}{
+	name = \textsc{xnow} ,
+	description = Extended Now,
+	type=text,	}
+% abbreviations:
+\newglossaryentry{rit}{
+	name = \texttt{rit} ,
+	description = Ritharrŋu (Pama-Nyungan: Yolŋu (Yaku)),
+	type=lang,	}
+\newglossaryentry{jay}{
+	name = \texttt{jay} ,
+	description = Yan-nhaŋu (Pama-Nyungan: Yolŋu (Nhaŋu)),
+	type=lang,	}
+
+\newglossaryentry{djr}{
+	name = \texttt{djr} ,
+	description = Djambarrpuyŋu (Pama-Nyungan: Yolŋu (Dhuwal)),
+	type=lang,	}
+\newglossaryentry{guf}{
+	name = \texttt{guf} ,
+	description = Gupapuyŋu (Pama-Nyungan: Yolŋu (Dhuwala)),
+	type=lang,	}
+
+
+
+
+\newglossaryentry{dwu}{
+	name = \texttt{dwu} ,
+	description = Dhuwal (proper) (Pama-Nyungan: Yolŋu (Dhuwal)),
+	type=lang,	}
+
+\newglossaryentry{dji}{
+	name = \texttt{dji} ,
+	description = Djinaŋ (Pama-Nyungan: Yolŋu),
+	type=lang,	}
+
+\newglossaryentry{djb}{
+	name = \texttt{guf} ,
+	description = Djinba (Pama-Nyungan: Yolŋu),
+	type=lang,	}
+
+\newglossaryentry{lja}{
+	name = \texttt{lja} ,
+	description = Golpa (Pama-Nyungan: Yolŋu (Nhaŋu)),
+	type=lang,	}
+
+\newglossaryentry{bvr}{
+	name = \texttt{bvr} ,
+	description = Burarra (Maningrida),
+	type=lang,	}
+
+\newglossaryentry{wga}{
+	name = \texttt{wga} ,
+	description = Wakaya (Pama-Nyungan: Ngarna),
+	type=lang,	}
+
+
+\newglossaryentry{gge}{
+	name = \texttt{gge} ,
+	description = Gurr-goni (Maningrida),
+	type=lang,	}
+
+\newglossaryentry{yua}{
+	name = \texttt{yua} ,
+	description = Yucatec Maya (Mayan -- Central America),
+	type=lang,	}
+
+\newglossaryentry{nck}{
+	name = \texttt{nck} ,
+	description = Nakkara (Maningrida),
+	type=lang,	}
+
+%%%
+\newglossaryentry{hop}{
+	name = \texttt{hop} ,
+	description = Hopi (N. Uto-Aztecan\, Arizona),
+	type=lang,	}
+
+%%%%GLOSSING	
+
+\newglossaryentry{mod}{
+	name = \textsc{mod} ,
+	description = modal operator,
+	type=gloss,	} 
+\newglossaryentry{refl}{
+	name = \textsc{r/r} ,
+	description = reflexive-reciprocal marker,
+	type=gloss,	} 
+\newglossaryentry{pl}{
+	name = \textsc{pl} ,
+	description = plural,
+	type=gloss,	} 
+
+
+\newglossaryentry{irr}{
+	name = \textsc{irr} ,
+	description = irrealis (modality)marker,
+	type=gloss,	} 
+\newglossaryentry{comp}{
+	name = \textsc{comp} ,
+	description = complementiser,
+	type=gloss,	} 
+\newglossaryentry{malk}{
+	name = \textsc{\textit{mälk}} ,
+	description = Skin name (cultural `subsection'),
+	type=gloss,	} 
+\newglossaryentry{cplv}{
+	name = \textsc{cplv} ,
+	description = completive aspect,
+	type=gloss,	} 
+\newglossaryentry{priv}{
+	name = \textsc{priv} ,
+	description = privative case , 
+	type = gloss , }
+
+\newglossaryentry{sn}{
+	name = SN ,
+	description = standard negation/negator, 
+	type = gloss , }
+
+\newglossaryentry{indef}{
+	name = \textsc{indef} ,
+	description = indefinite indexical \citet[280]{Wilkinson1991}, 
+	type = gloss , }
+
+
+
+\newglossaryentry{appr}{
+	name = \textsc{appr} ,
+	description = apprehensional,
+	type = gloss , }
+
+\newglossaryentry{anim}{
+	name = \textsc{anim} ,
+	description = animate (3rd-person discourse participant), 
+	type = gloss , }
+
+\newglossaryentry{inan}{
+	name = \textsc{inan} ,
+	description = inanimate (3rd-person discourse participant), 
+	type = gloss , }
+
+%		\newglossaryentry{obls}{
+%		name = \textsc{obls} ,
+%		description = standard negation/negator, 
+%		type = gloss , }
+
+
+
+\newglossaryentry{NP}{
+	name = \textsc{NP} ,
+	description = noun phrase,
+	type = gloss , }
+
+\newglossaryentry{TFA}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+\newglossaryentry{proh}{
+	name = \textsc{proh} ,
+	description = prohibitive,
+	type = gloss , }
+\newglossaryentry{recip}{
+	name = \textsc{recip} ,
+	description = reciprocal,
+	type = gloss , }
+
+\newglossaryentry{perf}{
+	name = \textsc{perf} ,
+	description = perfect aspect,
+	type = gloss , }
+\newglossaryentry{neg}{
+	name = \textsc{neg} ,
+	description = negator,
+	type = gloss , }
+\newglossaryentry{all}{
+	name = \textsc{all} ,
+	description = allative case,
+	type = gloss , }
+\newglossaryentry{abl}{
+	name = \textsc{abl} ,
+	description = ablative case,
+	type = gloss , }
+
+
+\newglossaryentry{dp}{
+	name = \textsc{dp} ,
+	description = discourse particle,
+	type = gloss , }
+
+\newglossaryentry{acc}{
+	name = \textsc{acc} ,
+	description = accusative case,
+	type = gloss , }
+\newglossaryentry{nom}{
+	name = \textsc{nom} ,
+	description = nominative case,
+	type = gloss , }
+\newglossaryentry{mvtawy}{
+	name = \textsc{mvtawy} ,
+	description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
+	type = gloss , }
+
+\newglossaryentry{add}{
+	name = \textsc{add} ,
+	description = additive particle,
+	type = gloss , }
+
+\newglossaryentry{neu}{
+	name = \textsc{neu} ,
+	description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
+	type = gloss , }
+
+\newglossaryentry{mvttwd}{
+	name = \textsc{mvttwd} ,
+	description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
+	type = gloss , }
+
+\newglossaryentry{cfact}{
+	name = \textsc{cfact} ,
+	description = counterfactual,
+	type = gloss , }
+\newglossaryentry{pres}{
+	name = \textsc{pres} ,
+	description = present tense,
+	type = gloss , }
+\newglossaryentry{erg}{
+	name = \textsc{erg} ,
+	description = ergative case,
+	type = gloss , }
+\newglossaryentry{dm}{
+	name = \textsc{dm} ,
+	description = ``discourse clitic'' \citep{McLellan1992},
+	type = gloss , }
+\newglossaryentry{intens}{
+	name = \textsc{intens} ,
+	description = intensifier,
+	type = gloss , }
+\newglossaryentry{negex}{
+	name = \textsc{negex} ,
+	description = negative existential/quantifier,
+	type = gloss , }
+\newglossaryentry{red}{
+	name = \textsc{redup} ,
+	description = reduplicant,
+	type = gloss , }
+\newglossaryentry{negq}{
+	name = \textsc{negq} ,
+	description = negative quantifier (existential) $\nexists$,
+	type = gloss , }
+
+\newglossaryentry{comit}{
+	name = \textsc{comit} ,
+	description = comitative case,
+	type = gloss , }
+
+\newglossaryentry{vblzr}{
+	name = \textsc{vblzr} ,
+	description = `\textit{-Thu-} verbalizer' (derivational suffix),
+	type = gloss , }
+\newglossaryentry{dim}{
+	name = \textsc{dim} ,
+	description = diminuitive,
+	type = gloss , }
+\newglossaryentry{instr}{
+	name = \textsc{instr} ,
+	description = instrumental case,
+	type = gloss , }
+\newglossaryentry{temp}{
+	name = \textsc{temp} ,
+	description = temporal case (see \citealt[585]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{prop}{
+	name = \textsc{prop} ,
+	description = proprietive case,
+	type = gloss , }
+
+\newglossaryentry{kinprop}{
+	name = \textsc{prop} ,
+	description = proprietive case -- kinship augment,
+	type = gloss , }
+
+\newglossaryentry{perl}{
+	name = \textsc{perl} ,
+	description = perlative case,
+	type = gloss , }
+
+\newglossaryentry{inch}{
+	name = \textsc{inch} ,
+	description = inchoative,
+	type = gloss , }
+\newglossaryentry{seq}{
+	name = \textsc{seq} ,
+	description = sequential,
+	type = gloss , }
+\newglossaryentry{abs}{
+	name = \textsc{abs} ,
+	description = absolutive case,
+	type = gloss , }
+
+\newglossaryentry{prom}{
+	name = \textsc{prom} ,
+	description = prominence marker ($\approx$ focus),
+	type = gloss , }
+\newglossaryentry{nmlzr}{
+	name = \textsc{nmlzr} ,
+	description = nominaliser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tr}{
+	name = \textsc{tr} ,
+	description = transitiviser (derivation),
+	type = gloss , }
+
+\newglossaryentry{tfa}{
+	name = \textsc{tfa} ,
+	description = temporal frame adverbial,
+	type = gloss , }
+
+
+\newglossaryentry{emph}{
+	name = \textsc{emph} ,
+	description = (em)phatic particle \textcolor{red}{Wilk91},
+	type = gloss , }
+
+\newglossaryentry{ana}{
+	name = \textsc{ana} ,
+	description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
+	type = gloss , }
+
+\newglossaryentry{hab}{
+	name = \textsc{hab} ,
+	description = ``habitual (aspect)'',
+	type = gloss , }
+
+\newglossaryentry{caus}{
+	name = \textsc{caus} ,
+	description = causative,
+	type = gloss , }
+
+\newglossaryentry{foc}{
+	name = \textsc{foc} ,
+	description = focus marker
+	type = gloss , }
+\newglossaryentry{loc}{
+	name = \textsc{loc} ,
+	description = locative case,
+	type = gloss , }
+\newglossaryentry{per}{
+	name = \textsc{per} ,
+	description = pergressive case,
+	type = gloss , }
+\newglossaryentry{excl}{
+	name = \textsc{excl} ,
+	description = exclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{pst}{
+	name = \textsc{pst} ,
+	description = past tense,
+	type = gloss , }
+\newglossaryentry{incl}{
+	name = \textsc{incl} ,
+	description = inclusive (1ns-pronoun),
+	type = gloss , }
+\newglossaryentry{dist}{
+	name = \textsc{dist} ,
+	description = distal (demonstrative),
+	type = gloss , }
+\newglossaryentry{prox}{
+	name = \textsc{prox} ,
+	description = proximal (demonstrative),
+	type = gloss , }
+\newglossaryentry{med}{
+	name = \textsc{med} ,
+	description = medial (demonstrative),
+	type = gloss , }
+\newglossaryentry{texd}{
+	name = \textsc{endo} ,
+	description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
+	type = gloss , }
+\newglossaryentry{obl}{
+	name = \textsc{obl} ,
+	description = oblique case,
+	type = gloss , }
+\newglossaryentry{dat}{
+	name = \textsc{dat} ,
+	description = dative case,
+	type = gloss , }
+\newglossaryentry{ds}{
+	name = \textsc{ds} ,
+	description = different subject (subordinate clause),
+	type = gloss , }
+
+\newglossaryentry{ipfv}{
+	name = \textsc{ipfv} ,
+	description = imperfective (aspect),
+	type = gloss , }
+\newglossaryentry{imp}{
+	name = \textsc{imp} ,
+	description = imperative,
+	type = gloss , }
+
+\newglossaryentry{pfv}{
+	name = \textsc{pfv} ,
+	description = perfective (aspect),
+	type = gloss , }
+
+\newglossaryentry{fut}{
+	name = \textsc{fut} ,
+	description = future (tense),
+	type = gloss , }
+
+\newglossaryentry{assoc}{
+	name = \textsc{assoc} ,
+	description = associative,
+	type = gloss , }
+
+\newglossaryentry{ncl}{
+	name = \textsc{ncl} ,
+	description = noun (class) marker,
+	type = gloss , }
+
+\newglossaryentry{hyp}{
+	name = \textsc{hyp} ,
+	description = hypothetical (modality),
+	type = gloss , }
+
+
+
+\newglossaryentry{mo}{
+	name = \textsc{Mo} ,
+	description = mother,
+	type = kinship, }
+
+\newglossaryentry{ch}{
+	name = \textsc{Ch} ,
+	description = child,
+	type = kinship, }
+\newglossaryentry{da}{
+	name = \textsc{Da} ,
+	description = daughter,
+	type = kinship, }
+\newglossaryentry{so}{
+	name = \textsc{son} ,
+	description = son,
+	type = kinship, }	
+
+\newglossaryentry{fa}{
+	name = \textsc{Fa} ,
+	description = father,
+	type = kinship, }
+
+\newglossaryentry{si}{
+	name = \textsc{Si} ,
+	description = sister,
+	type = kinship, }
+\newglossaryentry{bro}{
+	name = \textsc{Bro} ,
+	description = brother,
+	type = kinship, }
+
+
+
+\date{}
+\title{The emergence of apprehensionality in Australian Kriol\\{\footnotesize\texttt{ms} -- mid-{\scriptsize2020}}}
+\author{Josh Phillips\\\textit{\normalsize Yale Linguistics}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\setcounter{secnumdepth}{3}
+\begin{document}\pagenumbering{roman}
+	\maketitle
+	\begin{abstract}
+	`Apprehensional' markers are a nuanced, cross-linguistically attested grammatical category, reported to encode epistemic possibility in addition to information about speakers' attitudes with respect to the (un)desirability of some eventuality. Taking the meaning of Australian Kriol particle \textit{bambai} as an empirical testing ground, this paper provides a first semantic treatment of apprehensionality, informed by a diachronic observation (due to\citealp{Angelo2016}) in which apprehensional readings emerge from erstwhile temporal frame adverbials that encode a relation of {\sc subsequentiality} between a discourse context and the eventuality described by the prejacent predicate.
+	\end{abstract}
+
+\section{Introduction}\label{intro§} 
+Consider the contributions of \textit{bambai} in the Australian Kriol sentence pair in (\ref{minpair}):
+
+\pex\label{minpair}\textbf{Context:} \textup{I've invited a friend around to join for dinner. They reply:}
+	\a\label{minpair.ssq}\begingl\glpreamble\textbf{Subsequential reading of} bambai//
+		\gla yuwai! \textbf{bambai} ai gaman jeya!//
+		\glb yes! \textbf{\textit{bambai}} 1s come there//
+		\glft ‘Yeah! I’ll be right there!’//\endgl
+		
+	\a\begingl\glpreamble \label{minpair.appr}\textup{Apprehensional reading of} bambai//
+		\gla najing, im rait! \textbf{bambai} ai gaan binijim main wek!//
+		\glb no 3s okay \textbf{\textit{bambai}} 1s {\sc neg.mod} finish 1s work//
+		\glft ‘No, that’s okay! (If I did,) I mightn’t (be able to) finish my work!'\trailingcitation{[GT~20170316]}//\endgl
+\xe
+
+
+To be explicated in this chapter, while the reading of \textit{bambai} in (\ref{minpair.ssq}) roughly translates to `soon, in a minute', this reading is infelicitous in (\ref{minpair.appr}), where \textit{bambai} is a discourse anaphor which contributes a shade of apprehensional meaning (i.e. indicates that the Speaker's hypothetically joining for dinner may have the undesirable possible outcome of him not finishing his work.) This chapter is concerned with the emergence of {\sc apprehensional} readings of the temporal frame adverbial \textit{bambai} in Australian Kriol. It describes the distribution of these two readings (synchronically, when do apprehensional readings ``emerge'' in context, (§ \ref{dataS}), considers how apprehensionality emerges out of so-called ``subsequentiality'' markers diachronically (§ \ref{diaS}), and proposes a unified meaning component for the two readings (§ \ref{semS}). This chapter is intended for a general audience, although draws insights throughout from the formal semantics literature, particularly in capturing the meaning components and proposing a formal lexical entry for \textit{bambai}.
+
+\subsection{Background}
+
+Having entered into their lexicons predominantly via the contact pidgin established in NSW in the late eighteenth century \citep{Troy1994}, cognates of the English archaism \textit{by-and-by} are found across the English-lexified cognate languages of the South Pacific. Additionally, \citet{Clark1979} describes \textit{by-and-by} as a particularly broadly diffused feature of the \textit{South Seas Jargon} that served as a predominantly English-lexified auxiliary means of communication between mariners of diverse ethnolinguistic backgrounds and South-Pacific islanders (21, cited in \citealt[262\textit{ff}]{Harris1986a} a.o.). The cognates across these contact languages have preserved the function of \textit{by-and-by} as encoding some relationship of temporal subsequentiality between multiple eventualities.\footnote{\textit{baimbai} (sic) is described as a `future tense marker' by \citet[112,418,711]{Troy1994} and \citep[268]{Harris1986a}. Indeed it appears to be a general marker of futurity in the textual recordings of NSW pidgin that these authors collate, although still retains a clear syntactic function as a frame adverbial. Their description of \textit{bambai} (along with \textit{sun, dairekli, etc}) as tense marker is possibly due to the apparent lack of stable tense marking in the pidgins, although is likely used pretheoretically to refer to an operator that is associated with future temporal reference. This is discussed further in § \ref{tfa§} below}$^,$\footnote{See also \citealt{Angelo2016} for further review of cognates of \textit{bambai} across other Pacific contact languages.}
+
+As shown in \ref{minpair}, Australian Kriol (hereafter Kriol \textit{simpliciter}) has retained this function: in (\getref{ssq0}), \textit{bambai} serves to encode a temporal relation between the two clauses: the lunch-making event occurs at some point in the (near) future of the speaker's father's trip to the shop: \textit{bambai }might well be translated as `then' or `soon after'.
+\pex\deftagex{ssq0}\begingl
+\gla main dedi imin go la det shop ailibala \textbf{bambai} imin kambek bla gugum dina bla melabat//
+\glb my father 3s\textdblhyphen{}{\sc pst} go {\sc loc} the shop morning \textit{\textbf{bambai}} 3s\textdblhyphen{}{\sc pst} come.back {\sc purp} cook dinner {\sc purp} 1p{\sc.excl}//
+\glft`My dad went to the shop this morning, \textbf{then} he came back to make lunch for us' \hspace*{\fill}[AJ~23022017]//
+\endgl\xe
+In addition to the familiar `subsequential' use provided in (\getref{ssq0}), \textit{bambai} appears to have an additional, ostensibly distinct function as shown in (\getref{app0}) below.
+\pex\deftagex{app0}\begingl
+\glpreamble\textbf{Context:}  It's noon and I have six hours of work after this phonecall. I tell my colleague://
+\gla ai\textdblhyphen{}rra dringgi kofi \textbf{bambai} mi gurrumuk la desk iya gin//
+\glb 1s\textdblhyphen{\sc irr} drink coffee \textit{bambai} 1s fall.asleep {\sc loc} desk here {\sc emph}//
+\glft `I'd better have a coffee otherwise I might pass out right here on the desk'\hfill[GT 28052016]//
+\endgl
+\xe
+In (\ref{app0}), the speaker asserts that if he doesn't consume coffee then he may subsequently fall asleep at his workplace. In view of this available reading, \citet{Angelo2016} describe an `apprehensive' use for Kriol \textit{bambai} --- a category that is encoded as a verbal inflection in many Australian languages and is taken to mark an `undesirable possibility' (256). In this case, \textit{bambai} is plainly not translatable as an adverbial of the `soon'-type shown in (\ref{ssq0}). Rather, it fulfills the function of a discourse anaphor like `otherwise', `or else' or `lest' \citep[see also][]{Webber2001,PhilKotek}.
+
+This chapter proposes a diachronically-informed and unified semantics for Kriol \textit{bambai}. It begins with section \ref{typS}, which motivates the grammatical category of `apprehensional epistemics' as described in typological literatures. Section \ref{dataS} describes the function and distribution of Kriol \textit{bambai}, both in its capacity as a subsequential temporal frame adverbial (§\ref{dataStfa}) and its apparent apprehensional functions (§\ref{dataSapp}). Section \ref{semS} proposes a unified semantics for \textit{bambai} and discusses the grammaticalisation of apprehensional meaning while section \ref{conclS} concludes.
+
+
+\section{Apprehensionality as a functional category}\label{typS}
+While descriptive literatures have described the appearance of morphology that encodes ``apprehensional'' meaning, very little work has approached the question of their semantics from a comparative perspective. Particles that encode negative speaker attitude with respect to some possible eventuality are attested widely across Australian, as well as Austronesian and Amazonian languages \citep[258]{Angelo2016}. While descriptive grammars of these languages amply make use of these and similar categories,\footnote{\textsc{Timitive} and particularly \textsc{evitative} a.o are also cited in these descriptive literatures.} \citet{Lichtenberk1995} and \citet{Angelo2016} are among the only attempts to describe these markers as a grammatical category).\footnote{An edited collection on  \textit{Apprehensional constructions}, edited by Marine Vuillermet, Eva Schultze-Berndt and Martina Faller, is forthcoming via Language Sciences Press. This volume (in which a version of this work will appear) similarly seeks to address this gap in the literature.}
+
+%\subsection{The basic meaning of the apprehensional}
+
+Lichtenberk claims that the To'abaita ({\tt[mlu]} Solomonic: Malaita) particle \textit{ada} in (\ref{bare-mlu}) serves to modalise (``epistemically downtone'') its prejacent while dually expressing a warning about the undesirability of opening the stone oven in vain.
+
+(\ref{link-mlu}), meanwhile, links two clauses: it expresses negative speaker attitudes about a future eventuality of getting caught in the rain, a possible consequence of the subjects' hypothetical failure to take umbrellas with them. Of particular interest for present purposes is the categorical co-occurrence of {\sc seq}-marking \textit{ka} in the prejacent to \textit{ada}. Lichtenberk notes that the sequential subject-tense portmanteau \textit{appears categorically in these predicates}, independent of their `temporal status.' He claims that this marking indicates that the encoded proposition `\textit{follows the situation in the preceding clause}' (296, emphasis my own). The analysis appraised in this dissertation proposes a basic conceptual link between the expression of the \textbf{temporal sequentiality} of a predicate and \textbf{apprehensional} semantics.
+
+	\pex \textbf{Apprehensional marking in To'abaita}
+	\a\label{bare-mlu}%% Begins a new example
+	\begingl %% Begins a gloss
+	%% IMPORTANT: use forward slashes WITHIN the gloss environment!
+	\glpreamble \textbf{\textsc{Context}.} Dinner's cooking in the clay oven; opening the oven is a labourious process.//
+	\gla \textbf{ada} bii na'i ka a'i si `ako ba-na // 
+	\glb \glem{appr} oven\_food this it:\textbf{{\sc seq}} {\sc neg} it{\sc:neg} be.cooked {\sc lim-}its//
+	\glft `The food in the oven may not be done yet'\hfill(295)//%\hfill(To'abaita {\tt[mlu]}: Solomonic, Lichtenberk: 295)//
+	\endgl %% Ends a gloss
+	\a\label{link-mlu}\begingl
+	\gla kulu ngali-a kaufa \textbf{ada} dani ka `arungi kulu//
+	\glb 1p{\sc.incl} take{\sc-pl} umbrella \glem{appr} rain it:{\sc seq} fall.on 1p{\sc.incl}//
+	\glft `Let's take umbrellas in case we get caught in the rain'\hfill(298) //\endgl
+	\xe
+
+Drawing on comparative evidence (\textit{viz.} with Lau (\texttt{[llu]} Solomonic: Malaita) and other SE Solomonic languages), Lichtenberk argues that the apprehensional functions of \textit{ada} are a result of the grammaticalisation of an erstwhile lexical verb with meanings ranging a domain `see, look at, wake, anticipate' that came to be associated with warning and imprecation for care on the part of the addressee before further developing the set of readings associated with the present day {\sc appr} marker \citeyearpar[303-4]{Lichtenberk1995}.
+
+
+\citet[171]{Dixon2002a} refers to the presence of nominal case morphology that marks the \textsc{aversive} as well as the functionally (and sometimes formally, see \citealp[44]{Blake1993}) related verbal category of apprehensionals as `pervasive feature of Australian languages' and one that has widely diffused through the continent.\footnote{Dixon in fact attributes the paucity of work/recognition of this linguistic category to `grammarians' eurocentric biases' (171).} \citet[306]{Lichtenberk1995} marshalls evidence from Diyari (\texttt{[dif]} Karnic: South Australia) to support his claim about a nuanced apprehensional category, drawing from Austin's 1981 grammar. The Diyari examples in (\nextx) below are all adapted from \citet{Austin}.
+
+\pex\textbf{Apprehensional marking in Diyari}\a\begingl
+\gla wata yarra wapa-mayi, nhulu yinha parda-\textbf{yathi}, nhulu yinha nhayi-rna//
+\glb {\sc neg} that~way go.{\sc imper-emph} 3s{\sc.erg} 2s{\sc.acc} catch-\bfseries{{\footnotesize APPR}} 3s{\sc.erg} 2s{\sc.acc} see-{\sc ipfv$_{SS}$}//
+\glft `Don't go that~way or else he'll catch you when he sees you!'\hfill(230)//
+\endgl
+\a\begingl
+\gla wata nganhi wapa-yi, karna-li nganha nhayi-\textbf{yathi}//
+\glb  {\sc neg} 1s\textsc{.nom} go\textsc{-pres} person-\textsc{erg} 1s\textsc{.acc} see-{\glem{appr}}//
+\glft ‘I’m not going in case someone sees me’\hfill(228)//
+\endgl
+\a\begingl
+\gla nganhi yapa-li ngana-yi, nganha thutyu-yali matha\textasciitilde{}matha-thari-\textbf{yathi}//
+\glb 1s{\sc.nom} fear{\sc-erg} be{\sc-pres} 1s{\sc.acc} reptile{\sc.erg} {\sc iter}\textasciitilde{}bite-{\sc dur-\glem{appr}}//
+\glft `I'm afraid some reptile may bite me'\hfill(228)//\endgl
+\a\begingl
+\gla nhulu-ka kinthala-li yinanha matha-\textbf{yathi}//
+\glb 3s.{\sc erg-det} dog{\sc-erg} 2s{\sc.acc} bite\glem{-appr}//
+\glft `This dog may bite you'\hfill(230)//
+\endgl
+\xe
+
+The sentences in (\lastx) shows a range of syntactic behaviour for Diyari suffix \textit{-yathi} `{\sc appr}.' The \textit{-yathi} marked clause is linked to a prohibitive in (a), a negative-irrealis predicate in (b) and predicate of fearing in (c), or alternatively occurs without any overt linguistic antecedent in (d).\footnote{Austin claims that these clauses are invariably `structually dependent' (230) on a `main clause' (\textit{viz.} the antecendent.) We will see in what follows a series of arguments (to some degree foreshadowed by Lichtenberk (1995: 307)) to eschew such a description.} In all cases, the predicate over which \textit{-yathi} scopes is \textbf{modalised} and expresses a proposition that the speaker identifies as `unpleasant or harmful' \citep[227]{Austin}. Little work has been undertaken on the emergence of these meanings.\footnote{\citet[171]{Dixon2002a} and \citet[44]{Blake1993} are partial exceptions although these both focus on syncretism in case marking rather than dealing explicitly with the diachronic emergence of the apprehensional reading.}
+
+As we will see in the following sections, apprehensional uses of preposed \textit{bambai} in Kriol have a strikingly similar distribution and semantic import to the apprehensional category described in the Australianist and other typological literatures. \citet{Angelo2016} focus their attention on demonstrating the cross-linguistic attestation of a grammaticalisation path from (sub)sequential temporal adverbial to innovative apprehensional marking. They suggest that for Kriol, this innovation has potentially been supported by the presence of like semantic categories in Kriol's Australian substrata. Data from virtually all attested languages of the Roper Gulf are shown in (\nextx). Note that for (almost all of) these languages, there are attested examples of the apprehensional marker appearing in both biclausal structures (\textit{p} \textsc{lest} q) as well as monoclausal ones (\textit{$\lozenge_{\text{apprehensive}}$ p}).
+
+\pex \textbf{Apprehensional/aversive marking in Roper Gulf languages}\deftagex{ropa}
+\a\begingl\glpreamble \textbf{Ngandi}\deftaglabel{nga}//
+\gla a-d̪aŋgu-yuŋ ŋaṛa-wat̪i-ji, a-waṭu-d̪u aguṛa-\textbf{miliʔ}-ŋu-\textbf{yi}//
+\glb \gls{ncl}-meat-\gls{abs} 1s$\scriptscriptstyle>$3s-leave-\gls{neg}:\gls{fut} \gls{ncl}-dog-\gls{erg} 3s$\scriptscriptstyle>$3s-\textbf{\gls{appr}}-eat-\textbf{\gls{appr}}//
+\glft`I won't leave the meat (here), lest the dog eat it.'\trailingcitation{(\citealp[106]{Heath1978}, interlinearised)}//
+\endgl
+
+\a \begingl\glpreamble \textbf{Ngalakan}\deftaglabel{ngl}//
+\gla garku buru-ye \textbf{mele}-ŋun waṛŋʼwaṛŋˀ-yiˀ//
+\glb high 3ns-put \textbf{\gls{appr}}-eat.\gls{pres} crow-\gls{erg}//
+\glft`They put it up high lest the crows eat it.'\trailingcitation{\citep[102]{Merlan1983}}//
+\endgl
+
+\a \begingl\glpreamble \textbf{Rembarrnga}\deftaglabel{rem}//
+\gla ŋaran-\textbf{mǝʔ}-ɲamʔ ŋa-na laŋǝ ṛalk//
+\glb 3s$\scriptscriptstyle>$1p.\gls{incl}-\textbf{\gls{appr}}-bite.\gls{pres} 1s$\scriptscriptstyle>$3-see.\gls{pst} claw big//
+\glft`He might bite us! I saw his big claws.'\trailingcitation{\citep[182]{McKay2011}}//
+\endgl
+
+
+\a\begingl\glpreamble\textbf{Wubuy}\deftaglabel{wub}//
+\gla numba:-'=da-ya:::-ŋ gada, nama:='ru\textbf{-ngun-magi}//
+\glb 2s$\scriptscriptstyle>$1s\textdblhyphen{}spear.for-go-\textsc{nonpst} oops 1d$.\gls{incl}\scriptscriptstyle>\gls{anim}$\textdblhyphen{leave}-\textbf{\gls{appr}}-\textbf{\gls{appr}}//
+\glft`Spear it! Ey! Or else it will get away from us!'\trailingcitation{(\citealp[13.12]{Heath-nmet}, interlinearised)}//
+\endgl
+
+
+\a\begingl\glpreamble\textbf{Ritharrŋu}\deftaglabel{rit}//
+\gla gurrupulu rranha nhe, \textbf{wanga} nhuna rra buŋu//
+\glb give.\gls{fut} 1s.\gls{acc} 2s \textbf{\textit{or else}} 2s.\gls{acc} 1s hit.\gls{fut}//
+\glft`Give it to me, or else I'll hit you.'\trailingcitation{(\citealp{Heath1980a}, interlinearised \& standardised to Yolŋu orthography)}//\endgl
+
+
+\a\begingl\glpreamble \textbf{Mangarayi}\deftaglabel{mang}//
+\gla bargji $\varnothing$-ṇama \textbf{baḷaga} ña-way-(y)i-n//
+\glb hard 2s-hold \textsl{\textbf{lest}} 2s-fall-\textsc{mood}-\gls{pres}.//
+\glft`Hold on tight lest you  fall!'\trailingcitation{(\citealp[147]{Merlan1989}, cited also in  A\&SB:284)}//
+\endgl
+
+
+
+\a\begingl\glpreamble \textbf{Marra}\deftaglabel{mar}//
+\gla wu-ḷa ṇariya-yur, \textbf{wuniŋgi} ŋula ṉiŋgu-way//
+\glb go-\gls{imp} 3s-\gls{all} \textit{\textbf{lest}} \gls{neg} 3s$\scriptscriptstyle>$2s-give.\gls{fut}//
+\glft`Go to him, or else he won't give it to you.'\trailingcitation{(\citealp[187]{Heath1981}, cited also in A\&SB:284)}//\endgl
+
+
+
+
+\xe
+
+
+
+As shown in (\lastx), there is a diversity of formal strategies deployed (or combined) in these languages to realise apprehensional meaning: suffixation inside the verbal paradigm (\getfullref{ropa.nga}), prefixation to the verb stem (\getfullref{ropa.nga}-\getref{ropa.wub}), a separate apprehensional particle (\getfullref{ropa.rit}-\getref{ropa.mang}).
+
+
+ In view of better understanding the cognitive unity of these categories and the mechanisms of reanalysis which effect semantic change in \textit{bambai} and its TFA counterparts in other languages, the distribution and meaning of the `subsequential' and apprehensional usages of \textit{bambai} are described below.
+ 
+ 
+\section{The distributional properties of \textit{bambai}}\label{dataS}
+
+\citet{Angelo2016} provide convincing cross-linguistic evidence of the candidacy of temporal frame adverbials (TFAs) for recruitment as `apprehensional' markers. Table \ref{etyma} summarises examples of adverbials they collect in favour of this hypothesis. They additionally suggest that there is some evidence of apprehensional function emerging in the \textit{bambai} cognates reported in Torres Strait Brokan \texttt{[tcs]} and Hawai'ian Creole \texttt{[hwc]}.
+
+\begin{table}[h!]\centering
+	\caption{Etyma and polysemy for apprehensional modals} \label{etyma}
+	\begin{tabular}{llll}
+		Language & Adverbial & Gloss$^6$ & Author (grammar)\\\midrule
+		Std Dutch \texttt{[nld]} & \textit{straks} & soon & \citet{Boogaart2009,Boogaart2020}\\
+		Std German \texttt{[deu]} & \textit{nachher} & shortly, afterwards&A\&SB (2018)\\
+		Marra \texttt{[mec]}& \textit{wuniŋgi} & further & \citet{Heath1981}\\
+		Mangarayi \texttt{[mpc]} & \textit{baḷaga} & right now/today & \citet{Merlan1989}\\ 
+		Kriol \texttt{[rop]} &  \textit{bambai} & soon, later, then& \\\bottomrule
+	\end{tabular}\end{table}
+	\vspace{.25cm}
+\footnotetext[6]{This isn't to suggest that the semantics of those words provided in the `{\sc gloss}' column in the table above ought to be treated as identical identical: the definitions seek to capture a generalisation about sequentiality. A prediction that falls out of this generalisation is that TFAs like `later, soon, afterwards, then' might be best interpretable interpretable as subsets of this category.}
+
+ Compare, for example, the uses of Marra \textit{wuninggi} and Mangarrayi \textit{barlaga} in  (\nextx) to those in (\getfullref{ropa.mang},\getref{ropa.mar}), where the availability of apprehensional and subsequential readings appears to echo that of Kriol.
+
+\pex\a\begingl\glpreamble\textbf{Mangarayi}//
+\gla gaḷaji ŋaŋʔ-ma \textbf{baḷaga} $\varnothing$-yag//
+\glb quickly 2s.ask-\gls{imp} \textbf{before} 3s.go//
+\glft`Ask him quick, before he goes.'\trailingcitation{(\citealp[147]{Merlan1989}, cited also in  A\&SB:284)}//\endgl
+\a\begingl\glpreamble\textbf{Marra}//
+\gla wayburi jaj-gu-yi \textbf{wuniŋgi}: gaya//
+\glb southward chase-3s$\scriptscriptstyle>$3s.\gls{pst} \textbf{further} there//
+\glft`[the dingo] chased [the emu] a bit more in the south.'\trailingcitation{\citep[360]{Heath1981}}//\endgl\xe
+
+\citet[147]{Merlan1989} glosses \textit{baḷaga} as `\textsc{evitative/anticipatory}', commenting  that these two notions are ``sometimes indistinguishable.'' She also notes the formal (reduplicative) relation to frame adverbial \textit{baḷaḷaga} `right now, today', commenting on the shared property of ``immediacy'' that links all these readings. Of \textit{wuniŋgi}, \citet[308]{Heath1981} suggests translations of `farther along, furthermore, in addition' (common in text translations) in addition to (elicited) apprehensional readings. He explicitly notes the similarity between this apparent polysemy and Kriol \textit{bambay} (sic) (given the ``closeness'' of the sense of `later' to that of `farther along'.)
+
+
+The remainder of this section will (informally) describe the distribution and meaning of both temporal-frame and apprehensional readings of \textit{bambai} in the data.  The Kriol data used here includes draws from \citeauthor{Angelo2016} ([\textit{A\&SB}], 2016) and the Kriol Bible ([\textit{KB}], \citealp{BibleSocAust}) in addition to elicitations from, and conversations with, native speakers of Kriol recorded in Ngukurr predominantly in 2016 and 2017. 
+
+	\subsection{Temporal frame use}\label{dataStfa}
+\textit{Temporal frame adverbials} (TFAs) are linguistic expressions that are used to refer a particular interval of time, serving to precise the \textit{location} of a given eventuality on a timeline. As an example, TFAs include expressions like \textit{this morning} or \textit{tomorrow}, which situates the eventuality that it modifies within the morning of the day of utterance or the day subsequent to the day of utterance respectively \citep[see][307]{Binnick1991}. Formally, we can model the contribution of a TFA by assuming a set  $\mathcal T$  of points in time which are all strictly ordered with respect to each other chronologically. This is represented by a \textsc{precedence relation} $ \prec $ (where $t_1\prec t_2\leftrightarrow$ $t_1$ precedes $t_2$). A TFA like \textit{today}, then, is a predicate of times: it picks out all the points in time between the beginning and the end of the day of utterance. In the sentence \textit{Mel ate today}, the TFA restricts the instantiation time of the eating event $(t_e)$ to this interval. That is, \textit{Mel ate today} is true iff Mel ate at $t_e$ and $\underset{\text{start-of-day}}{t}\prec t_e\prec\underset{\text{end-of-day}}{t}$.
+	
+	
+As discussed in §\ref{intro§}, Kriol \textit{bambai} is derived from an archaic English temporal frame adverbial, \textit{by-and-by}, a lexical item with some currency in the nautical jargon used by multiethnic sailing crews in South Pacific in the nineteenth century. The general function of \textit{by-and-by} has been retained in contemporary Kriol, namely to temporally advance a discourse, much as Standard Australian English uses expressions of the type `soon/a little while later/shortly after(wards)' or `then.' These expressions represent a subset of `temporal frame adverbials': clause modifiers that delimit the temporal domain in which some predicate is instantiated. In this paper, I refer to the relevant set of TFAs as \textit{subsequentiality} ({\sc`subseq'}) adverbials. The motivation for describing this as a semantic subcategory is the robust intuition that, in addition to temporally advancing the discourse (\textit{i.e.} marking the instantiation of the prejacent predicate posterior to a given reference time), {\sc subseq} TFAs give rise to a salient, truth-conditional expectation that the predicate which they modify obtain in non-immediate sequence with but in the \textbf{near future} of a time provided by the context of utterance. This general function of \textit{by-and-by} is attested in the contact varieties (i.e. pidgins) spoken in the nineteenth century in Australia; this is shown in (\ref{ntpidgin}).
+
+\ex\label{ntpidgin}\begingl\glpreamble \textup{An excerpt from a (diagrammatic) explanation of betrothal customs and the genealogy of one couple as given to T A Parkhouse by speakers of a Northern Territory pidgin variety from the Larrakia nation. in the late nineteenth century. (\citealt[4]{Parkhouse1895}, also cited in \citealp[299]{Harris1986a}.)My translation (incl. subscript indexation)}\vspace{.3em}//
+	\gla ... that fellow lubra him have em nimm. +	\textbf{by-and-by} him catch him lubra, him have em nimm. +	Him lubra have em bun-ngilla.
+	\textbf{By-and-by} girl big fellow, him nao`wa catch him, him méloa have em bun-ngilla. +	\textbf{By-and-by} nimm big fellow, by-and-by bun-ngilla big fellow, him catch him.//
+	\glb ~ that {\sc attr} woman 3s have {\sc tr} boy
+	\textit{\textbf{bambai}} 3s catch \textsc{tr} woman 3s have \textsc{tr} boy 3s woman have \textsc{tr} girl \textit{\textbf{bambai}} girl big \textsc{attr} 3s husband catch 3s 3s pregnant have \textsc{tr} girl \textit{\textbf{bambai}} boy big \textsc{attr} \textit{\textbf{bambai}} girl big \textsc{attr} 3s catch 3s//
+	\glft `...That woman$_h$ had a son$_i$. Later, he$_i$ got a wife and had a son$_j$. This woman$_k$ had a daughter$_\ell$. Then, when the girl$_\ell$ had grown up, her husband got her$_\ell$ pregnant, she$_\ell$ will had a daughter$_m$. Then, when the boy$_j$ was grown and the girl$_m$ was grown, he$_j$ got her$_m$.'//\endgl
+\xe
+
+Note that, according to Parkhouse, (\ref{ntpidgin}) constitutes a description of the relationship history of a one couple; each sentence is past-referring. In this sense, it is clear that there is no tense marking in the narrative.  In each of the \textit{by-and-by} clauses in (\ref{ntpidgin}), the speaker asserts that the event being modified is \textit{subsequent} to a reference time set by the previous event description. In this respect, \textit{by-and-by} provides a temporal frame to predicate that it modifies. 
+
+As we have seen above, the {\sc subseq}-denoting function of \textit{bambai} shown here has been retained in Kriol. This reading is shown again in the two sentences in (\getref{ssq}). The schema in (\getfullref{ssq.schema}) informally shows how the \textit{bambai} establishes a temporal frame for the instantiation of the predicate that it modifies.
+
+\pex\a\deftagex{ssq}\deftaglabel{fladwoda}	\begingl	\glpreamble \textbf{Context:} During a flood a group of people including the speaker have moved to dry place up the road//
+	\gla mela bin ol mub deya na, jidan deya na, \textbf{bambai} elikopta bin kam deya na, detlot deya na garra kemra//
+	\glb 1p{\sc.excl} {\sc pst} all move there now sit there now \textbf{\textit{bambai}} helicopter {\sc pst} come there now {\sc det:pl} there now have camera//
+	\glft `We all moved there, \textbf{then} a helicopter came, the people there had cameras'\\\hspace*{\fill}[A\&SB: 271]//
+	\endgl
+
+\a\begingl	\deftaglabel{ib}\glpreamble\textbf{Context:} Eve has conceived a child.//
+	\gla \textbf{Bambai} imbin abum lilboi//
+	\glb \textit{bambai} 3s.{\sc pst} have boy//
+	\glft `Subsequently, she had (gave birth to) a boy'\hfill[KB:~Jen~4.1]//
+	\endgl
+	\a\deftaglabel{schema}\textbf{Instantiation  for subsequential reading}\\\begin{tikzpicture}[grow=right]\large
+	\tikzset{level distance=100pt,sibling distance=18pt}
+	\tikzset{execute at begin node=\strut}
+	\Tree [.$w_0,t_0$ [.$w_0,\boldsymbol{t_e}$ \edge[dotted]; $w_0,t^+_r$ ] ]
+	\end{tikzpicture}
+	
+	In the reference world $w_0$, the eventuality described by the predicate is instantiated before some time $t^+$ in the future of a reference time $t_r$ (the latter is contextually determined, by an antecedent proposition if present, or otherwise established by the discourse context.)
+			\xe
+
+As shown in (\getfullref{ssq.fladwoda}) above, the arrival of the helicopter (and its associated camera crew) is modified by \textit{bambai qua} TFA. It has the effect of displacing the instantiation forward in time with respect to the reference time provided by the first clause. 	\textit{Bambai} has the effect of displacing the instantiation of helicopter-arrival forward in time with respect to the reference time provided by the first clause (\textit{sc.} the time that the group had moved to a dry place up the road).
+
+ Similarly, (\getref{ssq.ib}) asserts that the eventuality described by the prejacent to \textit{bambai} (namely the birth of Esau) is instantiated in the near future $\{t_e:t_e\prec t^+_r\}$\footnote{This is not to suggest the psychological reality or referability of some `latest bound' reference time $t^+_r$. The latter merely represents a contextual expectation by which the event described by the prejacent had better have obtained for the whole sentence to be judged true. See §\ref{semS} for further discussion of this device.} of some reference time $t_r$ provided contextually, albeit not by a linguistically overt antecedent clause. Subsequential TFAs are distinguished by this `near future' restriction, underpinned by a set of conversational expectations over reasonable degrees of ``soonness.''
+
+This subsection has described the contribution of \textit{bambai} in its capacity as a `subsequential' TFA. A discussion of apprehensional uses follows. %Additionally, sentences linked by these adverbials appear to invite an inference of an additional nontemporal (etiological) dimension to the relation between the two clauses.
+
+
+	\subsection{Apprehensional use}\label{dataSapp}
+
+
+
+In his survey of ``apprehensional modality'', \citet[295-6]{Lichtenberk1995} describes apprehensionals like To'abaita \textit{ada} as having a dual effect on their prejacents: \textit{epistemic downtoning} --- \textit{i.e.} `signal[ling] the [speaker's] relative uncertainty...about the factual status of the proposition' --- and (a shade of) \textit{volitive modality} --- `the fear that an undesirable state of affairs may obtain.' While we are not committed to these metalinguistic labels a this stage (to be further investigated below), a modal meaning for Kriol \textit{bambai} is shown below. This use diverges from the subsequential/temporal frame uses described so far.
+
+
+\citet[272\textit{ff}]{Angelo2016} observe that apprehensional \textit{bambai} occurs with both an `admonitory' illocutionary force in a precautioning/warning sense (\getfullref{appr1.motika}), in addition to declarative illocutionary acts; where the speaker formulates a prediction of undesirable eventuality as the possible outcome of some discourse situation (\getfullref{appr1.meds}). 
+
+
+\subsubsection{Indicative `nonimplicationals'}
+The sentence data in (\getref{appr1}) demonstrate how \textit{bambai}-sentences are used to talk about undesirable possible future eventualities. Formally, we can enrich the time model introduced in the previous subsection by postulating a set of \textit{possible worlds} $\mathcal W$ (following standard assumptions, a ``proposition'' $(p\in\mathcal W\times\{\mathbb{T,F}\})$ is a set of possible worlds, namely those in which it is true, e.g. \citealp{Stalnaker1979}, \citealp{Kripke1963}). 
+
+Generally speaking, the construction \textit{p bambai q} in its apprehensional meaning means `if the situation in $p$ doesn't obtain in $w$, then the (unfortunate) situation in $q$ might' $(\neg p(w)\to\blacklozenge q(w))$. This is shown in (\getref{appr1}) below.	
+\pex
+\a\deftagex{appr1}\deftaglabel{motika}\begingl
+\glpreamble \textbf{Context:} Two children are playing on a car. They are warned to stop.//
+\gla Ey! \textbf{bambai$_1$} yundubala breikim thet motika, livim. \textbf{bambai$_2$} dedi graul la yu//
+\glb Hey! \textbf{\textit{bambai}} 2d break {\sc dem} car leave \textbf{\textit{bambai}} Dad scold {\sc loc} 2s//
+\glft `Hey! You two might break the car; leave it alone. Otherwise Dad will tell you off!'\trailingcitation[A\&SB: 273]//
+\endgl
+
+\a\deftaglabel{meds}\begingl\gla ai garra go la shop ba baiyim daga, \textbf{\textit{bambai}} ai (mait) abu no daga ba dringgi main medisin//
+\glb 1s {\sc irr} go {\sc loc} shop {\sc purp} buy food \textit{\textbf{bambai}} 1s {\sc(poss)} have no food {\sc purp} drink my medicine//
+\glft `I have to go to the shop to by food \textbf{otherwise} I may not have food to take with my medicine'\hspace*{\fill}[AJ 23022017]//
+\endgl\xe
+
+In (\getfullref{appr1.motika}), there are two tokens of apprehensional \textit{bambai}. The second \textit{(bambai$_2$)} appears to be anaphoric on imperative \textit{livim!} `leave [it] alone!' Notably, it appears that the Speaker is warning the children she addresses that a failure to observe her advice may result in their being told off ($\neg p\to\blacklozenge q$) --- unlike the uses of \textit{bambai} presented in the previous subsection, \textit{bambai} here is translatable as `lest/otherwise/or~else.' \textit{bambai$_1$}, the first token in (\getfullref{appr1.motika}) appears to have a similar function, although has no overt sentential antecedent. In this case, the Speaker is issuing a general warning/admonition about the children's behaviour at speech time. In uttering the \textit{bambai$_1$} clause, she asserts that, should they fail to heed this warning, a possible event of their breaking the car is a possible outcome. (\getfullref{appr1.meds}) provides an example of an apprehensional/{\sc lest}-type reading occurring in a narrative context: here the Speaker identifies a possible unfortunate future situation in which she has no food with which to take her medicine. Here, in uttering the \textit{bambai} clause, she asserts that such an eventuality is a possible outcome should she fail to go to the shop to purchase food. This reading is robustly attested in contexts where the antecendent is modified by some irrealis operator. The example from (\ref{app0}) is repeated below as (\nextx): here \textit{bambai} makes a modalised claim: if $\kappa$ is a set of worlds in which I drink coffee at $t^\prime$ (and $\overline{\kappa}$ is its complement), then an utterance of (\ref{app0}) asserts that $\exists w\in\overline{\kappa}:\text{I sleep by }t^+\text{ in }w.$
+
+\pex\a\deftagex{app0rp}\deftaglabel{kofi}\begingl
+\glpreamble\textbf{Context:}  It's noon and I have six hours of work after this phonecall. I tell my colleague://
+\gla ai\textdblhyphen{}rra dringgi kofi \textbf{bambai} mi gurrumuk la desk iya gin//
+\glb 1s\textdblhyphen{\sc irr} drink coffee \textit{bambai} 1s fall.asleep {\sc loc} desk here {\sc emph}//
+\glft `I'd better have a coffee otherwise I might pass out right here on the desk'\hfill(GT~28052016)//
+\endgl\vspace{.5cm}
+\a \textup{\textbf{Instantiation schema for apprehensional reading in (\getref{app0rp.kofi})}}
+
+
+$\boldsymbol{\hspace{10pt}t*\hspace{40pt}  t^\prime \hspace{40pt}  t^+ }$\vspace{.3cm}
+
+\leavevmode\vadjust{\vspace{-\baselineskip}}\newline\begin{tikzpicture}[grow=right]
+%\node(appr) at (-9:-5) {$t_0$};
+%\node(appr) at (-5:1.2) {$t^\prime$};
+%\node(appr) at (-5:2.5) {$t^+$};
+
+\tikzset{level distance=50pt,sibling distance=8pt}
+{\large\Tree [.$w*$ [.${\kappa}$ [.$w_{\kappa_4}$ ] [.$w_{\kappa_3}$ ] ] [.$\bar{\kappa}$ [.$w_{\bar{\kappa_2}}$ ] [.$w_{\bar{\kappa_1}}$ ] ] ]
+}
+\end{tikzpicture}
+
+In the reference world $w_0$ at speech time $t_0$, the Speaker partitions possible futures into those in which he drinks coffee and those in which he doesn't (that eventuality described by the antecedent.) In those worlds where he fails to drink coffee, there exist possible futures ($w_{\neg\kappa_1}\vee w_{\neg\kappa_2}$) in which he is asleep by some future time $t^+$.
+\xe
+
+Notably, this behavior where \textit{bambai} is anaphoric on a proposition that is related to the complement of its antecedent clause appears to be categorical. This is further shown in (\nextx) below, where a {\sc subseq} reading of \textit{bambai} is infelicitous.
+\pex
+\begingl\glpreamble\textbf{Context:} The Speaker is experiencing a bout of insomnia//
+\gla\ljudge{$^\#$}airra wotji muvi bambai mi gurrumuk//
+\glb 1s\textdblhyphen{\sc irr} watch film \textit{bambai} 1s fall.asleep//
+\glft \textbf{Intended:} I'll watch a film, then I'll (be able to) fall asleep\hfill[AJ 23022017]//
+\endgl\xe
+
+The relationship between the antecedent clause and the context on which \textit{bambai} is anaphoric is further discussed in §§\ref{UCsems}-4.
+\subsubsection{Subjunctive `nonimplicationals'}
+
+\textit{bambai} also receives an apprehensional reading in subjunctive/counterfactual contexts: those where an alternative historical reality is considered \citep[see][]{VonFintel2012}. (\nextx) below provides an example of apprehensional \textit{bambai} in one such context.
+
+
+In (\nextx), the Speaker identifies that in an alternative history $(w^\prime)$ in which he behaved differently to the way in which he did in the evaluation world ($w'\not\simeq w*$) --- namely one in which the event described in the antecedent failed to obtain --- it is a significant possibility that he would have slept at work. Consequently, and comparably to the example (\lastx) above, \textit{bambai} modalises its prejacent: it asserts that $\exists w^\prime\not\simeq w*:w\in\kappa\wedge\text{I sleep by }t^+\text{ in }w^\prime$.
+
+\pex
+\a\deftagex{sjv}\deftaglabel{A}\begingl
+\gla ai\textdblhyphen{}bin dringgi kofi nairram \textbf{bambai} ai bina silip\textasciitilde silip-bat la wek//
+\glb 1s\textdblhyphen{\sc pst} drink coffee night \textit{\textbf{bambai}} 1s {\sc pst:irr} sleep{\sc\textasciitilde dur-ipfv} {\sc loc} work//
+\glft`I had coffee last night \textbf{otherwise} I would've slept at work' \trailingcitation{[AJ~23022017]}//\endgl
+
+
+\vbox{\a \textbf{Instantiation schema for apprehensional reading in (\getref{app0rp.kofi})}
+
+
+$\boldsymbol{\hspace{10pt}t_0\hspace{40pt}  t^\prime \hspace{25pt} t\!* \hspace{25pt} t^+ }$\vspace{.3cm}
+
+
+\begin{tikzpicture}[grow=right]
+
+	\tikzset{level distance=50pt,sibling distance=8pt}
+	\large\Tree [.$w_0$ \edge[double]; [.$w_0$ \edge[double]; [.$w_0$ ] ] \edge[dashed]; [.$w_{\bar\kappa}$ \edge[dashed]; [.$w_{\bar\kappa}^{\prime\prime}$ ] \edge[dashed]; [.$w_{\bar\kappa}^{\prime}$ ] ] ]
+\end{tikzpicture}}
+
+Here, the Speaker considers a set of worlds that historically diverge from the evaluation world $w_0$, namely the set of worlds where, unlike the evaluation world, the Speaker did not drink coffee at $t^\prime$. The Speaker asserts that there are some possible near futures to $\langle t^\prime,w_{\bar\kappa}\rangle$ in which he falls asleep by some time $t^+$, posterior to $t^\prime$.
+
+\xe
+
+The Kriol apprehensional data described so far is intuitively unifiable and bears some amount of syntactic similarity to familiar conditional constructions \textit{(i.e.} that of an ``infixed'' two-place relation between two propositions.) For all examples we have seen so far, \textit{bambai} introduces an predicate that describes an eventuality $ q $ which construes as undesirable for the speaker. It appears to that this eventuality is a \textit{possible, foreseeable} future outcome of some other contextually provided proposition $ p $. 
+
+The `indicative' and `subjunctive' uses can be unified by appealing to the notion of `timeline settledness' \citep[e.g][]{Condoravdi2002}: in those contexts where the prejacent is understood to be being asserted of a future time ($t_e\succ t*$) or a different world ($w^\prime\not\simeq w*$), those where the Speaker could not possibly have access to a determinate set of facts, the Speaker $ \mathcal R $-implicates \citep[see][]{Horn1984} that they are making a prediction; the entire proposition construes as modalised. The reference world and time are provided by some tensed or modalised antecedent proposition, linguistically overt or otherwise. Of additional interest is the fact that in the examples we have seen so far, the instantiation of the predicate that is modified by \textit{bambai} appears to be a potential consequence of the non-instantiation of the antecedent to \textit{bambai.} This observation is further investigated in §\ref{semS}.2 below. We turn first to additional apprehensional uses of \textit{bambai}.
+
+\subsubsection{Epistemic adverbial}\label{ep.adv}
+
+In contrast to the `nonimplicational' (\textit{i.e. }{\sc lest}/`in case'-type) readings presented immediately above,\footnote{Note however that  \textit{bambai}$_1$ in (\getfullref{appr1.motika}) also represents a use like this.} \textit{bambai} also appears to function as an epistemic adverbial with apprehensional use conditions: Lichtenberk's \textit{apprehensional-epistemic function} \citeyearpar{Lichtenberk1995}. This use of \textit{bambai} occurs in monoclausal sentences (described here) as well as conditional sentences (§ \ref{ifs} below).
+
+In (\ref{bos}) below, \textit{bambai} functions as an ``epistemic downtoner'' \citep[cf.][]{Lichtenberk1995} to its prejacent $ (\textit{bambai }q=\blacklozenge q) $. In this case, where the speaker doesn't \textit{know} who's at the door, the function is to make a claim about how, in view of what she \textit{does} knows and might expect to be happening, the (present-tensed) situation described in the prejacent is a distinct possibility (and a distinctly undesirable one at that.)
+
+
+
+	\ex\label{bos}\begingl\glpreamble\textup{\textbf{Context:} Speaker is at home to avoid running into her boss. There's a knock at the door; she says to her sister:}//
+	\gla Gardi! \textbf{Bambai} im main bos iya la det dowa rait~na//
+	\glb Agh \textit{\textbf{bambai}} 3s my boss here \textsc{loc} the door right~now//
+	\glft`Oh no! That could be my boss at the door.'\hfill[AJ 02052020]//\endgl
+\xe
+
+In these apprehensional-epistemic occurrences, \textit{bambai} has entered into the functional domain of other epistemic adverbials (notably \textit{marri\textasciitilde{maitbi}} `perhaps, maybe'.) The meaning implications of this on the epistemic adverbial domain in Kriol are discussed below.
+
+\subsubsection{\textit{if-}Conditionals}\label{ifs}
+In contrast to the `nonimplicational' (\textit{i.e. }{\sc lest}-type) readings presented immediately above, Kriol also forms conditional sentences using an English-like \textit{if...(then)} construction. The two sentences in (\nextx) give examples of an indicative and subjunctive \textit{if-}conditional, where \textit{bambai} introduces a conditional antecedent (the ``apodosis.'') 
+
+
+\pex\a\deftagex{if1}\deftaglabel{ind}\begingl %\glpreamble \textbf{and in if construction w neg consq}//
+\gla if ai dringgi kofi \textbf{bambai} mi $^\#$(nomo) gurrumuk//
+\glb if 1s drink coffee \textit{\textbf{bambai}} 1s $^\#$({\sc neg}) sleep//
+\glft `If I drink coffee then I might not sleep'\trailingcitation{[AJ~23022017]}//
+\endgl
+\a\deftaglabel{sjv}\begingl\gla if ai\textdblhyphen{}ni\textdblhyphen{}min-a dringgi det kofi \textbf{bambai} ai($^\#$\textdblhyphen{}ni)\textdblhyphen{}bin-a gurrumuk jeya//
+\glb if 1s{\sc\textdblhyphen{}neg\textdblhyphen{}pst-irr} drink the coffee \textit{\textbf{bambai}} 1s{\sc($^\#$\textdblhyphen{}neg)\textdblhyphen{}pst-irr} be.asleep there//
+\glft\textbf{Intended:}`If I hadn't drunk coffee then I may well have fallen asleep there' \trailingcitation{[GT~16032017]}//
+\endgl\xe
+
+The contrast between (\getfullref{if1.ind},\getref{if1.sjv}) and (\getfullref{app0rp.kofi};\getfullref{sjv.A}) respectively, evinces some restriction that \textit{if} forces on the interpretation of the antecedent to \textit{bambai}. Whereas the \textit{if}-less sentences presented previously assert that a particular eventuality may obtain/have obtained just in case the antecedent predicate \textbf{fails}/failed to instantiate (i.e. the {\sc lest} readings), the sentences in (\getref{if1}) diverge sharply from this interpretation; that is, they claim $p\to\blacklozenge q$: should the antecedent proposition hold (have held), then $q$ may (have) obtain(ed). 
+
+In this respect, \textit{bambai} appears to be behaving truth conditionally as a modal expression encoding possibility. The ``domain'' of the modal is explicitly restricted by the \textit{if}-clause (whose sole function can be taken to be the restriction of a quantificational expression, \citealp[cf.][]{Kratzer1979,Lewis1975}). In this respect, \textit{bambai} has entered the functional domain occupied by epistemic adverbials (e.g. \textit{marri}) However, the examples in (\getref{smok}-\getref{doda}) below demonstrate the perseverance of apprehensional expressivity in these syntactic frames.
+
+\pex<smok>\textbf{Context:} I'm planning a trip out to country but Sumoki has taken ill...
+\a\deftaglabel{B}\begingl\gla if ai gu la holiday, \textbf{bambai} main dog dai//
+\glb if 1s go {\sc loc} holiday \textit{\textbf{bambai}} 1s dog die //
+\glft `If I go on holiday, my dog may die'\\$\leadsto$ I'm likely to cancel my holiday//
+\endgl
+\a\deftaglabel{M}\begingl
+\gla if ai gu la holiday, \textbf{marri} main dog (garra) dai//
+\glb if 1s go {\sc loc} holiday \textbf{perhaps} 1s dog {\sc(irr)} die//
+\glft `If I go on holiday, my dog may die'\\$\not\leadsto$ I'm likely to cancel my holiday\hfill[AJ 04082017]//
+\endgl
+\xe
+Here, the contrast between (\getref{smok.B}) and (\getref{smok.M}) is attributable to the expressive content of \textit{bambai} \citep[cf.][]{Kaplan1999}. That \textit{bambai} licenses an implicature that the Speaker is considering cancelling her holiday to tend to her sick pet, an inference that isn't invited by neutral epistemic counterpart \textit{marri} provides strong evidence of the semanticisation of \textit{bambai}'s expressive content (similar to `sincerity'- or `use-conditions' for a given lexical item.) The extent of this process is further evinced in (\nextx) below, where the selection of \textit{marri} instead of \textit{bambai} gives rise to a conventional implicature that the Speaker's utterance of (\nextx) ought not be interpreted as the expression of a desire to prevent her daughter's participation in the football game.
+\pex\begingl
+\glpreamble\textbf{Context:} I am cognizant of the possibility that my daughter injures herself playing rugby.\\\textbf{$^\#$Context:} I am uncomfortable with the likelihood of my daughter injuring herself playing rugby.//
+\deftagex{doda}
+\gla if im pleiplei fudi, marri main doda breigi im leig//
+\glb  if 3s play footy \textsl{perhaps} my daughter break her leg//
+\glft `If she plays footy my daughter may break her leg'\\\hspace*{\fill}$\not\leadsto$ [so she shouldn't play]\hfill[AJ 04082017]//
+\endgl\xe
+
+Based on this evidence, we may conclude that the ostensible encroachment of \textit{bambai} into the domain of epistemic adverbials has given rise to a privative dyad (\textit{i.e.} `Horn scale', see Horn 1984: 33-8) of the type $\langle\textit{marri, bambai}\rangle$ --- ``an utterance of \textit{marri p} conventionally implicates that the Speaker was not in a position to utter \textit{bambai p}. That is, the meaning of the `weaker' expression comes (via hearer-based/$ \mathcal Q$-implicature) to represent the relative complement of the stronger in a given semantic domain: here that the neutral epistemic adverbial comes to conventionally implicate \textit{non-apprehensional} readings/modalities: $$\denote{\textit{marri}}\approx\lozenge\setminus\denote{\textit{bambai}}$$
+
+\subsection{Summary}
+
+In the preceding sections, we have seen clear evidence that \textit{bambai} has a number of distinct readings. Nevertheless, we can draw a series of descriptive generalisations about the linguistic contexts in which these readings emerge. These are summarised in Table (\ref{readingstable}).
+
+\begin{table}[h]
+	\caption{Semantic conditions licensing readings of \textit{bambai}.\\
+				\textit{bambai} is interpreted as {\sc subseq} when the state-of-affairs being spoken about is \textbf{settled}/the same as the actual world $(w'\simeq w*)$  (i.e. \textbf{factual}, \textbf{nonfuture}  contexts). In other (\textbf{nonreal}) contexts/``unsettled predications'', apprehensional readings ``emerge.''  In the $p \textit{ bambai } q$ formula, \textit{bambai $q$} is interpreted as a predication about the negation of $p$ (the \textsc{lest} reading.)} \label{readingstable}\centering
+	\begin{tabular}{llrccc}\toprule
+		&  \denote[w*]{\textit{ bambai } q} && $w^\prime\simeq w*$ & $p,\textit{ bambai }q$      \\\midrule\midrule
+		\multicolumn{2}{c}{\textsc{subseq}}  &       & \checkmark      & \xmark        \\\midrule
+		\multirow{2}{*}{\textsc{appr}} & {\footnotesize\textit{LEST}} &$\neg p\to\blacklozenge q$ & \xmark           & \checkmark     \\
+		& \textsc{epist} &$(p\to)\blacklozenge q$& \xmark            &\xmark\\\bottomrule
+	\end{tabular}
+	
+\end{table}
+
+
+As discussed in the preceding sections, nonfactual utterances are those in which  (a) a predicate is understood to obtain in the future of evaluation time $t*$/\textbf{\textit{now}} or (b) the predicate is understood as describing some $w^\prime$ which is not a historic alternative to the evaluation world $w*$. It is in exactly these contexts that \textit{bambai} give rise to a modalised reading. There are a series of operators which we have seen in the data presented above that appear to `trigger' predication into an unsettled timeline. A selection of these is summarised in Table \ref{triggers} below.
+
+\begin{table}[H]\caption[Semantic operators]{Semantic operators\footnotemark{} that give rise to modalised readings of \textit{bambai}}\label{triggers}\centering\small
+	\begin{tabular}{lll}\toprule
+		\textsc{\textbf{Gloss}} & \textbf{Form} & \textbf{\textit{Example}} \\\midrule\midrule
+		\textsc{irrealis} & \textit{garra} &\specialcell[l@]{\textit{ai\textbf{rra} dringgi kofi \textbf{bambai} mi gurrumuk}\\`I'll have a coffee or I might fall asleep'}\\\midrule
+		
+		\textsc{prohibitive} & \textit{kaan} &\specialcell[l@]{\textit{ai \textbf{kaan} dringgi kofi \textbf{bambai} mi nomo silip}\\`I won't have a coffee or I mightn't sleep'}\\\midrule
+		
+		\textsc{c'factual} & $\underset{\textsc{pst:irr}}{\textit{bina}}$ &\specialcell[l@]{\textit{ai \textbf{bina} dringgi kofi nairram \textbf{bambai} aibina silip}\\`I had a coffee last night or I might've fallen asleep'}\\\midrule
+		
+		\textsc{imperative} & $\varnothing$ & \specialcell[l@]{\textit{yumo jidan wanpleis \textbf{bambai} mela nogud\footnotemark}\\`Youse sit still or we might get cross'}\\\midrule
+		\textsc{prohibitive} &  $\underset{\textsc{impr}}{\varnothing}$[\textit{nomo}] & \specialcell[l@]{\textit{\textbf{nomo} krosim det riba, \textbf{bambai} yu flodawei}\\`Don't cross the river or you could be swept away!'}\\\midrule
+		
+		\textsc{generic} & $\varnothing$ &\specialcell{\textit{im gud ba stap wen yu confyus, \textbf{bambai} yu ardim yu hed}\\`It's best to stop when you're confused, or you could get a headache'}\\\midrule
+		
+		\textsc{negative} & $\underset{\textsc{gen}}{\varnothing}$[\textit{nomo}] & \specialcell{\textit{ai \textbf{nomo} dringgi kofi enimo, \textbf{bambai} mi fil nogud}\\`I don't drink coffee anymore or I feel unwell'}\\\midrule\midrule
+		{\sc conditional}&\textit{if}&\specialcell[]{\textit{\textbf{if} ai dringgi kofi, \textbf{bambai} ai kaan silip}\\`If I have coffee, then I mightn't sleep'}\\\bottomrule
+		
+		
+	\end{tabular}
+\end{table}
+\footnotetext[8]{This is not intetnded to entail the claim that these operators are in any way semantic primitives.}
+\footnotetext[9]{This example due to Dickson (\citeyear[168]{Dickson2015} [KM~20130508]).}
+
+
+\section{Apprehensional readings emerge in subsequential TFAs}\label{diaS}
+
+
+ Here I consider a number of linguistic factors that appear to have contributed to the emergence of apprehensional readings of TFAs. This meaning change pathway (and apparent polysemy between temporal and apprehensional uses) has been observed by a handful of other authors \citep{Angelo2016,Angelo2018,Boogaart2020} on the basis of data from German \textit{nachher}, Dutch \textit{straks} and Kriol \textit{bambai}. Parallels between \textit{bambai} and \textit{straks} are shown in the contrast between a subsequential and apprehensional reading in (\getref{straks1}) below (Mireille L'Amie, p.c. 30 Jan 2020).
+ 
+ \pex The \textit{straksconstructie} in Dutch \citep[see also][]{Boogaart2020}
+ \deftagex{straks1}\a\begingl\glpreamble\textbf{context.} It's 3.30, the shop closes at 4. I tell my friend://
+ \gla de winkel is straks gesloten//
+\glb the shop is \textit{straks} closed//
+\glft `The shop will be closed soon.'//\endgl
+\a\begingl\glpreamble\textbf{context.} It's 3.50, the shop closes at either 4 or midnight, I'm unsure which. I say to my friend://
+\gla straks is de winkel gesloten!//
+\glb \textit{straks} is the shop closed//
+\glft`The shop may be closed!'//\endgl\xe
+ 
+
+
+Numerous authors (\citealp[e.g.][]{Stukker2012,Schmerling1975,Harder1995,Culicover1997,Klinedinst2012} a.o.) have investigated the semantic dependencies that often obtain between clauses that are \textit{syntactically coordinate}. These include the ``conditional readings'' of \textit{and} and \textit{or}, in addition to asyndetic constructions of the type: \textit{John comes, I leave} (where my departure is interpreted as a consequence of his arrival.) In these cases, although the second clause is interepreted as being ``semantically subordinate'' to the first, this relation is not made explicit in the syntax (\citealp[see][]{Roberts1989}) for discussion and an implementation of ``modal subordination''.)
+
+Relatedly, consider the parallels between interrogative and conditional clauses. The functional motivation for these appears to be that conditional apodoses (consequent clauses) can be understood as answering a ``question'' posed by the protasis (antecedent, see \citealp{PhilKotek} ms. for further discussion of this style of analysis.) This is clearly demonstrated for Danish by \citet[101-2]{Harder1995}, replicated in (\getref{harder}) below.
+
+\pex[aboveglftskip=0pt]\a\textbf{ A two-participant discourse}\deftagex{harder}\beginsubsub\b{\textsc{\textbf{a.}}}\begingl\gla Kommer du i aften?//
+		\glft Are you coming tonight?//\endgl
+		\b{\textbf{\textsc{b.}}}\begingl\gla \textit{ja}//
+		\glft Yes//\endgl
+		\b{\textbf{\textsc{a.}}}\begingl\gla\textit{ Så laver jeg en lœkker middag}//
+		\glft Then I'll cook a nice dinnner.//\endgl\endsubsub
+\a\begingl\label{harder.cond}\gla Kommer du i aften, (så) laver jeg en lœkker middag//
+	\glft `If you're coming tonight, (then) I'll cook a nice dinner.'//\endgl
+\xe
+
+Harder suggests that ``the conditional can be seen as a way of \textit{telescoping a discourse sequence into one utterance} so that \textbf{\textsc{b}} has to respond not only on the basis of the present situation, but also on the basis of a possible future.''
+
+
+
+
+
+
+Consider the discourses in (\ref{car}-\ref{sinek}) below.
+
+
+	\pex[everylabel=\bf\sc,aboveexskip=1pt]\textbf{Context:} A child is playing on a car and is told to stop.\label{car}
+\a	\begingl 	\gla gita la jeya!//
+\glb get~off {\sc loc} there!//
+\endgl
+\a[label=\textcolor{gray}{b}]\begingl\gla \textcolor{gray}{ba~wani?}//
+\glb \textcolor{gray}{why?}//
+\endgl
+\a[label=\textbf{\textsc{a}}]\begingl
+\gla bambai yu breigim motika//
+\glb \textbf{\textit{bambai}} 2s break car//
+\glft `Get off of there [...why?...] Then you'll break the car!'\hspace*{\fill}[GT~16032017]//
+\endgl\xe
+\pex[everylabel=\bf\sc,aboveexskip=1pt]\label{flodawei} \textbf{Context:} It's the wet season and the Wilton River crossing has flooded.
+\a\begingl
+\gla nomo krosim det riba!//
+\glb {\sc neg} cross.{\sc tr} the river//
+\endgl
+\a 	\begingl\gla \textcolor{gray}{ba wani?}//
+\glb \textcolor{gray}{why?}//
+\endgl
+\a[label=\textbf{\textsc{a}}]\begingl\gla bambai yu flodawei!//
+	\glb \textbf{\textit{bambai}} 2s float~away//
+\glft`Don't cross the river [...why not?...] Then you'd be swept away!'\hspace*{\fill}[GT~16032017]//\endgl\xe
+\pex[everylabel=\bf\sc,aboveexskip=1pt]\label{sinek}
+\textbf{Context:} A snake slithered past \textit{A}'s leg.
+\a\begingl
+\gla det sineik bin bratinim mi!//
+\glb the snake {\sc pst} frighten{\sc.tr} me//
+\endgl
+\a \begingl\gla \textcolor{gray}{ba wani?}//
+\glb \textcolor{gray}{why?}//
+\endgl
+\a[label=\textbf{\textsc{a}}]\deftagex{bambai}\begingl\gla bambai imina baitim mi!//
+\glb \textbf{\textit{bambai}} 3s{\sc.pst:irr} bite\textsc{.tr} 1s//
+\glft`The snake scared me [...why?...] It might've been about to bite me!'\hspace*{\fill}[GT~01052017]//\endgl\xe
+
+
+
+In all of the short discourses above, the translation provided elucidates the capacity of the temporal properties of \textit{bambai} \textit{qua} sequential TFA to implicate additional nontemporal properties of the relation between the clauses it links. Via pragmatic strengthening \textit{(viz. post hoc ergo propter hoc)}, \textit{bambai} can be understood to assert that there exists some type of logical (\textit{e.g.} etiological) relation between the predicate contained in the first proposition and the  eventuality described in \textit{bambai}'s prejacent: the second clause.%\footnote{There is an extensive, contemporary literature investigating the pragamatics of clausal connection/concatenation e.g. Schmerling 1979, Stukker \& Sanders 2012 a.o.}
+
+
+
+
+
+Furthermore, \citet{Angelo2016} propose that:
+\begin{quotation}
+{\small
+	The conventionalisation of the implicature of undesirability may come about through frequent use of a clausal sequence in which the first clause has the illocutionary force of a directive and the second is introduced by the temporal marker.\hfill(285)}\end{quotation} 
+
+Synchronically, the apprehensional reading frequently occurs embedded under a predicate of fearing or with a directive/prohibitive antecedent (\ref{car}-\ref{sinek}) also show examples of this.  Relatedly, \citet[192\textit{ff}]{Boogaart2020} suggests (of Dutch) that it is the ``sense of immediacy'' of this class of adverbials that associates with notions of ``urgency'' and that this is the source of the ``expressive nature'' of subsequential TFAs. Consequently, we hypothesise that the frequent association of sequential TFAs with these discourse contexts (situations of urgent warning) has resulted in the \textbf{conventionalisation} of apprehensional use-conditions for $\textit{bambai}\,q$. The selection of an subsequential TFA instead of a different epistemic adverbial in some unsettled context invites the inference that the Speaker is negatively disposed to the event described in the prejacent.
+
+\mcom{exiseting Dutch judgments/elicitatitons to be added}Marshalling cross-linguistic evidence of this path of change,\footnote{See also \citealt{Angelo2018} for these observations and insightful comments about the properties of these adverbials in Kriol and German. Related observations are made for Dutch by \citet{Boogaart2020}.} for German and Dutch respectively, an utterance \textit{nicht jetzt, nachher!}/\textit{niet nu, straks!} `not now, later' is reported to involve a higher degree of intentionality and immediacy than the less specialised \textit{nicht jetzt, später!}/\textit{niet nu, later!} `not now, later.' What's more, tracking the facts for \textit{bambai}, these TFAs appear to have encroached into the semantic domain of epistemic adverbials, where they are reported to encode negative speaker affect with respect to their prejacents (relative to the other members of these semantic domains.)\footnote{Thanks to Hanna Weckler and Mireille L'Amie for discussion of German and Dutch intuitions respectively.}$^,$\footnote{Compare also the colloquial English expression \textit{(and) next thing you know, $q$ (\ref{field})} As with the other subsequential TFAs we have seen, it appears that this adverbial tends reads less felicitously (or indeed invites an ironic reading) when $q$ is not construed as an undesirable proposition. This is shown in \ref{stew} below, attributed to Jon Stewart.) %is given by     as an example of a comedic \textit{reverse}: ``a device that adds a contradictory tagline to to the opening line of a standard expression or cliché''(\begin{exe}
+\ex~[exno=i]\label{field}\textit{The fields dried up, \textbf{and the next thing you know} our fleet dropped from 68 drivers to six in the matter of a few months.\hfill[Google result]}\xe
+	\ex~[exno=ii]{\label{stew}\textit{The Supreme Court ruled that disabled golfer Casey Martin has a legal right to ride in a golf cart between shots at PGA Tour events. Man, \textbf{the next thing you know,} they're going to have some guy carry his clubs around for him.}}\xe}
+
+Additionally, \textit{nachher} appears to have acquired a similar semantics to \textit{bambai}, shown by its felicity in the discourse in (\getref{nachher}) below, where, tracking $\langle$\textit{marri, bambai}$\rangle$, \textit{nachher} appears to have encroached into the semantic domain of \textit{vielleicht} `perhaps.' In these contexts, \textit{nachher} asserts negative speaker attitude with respect to its prejacent in terms relative to neutral \textit{vielleicht} (Hanna Weckler, p.c.).
+
+
+
+\pex[everylabel=\bf\sc,labelformat=A,interpartskip=0pt,*=$^\#$]\deftagex{nachher} \textbf{A two-participant discourse in German}
+\a\begingl
+\gla ich hoffe, dass es heute nicht regnet//
+\glb I hope {\sc comp} it today {\sc neg} rain//
+\endgl
+\a 	\begingl\gla \textcolor{gray}{warum?}//
+\glb \textcolor{gray}{why?}//
+\endgl
+\a[label=a$_2$]\begingl\gla nachher wird die Party noch abgesagt!//
+\glb \textbf{\textit{nachher}} {\sc inch} the party \textit{noch} cancelled//
+\glft`I hope it doesn't rain today [...why?...] Then the party might be cancelled!'//\endgl
+\a[label=b$_2$]\begingl\gla nein, das ist nicht möglich//
+\glb no, that is not possible\deftaglabel{infel}//
+\endgl
+\a[label=b$^{\prime}_2$]\begingl\gla\ljudge{$^\#$}nein, das wäre gut!//
+\glb no, that would.be good//
+\endgl
+\a[label=b$^{\prime\prime}_2$]\begingl\gla ja, das ist möglich aber das wäre nicht so schlimm!//
+\glb yes, that is possible but that would.be {\sc neg} so bad!//
+\endgl\xe
+
+
+Similarly to the Kriol data, German \textit{nachher}, a TFA encoding susbsequentiality, has developed the characteristics of an apprehensional epistemic, a likely consequence of frequent embedding in the discourse contexts discussed above. Following the literature on expressive content and use-conditional semantics \citep[e.g][]{Kaplan1999,Potts2007,Gutzmann2015}, it is fruitful to model the `negative speaker attitude' component of the meaning of apprehensionals as inhabiting a semantic `dimension'---connected to but distinct from the truth conditions set out above. The infelicity of (\getfullref{nachher.infel})'s utterance shows that negation cannot target this component of Speaker meaning, an argument for its treatment as a non-truth-conditional component of the semantics (Pott's \textit{nondisplaceability} \citeyear[169]{Potts2007}. Borrowing Gutzmann's `fraction notation'\citeyearpar{Gutzmann2013,Gutzmann2015}, we can tease apart the use- and truth-conditional components of the \textit{bambai} clause in (\ref{sinek}).\mcom{this is the wrong place for this, I don't know exactly where the UC part should go if it sticks around, but at the moment it's formulated in such a way that it presupposes the TC semantic analysis}
+
+
+
+
+
+\ex
+$\dfrac{S\text{ is worried about/negatively disposed to snake bites}}{S \text{ gets bitten by a snake in $w^\prime\in\textbf{best}(f,g,t*,w*)$ at $t^\prime:\mu(t*,t^\prime)<c_s$}}$
+\xe
+
+If this mode of thinking about the speaker attitude implications of \textit{bambai $q$} is on the right track, then, in superposition to the meaning above, we can conceive of \textit{bambai} as a function from contexts to contexts. In uttering \textit{bambai $q$} at $t$ in $w$, the Speaker has created a context just like $\langle t,w\rangle$, but one in which `it registers that [they regard $q$] negatively somehow' \citep[175]{Potts2007}.
+
+
+\section{A semantics for \textit{bambai}}\label{semS}
+This section seeks to provide a semantics for Kriol \textit{bambai} that unifies the available \textsc{subsequential} and \textsc{apprehenensional} readings discussed above and explains how a given reading is privileged in particular linguistic contexts. In order to do this, we assume a Kratzerian treatment of modal operators  (\citeyear{Kratzer1977,Kratzer1981} \textit{et seq}).
+
+	\subsection{Subsequentiality}
+	
+	§\ref{dataStfa} outlined the retained meaning of \textit{bambai} as a TFA derived from `by-and-by.' As we saw, the function of the so-called {\sc subsequentiality} class of frame adverbials is to effect the constrained forward-displacement of the reference time of their prejacents with respect to some contextually provided reference time. (\nextx) represents a proposal to capture this relation.
+	
+	
+	\pex \deftagex{ssqIsem}\textbf{\textsc{Subsequential instantiation}} (intensionalised)\\$\text{{\sc subseq}}(P,t,w)\underset{\text{def}}=\exists t^\prime:t\prec t'\wedge P(t^\prime)(w)\wedge\mu(t,t^\prime)\leq s_c$
+	
+	
+	A subsequentiality relation {\sc subseq} holds between a predicate $P$, reference time $t$ and reference world $w$ iff the $P$ holds in $w$ at some time $t^\prime$ that follows $t$.\\Additionally, they assert that the temporal distance $\mu(t,t^\prime)$ between reference and event time must be below some contextually provided standard of `soon-ness' $s_c$.\xe\mcom{maybe the $ t' $ variable should be not existentially bound?}
+	
+
+The relation between a contextually-provided standard and measure function $\mu(t_1,t_2)$ analysis\footnote{Given that $\mathcal T$ is isomorphic with $ \mathbb R $, formally $\boldsymbol\mu:\wp(\mathcal T)\to \mathbb  R$ represents a Lebesgue measure function that maps any interval $ [t_1,t_2] $ to its length $t_2-t_1$.} builds in a truth-condition that captures variable intuitions about the falsity of a statement such as\textit{ Eve fell pregnant then shortly afterwards gave birth to a son} in some situation where the birth of Cain succeeds the pregnancy described in the antecedent clause by some contextually inappropriate length of time (\textit{e.g.} ninety years.) An additional advantage is that, in appealing to a pragmatically retrieved standard, we allow for faultless disagreement between interlocutors, in case speaker and addressee retrieve divergent standards of soonness from the discourse context.
+
+
+	In its capacity as a TFA then, \textit{bambai} can be thought of as realising a subsequential instantiation relation, as shown in (\nextx) below.
+	
+\pex \textbf{Lexical entry for \textit{bambai} (\textsc{tfa})}
+
+	$\denote[t,w]{\textit{bambai}}\underset{\text{def}}{=}\lambda P.\text{{\sc subseq}}(P,t,w)$
+
+\textit{bambai} asserts that the property described by its prejacent $ (P) $ stands in a {\sc subseq} relation with a time and world provided by the discourse context.
+\xe
+	
+	
+	\subsection{`Settledness' \& intensionalisation}\label{modSems}
+	
+A primary motivation for the current work is to better understand the linguistic reflex that underpins the availability of apprehensional/apprehensive-modality readings of \textit{bambai}.The TFA treatment formalised in the subsection above fails to capture this readings, although, as I will show, provides an essential condition for understanding \textit{bambai}'s synchronic semantics and diachronic trajectory.
+
+In §\ref{dataSapp} above, the concept of \textbf{settledness} was introduced, as deployed by \citet{Condoravdi2002} and otherwise well established in the literature. \citeauthor{Thomason1984} traces the notion of historical necessity to Aristotle and Jonathan Edwards \citeyearpar[138]{Thomason1984} \citep[see also][]{Kamp1979}. The notion is deployed to similar effect in \citet{Giannakidou2018} in their modal account of the future tense. The primary intuition is that some property (of times or eventualities) $P$ is settled just in case it is a fact in the evaluation world that the truth of $P$ resolves at a given time.
+%a timeline --- formally a world-time pair $\langle w,t\rangle\in\mathcal{W\times T}$ -- is settled just in case it is a fact in the evaluation world that a particular inquiry resolves at a given time. As was shown in §\ref{dataS}, for present purposes this is when \textit{bambai} is making a claim about the instantiation of its prejacent in either (a) the future of speech time ($t_e\succ$ \textbf{now}) or (b) an alternative history ($w_p\not\simeq w*$).
+
+Settledness/historical necessity is normally expressed in terms of \textbf{historical alternatives}. This refers to the notion of equivalence classes $(\simeq_{\langle t,w\rangle})$ of possible worlds: those worlds which have identical `histories' up to and including a reference time $t$. The properties of the \textit{historical alternative} relation are given in (\nextx) and, on the basis of this, a formal definition of settledness is given as (\anextx).
+\pex \textbf{Historical alternatives} $\boldsymbol\simeq\,\subset\mathcal{T\times W\times W}$\deftagex{histaltdef}
+\a $\forall t[\simeq_t\text{ is an equivalence relation}]$\\
+All world-pairs in $\simeq_t$ (at an arbitrary time) have identical pasts up to that time.\\Their futures may diverge.\\
+The relation is symmetric, transitive and reflexive.
+\a \textbf{monotonicity.} $ \forall w,w',t,t'[(w\simeq_t w'\wedge t'\prec t)\to w\simeq_{t'} w']$\\
+A world-pair that are historical alternatives at $t$ are historical alternatives at all preceding times $t'$.\trailingcitation{\citep[146]{Thomason1984}}
+\xe
+\ex \textbf{Settledness for $\boldsymbol P$.}
+
+
+$\forall w^\prime:w^\prime\in cg,\forall w^{\prime\prime}:w^\prime\simeq_{t_0}w^{\prime\prime}:\\AT([t_0,\_),w^\prime, P)\leftrightarrow AT([t_0,\_),w^{\prime\prime},\!P)$\hspace*{\fill}\citep[82]{Condoravdi2002}\vspace{.25cm}
+
+
+A property $P$ (\textit{e.g.} an eventuality) is settled in a reference world $w^\prime$ iff $P$ holds at a reference time $t_0$ in all of $w^\prime$'s historical alternatives $w^{\prime\prime}$ as calculated at $t_0$.\footnote{The $AT$ relation holds between a time, world and an eventive property iff $\exists e[P(w)(e)\&\tau(e,w)\subseteq t]$ --- \textit{i.e.} if the event's runtime is a subinterval of $t$ in $w$ (Condoravdi 2002:70). This can accomodate stative and temporal properties with minor adjustments (see \textit{ibid.}). For the sake of perpescuity, I abstract away from (davidsonian) event variables in this section.}
+
+\xe
+
+Here, I defend a claim that the modalised meaning comoponent of apprehensional readings of \textit{bambai} arise in part (\textit{i.e.} Lichtenberk's \textit{epistemic downtoning} --- the `epistemic' component of {\sc appr} markers) due to the conventionalisation of an $R$-based implicature that the Speaker is making a modalised claim when they make any predication that is epistemically unsettled. Given Horn's $ \mathcal R $-principle \textsc{``Say no more than you must''} \citeyearpar[13]{Horn1984}, an utterance of \textit{bambai $P$} licenses the (speaker-based) implicature that the Speaker is basing a predication (particularly an premonitory one, cf. § \ref{diaS}) about some unsettled eventuality on its possible truth in view of (perceived compatibility with) a the set of facts that they know of the world. The locus of this implicature is that the Speaker can rely on her hearer's knowledge of the world to reason that an unsettled subsequentiality predication has the valence of a prediction.
+
+
+Appealing to a Kratzerian framework, we can modalise our entry for \textit{bambai} in order to capture the `epistemic downtoning' effect associated with apprehensionals. A principal component (and advantage) of Kratzer's treatment of modals \citeyearpar{Kratzer1977,Kratzer1981,Kratzer2012} lies in the claim that the interpretation of modalised propositions relies on `conversational backgrounds': that they quantify over sets of worlds retrieved by an `accessibility relation' which is \textit{contextually} made available. The entry in (\nextx) proposes a unified, modalised semantics for \textit{bambai}.
+
+\pex $\denote[c]{\textit{bambai}}=\lambda f\lambda g\lambda P.\exists w\,^\prime\in\textbf{best}_{g(w)}(f,t,w)\wedge\text{{\sc subseqInst}}(P,t_c,w\,^\prime)$
+
+\textit{bambai} asserts that there exists some world $w^\prime$ in a set of worlds that are optimal with respect to a contextually-determined modal base $f$ and ordering source $g$ in the reference context $\langle t,w\rangle$. It additionally asserts that the {\sc subsequential instantiation} relation (as defined in (\getref{ssqIsem}) above) holds between that world $w^\prime$, the prejacent $P$, and a reference time provided by the utterance context $t_c$.
+
+\xe
+
+
+With the entry in (\lastx), we can formalise the intuition that, when (and only when) \textit{bambai $p$} is understood as making a nonfactual predication, it constitutes a prediction of a possible --- but unverified or (presently) unverifiable --- state-of-affairs. Spelled out below, the availability of multiple readings tto \textit{bambai}-sentences is modelled as compatibility with a range of conversational backgrounds \citep[\textit{cf.}][55\textit{ff}]{Kratzer2012}.
+%We model this by claiming that, \textit{bambai} is compatible with a range of conversational backgrounds.
+
+
+
+\subsubsection{The subsequential reading}
+The so-called subsequential TFA use of \textit{bambai} follows from general norms of assertion: given that the speaker is predicating about a settled property, her context set is understood as veridical and the assertion is taken to be factual (cf. Grice's quality supermaxim ``try to make your contribution one that is true.'' \citeyear[27]{Grice1991}).
+
+In these cases the intensional contribution of \textit{bambai} can be captured by claiming that it quantifies (trivially) over a \textit{metaphysical} modal base and a \textit{totally realistic} ordering source (adapted partially from Kratzer 2012.)\footnote{In her treatment of Marathi present tense marking, \citet{Deo2017} makes similar appeal to veridical vs. nonveridical conversational backgrounds to capture ostensible polysemy associated with these (present-tense) forms.}
+
+\pex \textbf{conversational background: \textit{bambai}'s subsequential reading}
+\a $\bigcap f_\text{meta}(w)(t)=\{w^\prime\mid w^\prime\simeq_t w\}$
+
+A metaphysical modal base $ f_{\text{meta}} $ retrieves the set of propositions that are \textbf{consistent} with a world $ w $ at a given time $ t $.\\Consequently, the intersection of these propositions is the set of \textbf{historical alternatives }to $ w $ at the given evaluation time $ t $.
+\a %The empt
+$ g_{\text{real}_\text{total}}(w)=\{w\}$\\
+A totally realistic ordering source $ g_{\text{real}_{\text{total}}} $ is a set of propositions that uniquely characterise $ w $.
+
+$ g_{\text{real}_{\text{total}}}$ then induces an ordering $\leqslant_{g(w)}$ on the modal base:\mcom{it could just be empty right? this doesn't really add anything in particular?}
+
+\hspace{-.45cm}$\small\forall w^\prime,w^{\prime\prime}\in\bigcap f_\text{meta}(w)(t)\mid w^\prime\boldsymbol{\leqslant_{g(w)}}w^{\prime\prime}\leftrightarrow\big\{p:p\in\{w\}\wedge w''\in p\big\}\subseteq\big\{p\mid p\in\{w\}\wedge w^\prime\in p\big\}$
+
+A world $ w' $ is ``better than'' $ w'' $ according to $ g_{\text{real}_\text{total}}(w) $ is more of the propositions that characterise $ w $ are true in $ w' $ than in $ w'' $.
+
+
+\a The function \textbf{\textit{best}}$_{g_{\text{real}_\text{total}}}(f_\text{meta},t,w)$ then simply returns a set of worlds which are historical alternatives to $w$ at $t$ which most closely resemble $ w $/comply best with those propositions which uniquely characterise $ w $.
+\xe
+
+Given that, by definition (\getref{histaltdef}),  historical alternatives have ``identical pasts'' to one another, in factual, past-tense contexts, \textit{bambai} quantifies (trivially) over worlds that are identical to the evaluation world. This is derived for (\nextx) below (simplified from \getfullref{ssq0} above)
+
+\pex\deftagex{ssq0.deriv}\begingl
+\gla main dedi bin go la det shop, \textbf{bambai} im\textdblhyphen{in} gugum dina//
+\glb my father {\sc pst} go {\sc loc} the shop \textit{\textbf{bambai}} 3s\textdblhyphen{}{\sc pst} cook dinner {\sc purp} 1p{\sc.excl}//
+\glft`My dad went to the shop, \textbf{then} he made lunch' \hspace*{\fill}[AJ~23022017]//
+\endgl
+\deftagex{meta}
+%\a\textsc{pst}(\denote[c]{\textit{main dedi go la det shop}})$\leftrightarrow \exists t'\prec t\!*\wedge \textsc{go.shopping}(t')(w) $\\
+\a \textbf{Taking \textit{bin }\textsc{`past'} to refer to a time before speech time $\boldsymbol{ t\!*}$}
+
+ $\denote[c]{\textit{bin}}=\textsc{pst}=\lambda t:t\prec t\!*.t$
+
+\a \textbf{Meaning of the first clause}
+
+\denote[c]{\textit{main dedi go la det shop}}(\textsc{pst})$=:t'\prec t\!*.\textsc{go.shopping}(t')(w) $\\
+
+\a\deftaglabel{q} \textbf{Meaning of the second clause (\textit{bambai}'s prejacent)}
+
+ $\denote[c]{\textit{im gugum dina}}(\textsc{pst})=:t''\prec t\!*.\textsc{make.lunch}(t'')(w) $
+% \a\deftaglabel{q} 
+% $\textsc{pst}(\denote[c]{\textit{im gugum dina}})\leftrightarrow\exists t''\prec t\!*\wedge \textsc{make.lunch}(t'')(w) $
+\a \textbf{Meaning of \textit{bambai} and substitution of conversational backgrounds $\boldsymbol{ f,g}$}
+\begin{align*}
+\denote[c]{\textit{bambai}}&=\lambda f\lambda g\lambda P.\exists w\,^\prime\in\textbf{best}_{g(w)}(f,t,w)\wedge\text{{\sc subseqInst}}(P,t_c,w\,^\prime)	\\
+&=\lambda P.\exists w'\in\textbf{best}_{\{w\!*\}}(f_{\text{meta}},t\!*,w\!*)\wedge\textsc{subseqInst}(P,t_c,w')
+\end{align*}
+\mcom{I really don't know what to put in an index and what to lambda-bind and what if any diff preds this makes. what's clear is that $ \box\lozenge t\neq t_c $}
+\a \textbf{Substitute meaning of (\getref{meta.q}) for $\boldsymbol{\lambda P }$}
+\begin{multline*}\denote[c]{\textit{bambai imin gugum dina}}=:t''\prec t\!*.\exists w'\in\textbf{best}_{\{w\!*\}}(f_{\text{meta}},t\!*,w\!*)\\\wedge\textsc{subseqInst}\Big(\big(\textsc{make.lunch}(t'')(w)\big),t',w  \Big)
+\end{multline*}
+
+
+\a \textbf{Spelling out the \textsc{subseqInst} relation (cf. \getref{ssqIsem})}
+\begin{multline*}\denote[c]{\textit{bambai imin gugum dina}}=:t''\prec t\!*.\exists w'\in\textbf{best}_{\{w\!*\}}(f_{\text{meta}},t\!*,w\!*)\\\wedge\exists t''[t'\prec t''\wedge t''\prec t\!*\wedge\textsc{make.lunch}(t'')(w)\wedge\mu(t',t'')\leq s_c]]\end{multline*}
+\xe
+
+
+\subsubsection{The apprehensional reading}
+
+In unsettled contexts, \textit{bambai} selects for a nonfactual/nonveridical modal base (whether epistemic or metaphysical) and a stereotypical ordering source. These backgrounds are formalised in (\nextx), adapting liberally from (\citealt[37-40]{Kratzer2012} i.a.)
+%\mcom{It is essential to find some way of intersecting the (negation of???) the antecedent with the modal base otherwise this is literally just $\lozenge$. What we have here however does give \denote{bambai $P$}, we also need $\denote{Q bambai P}$}
+
+\pex\textbf{conversational background: \textit{bambai}'s modal-apprehensional reading}
+
+%\a $f_\text{epist}(w)(t)=\{w^\prime\mid w^\prime\text{ is compatible with what S knows in $w$ at $t$\}}$
+\a $\bigcap f_\text{meta}(w)(t)=\{w^\prime\mid w^\prime\simeq_t w\}$
+
+A metaphysical modal base $ f_{\text{meta}} $ retrieves the set of
+
+\a $g_\text{s'typ}(w)=\{p\mid p\text{ will hold in the `normal' course of events in }w\}$.
+\a$g(w)$ then induces an ordering $\leqslant_{g(w)}$ on the modal base:
+
+\hspace{-.45cm}$\forall w^\prime,w^{\prime\prime}\in\bigcap f_\text{epist}(w)(t):w^\prime\boldsymbol{\leqslant_{g(w)}}w^{\prime\prime}\leftrightarrow\{p:p\in g(w)\wedge ^{\prime\prime}\in p\}\subseteq\{p:p\in g(w)\wedge w^\prime\in p\}$
+\hspace{.35cm}
+For any worlds $w^\prime$ and $w^{\prime\prime}$, $w^\prime$ is `at least as close to an ideal' than $w^{\prime\prime}$ with respect to $g_\text{s'typ}(w)$ (\textit{i.e.} it is at least as close `normal course of events') if all the propositions of $g(w)$ true in $w^{\prime\prime}$ are also true in $w^\prime$.
+\a \textbf{\textit{Best}}$(f_\text{epist},g_\text{s'typ},t,w)$ then returns just that subset of worlds that are both consistent with what the Speaker knows at $t$ in $w$ that are closest to the normal unfolding course of events in $w$.
+\xe
+
+
+\mcom{I've writteen to cleo and have a numbere of thingsd to work out/add on the choice of epistemic modal base, especially given tthe apparent problems this will pose for counterfactuals. This draws largely from \cite{Giannakidou2018}, while trying tot harmonise htis with observations made att thte end of \citet{Condoravdi2002} (see my 21feb email to her.)}
+
+
+%\footnote{\textit{I.e.} \textit{`Do not say that for which you lack adequate evidence'} (Grice 1991: 27, a.o.)}. 
+
+
+
+\paragraph{the omniscience restriction.} It is notable that in the apprehensional cases presented above, those where predication into an unsettled timeline has been triggered by one of the operators presented in Table \ref{triggers} (\textit{p.}\pageref{triggers} above), modalisation with respect to a non-settled property cannot reasonably select for the set of conversational backgrounds presented in (\lastx). Such an operation would require the participants to be able to retrieve all propositions that are true in and characteristic of worlds with respect to a vantage point in the future or to be able to calculate all the ramifying consequences of eventualities that might have obtained in the past. This condition allows us to unify the modalised and non-modalised readings of \textit{bambai}.
+
+
+
+
+\subsection{The antecedent $\boldsymbol{p}$: restriction and partition}\label{restrSems}
+The data in §\ref{dataS} show that \textit{bambai} can give rise to readings of implicational relations between the two propositions. §\ref{modSems} defended an analysis of \textit{bambai} that makes use of epistemic modality. The following discussion sketches a way to reconcile these observations.
+
+\Citet{VonFintel1994}, following from \citet[64, 90\textit{ff}]{Kratzer2012}, models conditionals as modalised propositions, the antecedents of which provide \textit{restrictions to the domain of quantification} by intersecting with the modal base. These insights provide a fruitful way of conceiving between the `antecedent' clause of \textit{bambai} and its prejacent. A possible implication of the discussion in §\ref{diaS} is that \textit{bambai} is understood as introducing a negative eventuality which is a possible consequence of a failure of the antecedent subject to attend to some situation described in the antecedent clause \textit{i.e.} $\neg p(w)\to\lozenge q(w)$ (\textit{i.e.} if $p$ is false in $w$ then $q$ is possibly true) --- a truth condition very similar to that which is frequently given for \textit{if...(then)}-type clauses in English. In this case, the modal's premise set (\textit{i.e.} conversational background) is restricted to a subset of the worlds in the modal base, \textit{viz.} those worlds in which an antecedent proposition does not hold true.
+
+For the familiar example in (\getref{app0} [=\getref{app0rp}]) above, the presence of \textit{garra} in the antecedent clause triggers an predication into an unsettled timeline, yielding an apprehensional reading of the \textit{bambai} clause. \textit{bambai} merges with an anaphoric proposition (which is linguistically overt in the current example but need not be), taking its complement as a restrictor to the modal base (yielding $f^+$ to borrow Kratzer's \citeyearpar{Kratzer1981} notation). The denotation for (\ref{app0}) is given in (\nextx) below.
+\mcom{This analysis has in part been superseded by \cite{PhilKotek}-ms, which deploys a modal subordination approach to understand the relation between p and q. What is clear is that the \textbf{bambai} clause is \textbf{not} syntactically subordinate to \textbf{p}.}
+
+\pex $\denote[t,w]{\textit{airra dringgi kofi bambai mi gurrumuk}}=$
+
+\hspace*{\fill}$\exists w\,^\prime\in\boldsymbol{Best}(f^+,g,t,w)\wedge\text{{\sc subseqInst}}(\text{(sleep(\textit{Spkr}))},t,w\,^\prime)$
+
+Where $f^+=f_\text{epist}\setminus\{w\mid \text{drink($\lambda x.$\text{coffee}$(x)$,\textit{Spkr}})(t^\prime)\}$
+
+\xe
+
+
+The treatment as described in the current subsection is not, however, complete. A problem persists in understanding the relationship that the overt linguistic clausal antecedent bears to the proposition on which \textit{bambai} is anaphoric. It is plainly not, for example, the case that the complement of \textit{airra dringgi kofi} `I must drink coffee', is the proposition on which provides the restriction on the conversational background that is being quantified over. Such a treatment would incorrectly yield an interpretation truth-conditionally identical to: `I will fall asleep if it is not the case that I must drink coffee.' This particular question may be solvable by adopting a modal subordination approach following \citealt{Roberts1989} \textit{et seq.}
+
+Similarly, as discussed in §\ref{ifs}, with \textit{if...bambai} constructions, there appears to be no additional operation performed upon the \textit{if-}marked antecedent --- that is, the \textit{if-}marked antecedent predicate is precisely the proposition upon which \textit{bambai} is anaphoric. 
+
+These remaining questions --- about the relation between the syntactic antecedent and the antecedent proposition which is responsible for anaphorically partitioning the modal base in order to yield the `nonimplicational' readings of apprehensional \textit{bambai} --- are a remarkable linguistic phenomenon in and of themselves and a fertile domain for ongoing research. The analysis presented in this section takes the restricted modal base that is an outcome of this process and compositionally derives the proper semantics for \textit{bambai} and its relationship with its prejacent. 
+
+
+\section{Conclusion}\label{conclS}
+%%%%%%%%% REWRITE CONCLUSION
+
+This paper has proposed a formal account for the emergence of apprehensional epistemic markers from temporal frame adverbs, based on the central descriptive observation of \cite{Angelo2016}. It shows the potential of formal semantic machinery for better understanding the conceptual mechansims that underpin meaning change (in the spirit of much the emergent tradition appraised in Deo 2015) as applied to the modal domain. Further work may additionally extend the formal treatment of the expressive component of apprehensional (and other apparently use-conditional) items.
+
+
+It has attempted to elucidate the mechanisms through which frame adverbs that originally encode a relation of temporal sequency come to encode causality, possibility and speaker apprehension by way of the generalisation and conventionalisation of implicatures. The existence of this `pathway' of grammaticalisation provides further evidence of the conceptual unity of these linguistic categories and sheds light on the encoding of (and relationship between) tense and modality in human language. Of particular note is the salient role played by `settledness' (\textit{cf.} \citealp{Condoravdi2002} a.o.) in adjudicating the available readings of relative tense operators (here exemplified in subsequential' TFAs.)
+
+Additionally, an apparent cross-linguistic relationship between subsequentiality and the semanticisation of apprehensional use-conditions may have implications for our understanding of the development of linguistic markers which express speaker attitudes.
+
+An open issue that demands further consideration is that of better understanding the relation between the proposition on which the \textit{bambai} clause is anaphoric and which is interpreted as the restrictor of the modal base in apprehensional contexts and the antecedent clause to which it is syntactically linked. A satisfying answer to this question likely lies at the semantics-pragmatics interface. A successful analysis may have ranging implications for understanding the interplay of factors that contribute to the proper interpretation of discourse anaphors.
+\gathertags
+\bibliography{../../FullBiblio}
+
+\end{document}

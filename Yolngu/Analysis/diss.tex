@@ -1,0 +1,187 @@
+\synctex=1
+
+\documentclass[11pt]{report}
+\usepackage[lmargin=30pt,rmargin=115pt,tmargin=70pt,bmargin=70pt,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage{amssymb}
+\usepackage{hyperref}
+%\usepackage[tiny,compact]{titlesec}
+\usepackage{graphicx}
+
+\usepackage{booktabs}
+
+
+\usepackage{wrapfig}
+\usepackage{textcomp}
+\usepackage{bold-extra}
+\usepackage{tikz}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usepackage{expex}
+
+
+\usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text}
+\tikzset{snake it/.style={decorate, decoration=snake}}
+\usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
+\usepackage{afterpage}
+\usepackage{verbatim}
+\usepackage{array}
+\usepackage{multirow}
+%\usepackage{hanging}
+\usepackage{supertabular}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage{ot-tableau}
+
+\usepackage{paralist} 
+\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr} 
+\usepackage{sectsty}
+%\allsectionsfont{\sffamily\mdseries\upshape} 
+\usepackage{float}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage[titles,subfigure]{tocloft} 
+\usepackage{setspace}
+%\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+%\usepackage[explicit]{titlesec}
+%\usepackage{type1cm}
+%\usepackage{xcolor}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+
+\usepackage[sort]{natbib}
+\bibliographystyle{apa}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
+
+%\usepackage{gb4e} \let\eachwordone=\it %\let\eachwordthree=\sf
+
+
+\makeatletter
+\def\@xfootnote[#1]{%
+	\protected@xdef\@thefnmark{#1}%
+	\@footnotemark\@footnotetext}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\footnotesize %Josh Phillips
+	\hspace{2cm}\textbf{\thepage}}
+\rfoot{}
+
+\renewcommand{\headrulewidth}{0pt} 
+\newcommand{\rowgroup}[1]{\hspace{-1em}#1}
+\usepackage{stmaryrd}
+\newcommand{\denote}[1]{\mbox{$[\![\mbox{#1}]\!]$}}
+\newcommand{\denotn}[1]{\mbox{\llbracket\mbox{#1}\rrbracket}}
+
+\newcommand{\mcom}[1]
+{\marginpar{\color{black}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\cb}[1]
+{\marginpar{\color{orange}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\hk}[1]
+{\marginpar{\color{purple}\raggedleft\raggedright\hspace{0pt}\linespread{0.9}\footnotesize{#1}}}
+\newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
+
+
+\newcommand{\glem}[1]
+{\MakeUppercase{\scriptsize{\textbf{#1}}}}
+
+\newcommand{\exem}[1]
+{\textit{\textbf{#1}}}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+ \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\date{}
+\begin{document}
+	
+	\begin{center}
+	\thispagestyle{empty}
+	{\Large	\textsc{doctoral dissertation}}
+	\vfill
+	\HRule\vspace{.33cm}
+	
+	\setcounter{page}{-1}
+	\textbf{{\huge At the intersection of temporal \& modal interpretation:}\\
+		{\Large a view from Arnhem Land (northern Australia)}}\\\textit{[working title]}
+	
+	\HRule
+	\vfill
+\normalsize	A Dissertation
+
+\textit{to be }Presented to the Faculty of the Graduate School
+
+of
+
+Yale University
+
+in Candidacy for the Degree of 
+
+Doctor of Philosophy
+	\vfill
+	{\small by
+		
+		\textbf{Josh Phillips}}
+	\vfill
+	\textit{\textbf{Committee}}\\
+	\begin{tabular}{ll}
+		Claire Bowern (c.) & Yale U.\\
+		%Ashwini Deo (??) & Ohio State U.\\
+		Hadas Kotek & New York U.\\
+		%Lisa Matthewson (??) & U. of British Columbia\\
+		María Piñango & Yale U.\\
+		Cleo Condoravdi & Stanford U.\\
+		%Veneeta Dayal & Yale U.
+		%Judith Tonnhauser (??) & Ohio State U.
+	\end{tabular}
+	
+	
+	\vspace*{.3in}{\color{gray} \textit{+ one vacancy}}
+	
+	\vfill
+	\sc Department of Linguistics
+	
+	Yale University
+	
+	\textbf{\textsc{draft} for \today}
+	
+	
+\end{center}\newpage
+	
+%\part{Yolŋu Matha intensionality}
+
+
+\vspace*{\fill}
+\sl Drawing on data from Yolŋu~Matha, a subfamily of Pama-Nyungan spoken in central- and eastern Arnhem Land, this Part of the Dissertation provides an amphichronic description and analysis of the Yolŋu~Matha verbal paradigm and a discussion of the linguistic devices that speakers use for displacement: temporal and modal displacement.
+
+Yolŋu Matha is a language family spoken in north-central and -eastern Arnhem Land. \mcom{Xref here to introductory chapter/s}. As explained in Chapter \ref{ecology}, subgrouping of the family remains somewhat controversial, but most treatments understand the it as containing six languages with thirty or so `clan-lects' distributed between them. For the purposes of this prospectus, I will make reference to the closely related Western varieties of Djambarrpuyŋu (\texttt{[djr]} Dhuwal) and Gupapuyŋu (\texttt{[guf]} Dhuwala), slightly further afield Wangurri (\texttt{[dhg]} Dhaŋu) and Southern variety Ritharrŋu \texttt{[rit]}; the varieties for which there is the most significant amount of presently available documentation.
+
+\textbf{Chapter \ref{descY}} contains a general description of the language ecology of Yolŋu Matha and patterns of verbal inflection in Yolŋu varieties, paying particular attention to Djambarrpuyŋu, how it diverges to Djinba, Ritharrŋu and Wangurri, and the puzzles that these paradigms pose for theories of tense and modality.
+
+\textbf{Chapter \ref{anY}} proposes a formal treatment and analysis of temporal and modal expression in synchronic Yolŋu varieties.
+
+\textbf{Chapter \ref{diaY} }foregrounds `diachronic thinking' about the comparative Yolŋu data presented here and considers: {\em What might the paths of change and synchronic variation in Yolŋu Matha suggest about the cognitive implementation of displacement operators?}
+\vfill
+
+\upshape 
+
+\chapter{The Yolŋu~Matha verbal paradigm}\label{descY}
+
+
+
+
+\chapter{The Yolŋu language of intensionality}\label{anY}
+\chapter{Variation, change \& `design principles'}\label{diaY}
+
+\vfill\bibliographystyle{apa}\bibliography{../../FullBiblio.bib}
+
+\end{document}

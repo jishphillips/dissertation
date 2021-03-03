@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{The notion of TAM prominence}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Verbal inflection in Djambarrpuyŋu}{12}{0}{1}
+\beamer@sectionintoc {2}{Negative asymmetry}{24}{0}{2}
+\beamer@sectionintoc {3}{A porous boundary}{38}{0}{3}

@@ -1,0 +1,224 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  8 JUL 2018 21:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SickGirl.tex
+(./SickGirl.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2015/04/15 v5.1e context-sensitive quotations (JAW)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count87
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\csq@reset=\count88
+\csq@gtype=\count89
+\csq@glevel=\count90
+\csq@qlevel=\count91
+\csq@maxlvl=\count92
+\csq@tshold=\count93
+\csq@ltx@everypar=\toks15
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2015/04/15 v5.1e csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: xetex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count94
+\Gm@cntv=\count95
+\c@Gm@tempcnt=\count96
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks16
+)
+\c@framenumber=\count97
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
+(./SickGirl.aux)
+\openout1 = `SickGirl.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=681.15898pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: SickGirl01.jpg Graphic file (type QTm)
+<use  "SickGirl01.jpg" >
+File: SickGirl02.jpg Graphic file (type QTm)
+ <use  "SickGirl02.jpg" > [1
+
+]
+File: SickGirl03.jpg Graphic file (type QTm)
+ <use  "SickGirl03.jpg" >
+File: SickGirl04.jpg Graphic file (type QTm)
+
+<use  "SickGirl04.jpg" >
+File: SickGirl05.jpg Graphic file (type QTm)
+ <use  "SickGirl05.jpg" > [2]
+File: SickGirl06.jpg Graphic file (type QTm)
+ <use  "SickGirl06.jpg" >
+File: SickGirl07.jpg Graphic file (type QTm)
+
+<use  "SickGirl07.jpg" > [3]
+File: SickGirl08.jpg Graphic file (type QTm)
+ <use  "SickGirl08.jpg" >
+File: SickGirl09.jpg Graphic file (type QTm)
+ <use  "SickGirl09.jpg" >
+[4] [5]
+File: SickGirl10.jpg Graphic file (type QTm)
+ <use  "SickGirl10.jpg" >
+File: SickGirl11.jpg Graphic file (type QTm)
+ <use  "SickGirl11.jpg" > [6]
+File: SickGirl12.jpg Graphic file (type QTm)
+
+<use  "SickGirl12.jpg" >
+File: SickGirl13.jpg Graphic file (type QTm)
+ <use  "SickGirl13.jpg" > [7]
+File: SickGirl14.jpg Graphic file (type QTm)
+ <use  "SickGirl14.jpg" >
+File: SickGirl15.jpg Graphic file (type QTm)
+
+<use  "SickGirl15.jpg" > [8]
+File: SickGirl16.jpg Graphic file (type QTm)
+ <use  "SickGirl16.jpg" >
+File: SickGirl17.jpg Graphic file (type QTm)
+ <use  "SickGirl17.jpg" >
+[9]
+File: SickGirl18.jpg Graphic file (type QTm)
+ <use  "SickGirl18.jpg" >
+File: SickGirl19.jpg Graphic file (type QTm)
+ <use  "SickGirl19.jpg" > [10]
+File: SickGirl20.jpg Graphic file (type QTm)
+
+<use  "SickGirl20.jpg" >
+File: SickGirl21.jpg Graphic file (type QTm)
+ <use  "SickGirl21.jpg" >
+File: SickGirl22.jpg Graphic file (type QTm)
+ <use  "SickGirl22.jpg" >
+[11]
+File: SickGirl23.jpg Graphic file (type QTm)
+ <use  "SickGirl23.jpg" >
+File: SickGirl24.jpg Graphic file (type QTm)
+ <use  "SickGirl24.jpg" > [12] [13]
+(./SickGirl.aux) ) 
+Here is how much of TeX's memory you used:
+ 1953 strings out of 493706
+ 27067 string characters out of 6145769
+ 97650 words of memory out of 5000000
+ 5301 multiletter control sequences out of 15000+600000
+ 3939 words of font info for 15 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 25i,5n,32p,818b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on SickGirl.pdf (13 pages).

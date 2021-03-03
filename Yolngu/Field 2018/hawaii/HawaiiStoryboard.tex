@@ -1,0 +1,120 @@
+\documentclass{article}
+
+\usepackage{xltxtra} % Loads fontspec, xunicode, metalogo, fxltx2e, and some extra customizations for XeLaTeX
+%\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Cambria}
+
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\newcounter{framenumber}
+\setcounter{framenumber}{0}
+%This command numbers frames and adds two blank lines for annotation.
+\newcommand{\Annotate}{\stepcounter{framenumber}[\arabic{framenumber}]
+\rule{\linewidth}{1pt}\\
+\rule{\linewidth}{1pt}
+\vspace{2\baselineskip}
+\vfill
+}
+%Toggle to display subtitles in a different language
+%\newcommand{\Bislama}[1]{#1}
+\newcommand{\Bislama}[1]{}
+\newcommand{\English}[1]{#1}
+%\newcommand{\English}[1]{}
+
+\begin{document}
+\center 
+{\huge Bill marrtji Hawäyilil} 
+\vfill
+
+\includegraphics[scale=.25]{HawaiiTrip01}
+
+\Bislama{Hemia Mary, hemia Lisa. Tufala i fren.}
+\English{    This is Mary. And this is Bill.}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip02}
+
+\Bislama{Hemia Ros, mo hemia Christine. Tufala tu i fren blong Mary mo Lisa.}
+\English{	``Hi Bill, did you travel anywhere this summer?"\\ ``Yep! I went to Hawaii!"}
+
+\Annotate
+
+\pagebreak
+
+\includegraphics[scale=.25]{HawaiiTrip03}
+
+\Bislama{Olgeta wuman oli go blong wok long garen.}
+\English{``I got on the plane at eight in the morning, and I arrived in Hawaii at night."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip04.jpg}
+
+\Bislama{Everi wan i stap wok long garen nao.}
+\English{	``I stayed in a big hotel by the beach."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip05.jpg}
+
+\Bislama{Oli wok gogo, afta oli sidaon blong spel.}
+\English{``On the first day, I was really happy to be away from home."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip06.jpg}
+
+\Bislama{Oli spel gogo, stap kakae, ale Christine i go long bus.}
+\English{	``I walked along the beach, and then I slept in the sun."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip07.jpg}
+
+\Bislama{Ale, Ros tu hemi go long bus.}
+\English{``When the sun went down, I was drinking a beer."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip08.jpg}
+
+\Bislama{Spel gogo, ale Mary wetem Lisa tufala i go bak long garen.}
+\English{``Then, I went back to the hotel, and I went to bed."}
+
+\Annotate
+
+
+\includegraphics[scale=.25]{HawaiiTrip09.jpg}
+
+\Bislama{Be taem tufala i kam bak, tufala i luk se wan red yam we Mary hemi bin plantem, hemi lus.}
+\English{	``The next morning, I got up, I got a bath, and then I got on the bus."}
+
+\Annotate
+
+\includegraphics[scale=.25]{HawaiiTrip10.jpg}
+
+\Bislama{Mary hemi askem Lisa: \enquote{Huia i kakae red yam blong mi?}}
+\English{	``Since I was taking the bus, I brought money along."}
+
+\Annotate
+
+
+\includegraphics[scale=.25]{HawaiiTrip11.jpg}
+
+\Bislama{Lisa hemi se: \enquote{Maet Christine i kakae, o maet i Ros.}}
+\English{	``I then went on a tour around the island."}
+
+\Annotate
+\includegraphics[scale=.25]{HawaiiTrip12.jpg}
+
+\Bislama{Lisa hemi se: \enquote{Maet Christine i kakae, o maet i Ros.}}
+\English{``I did many other fun things too!"}
+
+\Annotate
+
+
+
+\end{document}
