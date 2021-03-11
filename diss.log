@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  3 MAR 2021 17:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  11 MAR 2021 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2495,21 +2495,18 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (7.04007pt too wide) in paragraph at lines 1166--1166
-[]\TU/Cambria(0)/bx/n/14.4 Indeterminist tense logic: on future contingents & b
-ranch-
- []
-
-[5]
+[5] [6]
 LaTeX Font Info:    Try loading font information for U+euf on input line 1174.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [6]
+)
 File: figs/KCH06-95-WTframe.png Graphic file (type bmp)
 <figs/KCH06-95-WTframe.png>
 
-[7] [8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
 
 LaTeX Warning: Command \! invalid in math mode on input line 1268.
 
@@ -2529,7 +2526,7 @@ LaTeX Warning: Command \! invalid in math mode on input line 1268.
 
 LaTeX Warning: Command \! invalid in math mode on input line 1268.
 
-
+[8]
 Overfull \hbox (5.11087pt too wide) in paragraph at lines 1272--1274
  []\TU/Cambria(0)/bx/n/12 The “co-present”[] []\TU/Cambria(0)/m/n/12 Øhrstrøm &
  Hasle[] ([]2020[]) additionally point out that, for Kripke,
@@ -2566,13 +2563,13 @@ nts (doxastic agents)
 
 [11]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1338.
+LaTeX Warning: Command \! invalid in math mode on input line 1342.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1338.
+LaTeX Warning: Command \! invalid in math mode on input line 1342.
 
 
-Overfull \hbox (2.41132pt too wide) in paragraph at lines 1361--1362
+Overfull \hbox (2.41132pt too wide) in paragraph at lines 1365--1366
 \TU/Cambria(0)/bx/n/12 settled \TU/Cambria(0)/m/n/12 iff, for any possible bran
 ch $\OML/cmm/m/it/12 b$ \TU/Cambria(0)/m/n/12 that is compatible with a given c
 ommon ground,
@@ -2581,92 +2578,92 @@ ommon ground,
 [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 1385.
+(hyperref)                removing `\begingroup' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1385.
+(hyperref)                removing `\let' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 1385.
+(hyperref)                removing `\<let>-command' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 1385.
+(hyperref)                removing `\NAT@ctype' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 1385.
+(hyperref)                removing `\z@' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 1385.
+(hyperref)                removing `\let' on input line 1389.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 1385.
+(hyperref)                removing `\new@ifnextchar' on input line 1389.
 
 
-Overfull \hbox (9.15775pt too wide) in paragraph at lines 1386--1387
+Overfull \hbox (9.15775pt too wide) in paragraph at lines 1390--1391
 []\TU/Cambria(0)/m/n/12 1991[] a.o.), modal expressions are taken to denote \TU
 /Cambria(0)/bx/n/12 quantifiers over possible worlds\TU/Cambria(0)/m/n/12 .
  []
 
-
-Overfull \hbox (20.49173pt too wide) in paragraph at lines 1393--1394
+[13]
+Overfull \hbox (20.49173pt too wide) in paragraph at lines 1397--1398
 \TU/Cambria(0)/m/n/12 fect, the deontic reading (13a) makes a claim about only 
 (and all) those worlds/possible
  []
 
 
-Overfull \hbox (2.88782pt too wide) in paragraph at lines 1393--1394
+Overfull \hbox (2.88782pt too wide) in paragraph at lines 1397--1398
 \TU/Cambria(0)/m/n/12 states-of-affairs in which Māori children adhere to some 
 set of societally-given rules,
  []
 
 
-Overfull \hbox (1.09329pt too wide) in paragraph at lines 1393--1394
+Overfull \hbox (1.09329pt too wide) in paragraph at lines 1397--1398
 \TU/Cambria(0)/m/n/12 grounds are supplied by broader lingusitic context, a maj
 or advantage of the Kratze-
  []
 
-[13]
-Overfull \hbox (17.75305pt too wide) in paragraph at lines 1398--1399
+
+Overfull \hbox (17.75305pt too wide) in paragraph at lines 1402--1403
  [][]\TU/Cambria(0)/m/n/12 The semantics of necessity/possibility modal auxilia
 ries (adapting from []Kratzer[]
  []
 
 [14]
-Overfull \hbox (2.17946pt too wide) in paragraph at lines 1434--1435
+Overfull \hbox (2.17946pt too wide) in paragraph at lines 1438--1439
 \TU/Cambria(0)/m/n/12 note 9). In such a system, modals will be taken to quanti
 fy over branches $\OT1/cmr/m/n/12 ([])$
  []
 
-[15]
-Package marginnote Info: Margin note 20.1 is on absolute page 21
-(marginnote)              on input line 1470.
+[15] [16]
+Package marginnote Info: Margin note 21.1 is on absolute page 21
+(marginnote)              on input line 1474.
 Package marginnote Info: right page because not two side mode on input line 147
-0.
+4.
 Package marginnote Info: xpos seems to be 229.74289pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1470.
- [16]
+(marginnote)             \marginnoteleftadjust ignored on input line 1474.
+ [17]
 
-LaTeX Warning: Reference `' on page 17 undefined on input line 1483.
+LaTeX Warning: Reference `' on page 18 undefined on input line 1487.
 
-Package marginnote Info: Margin note 21.1 is on absolute page 22
-(marginnote)              on input line 1486.
-Package marginnote Info: right page because not two side mode on input line 148
-6.
+Package marginnote Info: Margin note 22.1 is on absolute page 22
+(marginnote)              on input line 1490.
+Package marginnote Info: right page because not two side mode on input line 149
+0.
 Package marginnote Info: xpos seems to be 322.15695pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1486.
+(marginnote)             \marginnoteleftadjust ignored on input line 1490.
 
-Overfull \hbox (9.3778pt too wide) in paragraph at lines 1485--1486
+Overfull \hbox (9.3778pt too wide) in paragraph at lines 1489--1490
 \TU/Cambria(0)/m/n/12 lished material, a numbered bibliographic citation is pro
 vided. Where data is sourced
  []
 
-[17] [18] [19
+[18] [19
 
 ] (./Kriol/Bambai.tex
 Chapter 2.
@@ -2686,15 +2683,16 @@ a(0)/m/it/12 by-and-by \TU/Cambria(0)/m/n/12 as a particularly broadly diffused
 
  []
 
+[21]
 LaTeX Font Info:    Try loading font information for TS1+Cambria(0) on input li
 ne 51.
 LaTeX Font Info:    No file TS1Cambria(0).fd. on input line 51.
+
 
 LaTeX Font Warning: Font shape `TS1/Cambria(0)/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textdblhyphen' on input line 51.
 
-[21]
 
 LaTeX Font Warning: Font shape `TS1/Cambria(0)/m/it' undefined
 (Font)              using `TS1/Cambria(0)/m/n' instead
@@ -2706,13 +2704,14 @@ Overfull \hbox (11.97375pt too wide) in paragraph at lines 73--75
 prehensional functions (§[]2.3.2[]). 
  []
 
-Package marginnote Info: Margin note 26.1 is on absolute page 27
+[22]
+Package marginnote Info: Margin note 27.1 is on absolute page 27
 (marginnote)              on input line 77.
 Package marginnote Info: right page because not two side mode on input line 77.
 
 Package marginnote Info: xpos seems to be 525.23788pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 77.
-[22]
+
 Underfull \hbox (badness 2269) in paragraph at lines 86--86
 [][]\TU/Cambria(0)/m/n/10 An edited collection on \TU/Cambria(0)/m/it/10 Appreh
 ensional constructions\TU/Cambria(0)/m/n/10 , edited by Marine Vuillermet, Eva
@@ -2938,9 +2937,9 @@ escribed in this chap-
 [48
 
 ]
-Overfull \hbox (4.7278pt too wide) in paragraph at lines 760--761
+Overfull \hbox (14.50124pt too wide) in paragraph at lines 760--761
  \TU/lmtt/m/n/12 [Operator, Restriction, Nuclear Scope] \TU/Cambria(0)/m/n/12 f
-ollowing []Roberts[] ([]1995[]:665) 
+ollowing []Roberts[] ([]1995[]:665)[][][] 
  []
 
 [49]
@@ -3027,7 +3026,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 954--955
  []
 
 
-Overfull \hbox (57.635pt too wide) in paragraph at lines 957--958
+Overfull \hbox (78.83244pt too wide) in paragraph at lines 957--958
 [][]
  []
 
@@ -3059,7 +3058,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 978--979
  []
 
 
-Overfull \hbox (63.8557pt too wide) in paragraph at lines 981--982
+Overfull \hbox (85.57072pt too wide) in paragraph at lines 981--982
 [][]
  []
 
@@ -3135,11 +3134,11 @@ jective” meanings — those
 
 [69]
 Package marginnote Info: Margin note 74.1 is on absolute page 74
-(marginnote)              on input line 1293.
+(marginnote)              on input line 1292.
 Package marginnote Info: right page because not two side mode on input line 129
-3.
-Package marginnote Info: xpos seems to be 208.91281pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1293.
+2.
+Package marginnote Info: xpos seems to be 433.97165pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 1292.
 
 Overfull \hbox (3.07336pt too wide) in paragraph at lines 1295--1296
 \TU/Cambria(0)/m/n/12 be characterised as conforming with generalisations about
@@ -3991,20 +3990,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1540--1544
 
 [135]) [136]
 
-LaTeX Warning: Reference `otherwise' on page 137 undefined on input line 1542.
+LaTeX Warning: Reference `otherwise' on page 137 undefined on input line 1546.
 
 
-LaTeX Warning: Reference `otherwise' on page 137 undefined on input line 1542.
+LaTeX Warning: Reference `otherwise' on page 137 undefined on input line 1546.
 
 
-Overfull \hbox (3.09534pt too wide) in paragraph at lines 1542--1543
+Overfull \hbox (3.09534pt too wide) in paragraph at lines 1546--1547
 \TU/Cambria(0)/m/n/10.95 on the basis of contemporary theories of \TU/Cambria(0
 )/bx/n/10.95 modal subordination \TU/Cambria(0)/m/n/10.95 ([]Roberts[] []1989[]
 , []1995[], []2020[])
  []
 
 
-Overfull \hbox (8.12744pt too wide) in paragraph at lines 1546--1547
+Overfull \hbox (8.12744pt too wide) in paragraph at lines 1550--1551
 []\TU/Cambria(0)/m/n/10.95 Finally, Part []III[] comprised an account of verbal
  mood semantics in the Western Dhuwal(a)
  []
@@ -4048,180 +4047,181 @@ Underfull \hbox (badness 1874) in paragraph at lines 63--70
 [139
 
 ]
-Underfull \hbox (badness 3078) in paragraph at lines 128--133
+Underfull \hbox (badness 3078) in paragraph at lines 135--140
 []\TU/Cambria(0)/m/n/10.95 Boogaart, Ronny. 2020.  \TU/Cambria(0)/m/it/10.95 Ex
 pressives in Argumentation: The Case of Apprehensive
  []
 
 
-Underfull \hbox (badness 4927) in paragraph at lines 128--133
+Underfull \hbox (badness 4927) in paragraph at lines 135--140
 \TU/Cambria(0)/m/it/10.95 Straks (‘Shortly’) in Dutch\TU/Cambria(0)/m/n/10.95 .
   Springer International Publishing.  doi:$[][] [] [][][][] []
  []
 
 [140] [141]
-Underfull \hbox (badness 1681) in paragraph at lines 340--345
+Underfull \hbox (badness 1681) in paragraph at lines 353--358
 []\TU/Cambria(0)/m/n/10.95 Deo, Ashwini. 2009.  Unifying the imperfective and t
 he progressive: Partitions as
  []
 
-[142]
-Underfull \hbox (badness 1215) in paragraph at lines 451--455
+[142] [143]
+Underfull \hbox (badness 1215) in paragraph at lines 474--478
 \TU/Cambria(0)/m/n/10.95 sachusetts dissertation.  []$[][][][][][][][][][][][][
 ] [] [] [] [][][] [] [][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][]
 [][][][] []
  []
 
-[143]
-Underfull \hbox (badness 1043) in paragraph at lines 501--506
+
+Underfull \hbox (badness 1043) in paragraph at lines 524--529
 []\TU/Cambria(0)/m/n/10.95 Geurts, Bart, David Beaver & Emar Maier. 2016.  Disc
 ourse Representation Theory.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--506
+Underfull \hbox (badness 10000) in paragraph at lines 524--529
 []$[][][][][][][][][][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][][] [] 
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--506
+Underfull \hbox (badness 10000) in paragraph at lines 524--529
 [][][][][][][][] [] [] [] [][][][][] [] [][][][][][][][] [] [][][] [] [][][][][
 ][][][] [] [][][][][][][] [] [][][][][][][] []
  []
 
-[144]
-Underfull \hbox (badness 3579) in paragraph at lines 631--637
+[144] [145]
+Underfull \hbox (badness 3579) in paragraph at lines 654--660
 []\TU/Cambria(0)/m/n/10.95 Heath, Jeffrey. 1980b.  \TU/Cambria(0)/m/it/10.95 Ba
 sic Materials in Warndarang: grammar, texts and dic-
  []
 
 
-Underfull \hbox (badness 4805) in paragraph at lines 631--637
+Underfull \hbox (badness 4805) in paragraph at lines 654--660
 \TU/Cambria(0)/m/it/10.95 tionary\TU/Cambria(0)/m/n/10.95 .  Canberra: Pacific 
 Linguistics.  []$[][][][][][][][][][][][][] [] [] [] [][][] [] [][][] [] [][][]
  [] [][][] []
  []
 
-[145]
-Underfull \hbox (badness 4726) in paragraph at lines 703--708
+
+Underfull \hbox (badness 4726) in paragraph at lines 726--731
 []\TU/Cambria(0)/m/n/10.95 Horn, Laurence Robert. 1993.  Economy and Redundancy
  in a Dualistic Model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--708
+Underfull \hbox (badness 10000) in paragraph at lines 726--731
 \TU/Cambria(0)/m/n/10.95 of Natural Language.  \TU/Cambria(0)/m/it/10.95 Yearbo
 ok of the Linguistic Association of Finland \TU/Cambria(0)/m/n/10.95 6.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 703--708
+Underfull \hbox (badness 10000) in paragraph at lines 726--731
 \TU/Cambria(0)/m/n/10.95 33–72.  []$[][][][][] [] [] [] [][][][] [] [][][][] []
  [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][] [] [][][][]
  []
  []
 
+[146]
 Missing character: There is no ⟨ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
 Missing character: There is no ⟩ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
-[146] [147] [148] [149]
-Underfull \hbox (badness 1902) in paragraph at lines 1111--1118
+ [147] [148] [149] [150]
+Underfull \hbox (badness 1902) in paragraph at lines 1160--1167
 []\TU/Cambria(0)/m/n/10.95 Morphy, Frances. 1977.  Language And Moiety: Sociole
 ctal Variation in a Yu:lngu
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 1127--1132
+Underfull \hbox (badness 1590) in paragraph at lines 1176--1181
 \TU/Cambria(0)/m/n/10.95 Consistency in Branching Theories.  \TU/Cambria(0)/m/i
 t/10.95 Erkenntnis \TU/Cambria(0)/m/n/10.95 79(S3). 343–364.  doi:$[][] [] [][]
 [][] []
  []
 
-[150]
-Underfull \hbox (badness 7486) in paragraph at lines 1220--1226
+[151]
+Underfull \hbox (badness 7486) in paragraph at lines 1276--1282
 []\TU/Cambria(0)/m/n/10.95 Phillips, Josh. 2011.  \TU/Cambria(0)/m/it/10.95 Kri
 ol and Kriolisation: exploring the creole language of
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 1220--1226
+Underfull \hbox (badness 3590) in paragraph at lines 1276--1282
 \TU/Cambria(0)/m/it/10.95 Northern Australia\TU/Cambria(0)/m/n/10.95 .  Sydney:
  dissertation.  []$[][][][][][][][][][][][][] [] [] [] [][][] [] [][] [] [][][]
  [] [][] []
  []
 
-[151]
-Underfull \hbox (badness 1043) in paragraph at lines 1240--1245
+
+Underfull \hbox (badness 1043) in paragraph at lines 1296--1301
 []\TU/Cambria(0)/m/n/10.95 Ploug, Thomas & Peter Øhrstrøm. 2012.  Branching tim
 e, indeterminism and tense
  []
 
-
-Underfull \hbox (badness 1406) in paragraph at lines 1263--1267
+[152]
+Underfull \hbox (badness 1406) in paragraph at lines 1319--1323
 []\TU/Cambria(0)/m/n/10.95 Portner, Paul. 2018.  \TU/Cambria(0)/m/it/10.95 Mood
 \TU/Cambria(0)/m/n/10.95 .  Oxford: Oxford University Press.  doi:$[][] [] [][]
 [][] [] [][][] []
  []
 
-[152]
-Underfull \hbox (badness 4872) in paragraph at lines 1371--1376
+[153]
+Underfull \hbox (badness 4872) in paragraph at lines 1427--1432
 []\TU/Cambria(0)/m/n/10.95 Roberts, Craige. 1998.  Focus, the flow of informati
 on and universal grammar.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1376
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1432
 \TU/Cambria(0)/m/it/10.95 Syntax and Semantics \TU/Cambria(0)/m/n/10.95 29. 109
 –160.  []$[][][][][][][][][][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][
 ][] []
  []
 
-[153]
-Underfull \hbox (badness 1831) in paragraph at lines 1484--1488
+[154]
+Underfull \hbox (badness 1831) in paragraph at lines 1540--1544
 []\TU/Cambria(0)/m/n/10.95 Stalnaker, Robert C. 1968.  A Theory of Conditionals
 .  \TU/Cambria(0)/m/it/10.95 Ifs \TU/Cambria(0)/m/n/10.95 41–55.  doi:$[][] [] 
 [][][][] []
  []
 
-[154]
-Underfull \hbox (badness 1424) in paragraph at lines 1513--1517
+
+Underfull \hbox (badness 1424) in paragraph at lines 1574--1578
 []\TU/Cambria(0)/m/n/10.95 Starr, William B. 2011.  Conditionals and questions.
   []$[][][][] [] [] [] [][][][][][][][][][][][] [] [][][] []
  []
 
-
-Underfull \hbox (badness 3503) in paragraph at lines 1553--1559
+[155]
+Underfull \hbox (badness 3503) in paragraph at lines 1614--1620
 \TU/Cambria(0)/m/n/10.95 tures.  \TU/Cambria(0)/m/it/10.95 Linguistics \TU/Camb
 ria(0)/m/n/10.95 21(6). 849–878.  doi:$[][] [] [][][][] [] [][][][] [] [][][][]
  [] [][] [] [] [] [][][]$.  []$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1553--1559
+Underfull \hbox (badness 10000) in paragraph at lines 1614--1620
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [] [] [][][][] [] [
 ][][][] [] [][] [] [][][][][][][][] [] [][][][] [] [][][][] [] [][] [] [] [] []
 [][] []
  []
 
-[155]
-Underfull \hbox (badness 1043) in paragraph at lines 1600--1607
+
+Underfull \hbox (badness 1043) in paragraph at lines 1667--1674
 [][][][] [] [][][][][][]$\TU/Cambria(0)/m/n/10.95 .  []$[][][][][][][][][][][][
 ][] [] [] [] [][] [] [][] [] [][][] [] [][][] [] [][][][][][] [] [][][][][][][]
  [] [] [] [][][] [] [][][][][] []
  []
 
-[156]
-Underfull \hbox (badness 1270) in paragraph at lines 1729--1733
+[156] [157]
+Underfull \hbox (badness 1270) in paragraph at lines 1800--1804
 []\TU/Cambria(0)/m/n/10.95 Winans, Lauren Danae. 2016.  \TU/Cambria(0)/m/it/10.
 95 Inferences of will\TU/Cambria(0)/m/n/10.95 : UCLA Phd dissertation.  []$[][]
 [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1729--1733
+Underfull \hbox (badness 10000) in paragraph at lines 1800--1804
 [] [] [][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][
 ][][][][][][][][][][] [] [] [] [][][][][][][][][][][][] [] [][][] [] [][] []
  []
@@ -4235,15 +4235,15 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[157]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1567.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1567.
+[158]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1571.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1571.
  (./diss.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1567.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1567.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1571.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1571.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: D27DB02B163B29EF289E355DEBF70436.
+(rerunfilecheck)             Checksum: 024F1BDDA3C5CA615DD40231B869338C.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4251,7 +4251,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1567.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1571.
  )
 (\end occurred when \ifx on line 1725 was incomplete)
 (\end occurred when \ifhmode on line 1665 was incomplete)
@@ -4267,12 +4267,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1567.
 (\end occurred when \ifx on line 968 was incomplete)
 (\end occurred when \ifx on line 615 was incomplete) 
 Here is how much of TeX's memory you used:
- 55054 strings out of 492970
- 1039714 string characters out of 6133938
- 1238620 words of memory out of 5000000
- 58043 multiletter control sequences out of 15000+600000
+ 55095 strings out of 492970
+ 1040505 string characters out of 6133938
+ 1240081 words of memory out of 5000000
+ 58084 multiletter control sequences out of 15000+600000
  563181 words of font info for 241 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 56i,19n,92p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,92p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on diss.pdf (161 pages).
+Output written on diss.pdf (162 pages).
