@@ -1091,10 +1091,10 @@
 \glossaryentry{\textsc {endo}?\glossentry{texd}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textsc {dat}?\glossentry{dat}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textsc {dat}?\glossentry{dat}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{171}
+\glossaryentry{\textsc {endo}?\glossentry{texd}|setentrycounter[]{page}\glsnumberformat}{171}
+\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{171}
+\glossaryentry{\textsc {\textit {mälk}}?\glossentry{malk}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{171}
 \glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{171}
@@ -1118,102 +1118,121 @@
 \glossaryentry{\textsc {incl}?\glossentry{incl}|setentrycounter[]{page}\glsnumberformat}{172}
 \glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{172}
 \glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {dist}?\glossentry{dist}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {seq}?\glossentry{seq}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\textsc {mod}?\glossentry{mod}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {med}?\glossentry{med}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {ana}?\glossentry{ana}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {ana}?\glossentry{ana}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {cplv}?\glossentry{cplv}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {incl}?\glossentry{incl}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{173}
-\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {excl}?\glossentry{excl}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {excl}?\glossentry{excl}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{176}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {hyp}?\glossentry{hyp}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {inch}?\glossentry{inch}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {cplv}?\glossentry{cplv}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {hab}?\glossentry{hab}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{177}
 \glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {irr}?\glossentry{irr}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {excl}?\glossentry{excl}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {excl}?\glossentry{excl}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {dist}?\glossentry{dist}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {seq}?\glossentry{seq}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {mod}?\glossentry{mod}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{178}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {hyp}?\glossentry{hyp}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {inch}?\glossentry{inch}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textcolor {ochre}{\textbf {II}}?\glossentry{II}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\textsc {med}?\glossentry{med}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {ana}?\glossentry{ana}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {ana}?\glossentry{ana}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textcolor {blue}{\textbf {III}}?\glossentry{III}|setentrycounter[]{page}\glsnumberformat}{179}
 \glossaryentry{\textsc {cplv}?\glossentry{cplv}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {hab}?\glossentry{hab}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textcolor {forest}{\textbf {I}}?\glossentry{I}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\textsc {vblzr}?\glossentry{vblzr}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {hab}?\glossentry{hab}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {temp}?\glossentry{temp}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {PstPot}?\glossentry{PstPot}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\textsc {dist}?\glossentry{dist}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {all}?\glossentry{all}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {incl}?\glossentry{incl}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {perg}?\glossentry{perg}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {pres}?\glossentry{pres}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\textsc {incl}?\glossentry{incl}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textcolor {violet}{\textbf {IV}}?\glossentry{IV}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\textsc {epist}?\glossentry{epist}|setentrycounter[]{page}\glsnumberformat}{182}
 \glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {PstPot}?\glossentry{PstPot}|setentrycounter[]{page}\glsnumberformat}{182}
-\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{183}
-\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{185}
-\glossaryentry{\textsc {priv}?\glossentry{priv}|setentrycounter[]{page}\glsnumberformat}{186}
-\glossaryentry{\textsc {priv}?\glossentry{priv}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{183}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{184}
+\glossaryentry{\textsc {vblzr}?\glossentry{vblzr}|setentrycounter[]{page}\glsnumberformat}{184}
+\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {hab}?\glossentry{hab}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {temp}?\glossentry{temp}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {acc}?\glossentry{acc}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {PstPot}?\glossentry{PstPot}|setentrycounter[]{page}\glsnumberformat}{185}
+\glossaryentry{\textsc {dist}?\glossentry{dist}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {loc}?\glossentry{loc}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{186}
 \glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {all}?\glossentry{all}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {prom}?\glossentry{prom}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {incl}?\glossentry{incl}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {perg}?\glossentry{perg}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {pres}?\glossentry{pres}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {pst}?\glossentry{pst}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {PstPot}?\glossentry{PstPot}|setentrycounter[]{page}\glsnumberformat}{186}
+\glossaryentry{\textsc {ipfv}?\glossentry{ipfv}|setentrycounter[]{page}\glsnumberformat}{187}
+\glossaryentry{\textsc {fut}?\glossentry{fut}|setentrycounter[]{page}\glsnumberformat}{188}
+\glossaryentry{\textsc {priv}?\glossentry{priv}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{\textsc {priv}?\glossentry{priv}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{\textsc {neg}?\glossentry{neg}|setentrycounter[]{page}\glsnumberformat}{190}

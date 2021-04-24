@@ -103,14 +103,16 @@
 \contentsline {subsection}{\numberline {3.3.2}Verbal mood}{169}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}An \textsc {irrealis} mood}{170}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Objective nonveridicality}{172}{section.3.4}
-\contentsline {subsubsection}{\numberline {3.4.0.1}Nonveridicality as presupposition}{174}{subsubsection.3.4.0.1}
-\contentsline {chapter}{\numberline {4}The \gls {wd} paradigm: Towards a compositional semantics}{175}{chapter.4}
-\contentsline {subsubsection}{\numberline {4.0.0.1}The proposal in action}{176}{subsubsection.4.0.0.1}
-\contentsline {subsection}{\numberline {4.0.1}The negators: \textit {yaka} \& \textit {bäyŋu}}{177}{subsection.4.0.1}
-\contentsline {subsection}{\numberline {4.0.2}The same-day future}{178}{subsection.4.0.2}
-\contentsline {section}{\numberline {4.1}Semantic change in Southern Yolŋu}{180}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{180}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Morphosemantic change}{183}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Conclusion}{184}{section.4.2}
-\contentsline {chapter}{General conclusion}{186}{chapter*.55}
-\contentsline {chapter}{Bibliography}{188}{chapter*.56}
+\contentsline {subsection}{\numberline {3.4.1}A nonveridical semantics for \textsc {irrealis}}{173}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}The negators: \textit {yaka} \& \textit {bäyŋu}}{174}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}The same-day future}{176}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Epistemic modality in \gls {wd}}{178}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Nonveridicality as presupposition}{180}{subsubsection.3.4.4.1}
+\contentsline {chapter}{\numberline {4}The \gls {wd} paradigm: Towards a compositional semantics}{181}{chapter.4}
+\contentsline {subsubsection}{\numberline {4.0.0.1}The proposal in action}{182}{subsubsection.4.0.0.1}
+\contentsline {section}{\numberline {4.1}Semantic change in Southern Yolŋu}{183}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{184}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Morphosemantic change}{186}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Conclusion}{188}{section.4.2}
+\contentsline {chapter}{General conclusion}{190}{chapter*.56}
+\contentsline {chapter}{Bibliography}{192}{chapter*.57}

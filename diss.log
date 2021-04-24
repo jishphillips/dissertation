@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  23 APR 2021 23:47
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  24 APR 2021 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2446,14 +2446,14 @@ LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 96.
 
 
-)
+[2])
 \tf@toc=\write14
 \openout14 = `diss.toc'.
 
  (./diss-tags.tex)
 \openout4 = `diss-tags.tex'.
 
- [2] [3]
+ [3]
 Chapter 1.
 .................................................
 . fontspec info: "defining-font"
@@ -4039,50 +4039,46 @@ ia(0)/m/n/12 (these were summarised
  []
 
 [144] [145]
-Overfull \hbox (4.5486pt too wide) in paragraph at lines 1631--1632
+Overfull \hbox (4.5486pt too wide) in paragraph at lines 1633--1634
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (30.41304pt too wide) in paragraph at lines 1683--1684
+[146]
+Overfull \hbox (30.41304pt too wide) in paragraph at lines 1685--1686
 \TU/Cambria(0)/m/n/12 erence intervals (frames, \TU/lmtt/m/n/12 F\TU/Cambria(0)
 /m/n/12 ) which correspond to the \TU/Cambria(0)/m/sc/12 contemporary/precontem
 porary
  []
 
 
-Overfull \hbox (11.86047pt too wide) in paragraph at lines 1683--1684
+Overfull \hbox (11.86047pt too wide) in paragraph at lines 1685--1686
 \TU/Cambria(0)/m/n/12 distinction described for the inflectional systems of the
  Maningrida languages ([][]Eather[][]
  []
 
-[146]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1691.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1693.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1691.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1693.
 
-Overfull \hbox (1.97191pt too wide) in paragraph at lines 1698--1699
+Overfull \hbox (1.97191pt too wide) in paragraph at lines 1700--1701
 \TU/Cambria(0)/m/n/12 are relevant to [][][]WD[][] temporal grammar: ‘overlappi
 ng with speechtime’ and ‘recently’
  []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1706.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1708.
 
 LaTeX Font Info:    Font shape `TU/Cambria(0)/m/sl' in size <10.95> not availab
 le
 (Font)              Font shape `TU/Cambria(0)/m/it' tried instead on input line
- 1706.
+ 1708.
 [147]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [148]
-Overfull \hbox (10.88115pt too wide) in paragraph at lines 1823--1843
+Overfull \hbox (10.88115pt too wide) in paragraph at lines 1827--1847
 \TU/Cambria(0)/m/n/12 tion at any contextually-specified index $\OML/cmm/m/it/1
 2 i[]$\TU/Cambria(0)/m/n/12 ; in competition with the truth-conditionally
  []
@@ -4091,25 +4087,25 @@ Overfull \hbox (10.88115pt too wide) in paragraph at lines 1823--1843
 [149]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1907.
+(hyperref)                removing `math shift' on input line 1911.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 1907.
+(hyperref)                removing `subscript' on input line 1911.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1907.
+(hyperref)                removing `math shift' on input line 1911.
 
 
-Overfull \hbox (0.55188pt too wide) in paragraph at lines 1913--1914
+Overfull \hbox (0.55188pt too wide) in paragraph at lines 1917--1918
 []\TU/Cambria(0)/m/n/12 The linguistic relevance of a \TU/Cambria(0)/m/it/12 da
 y-of-speech\TU/Cambria(0)/m/n/12 /\TU/Cambria(0)/m/sc/12 hodiernal \TU/Cambria(
 0)/m/n/12 interval (operationalised
  []
 
 [150]
-Overfull \hbox (25.13196pt too wide) in paragraph at lines 1939--1940
+Overfull \hbox (25.13196pt too wide) in paragraph at lines 1943--1944
 \TU/Cambria(0)/m/sc/12 non-today \TU/Cambria(0)/m/n/12 “frames” as correspondin
 g to their \TU/Cambria(0)/m/sc/12 p\TU/Cambria(0)/m/n/12 - and \TU/Cambria(0)/m
 /sc/12 d-\TU/Cambria(0)/m/n/12 domains respectively ([][]2008[][]:209,
@@ -4118,31 +4114,31 @@ g to their \TU/Cambria(0)/m/sc/12 p\TU/Cambria(0)/m/n/12 - and \TU/Cambria(0)/m
 File: figs/botnecogdoms.png Graphic file (type bmp)
 <figs/botnecogdoms.png>
 [151]
-Overfull \hbox (3.60374pt too wide) in paragraph at lines 1954--1959
+Overfull \hbox (3.60374pt too wide) in paragraph at lines 1958--1963
 []\TU/Cambria(0)/m/n/12 A number of linguists working on temporal/aspectual dis
 tinctions made in Indo-
  []
 
 
-Overfull \hbox (7.26477pt too wide) in paragraph at lines 1954--1959
+Overfull \hbox (7.26477pt too wide) in paragraph at lines 1958--1963
 \TU/Cambria(0)/m/n/12 European languages have drawn [][]Benveniste[][]’s distin
 ction between “narrative” (\TU/Cambria(0)/m/it/12 récit/
  []
 
 
-Overfull \hbox (25.54382pt too wide) in paragraph at lines 1954--1959
+Overfull \hbox (25.54382pt too wide) in paragraph at lines 1958--1963
 \TU/Cambria(0)/m/n/12 and “immediate future” accomplishments. The \TU/Cambria(0
 )/m/it/12 Perfect\TU/Cambria(0)/m/n/12 , traditionally encoding “presently
  []
 
 
-Overfull \hbox (0.39075pt too wide) in paragraph at lines 1954--1959
+Overfull \hbox (0.39075pt too wide) in paragraph at lines 1958--1963
 \TU/Cambria(0)/m/n/12 range of anterior-type uses: describing states (possibly)
  occurring prior to (\TU/Cambria(0)/m/sc/12 aorist-
  []
 
 [152]
-Overfull \hbox (44.86243pt too wide) in paragraph at lines 1969--1970
+Overfull \hbox (44.86243pt too wide) in paragraph at lines 1973--1974
 []\TU/Cambria(0)/m/n/12 The \TU/Cambria(0)/m/sc/12 past\TU/Cambria(0)/m/n/12 /\
 TU/Cambria(0)/m/sc/12 present \TU/Cambria(0)/m/n/12 distinction gets reanalysed
  as \TU/Cambria(0)/m/sc/12 precontemporary\TU/Cambria(0)/m/n/12 -\TU/Cambria(0)
@@ -4153,92 +4149,92 @@ TU/Cambria(0)/m/sc/12 present \TU/Cambria(0)/m/n/12 distinction gets reanalysed
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 2031.
+(hyperref)                removing `\\' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2031.
+(hyperref)                removing `math shift' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2031.
+(hyperref)                removing `\delimiter' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2031.
+(hyperref)                removing `\gls' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2031.
+(hyperref)                removing `\gls' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2031.
+(hyperref)                removing `\delimiter' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2031.
+(hyperref)                removing `math shift' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2031.
+(hyperref)                removing `math shift' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2031.
+(hyperref)                removing `\delimiter' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2031.
+(hyperref)                removing `\gls' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2031.
+(hyperref)                removing `\gls' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2031.
+(hyperref)                removing `\delimiter' on input line 2035.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2031.
+(hyperref)                removing `math shift' on input line 2035.
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2031.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2035.
 
 
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 203
-1.
+5.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2031.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2035.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2031.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2035.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2031.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2035.
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2031.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2035.
 
 
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 203
-1.
+5.
 
 
-Overfull \hbox (5.07307pt too wide) in paragraph at lines 2037--2037
+Overfull \hbox (5.07307pt too wide) in paragraph at lines 2041--2041
 []\TU/Cambria(0)/bx/n/17.28 Sentential negation and paradigm neutralisation 
  []
 
 
-LaTeX Warning: Reference `NEC-yolŋu' on page 156 undefined on input line 2039.
+LaTeX Warning: Reference `NEC-yolŋu' on page 156 undefined on input line 2043.
 
 
-LaTeX Warning: Reference `sec:nec-djr' on page 156 undefined on input line 2039
+LaTeX Warning: Reference `sec:nec-djr' on page 156 undefined on input line 2043
 .
 
 ====> EXPEX WARNING: tag bayŋu-negq is called but not defined.
 ====> EXPEX WARNING: tag yaka is called but not defined.
 
-Overfull \hbox (3.49446pt too wide) in paragraph at lines 2042--2043
+Overfull \hbox (3.49446pt too wide) in paragraph at lines 2046--2047
 \TU/Cambria(0)/m/n/12 metry” (specifically \TU/lmtt/m/sc/12 a/nonreal\TU/Cambri
 a(0)/m/n/12 , following [][]Miestamo[][] [][]2005[][]) — was introduced above
  []
@@ -4246,7 +4242,7 @@ a(0)/m/n/12 , following [][]Miestamo[][] [][]2005[][]) — was introduced above
 [156
 
 ] [157]
-Overfull \hbox (3.25609pt too wide) in paragraph at lines 2107--2111
+Overfull \hbox (3.25609pt too wide) in paragraph at lines 2111--2115
  [][]\TU/Cambria(0)/bx/n/12 Exponence of \TU/Cambria(0)/bx/sc/12 today past \TU
 /Cambria(0)/bx/n/12 and \TU/Cambria(0)/bx/sc/12 remote past \TU/Cambria(0)/bx/n
 /12 reference as [][][][]IV[][][] under nega-
@@ -4254,66 +4250,66 @@ Overfull \hbox (3.25609pt too wide) in paragraph at lines 2107--2111
 
 [158]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2169.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2173.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2175.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2179.
 
 [159]
-Overfull \hbox (0.34126pt too wide) in paragraph at lines 2204--2205
+Overfull \hbox (0.34126pt too wide) in paragraph at lines 2208--2209
  [][]\TU/Cambria(0)/bx/n/12 A minimal pair: [][][][]I[][][] changes to [][][][]
 II[][][] in present-referring negative sentences 
  []
 
 [160]
-Overfull \hbox (1.79016pt too wide) in paragraph at lines 2224--2225
+Overfull \hbox (1.79016pt too wide) in paragraph at lines 2228--2229
 []\TU/Cambria(0)/m/n/12 This section seeks to model the irrealis domain using t
 he “branching time frame-
  []
 
 [161]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2352.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2356.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2358.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2362.
 
 [162]
-Overfull \hbox (2.28267pt too wide) in paragraph at lines 2395--2396
+Overfull \hbox (2.28267pt too wide) in paragraph at lines 2399--2400
  []\TU/Cambria(0)/m/it/12 dhu \TU/Cambria(0)/m/n/12 is only defined if context 
 makes available a circumstantial modal base $\OML/cmm/m/it/12 m$ 
  []
 
 
-Overfull \hbox (1.22116pt too wide) in paragraph at lines 2407--2408
+Overfull \hbox (1.22116pt too wide) in paragraph at lines 2411--2412
 \TU/Cambria(0)/m/n/12 ‘[][][]\TU/Cambria(0)/m/sc/12 mod[][]\TU/Cambria(0)/m/n/1
 2 ’ the most frequently occurring among them. \TU/Cambria(0)/m/it/12 balaŋ(u) \
 TU/Cambria(0)/m/n/12 occurs with verbal pred-
  []
 
 [163]
-Overfull \hbox (1.25189pt too wide) in paragraph at lines 2459--2460
+Overfull \hbox (1.25189pt too wide) in paragraph at lines 2463--2464
 \TU/Cambria(0)/m/n/12 mark antecedent clauses, although as shown in b, the co-o
 rdination of two \TU/Cambria(0)/m/it/12 balaŋ(u)\TU/Cambria(0)/m/n/12 -
  []
 
 [164]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2506.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2510.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2512.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2516.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [165]
-Underfull \hbox (badness 10000) in paragraph at lines 2544--2548
+Underfull \hbox (badness 10000) in paragraph at lines 2548--2552
  
  []
 
 [166] [167]
-Overfull \hbox (5.30032pt too wide) in paragraph at lines 2579--2582
+Overfull \hbox (5.30032pt too wide) in paragraph at lines 2583--2586
 \TU/Cambria(0)/m/n/12 Despite the apparent definitional difficulties with \TU/C
 ambria(0)/m/sc/12 reality status\TU/Cambria(0)/m/n/12 , the co-occurrence
  []
@@ -4323,98 +4319,124 @@ Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
- [171] [172] [173]
+ [171]
+Overfull \hbox (3.56165pt too wide) in paragraph at lines 2686--2687
+[]\TU/Cambria(0)/m/n/12 The \TU/Cambria(0)/m/it/12 Branching Times \TU/Cambria(
+0)/m/n/12 models as introduced in § [][]1.2[][] capture the “right-branching”
+ []
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2725.
 
-Package marginnote Info: Margin note 179.1 is on absolute page 179
-(marginnote)              on input line 2744.
-Package marginnote Info: right page because not two side mode on input line 274
+Overfull \hbox (8.88518pt too wide) in paragraph at lines 2691--2692
+[]\TU/Cambria(0)/m/n/12 Further, per property \TU/lmss/m/n/12 ii\TU/Cambria(0)/
+m/n/12 , \TU/Cambria(0)/m/it/12 dhu \TU/Cambria(0)/m/n/12 and \TU/Cambria(0)/m/
+it/12 balaŋ \TU/Cambria(0)/m/n/12 both quantify into \TU/Cambria(0)/bx/n/12 sub
+sets \TU/Cambria(0)/m/n/12 of those branch-
+ []
+
+[172] [173]
+Overfull \hbox (53.9425pt too wide) in paragraph at lines 2727--2728
+\TU/Cambria(0)/m/n/12 gory of \TU/Cambria(0)/m/sc/12 irrealis \TU/Cambria(0)/m/
+n/12 (at least as far as it relates to apparent \TU/Cambria(0)/m/sc/12 wd \TU/C
+ambria(0)/m/n/12 conceptions/grammaticalisations.) 
+ []
+
+[174]
+Overfull \hbox (166.65956pt too wide) in paragraph at lines 2803--2804
+ [][]$\U/stmry/b/n/12 J[]K[]$$[][]$ 
+ []
+
+[175]
+Package marginnote Info: Margin note 181.1 is on absolute page 181
+(marginnote)              on input line 2885.
+Package marginnote Info: right page because not two side mode on input line 288
+5.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 2885.
+
+Package marginnote Info: xpos seems to be 149.25851pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 2885.
+Package marginnote Info: Margin note 181.2 is on absolute page 181
+(marginnote)              on input line 2891.
+Package marginnote Info: right page because not two side mode on input line 289
+1.
+Package marginnote Info: xpos seems to be 111.04758pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 2891.
+ [176]
+Package marginnote Info: Margin note 182.1 is on absolute page 182
+(marginnote)              on input line 2927.
+Package marginnote Info: right page because not two side mode on input line 292
+7.
+Package marginnote Info: xpos seems to be 207.00266pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 2927.
+ [177]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 2939.
+
+[178] [179]
+Package marginnote Info: Margin note 185.1 is on absolute page 185
+(marginnote)              on input line 3014.
+Package marginnote Info: right page because not two side mode on input line 301
 4.
 Package marginnote Info: xpos seems to be 111.04758pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 2744.
-[174]
+(marginnote)             \marginnoteleftadjust ignored on input line 3014.
+ [180]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2745.
+(hyperref)                removing `\gls' on input line 3015.
 
 
-Overfull \vbox (1.35252pt too high) detected at line 2799
+Overfull \vbox (1.35252pt too high) detected at line 3069
  []
 
-[175
+[181
 
 ]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2821.
+(hyperref)                than one, level fixed on input line 3091.
 
-Package marginnote Info: Margin note 181.1 is on absolute page 182
-(marginnote)              on input line 2833.
-Package marginnote Info: right page because not two side mode on input line 283
+Package marginnote Info: Margin note 187.1 is on absolute page 188
+(marginnote)              on input line 3103.
+Package marginnote Info: right page because not two side mode on input line 310
 3.
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 2833.
+(marginnote)             \marginnoteleftadjust ignored on input line 3103.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2854.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3124.
 
-Overfull \hbox (1.643pt too wide) in paragraph at lines 2879--2881
+Overfull \hbox (1.643pt too wide) in paragraph at lines 3149--3151
 [][][][]$\OML/cmm/m/it/10.95 ^^Ue:[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 e\O
 T1/cmr/m/n/10.95 )$  
  []
 
 
-Overfull \hbox (32.65013pt too wide) in paragraph at lines 2833--2883
+Overfull \hbox (32.65013pt too wide) in paragraph at lines 3103--3153
 |[] [] 
  []
 
-[176] [177]
-Package marginnote Info: Margin note 183.1 is on absolute page 183
-(marginnote)              on input line 2990.
-Package marginnote Info: right page because not two side mode on input line 299
-0.
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 2990.
-
-Package marginnote Info: xpos seems to be 436.22229pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 2990.
-Package marginnote Info: Margin note 183.2 is on absolute page 183
-(marginnote)              on input line 2996.
-Package marginnote Info: right page because not two side mode on input line 299
-6.
-Package marginnote Info: xpos seems to be 110.81635pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 2996.
- [178]
-Package marginnote Info: Margin note 184.1 is on absolute page 184
-(marginnote)              on input line 3032.
-Package marginnote Info: right page because not two side mode on input line 303
-2.
-Package marginnote Info: xpos seems to be 353.86205pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 3032.
- [179] [180] [181]
+[182] [183] [184] [185]
 ====> EXPEX WARNING: tag vP-bt is called but not defined.
-[182]
 Missing character: There is no ‑ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
 
-Underfull \hbox (badness 1448) in paragraph at lines 3142--3142
+Underfull \hbox (badness 1448) in paragraph at lines 3279--3279
 \TU/Cambria(0)/m/n/10 sample include: Burarra, Laragia, Mangarrayi, Maung, Tiwi
 , Warndarang, Wubuy, Nyulnyul,
  []
 
-[183]
-Underfull \hbox (badness 10000) in paragraph at lines 3170--3174
+[186] [187]
+Underfull \hbox (badness 10000) in paragraph at lines 3307--3311
  
  []
 
-[184]) [185]
+[188]) [189]
 
-LaTeX Warning: Reference `otherwise' on page 186 undefined on input line 1703.
+LaTeX Warning: Reference `otherwise' on page 190 undefined on input line 1703.
 
 
-LaTeX Warning: Reference `otherwise' on page 186 undefined on input line 1703.
+LaTeX Warning: Reference `otherwise' on page 190 undefined on input line 1703.
 
 
 Overfull \hbox (3.09534pt too wide) in paragraph at lines 1703--1704
@@ -4429,9 +4451,9 @@ Overfull \hbox (8.12744pt too wide) in paragraph at lines 1707--1708
 rbal mood semantics in the Western Dhuwal(a)
  []
 
-[186
+[190
 
-] (./diss.bbl [187]
+] (./diss.bbl [191]
 Missing character: There is no ⹀ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
 
@@ -4478,7 +4500,7 @@ Underfull \hbox (badness 5696) in paragraph at lines 71--77
 [][] [] [][] []
  []
 
-[188
+[192
 
 ]
 Underfull \hbox (badness 3078) in paragraph at lines 157--162
@@ -4492,135 +4514,161 @@ Underfull \hbox (badness 4927) in paragraph at lines 157--162
   Springer International Publishing.  doi:$[][] [] [][][][] []
  []
 
-[189] [190] [191]
-Underfull \hbox (badness 3780) in paragraph at lines 415--421
+[193] [194]
+Underfull \hbox (badness 5696) in paragraph at lines 333--340
+[]\TU/Cambria(0)/m/n/10.95 Condoravdi, Cleo & Ashwini Deo. 2015.  Aspect shifts
+ in Indo-Aryan and tra-
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 333--340
+\TU/Cambria(0)/m/n/10.95 jectories of semantic change.  In Chiara Gianollo, Agn
+es Jäger & Doris Penka
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 333--340
+\TU/Cambria(0)/m/n/10.95 (eds.), \TU/Cambria(0)/m/it/10.95 Language change at t
+he syntax-semantics interface\TU/Cambria(0)/m/n/10.95 , 261–92. Berlin: Mou-
+ []
+
+[195]
+Underfull \hbox (badness 3780) in paragraph at lines 417--423
 \TU/Cambria(0)/m/n/10.95 tems.  \TU/Cambria(0)/m/it/10.95 Linguistics \TU/Cambr
 ia(0)/m/n/10.95 21(1). 105–122.  doi:$[][] [] [][][][] [] [][][][] [] [][][][] 
 [] [][] [] [] [] [][][]$.  [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--421
+Underfull \hbox (badness 10000) in paragraph at lines 417--423
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [] [] [][][][] [] [
 ][][][] [] [][] [] [][][][][][][][] [] [][][][] [] [][][][] [] [][] [] [] [] []
 [][] []
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 442--447
+Underfull \hbox (badness 1681) in paragraph at lines 444--449
 []\TU/Cambria(0)/m/n/10.95 Deo, Ashwini. 2009.  Unifying the imperfective and t
 he progressive: Partitions as
  []
 
-[192] [193] [194]
-Underfull \hbox (badness 10000) in paragraph at lines 663--667
+[196] [197] [198]
+Underfull \hbox (badness 10000) in paragraph at lines 666--670
 []\TU/Cambria(0)/m/n/10.95 Geurts, Bart, David Beaver & Emar Maier. 2016.  Disc
 ourse Representa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--667
+Underfull \hbox (badness 10000) in paragraph at lines 666--670
 \TU/Cambria(0)/m/n/10.95 tion Theory.  [][]$[][][][][] [] [] [] [][][][][] [] [
 ][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [][][][][][]
 [] []
  []
 
-[195] [196]
-Underfull \hbox (badness 4726) in paragraph at lines 891--896
+[199] [200]
+Underfull \hbox (badness 4726) in paragraph at lines 906--911
 []\TU/Cambria(0)/m/n/10.95 Horn, Laurence Robert. 1993.  Economy and Redundancy
  in a Dualistic Model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--896
+Underfull \hbox (badness 10000) in paragraph at lines 906--911
 \TU/Cambria(0)/m/n/10.95 of Natural Language.  \TU/Cambria(0)/m/it/10.95 Yearbo
 ok of the Linguistic Association of Finland \TU/Cambria(0)/m/n/10.95 6.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--896
+Underfull \hbox (badness 10000) in paragraph at lines 906--911
 \TU/Cambria(0)/m/n/10.95 33–72.  [][]$[][][][][] [] [] [] [][][][] [] [][][][] 
 [] [][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][] [] [][][]
 [] []
  []
 
+[201]
 Missing character: There is no ⟨ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
 Missing character: There is no ⟩ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
-[197] [198] [199] [200] [201]
-Underfull \hbox (badness 10000) in paragraph at lines 1335--1341
+ [202] [203] [204] [205]
+Underfull \hbox (badness 10000) in paragraph at lines 1350--1356
 [][] [] [][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 1374--1381
+Underfull \hbox (badness 1902) in paragraph at lines 1389--1396
 []\TU/Cambria(0)/m/n/10.95 Morphy, Frances. 1977.  Language And Moiety: Sociole
 ctal Variation in a Yu:lngu
  []
 
-
-Underfull \hbox (badness 1590) in paragraph at lines 1389--1394
+[206]
+Underfull \hbox (badness 1590) in paragraph at lines 1404--1409
 \TU/Cambria(0)/m/n/10.95 Consistency in Branching Theories.  \TU/Cambria(0)/m/i
 t/10.95 Erkenntnis \TU/Cambria(0)/m/n/10.95 79(S3). 343–364.  doi:$[][] [] [][]
 [][] []
  []
 
-[202]
-Underfull \hbox (badness 1043) in paragraph at lines 1513--1518
+[207]
+Underfull \hbox (badness 1043) in paragraph at lines 1528--1533
 []\TU/Cambria(0)/m/n/10.95 Ploug, Thomas & Peter Øhrstrøm. 2012.  Branching tim
 e, indeterminism and tense
  []
 
-[203]
-Underfull \hbox (badness 1406) in paragraph at lines 1542--1546
+
+Underfull \hbox (badness 1406) in paragraph at lines 1557--1561
 []\TU/Cambria(0)/m/n/10.95 Portner, Paul. 2018.  \TU/Cambria(0)/m/it/10.95 Mood
 \TU/Cambria(0)/m/n/10.95 .  Oxford: Oxford University Press.  doi:$[][] [] [][]
 [][] [] [][][] []
  []
 
-[204] [205] [206]
-Underfull \hbox (badness 1831) in paragraph at lines 1809--1813
+[208] [209] [210]
+Underfull \hbox (badness 1831) in paragraph at lines 1824--1828
 []\TU/Cambria(0)/m/n/10.95 Stalnaker, Robert C. 1968.  A Theory of Conditionals
 .  \TU/Cambria(0)/m/it/10.95 Ifs \TU/Cambria(0)/m/n/10.95 41–55.  doi:$[][] [] 
 [][][][] []
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 1843--1847
+Underfull \hbox (badness 1424) in paragraph at lines 1858--1862
 []\TU/Cambria(0)/m/n/10.95 Starr, William B. 2011.  Conditionals and questions.
   [][]$[][][][] [] [] [] [][][][][][][][][][][][] [] [][][] []
  []
 
-
-Underfull \hbox (badness 3503) in paragraph at lines 1896--1902
+[211]
+Underfull \hbox (badness 3503) in paragraph at lines 1911--1917
 \TU/Cambria(0)/m/n/10.95 tures.  \TU/Cambria(0)/m/it/10.95 Linguistics \TU/Camb
 ria(0)/m/n/10.95 21(6). 849–878.  doi:$[][] [] [][][][] [] [][][][] [] [][][][]
  [] [][] [] [] [] [][][]$.  [][]$[][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1896--1902
+Underfull \hbox (badness 10000) in paragraph at lines 1911--1917
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [] [] [][][][] [] [
 ][][][] [] [][] [] [][][][][][][][] [] [][][][] [] [][][][] [] [][] [] [] [] []
 [][] []
  []
 
-[207] [208] [209]
-Underfull \hbox (badness 1270) in paragraph at lines 2114--2118
+[212]
+Underfull \hbox (badness 1043) in paragraph at lines 1975--1982
+[][][][] [] [][][][][][]$\TU/Cambria(0)/m/n/10.95 .  [][]$[][][][][][][][][][][
+][][] [] [] [] [][] [] [][] [] [][][] [] [][][] [] [][][][][][] [] [][][][][][]
+[] [] [] [] [][][] [] [][][][][] []
+ []
+
+[213]
+Underfull \hbox (badness 1270) in paragraph at lines 2137--2141
 []\TU/Cambria(0)/m/n/10.95 Winans, Lauren Danae. 2016.  \TU/Cambria(0)/m/it/10.
 95 Inferences of will\TU/Cambria(0)/m/n/10.95 : UCLA Phd dissertation.  [][]$[]
 [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2114--2118
+Underfull \hbox (badness 10000) in paragraph at lines 2137--2141
 [] [] [][][][][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][][][
 ][][][][][][][][][][] [] [] [] [][][][][][][][][][][][] [] [][][] [] [][] []
  []
 
-)
+[214])
 
 Package natbib Warning: There were undefined citations.
 
@@ -4629,7 +4677,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[210]
+[215]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1728.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1728.
  (./diss.aux)
@@ -4637,7 +4685,7 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1728.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1728.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 5079542ADDE4AB1EBC3358A3833E7FC9.
+(rerunfilecheck)             Checksum: D2BD910E5643DFAE41D963F68001C321.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4647,7 +4695,7 @@ LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1728.
  )
-(\end occurred when \ifx on line 1643 was incomplete)
+(\end occurred when \ifx on line 1645 was incomplete)
 (\end occurred when \ifx on line 261 was incomplete)
 (\end occurred when \ifx on line 2095 was incomplete)
 (\end occurred when \ifx on line 1725 was incomplete)
@@ -4664,12 +4712,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1728.
 (\end occurred when \ifx on line 968 was incomplete)
 (\end occurred when \ifx on line 615 was incomplete) 
 Here is how much of TeX's memory you used:
- 56457 strings out of 492970
- 1063118 string characters out of 6133938
- 1259332 words of memory out of 5000000
- 59422 multiletter control sequences out of 15000+600000
+ 56761 strings out of 492970
+ 1070845 string characters out of 6133938
+ 1260109 words of memory out of 5000000
+ 59726 multiletter control sequences out of 15000+600000
  563309 words of font info for 257 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,24n,92p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,24n,92p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on diss.pdf (215 pages).
+Output written on diss.pdf (220 pages).

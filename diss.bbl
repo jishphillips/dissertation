@@ -1,4 +1,4 @@
-\begin{thebibliography}{349}
+\begin{thebibliography}{352}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -303,7 +303,7 @@ Cole, Peter. 1975.
 \bibitem[{Comrie(1976)}]{Comrie1976}
 Comrie, Bernard. 1976.
 \newblock \emph{{Aspect}}.
-\newblock Cambridge: Cambridge University Press.
+\newblock Cambridge: Cambrdige University Press.
 
 \bibitem[{Comrie(1983)}]{Comrie1983}
 Comrie, Bernard. 1983.
@@ -335,6 +335,8 @@ Condoravdi, Cleo \& Ashwini Deo. 2015.
 \newblock In Chiara Gianollo, Agnes J{\"{a}}ger \& Doris Penka (eds.),
   \emph{Language change at the syntax-semantics interface}, 261--92. Berlin:
   Mouton de Gruyter.
+\newblock
+  \urlprefix\url{https://ebookcentral-proquest-com.yale.idm.oclc.org/lib/yale-ebooks/reader.action?docID=1642766{\&}ppg=269}.
 
 \bibitem[{Copeland(2002)}]{Copeland2002}
 Copeland, B~Jack. 2002.
@@ -454,7 +456,7 @@ Deo, Ashwini. 2015{\natexlab{a}}.
 Deo, Ashwini. 2015{\natexlab{b}}.
 \newblock {The semantic and pragmatic underpinnings of grammaticalization
   paths: The progressive to imperfective shift}.
-\newblock \emph{Semantics and Pragmatics} 8(14). 1--52.
+\newblock \emph{Semantics and Pragmatics} 8. 1--52.
 
 \bibitem[{Dickson(2015)}]{Dickson2015}
 Dickson, Greg. 2015.
@@ -527,7 +529,8 @@ Eather, Bronwyn. 2011.
 Eckardt, Regine. 2006.
 \newblock \emph{{Meaning Change in Grammaticalization: An enquiry into semantic
   reanalysis}}.
-\newblock Oxford: OUP.
+\newblock Oxford: Oxford University Press.
+\newblock \doi{10.1093/acprof:oso/9780199262601.001.0001}.
 
 \bibitem[{Eckardt(2009)}]{Eckardt2009}
 Eckardt, Regine. 2009.
@@ -664,6 +667,18 @@ Geurts, Bart, David Beaver \& Emar Maier. 2016.
 \newblock {Discourse Representation Theory}.
 \newblock
   \urlprefix\url{https://plato.stanford.edu/archives/spr2016/entries/discourse-representation-theory}.
+
+\bibitem[{Giannakidou(1995)}]{Giannakidou1995}
+Giannakidou, Anastasia. 1995.
+\newblock {Subjunctive, Habituality and Negative Polarity Items}.
+\newblock \emph{Semantics and Linguistic Theory} 5. 94.
+\newblock \doi{10.3765/salt.v5i0.2703}.
+
+\bibitem[{Giannakidou(1998)}]{Giannakidou1998}
+Giannakidou, Anastasia. 1998.
+\newblock \emph{{Polarity sensitivity as (non)veridical dependency}}.
+\newblock Amsterdam: John Benjamins.
+\newblock \doi{10.1353/lan.2000.0071}.
 
 \bibitem[{Giannakidou(2011)}]{Giannakidou2011}
 Giannakidou, Anastasia. 2011.
@@ -1958,11 +1973,12 @@ Traugott, Elizabeth~Closs. 1980.
 
 \bibitem[{Traugott(1989)}]{Traugott1989}
 Traugott, Elizabeth~Closs. 1989.
-\newblock {On the Rise of Epistemic Meanings in English: An example of
-  subjectification in semantic change}.
+\newblock {On the Rise of Epistemic Meanings in English: An Example of
+  Subjectification in Semantic Change}.
 \newblock \emph{Language} 65(1). 31--55.
 \newblock \doi{10.2307/414841}.
-\newblock \urlprefix\url{http://www.jstor.org/stable/414841}.
+\newblock \urlprefix\url{internal-pdf://57.13.130.106/414841.pdf
+  http://www.jstor.org/stable/414841}.
 
 \bibitem[{Traugott(1995)}]{Traugott1995}
 Traugott, Elizabeth~Closs. 1995.
@@ -1996,10 +2012,11 @@ Traugott, Elizabeth~Closs \& R~B Dasher. 2002.
 \newblock \emph{{Regularity in Semantic Change}}.
 \newblock Cambridge, UK: Cambridge University Press.
 
-\bibitem[{Traugott \& Heine(1991)}]{Traugott1991}
-Traugott, Elizabeth~Closs \& Bernd Heine. 1991.
-\newblock \emph{{Approaches to Grammaticalization}}.
-\newblock Amsterdam; Philadelphia: John Benjamins.
+\bibitem[{Traugott \& K{\"{o}}nig(1991)}]{Traugott1991}
+Traugott, Elizabeth~Closs \& Ekkehard K{\"{o}}nig. 1991.
+\newblock {The semantics-pragmatics of grammaticalization revisited}.
+\newblock In Elizabeth~Closs Traugott \& Bernd Heine (eds.), \emph{Approaches
+  to grammaticalization}, vol. 1 189--211. Amsterdam: John Benjamins.
 
 \bibitem[{Troy(1994)}]{Troy1994}
 Troy, Jakelin. 1994.
@@ -2109,6 +2126,12 @@ Williamson, Timothy. 1996.
 \newblock {Knowing and asserting}.
 \newblock \emph{Philosophical Review} 105(4). 489--523.
 \newblock \doi{10.2307/2998423}.
+
+\bibitem[{Wiltschko(2016)}]{Wilt2016}
+Wiltschko, Martina. 2016.
+\newblock {The essence of a category: Lessons from the subjunctive}.
+\newblock In \emph{Mood, aspect, modality revisited}, Chicago.
+\newblock \doi{10.7208/chicago/9780226363660.001.0001}.
 
 \bibitem[{Winans(2016)}]{Winans2016}
 Winans, Lauren~Danae. 2016.

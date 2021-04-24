@@ -1608,14 +1608,16 @@ Here, \gls{I} is taken simply to realise an \textsc{instantiation} relation betw
 
 (\ref{denoteI}) notably makes no restrictions on the nature of the relation between $ i' $ (the instantiation index) and utterance time $ i* $. This is motivated by the data shown above, where \gls{I} is felicitous with \textsc{past, present} and \textsc{future} reference (modulo a number of distributional restrictions to be discussed below.)
 
+\definecolor{shadecolor}{cmyk}{.08,0,.1,.01}
+\begin{shaded}
 \pex\textbf{A general denotation for the \textsc{first} inflection}
 \label{denoteI}
 
-$ \denote[c]{~\gls{I}~}=\lambda i\mathbin:i $
+$ \denote[c]{~\gls{I}~}=\lambda i\mathbin.i $
 \xe
 
 %\mcom{where is $ i $ going to be represented in the obj lang?}
-
+\end{shaded}
 
 A derivation for a transitive \gls{I}-sentence is given in (\nextx). This sentence is incompatible with present reference given the constraints described in the previous section: namely that \textit{nhäma} `see' denotes an property of events. Seeing as eventive properties (and perfective event descriptions) are inherently bounded, they are incompatible with (inherently non-bounded) present reference (this fact shown in  \ref{sec:djr-prs}). Future reference is also ruled out for pragmatic reasons to be discussed in the following chapters.
 The event time can be further constrained by past-denoting TFAs (\textit{e.g.}, \textit{barpuru} `yesterday.')
@@ -1714,6 +1716,8 @@ Strong judgments of infelicity for \gls{III} with a class of temporal frame adve
 
 Adapting \citeauthor{Condoravdi2014}'s \textsc{NfInst}, and armed with two pairs of possible reference~frame/final-subinterval, we can then define a \textsc{precontemporary instantiation} relation which --- \textit{cf.} the entry for \gls{I} in (\ref{denoteI}) --- holds between a property of indices and a reference index in order to propose a lexical entry for \gls{III}. This is presented in (\ref{denoteIII}) along with a proposal for the semantic contribution of \gls{III}. The division of the (nonfuture) temporal domain between \gls{I} and \gls{III} is schematised in Figure \ref{NFI}.
 
+\definecolor{shadecolor}{cmyk}{.1,.08,0,.01}
+\begin{shaded}
 \pex\textbf{\gls{III} as encoding precontemporary instantiation}\label{denoteIII}
 
 \a\textbf{Precontemporary instantiation}
@@ -1727,13 +1731,13 @@ Given a fixed utterance context ($ c $), \textsc{Precontemporary instantiation} 
 \a \textbf{A denotation for the \textsc{third} inflection}
 
 %$\denote[c]{\gls{III}}=\lambda P\lambda i\mathbin{.}\exists i' \textsc{precontemp}_i(P,i')$\\
-$\denote[c]{\gls{III}}=\lambda i\mathbin{:}\textsc{precontemp}_c(i).i$
+$\denote[c]{\gls{III}}=\lambda i\mathbin{:}\textsc{precontemp}_c(i)\mathbin.i$
 %todo come back to this too of course
 %As shown above the semantic contribution of \gls{III} is taken to situate the runtime of an event in a non-final interval of $ i_c $.
 
 \xe
 
-
+\end{shaded}
 
 
 
@@ -2574,13 +2578,13 @@ Conversely, the concept of \textsc{reality status} and the \textit{realis/irreal
 On the basis of cross-linguistic data, \citet[138\textit{ff}]{Cristofaro2012} argues that there languages crucially tend to draw a distinction between `as-yet unrealized' and `non-realized (in the past)' -- \textit{i.e.}, these domains are grammaticalized separately. She deploys this observation to argue against an empirical basis for a unified \textsc{irrealis} category --- suggesting that the ``multifunctionality'' for a given form ought to be attributable to ``contextual inference'' or ``generalization'' rather than furnishing evidence of the semantic import a dichotomous reality status category.\footnote{Further, \citeauthor{Cristofaro2012} explicitly takes issue with what she has identified as an inference that linguists have made where the notion of irreality ``plays some role in [the use of irrealis-denoting forms]'' \citeyearpar[132]{Cristofaro2012}, which she attributes to a broader methodological issue in the discipline --- \textit{viz.} that description of observed grammatical patterns should be kept distinct from the formulation of explanatory generalizations about these patterns, including generalizations about particular grammatical categories'' \citeyearpar[145]{Cristofaro2012}.}  In an analytic decision perhaps emblematic of this difficulty, \citet[467]{Portner2012} appeal to a necessity to ``invoke  grammaticalization'' in their analysis of subjunctive-selecting predicates in Romance --- suggesting that in at least some cases (\textit{sc.} for some predicates) the \textsc{indicative/subjunctive} distinction is semantically inert.
 	
 	
-\subsection{Verbal mood}
+\subsection{Verbal mood}\label{sec:mood-lit}
 
 Despite the apparent definitional difficulties with \textsc{reality status}, the co-occurrence constraints between the ``irrealis-aligned inflections'' \gls{II} and \gls{IV} and modal expressions described above (\textit{e.g.}, \textit{dhu }and\textit{ balaŋ(u)}) suggest a semantic treatment of these inflections that aligns with current analyses of verbal mood. In investigating verbal mood, semanticist have primarily investigated  the ``subjunctive'' paradigms of various European languages; where subjunctivity is taken to be ``obligatory and redundant'' : that is, dependent on a range of irrealis-aligned (modal) operators, predominantly propositional attitudes \citep{Palmer2001}.\footnote{\citet[238]{Chung} explicitly suggest an equivalence between \textsc{realis} and the \textsc{indicative}. See also \citealt{Matthewson2010} on the St̓át̓imcets (\gls{lil} Salish: British Columbia) ``subjunctive'' and for a discussion (following \citealt{Palmer2001}) of a proposed distinction between \textsc{subjunctive} and \textsc{irrealis} as grammatical categories.
 	
 	In large part, authors seem to treat the distinction as stemming from the fact that \textsc{subjunctive} morphology is often restricted to syntactically subordinate clauses (i.e. the complement of particular verbal predicates) --- likely in addition to established descriptive traditions for European languages (\citealp[see also][169\textit{ff}]{Mauri2016}, \textit{cf. }\citet[13, fn 9]{Matthewson2010} who takes issue with this criterion.)\label{SJVvIRR}}
 
-\citet[§ 2.2]{Portner2018a} identifies two broad sets of intuitions about the semantics of verbal mood (predominantly on the basis of the \textsc{indicative-subjunctive} contrast in a number of European languages) which have driven analytic work. These analyses hinge on either semantics of \textbf{comparison} versus \textbf{truth in a designated set of worlds}. Comparison-based approaches claim that, iff a given predicate involves a non-empty ordering source (\textit{i.e.}, involves comparison \& relative rankings of possible worlds), it will select for a subjunctive complement. Truth-based approaches generally claim that the function  of the \textsc{indicative} is to assert the truth of a given clause in some set of worlds --- in effect, the \textit{realis} domain.\footnote{\citet{Portner2018a} takes comparison-based analyses to be exemplified in \citealt{Portner2012,Anand2013,Giorgi1997,Villalta2008} and truth-based analyses to include \citealt{Giannakidou2011,Farkas1992,Farkas2003,Huntley1984,Quer2001,Portner1997}. Although as noted here, for him the ``current state of the art in mood semantics'' appears to unite/``treat as correct'' both of these observations.} On the basis of this generalisation, \citeauthor{Gian2016} (\textit{e.g.}, \citeyear{Gian2016}; \citealp{Giannakidou2020} \textit{i.a.}) takes the subjunctive to indicate ``nonveridicality'' with respect to a proposition --- that is, it indicates that there exists at least one world in a given set of worlds (a modal base, \textit{M}) in which that proposition is not true (\getref{G-nonverid}).
+\citet[§ 2.2]{Portner2018a} identifies two broad sets of intuitions about the semantics of verbal mood (predominantly on the basis of the \textsc{indicative-subjunctive} contrast in a number of European languages) which have driven analytic work. These analyses hinge on either semantics of \textbf{comparison} versus \textbf{truth in a designated set of worlds}. Comparison-based approaches claim that, iff a given predicate involves a non-empty ordering source (\textit{i.e.}, involves comparison \& relative rankings of possible worlds), it will select for a subjunctive complement. Truth-based approaches generally claim that the function  of the \textsc{indicative} is to assert the truth of a given clause in some set of worlds --- in effect, the \textit{realis} domain.\footnote{\citet{Portner2018a} takes comparison-based analyses to be exemplified in \citealt{Portner2012,Anand2013,Giorgi1997,Villalta2008} and truth-based analyses to include \citealt{Giannakidou2011,Farkas1992,Farkas2003,Huntley1984,Quer2001,Portner1997}. Although as noted here, for him the ``current state of the art in mood semantics'' appears to unite/``treat as correct'' both of these observations.} On the basis of this generalisation, \citeauthor{Gian2016} (\textit{e.g.}, \citeyear{Gian2016}; \citealp{Giannakidou2020} \textit{i.a.}) takes the subjunctive to indicate ``nonveridicality'' with respect to a proposition --- that is, it indicates that there exists at least one world in a given set of worlds (a modal base, \textit{M}) in which that proposition is not true (\getref{G-nonverid}).\footnote{Although \citep[\textit{cf.}]{Wilt2016}.}
 
 \pex \deftagex{G-nonverid}$ \mathit{M} $ is \textbf{nonveridical} w/r/t $ p $ iff\\
 $ \exists w' [w'\in\mathit{M}\wedge w'\in\neg p]$\trailingcitation{\citep[see][190]{Gian2016}}
@@ -2617,15 +2621,18 @@ The discussion above draws on the literature on \textsc{verbal mood}, an enterpr
 \xe
 
 
-Crucially, the (irrealis) semantics of an embedding predicate \textit{does not} license the \textsc{irrealis} categories in \gls{wd}. Attitude predicates with canonically subjunctive-licensing semantics like `want' (\textit{djalthirr(i)}) do not in themselves license an \gls{irr}-aligned inflection (whereas the presence of a modal particle \textit{dhu/balaŋ} in the same clause does.)
+Crucially, the (irrealis) semantics of an embedding predicate \textit{does not} license the \textsc{irrealis} categories in \gls{wd}. Attitude predicates with canonically subjunctive-licensing semantics like `want' (\textit{djal(thirr(i))}) do not in themselves license an \gls{irr}-aligned inflection (whereas the presence of a modal particle \textit{dhu/balaŋ} in the same clause does.)
 
 \pex \textbf{Desiderative embedding predicate doesn't license mood shift in \gls{wd}}
 \a\begingl\gla walal ga \ul{djälthi-rr}~\textup{[} walala-ny dhu \textbf{gäma} hunting-lil wämut-thu\textup{~]}//
 \glb 3p \gls{ipfv}.\I{} want-\I{} 3p-\gls{prom} \gls{fut} take.\I{} \textit{hunting}-\gls{all} \gls{malk}-\gls{erg}//
 \glft`They want that Wämut take them hunting.'\trailingcitation{(\citeauthor{Wilkinson}~\textit{ms.}:23)}//\endgl
-\a\begingl\gla ŋuriki waṯu-w ŋarra ga \ul{djälthi-rr}~\textup{[} ŋayi dhu ḏarrkthu-\textbf{n} nhuna-ny\textup{~]}//
-\glb \gls{texd}.\gls{dat} dog-\gls{dat} 1s \gls{ipfv}.\I{} want.\I{} 3s \gls{fut} bite-\I{} 2s.\gls{acc}.\gls{prom}//
-\glft`I want of that dog that it bite you.'\trailingcitation{(\citeauthor{Wilkinson}~\textit{ms.}:23)}//\endgl%todo \marginnote{a-b actually don't demonstrate this because they're embedding dhu-sentences anyway (which is in itself notable given the future orient of want predicates x-linguistically)}
+%\a\begingl\gla ŋuriki waṯu-w ŋarra ga \ul{djälthi-rr}~\textup{[} ŋayi dhu ḏarrkthu-\textbf{n} nhuna-ny\textup{~]}//
+%\glb \gls{texd}.\gls{dat} dog-\gls{dat} 1s \gls{ipfv}.\I{} want.\I{} 3s \gls{fut} bite-\I{} 2s.\gls{acc}.\gls{prom}//
+%\glft`I want of that dog that it bite you.'\trailingcitation{(\citeauthor{Wilkinson}~\textit{ms.}:23)}//\endgl%todo \marginnote{a-b actually don't demonstrate this because they're embedding dhu-sentences anyway (which is in itself notable given the future orient of want predicates x-linguistically)}
+\a\begingl\gla ŋurik ŋarra \ul{djäl} guya-w \textup{[}~ŋunhi~\textup{[} (ŋayi)  ḏarrkthu-\textbf{rr} wämut-nha\textup{~]]}//
+\glb \gls{texd}.\gls{dat} 1s want fish-\gls{dat} \gls{texd} (3s) bite-\gls{III} \gls{malk}-\gls{acc}//
+\glft`I want (am desirous) of that fish that (it) bit Wämut.'\trailingcitation{(\citeauthor{Wilkinson}~\textit{ms.}:22)}//\endgl
 %\a\begingl\glpreamble From Djr bible Mäk 6:19.//
 %\gla Bala ŋayiny ŋunhi miyalktja ŋoy-dhärra-na-n nhanŋu Djon-gu-ny, ga \ul{djäl-thi-na}-ny ŋayi \textbf{gan} bunharawnha nhanŋu murrkay'kunharawnha yan, yurr bäyŋu.//
 %\glb \gls{mvtawy} 3s.\gls{prom} \gls{texd} woman.\gls{prom} soul-stand-\gls{III}-\gls{seq} 3s.\gls{dat} John-\gls{dat}-\gls{prom} and want-\gls{inch}-\gls{III}-\gls{prom} 3s \gls{ipfv}.\gls{III} kill-\IV-\gls{dat}-\gls{seq} 3s.\gls{dat} hard-\gls{caus}.\IV.\gls{dat}.\gls{seq} \gls{emph} but \gls{negq}//
@@ -2650,6 +2657,17 @@ Similarly, the \textsc{irrealis} categories don't appear to be licensed by other
 
 % Ga ŋayiny Betaynydja guyaŋan yanbi ŋunhiyi mäwan', nhä mak wuŋuḻi' ŋayi gan nhäŋal. 
 
+\iffalse %todo maybe a point to resurrect but doesn't fit so good right now
+This being said, as a general strategy, \gls{wd} speakers appear to avoid these embedding constructions: modal flavour generally being provided by context as a pragmatically-retrieved conversational background (compare the Bible translation in \nextx.)
+
+\ex\begingl\gla “Ŋuli dhu ga ŋula yolthu yolŋuy ŋayatham baṯpitjandja djarrpiny' yan rom, ŋayiny dhu ŋunhiyiny yolŋu dhiŋganhaman yan.''//
+\glb \gls{hyp} \gls{fut} \gls{ipfv}.\gls{I} \gls{indef} who.\gls{erg} person.\gls{erg} hold.\gls{I} hold.firmly.\gls{I}.\gls{prom} crooked.\gls{prom} only law 3s.\gls{prom} \gls{fut} \gls{texd}.\gls{ana}.\gls{prom} person die.\gls{IV}.\gls{caus}.\gls{I} only//
+\glft \textsc{free translation.}~`If any person adheres to wicked ways, that person ought to be killed.'\\
+\textsc{}//
+\endgl
+\xe\fi
+
+
 
 Given that the mood-shift in \gls{wd} inflections appears to be triggered within the clause by root modals (to the exclusion of subordinating attitude predicates), diverging from the canonical distribution of subjunctive morphology in European languages, we have reason \citep[following][]{Palmer2001} to treat the mood category inflected on WD verbs as \textsc{irrealis}.
 
@@ -2657,16 +2675,268 @@ Given that the mood-shift in \gls{wd} inflections appears to be triggered within
 
 
 
-The \gls{wd} (root) modal expressions described in \S~\ref{sec:modals} above (\textit{e.g.}, \textit{dhu} and \textit{balaŋu}) both:
+The \gls{wd} (root) modal expressions described in \S~\ref{sec:modals} above (\textit{e.g.}, \textit{dhu} and \textit{balaŋu}) both have the following properties:
 \begin{enumerate}[\bf\sf i]
-	\item  Take a predicate $ \mathit P $ in their scope 
-	\item  Retrieve a ``restriction'' from context (the modal base --- a subset of the metaphysically possible branching futures relative to the evaluation index $ i $) 
-	\item Assert that $ \mathit P $ holds at a successor index to the $ i $.
+	\item  They take a predicate $ \mathit P $ in their scope, 
+	\item  They retrieve a ``restriction'' from context (the modal base --- a subset of the metaphysically possible branching futures relative to the evaluation index $ i $),
+	\item They assert that $ \mathit P $ holds at a successor index to the $ i $.
 
 \end{enumerate} That is, clauses that contain (at least) one of these modal particles represent quantificational propositions over a \textbf{subset} of metaphysical alternatives to an evaluation index.
 
- The \textit{Branching Times} model introduced in \S~\ref{LitRev} models the ``right-branching'' property of metaphysical possibility. That is, for any given index, there is a settled past and an unsettled future. Shown above, the 
+ The \textit{Branching Times} models as introduced in \S~\ref{LitRev} capture the ``right-branching'' property of metaphysical possibility. That is, for any given index, there is a settled past (a single branch) and an unsettled future (multiple metaphysical alternatives.) 
+ 
+ Property \textsf{iii} of the modals described above requires that the contribution of \textit{dhu} and \textit{balaŋu} includes the forward displacement of the \textit{P} relative to $ i $. It follows from this that the modals quantify over (nonsingular) sets of branches.
 
+ 
+ Further, per property \textsf{ii}, \textit{dhu} and \textit{balaŋ} both quantify into \textbf{subsets} of those branching futures (metaphysical modal bases.) They assert instantiation of \textit{P} in all/some of the branches in those subsets (for example, in the case of a deontic reading, those that best conform with the law at determined by $ i* $ [the utterance index] ---$ \{i'\mid i'\in \underset{\textit{deontic}}{\textsc{best}}\big(\underset{\textsc{circ}}{\cap m(i*)\big)}\} $.) 
+
+
+\begin{figure}[h]\caption{Given an index $ i $, modal particles quantify into a subset of its metaphysical alternative branching futures $ \cap\approx_i $. The subset is determined by conversational backgrounds $ m,o $ --- depicted here in {\color{ochre}\textbf{ochre}}. \textit{balaŋ} `\gls{irr}' (\textit{dhu} `\gls{fut}') claim that there is some (all) successor index/indices to $ i $ along one of the ochre-shaded branches at which the prejacent (\textit{P}) holds.}\label{nonverid}
+\centering
+\begin{tikzpicture}[scale=4,every node/.style={scale=3}]
+	\begin{scope}[grow cyclic,      every node/.style={fill={purple},nearly transparent,circle,inner sep=.5pt,scale=3},
+		level 1/.style={level distance=7mm,sibling angle=40},
+		level 2/.style={level distance=8mm,sibling angle=50},
+		level 3/.style={level distance=5mm,sibling angle=35},
+		level 4/.style={level distance=4mm,sibling angle=10}]
+		\coordinate [rotate=-90] % going down
+		child foreach \x in {1}
+		{child foreach \x in {1,2}
+			{child foreach \x in {1,2,4}
+				{child foreach \x in {1,2,3,4,5}}}};
+		\filldraw[nearly transparent,gray!50](1.5,0)    ellipse [x radius=1.5cm,y radius=1.25cm];
+		\draw(.5,-.5) node {$\scriptstyle{\cap\approx_i}$} ;
+	  \fill[nearly transparent,gray!80,rounded corners=20](1.75,1.2) -- (0,0) -- (2.5,0) -- (2.5,.9) -- (2.05,1.15) -- (1.75,1.2) ; 
+		\draw(.95,.45) node {$\scriptstyle{m}$} ;
+		\filldraw[nearly transparent,ochre,rounded corners=20](1.75,.42) -- (0,0) -- (2.5,0) -- (2.5,.5) -- (1.75,.42) ; 
+		\draw(1.495,.145) node[ellipse] {$\scriptscriptstyle{\textsc{best}_o}$} ;
+		%\draw[help lines,step=.5] (0,0) grid (3,2);
+	\end{scope}
+	\draw (.15,.1) node {$\scriptscriptstyle{i}$};
+\end{tikzpicture}\end{figure}
+
+
+On this analysis, clauses with modal particles --- both \textit{dhu} and \textit{balaŋ} --- make a claim about a \textbf{proper subset} of the metaphysical alternatives to $ i $. Consequently, these clauses are compatible with (and indeed \textbf{implicate}) that this claim (\textit{viz.} that their prejacent holds at some posterior index) is \textbf{false} at some of $ i $'s metaphysical alternatives.
+
+This ``upper-bounding implicatum --- namely that if \textsf{S} asserts \textit{P} of the subset, then it was not assertable at the superset (because otherwise \textsf{S} would have done so) --- follows naturally from basic Gricean principles (\citealp[see][]{Horn1984} a.o.)
+
+\subsection{A nonveridical semantics for \textsc{irrealis}}
+
+In \S~\ref{sec:mood-lit} above, following \citeauthor{Giannakidou1995} (\citeyear{Giannakidou1995,Giannakidou1998} \textit{et seq.}) we introduced a definition (\getref{G-nonverid}) for \textbf{nonveridicality} as a relation that holds between a modal base (a set of branches) and a proposition. Additionally, following (\citealt*{Condoravdi2002,Kaufmann2005,Kaufmann2006} a.o.), in \S\ref{LitRev} and Part \ref{bambai}, the related notions of \textit{settledness} and the \textit{presumption of settledness} --- ways of understanding the asymmetry of past and future --- were introduced.
+
+In view of these relations, in (\nextx) I propose a definition of the notional category of \textsc{irrealis} (at least as far as it relates to apparent \textsc{wd} conceptions\slash{}grammaticalisations.)
+
+
+\ex \textbf{A relation between an evaluation index and a predicate: The contribution of \gls{irr}\textsc{ealis} mood as nonveridicality}
+
+
+$$ \textbf{\gls{irr}}\overset{\text{df}}{=} \exists i'[i'\in\cap\approx_i\wedge \neg P(i')] $$
+
+A relation between an evaluation index $ i $ and a predicate \textit{P}, \textsc{irr} is satisfied if there exists some $ i' $ along one of $ i $'s metaphysical alternatives at which \textit{P} doesn't hold.
+
+\xe
+
+
+Crucially, as described above, \textit{dhu} and \textit{balaŋ}, both of which make a claim about a proper subset of $ \cap\approx_i $ are therefore both compatible with (and indeed implicate) that there is some $ i'\in\cap\approx_i $ at which their prejacent doesn't hold.
+
+Given that \gls{II} and \gls{IV} are only felicitous in the presence of one of these modal particles, their distribution is apparently restricted to irrealis claims. On the basis of its distributional facts in addition to this definition (\lastx), a lexical entry for \gls{II} is proposed in (\ref{denoteII}), where the inflection enforces a nonveridicality presupposition on reference time with respect to \textit{P}.
+
+\definecolor{shadecolor}{cmyk}{0, .05, .15, 0}
+\begin{shaded}
+\pex\label{denoteII}\textbf{A denotation for the \textsc{secondary} inflection as encoding nonveridicality}
+
+
+$ \denote[c]{\gls{II}}=\lambda i:\exists b\in\cap\approx_i\wedge\neg P(i')\mathbin.i$
+
+\gls{II} enforces a presupposition on the evaluation index, whose metaphysical alternatives must be nonveridical with respect to \textit{P}.
+\xe
+\end{shaded}
+
+
+
+
+\subsection{The negators: \textit{yaka} \& \textit{bäyŋu}}
+
+In light of the proposal introduced above, we model clausal negators \textit{bäyŋu} and \textit{yaka} as scoping under inflection. Stated above, the ``irrealis'' categories, \gls{II} and \gls{IV} presuppose that the instantiation of some event is \textit{unsettled} --- that is, the metaphysical alternatives to the evaluation index $ i $ are \textbf{nonveridical} with respect to \textsc{infl}'s prejacent. 
+%These can all stack on top of each other (though \textit{balaŋ yaka dhu} sounds like the best order, though i'm all but certain that this is fungible, probably need to consider how negation and the future will interact.
+
+Given the distributional similarities between (root) modals and \textit{yaka/bäyŋu} in \gls{wd} (in addition to the independent support for such a treatment outlined in Part \ref{NEC}) to propose a semantics that unifies \gls{wd} \textsc{negative} and \textsc{modal} expressions (\textit{sc.} a class of \textbf{nonveridical operators}.)
+
+
+Recalling the discussion in Part \ref{NEC}, this style of analysis highlights the similar effects of negative and modal operators, construing of all nonveridical operators as quantifiers over metaphysical alternatives. 
+
+\textit{Bäyŋu P} asserts that no metaphysical alternative to $ i $ is such that $ P$ is instantiated at $ i $.)\footnote{Note that this diverges from \citet{Krifka2015,Krifka2016} where Daakie's \textsc{realis negation} and \textsc{potentialis negation} (\textit{ne} and \textit{\textit{(te)re}}) are both treated as ``modalit[ies] in [their] own right[s].''} This is shown in (\nextx)
+
+\pex \textbf{A lexical entry for \textsc{wd} negation}
+
+$ \denote[c]{\textit{bäyŋu}} = \lambda P_{\langle s,t\rangle}\lambda i. \nexists i'[i'\in\cap\approx_i\wedge P(i')] $
+\xe
+
+The entry for \gls{neg} given in (\lastx) aligns with those for the other modals both in terms of • its type (that is, the shape of the lex entry) as well as • in terms of the fact that like the other modal particles, \gls{neg} indicates that the speaker/attitude holder fails to assert that $ P $ is instantiated at all metaphysical alternatives to $ i $ --- satisfying the shared presupposition of the irrealis moods \II~and \IV. 
+
+
+Shown in \S~\ref{sec:negs}, the relative distribution of \gls{II} and \gls{IV} appears to mirror the temporal ranges of \gls{I} and \gls{III} respectively. Consequently, we model \gls{IV} as containing \textsc{both} the \textsc{nonveridicality} and the \textsc{precontemporary} presuppositions (\ref{denoteIV}).
+
+\definecolor{shadecolor}{cmyk}{0.05, .1, .05, 0}
+\begin{shaded}
+\pex\textbf{A denotation for the \textsc{quarternary} inflection as enforcing both {\color{Blue}\textit{precontemporaneity}} and \textcolor{RedOrange}{\textit{irrealis}} presuppositions}\label{denoteIV}
+
+$$ \denote[c]{\gls{IV}}= \lambda i\mathbin:i\sqsubseteq\mathtt{F_c}\wedge i\prec j_{\mathtt{F}}\boldsymbol\wedge\exists i'\in\cap\approx_i\wedge\neg P(i')\mathbin.i$$
+
+\gls{IV} presupposes that the reference index $ i $ is non-final with respect to the reference frame $ \mathtt{F_c} $ \textbf{and} its metaphysical alternatives are nonveridical with respect to \textit{P}.
+
+
+\xe
+\end{shaded}
+
+
+
+\pex\textbf{\textit{bäyŋu} satisfies the \textit{irrealis} presupposition}\deftagex{negivderiv}
+
+\a$ \denote[c]{\textit{ŋarra \textsc{nhä-} mukulnha}}=\lambda i\mathbin.\exists e(\textsc{i.see.aunty}(e)\wedge\tau(e)\sqsubset i) $\deftaglabel{AspP}
+\a$ \denote[c]{\textit{bäyŋu}}(\textbf{\getref{negivderiv.AspP}})=\lambda P\lambda i\mathbin.\nexists i'[i'\in\cap\approx_i\wedge P(i')]\big(\textbf{\getref{negivderiv.AspP}}\big)$
+\a$\begin{multlined}\denote[c]{\textit{bäyŋu ŋarra \textsc{nhä-} mukulnha}}=\lambda i\mathbin.\nexists i'[i'\in\cap\approx_i\wedge\\\exists e[\textsc{i.see.aunty}(e)\wedge e\sqsubset i]]\end{multlined}$
+\deftaglabel{NegP}
+\a \textbf{\getref{negivderiv.NegP}} $\denote[c]{\gls{IV}}=\textbf{\getref{negivderiv.NegP}}\ \big(\lambda i\mathbin:\textsc{precontemp}_c(i)\wedge\exists i'\in\cap\approx_i\wedge\neg P(i')\big).i$
+
+
+\a\denote[c]{\textit{bäyŋu ŋarra nhä\textcolor{violet}{nha} mukulnha}}$\begin{multlined}=lambda i\mathbin:\textsc{precontemp}_c(i)\wedge\exists i'\in\cap\approx_i\wedge\neg P(i')\mathbin.\nexists i'[i'\in\cap\approx_i\wedge\\\exists e[\textsc{i.see.aunty}(e)\wedge e\sqsubset i]]\end{multlined}$
+
+
+\xe
+
+
+
+
+In terms of the branching times framework, then, negative operators can be interpreted as situating the reference index in the \textsc{counterfactual} domain.
+
+
+\begin{tikzpicture}
+	
+\end{tikzpicture}
+
+
+
+
+% I've tried to designate what counts as ``a relevant world'' by having a layer above inflection that contains the some of: an \textsc{assert} operator or \citealt{Kaufmann2005}-style accessibility relation/\textit{mak(u)}/a complement clause (which seems kinda of x-linguistically motivated given how people have often claimed that epistemics are higher (Hacquard \textit{et præc}))
+
+
+
+
+%ŋarra gana guyaŋana ŋunhi waṯuy balaŋu bayŋu ḻuki chocolate
+
+
+
+\iffalse
+\begin{tikzpicture}
+	\tikzset{level 1/.style={level distance=60pt,sibling distance=130pt}}
+	\tikzset{level 2/.style={level distance=60pt,sibling distance=130pt}}
+	\tikzset{level 3/.style={level distance=60pt,sibling distance=130pt}}
+	\tikzset{level 4/.style={level distance=60pt,sibling distance=130pt}}
+	\tikzset{level 5/.style={level distance=60pt,sibling distance=90pt}}
+	\tikzset{every tree node/.style={align=center}}
+	\node [font=\bfseries] (cp) {CP}
+	child[xshift=.5cm,yshift=1cm] {node (speccp) {$ \boldsymbol{i*} $} edge from parent[]}
+	child[font=\bfseries] {node (cbar) {C{$^\prime$}}
+		child[yshift=.5cm,sibling distance=145pt] {node (chead) {$\lambda i.f_c(\cap\sim_\alpha i) $}
+			child[level distance=30pt,sibling distance=65pt,font=\bfseries] {node (assert) {\textsc{assert}}}
+			child[level distance=30pt,sibling distance=65pt,font=\bfseries] {node (maku) {\textit{maku}}}}
+		child[yshift=-.5cm,text depth=3ex,font=\bfseries] {node (ip) {IP}
+			child[xshift=-1cm,font=\bfseries] {node (infl) {Infl}}
+			child[yshift=-1cm,text depth=4ex,font=\bfseries] {node (modp) {ModP$ _{\langle s,t\rangle} $}
+				child[xshift=-1cm,text depth=3ex,font=\bfseries] {node (dhu) {\textit{dhu}}}
+				child[yshift=-1cm,text depth=3ex,font=\bfseries] {node (aspp) {AspP$ _{\langle s,t \rangle} $}
+					child[text depth=3ex,font=\bfseries] {node (ipfv) {\textsc{ipfv}$_{\langle\langle\varepsilon,t\rangle,\langle s,t\rangle\rangle}$}}
+					child[text depth=3ex,font=\bfseries] {node (vp) {VP}
+	}}}}};
+	\node at ([xshift=0cm,yshift=-.5cm]assert) [text width=1.75cm] {
+		$ \lambda i.\cap\sim_\alpha i $
+	};
+	\node at ([xshift=0cm,yshift=-.5cm]maku) [text width=2cm] {
+		$ \lambda r.f_c(r) $
+	};
+	\node at ([xshift=1cm,yshift=-.2cm]ip) [text width=7cm] {
+		$ \lambda i:\exists i'\in\cap\approx_i\wedge\neg\denote{\textbf{ModP}}(i').\denote{\textbf{ModP}}(i)$
+	};
+	\node at ([xshift=0cm,yshift=-.2cm]infl) [text width=6cm] {
+		$ \lambda P\lambda i:\exists i{^\prime}[i{^\prime}\in\cap\approx_{i}\wedge\neg P(i{^\prime})\big].P(i) $
+	};
+	\node at ([xshift=0cm,yshift=-.2cm]modp) [text width=11cm] {
+		$\lambda i.\forall b\ni i[b\in\textsc{best}(\cap m(i))\to\exists i{^\prime}\in b[i{^\prime}\succeq i\wedge\exists e[\textsc{see}(e)\wedge\tau(e)\sqsupset i{^\prime}]]]$
+	};
+	\node at ([xshift=0cm,yshift=-.2cm]dhu) [text width=11cm] {
+		$ \lambda P_{\langle s,t\rangle}\lambda i_s.\forall b\ni i[b\in\textsc{best}(\cap m(i))\to\exists i{^\prime}\in b[i{^\prime}\succeq i\wedge\textsc{at}(P,i{^\prime})]] $
+	};
+	\node at ([xshift=0cm,yshift=-.2cm]aspp) [text width=4cm] {
+		$\lambda i.\exists e[\textsc{see}(e)\wedge\tau(e)\sqsupset i] $
+	};
+	\node at ([xshift=-.25cm,yshift=-.2cm]ipfv) [text width=3.75cm] {
+		$ \lambda P^\epsilon\lambda i[P(e)\wedge\tau(e)\sqsupset i] $
+	};
+	\node at ([xshift=0cm,yshift=-.2cm]vp) [text width=1.5cm] {
+		$ \lambda e.\textsc{see}(e) $
+	};
+\end{tikzpicture}
+\fi
+
+\subsubsection*{A wrinkle}
+
+While much of this analysis emphasises distributional similarities between negative operators in WD and the modal particles \textit{dhu, balaŋ(u)...} in view of assimilating the former into a ``modal operator'' class, it is also worth considering distributional differences between them, demonstrated in (\nextx) below (compare also Figs \ref{NegSchem}/\ref{BalSchem} above).\marginnote{possible intuition for neutralisation of metricality: vagueness of \textit{balaŋu} relative to \textit{bäyŋu}}
+
+\pex\begingl\glpreamble Neutralisation of temporal remoteness distinctions with \textit{balaŋ(u) `\gls{irr}'}//
+\gla barpuru ŋarra guyaŋa... balaŋ limurr bu-\textbf{nha} maypal. + Yurru bäyŋu napurru bu-\textbf{ŋu} maypal//
+\glb yesterday 1s think-\I{} \gls{irr} 1d.\gls{excl} hit.\IV{} shellfish but \gls{neg} 1p.\gls{excl} hit-\II{} shellfish//
+\glft`Yesterday I'd thought that we might collect shellfish, but we didn't collect shellfish'\trailingcitation{[AW~20190429]}//\endgl
+\xe\marginnote{Albert does seem to give the first instance \II{} marking in a rep 64'}
+
+
+The three predicates in (\lastx) --- each of which receives yesterday past temporal reference --- are each inflected differently. Note in particular that while \textit{buma} `hit, kill, collect (shellfish)' is inflected with \II{}  in a negative context, (\II{} being the ``negative counterpart'' of \I{}), it receives \IV{}-marking in a non-negative modal context (with \textit{balaŋ}). In effect, the temporal remoteness effects in the past are lost in modal contexts, but not in negative predications.
+
+
+
+\subsection{The same-day future}\label{yolngu-sdf}
+
+
+The same day future, both in positive and negative clauses receives \I-inflection --- this is the only place where the neutralisation doesn't happen.
+
+\pex Negated same-day future predications fail to license irrealis-mood shift (unlike negated present predications)\trailingcitation{[AW~20190501]}\deftagex{sdf-ex}
+\a\begingl\gla ŋarra (yaka) dhu nhä-\textbf{ma} mukulnha//
+\glb 1s (\gls{neg}) \gls{fut} see-\I{} aunt.\gls{acc}//
+\glft `I will (won't) see aunty (tonight).'//\deftaglabel{sdf}\endgl
+\a \begingl\gla (goḏarr) ŋarra (yaka) dhu nhä-\textbf{ŋu} mukulnha//
+\glb toomorrow 1s (\gls{neg}) \gls{fut} see-\II{} aunt.\gls{acc}//
+\glft `Tomorrow I will (won't) see aunty.'//\deftaglabel{fut}\endgl
+\a\begingl\gla (dhiyaŋ~bala) bäyŋu ŋarra gi nhä-\textbf{ŋu} mukulnha//
+\glb now 1s (\gls{neg}) \gls{fut} see-\II{} aunt.\gls{acc}//
+\glft `At the moment, I'm not looking at aunty.'//\deftaglabel{pres}\endgl
+\xe
+
+\pex
+\a\begingl\gla Ŋunhi ŋarra dhu bäyŋu ḻuk-\textbf{a}, ŋarra dhu rirrikthu-\textbf{n}//
+\glb \gls{hyp} 1s \gls{fut} \gls{neg} consume-\gls{I} 1s \gls{fut} sick-\gls{inch}-\gls{I}//
+\glft`If I don't drink (water) (soon), I'll get sick.'\trailingcitation{[AW~20190409]}//\deftagex{neg-fut}
+\endgl
+\a\begingl\gla yaka ŋarra dhu ḻuplupthu-\textbf{n} bili bäru ŋuli ga ḻuk-\textbf{a} yolŋu'yulŋu//
+\glb \gls{neg} 1s \gls{fut} swim-\gls{I} \gls{cplv} crocoodile \gls{hab} \gls{ipfv}.\gls{I} eat-\gls{I} people//
+\glft`I'm not going to swim; crocodiles eat people.'\trailingcitation{[AW~20190428]}//
+\endgl\xe
+
+Recent work on futurate constructions (\citealp[see e.g.,][]{Copley2009,Copley2008a} \textit{et seq.}, \citealp{Kaufmann2002,Kaufmann2005}) formalises an intuition that these constructions involve some ``presumption of settledness'' or ``certainty condition''\footnote{\citet{Kaufmann2002} cites commentary including \citet{Dowty1979,Comrie1985} among numerous others on this distinction. See also \citet[note 1]{Copley2008a}} While the WD same-day future construction is not technically a morphosyntactic futurate,\footnote{\citet[261]{Copley2008a} defines \textit{futurates} ``sentence[s] with no obvious means of future reference that nonetheless conveys that a future-oriented eventuality is planned, scheduled or otherwise determined.' Given that same-day futures in WD are obligatorily indicated with \textit{dhu}, they shouldn't be described as futurate.} analysis of these devices can shed potential insight on the (functional) motivation for this phenomenon.
+
+The surprising contrast between (\getfullref{sdf-ex.sdf}) and (\getref{sdf-ex.pres}), then, becomes less surprising when we consider that the latter eventuality is situated at a counterfactual index and consequently licenses an irrealis-aligned inflection (\II). The same-day future, in which \textit{dhu} and \I{} co-occur can in effect be understood as a \textbf{grammaticalised futurate construction}. While \textit{dhu} obligatorily advances the instantiation time of the eventuality, the unexpected occurrence of \I{} implicates the ``presumed settledness'' of its prejacent in context. Given that the instantiation and non-instantiation of a given event are, in principle, equally plannable, they are both asserted to be metaphysically ``actual.''\marginnote{this needs to be foregrounded as support for treating the nonveridicality condition on \II/\IV{} as presuppositional}
+
+Above, we have modelled irrealis mood as a presupposition of unsettledness built into the semantics for \II~and \IV. These inflections are generally obligatory in irrealis contexts (as triggered by modal (incl. negative) operators) in view of general pragmatic principles (\textit{viz.} \textsc{Maximize Presupposition.}\footnote{A operationalisation of scalar implicature (\textit{i.e.}, using a ``weaker'' alternative $ Q $-implicates that the speaker was not in a position to use its ``stronger'' counterpart,\textit{ e.g.}, \citealt{Horn1984}), \textsc{Maximize Presupposition} is a formulation of a pragmatic principle that appears to be originally due to \citet{Heim1991} and further developed by \citet{Sauerland2009,Percus2006} a.o.}) The analysis of the same-day future, then, is based on the hypothesis that the same-day future --- even if it's taken to inflect a property of future (\textsc{potential}) indices --- receives a \textsc{non-irrealis} inflection (\I{}) in view of/\textbf{Q}-implicating plannability and ``presumed settledness.'' 
+
+%The claim will be that there's some notion of \textbf{settledness} that permits for a non-irrealis inflection to show up here --- a grammaticalised futurate effectively where predications about same-day futures count as assertible (key references here are \citealp{Copley2009,Kaufmann2005}) and \citealp[180]{Dowty1979}.)
+
+%Copley's futurate is based on the idea that ``if $ p $ is \textsc{planned} then $ p $ will happen'' --- it's reasonable to think that predications about the immediate future are taken to represent plans and this gave rise to the current situation. Similarly the reality status of \textsc{plan}$ (p) $ and $ \textsc{plan}(\neg p)$ could be identical.
+
+%Conversely, things that \textbf{aren't happening now} --- which receive \II{} marking are --- for all intents and purposes -- counterfactual.
+
+%I don't expect to build in some silent \textsc{plan} operator, but rather take it to be that all times on the day of utterance are historical necessities. --- The issue with \textit{this} is that negative-present receives \gls{II} marking still. (There's gonna be some way of talking about this: a context supports predications about present-plans (including negative plans).)
+
+
+\subsection{Epistemic modality in \gls{wd}}
 \pex\a\begingl\glpreamble\textbf{\textsc{context}.} It's the middle of the schoolday, I ask Albert where \textit{yapa} is.//
 \gla bäyŋu ŋarra nhänha nanya; \textbf{mak} ŋayi ŋunha golŋurnha//
 \glb \gls{neg} 1s see.\gls{IV} 3s.\gls{acc} \gls{epist} 3s \gls{dist} school.\gls{loc}.\gls{seq}//
@@ -2678,7 +2948,7 @@ The \gls{wd} (root) modal expressions described in \S~\ref{sec:modals} above (\t
 \xe
 
 
-
+%todo “Ŋuli dhu ga ŋula yolthu yolŋuy ŋayatham baṯ-bitjandja djarrpiny' yan rom, ŋayiny dhu ŋunhiyiny yolŋu dhiŋganhaman yan.'' Romans 1:32
 
 In addition, \textit{mak(u)} `\textsc{epist, }maybe, perhaps', a commonly occurring particle that is responsible for encoding shades of epistemic modality is also completely invisible to the inflectional paradigm, similarly to the embedding predicates described above, but diverging from the class of modal particles. \citet[685]{Wilkinson1991} describes a class of ``propositional particles'' which includes \textit{mak} (as well as \textit{yanbi\slash{}yanapi} `erroneously' and \textit{warray} `indeed.') These particles each apparently serve a variety of modal function, although none \textit{per se} trigger irrealis mood marking.\footnote{According to \citet[686]{Wilkinson1991}, \textit{yanbi} ``occurs only with [\gls{II}] and [\gls{IV}]...'' whereas repeated elicitations with consultants in Ramingining failed to reproduce this. This is likely to represent a dialectal difference within \gls{wd} varieties (or otherwise a reanalysis of \textit{yanbi\slash{}yanapi}.)} Examples are given in (\getfullref{mak}).
 
@@ -2906,139 +3176,6 @@ Some subset (as defined by $ f_c $) of the speaker's doxastic alternatives at th
 %• is Infl actually enforcing nonveridicality? : it needs to be able to presuppose what \textit{dhu} is implying: that the φ in \textit{dhu φ} is unsettled/objectively nonveridical/doesn't hold in all metaphysical alts at $ i $.
 
 
-
-
-\subsection{The negators: \textit{yaka} \& \textit{bäyŋu}}
-
-In light of the proposal introduced above, we can model clausal negators \textit{bäyŋu} and \textit{yaka} as scoping over Aspº but below inflection. As shown above, the ``irrealis'' categories, \II~and \IV~presuppose that the instantiation of some event is \textit{unsettled} --- that is, the metaphysical alternatives to the evaluation index $ i $ are \textbf{nonveridical} with respect to \textsc{infl}'s prejacent. 
-%These can all stack on top of each other (though \textit{balaŋ yaka dhu} sounds like the best order, though i'm all but certain that this is fungible, probably need to consider how negation and the future will interact.
-
-Given the distributional similarities between (root) modals in and \textit{yaka/bäyŋu} in WD, we have independent support (in addition to that described in Chapter \ref{NEC}) to propose a modal semantics for these negative particles.
-
-
-As in Ch. \ref{NEC}, on this type of analysis, a modal treatment of \textit{yaka/bäyŋu} involves a compatibility relation $ \mathbb C $. \textit{Bäyŋu $ P $} asserts that no world compatible with the state of affairs at $ i $ is such that $ P$ is instantiated at $ i $.)\footnote{Note that this diverges from \citet{Krifka2015,Krifka2016} where Daakie's \textsc{realis negation} and \textsc{potentialis negation} (\textit{ne} and \textit{\textit{(te)re}}) are both treated as ``modalit[ies] in [their] own right[s].''} This is shown in (\nextx)
-
-\pex
-$ \denote[c]{\textsc{neg}} = \lambda P_{\langle s,t\rangle}\lambda i. \nexists w'[w'\in\cap\mathbb C(w)\to\textsc{at}(P,i)] $
-\xe
-
-The entry for \gls{neg} given in (\lastx) aligns with those for the other modals both in terms of • its type (that is, the shape of the lex entry) as well as • in terms of the fact that like the other modal particles, \gls{neg} indicates that the speaker/attitude holder fails to assert that $ P $ is instantiated at all metaphysical alternatives to $ i $ --- satisfying the shared presupposition of the irrealis moods \II~and \IV. In terms of the branching times framework negative operators can be interpreted as situating the reference index in the \textsc{counterfactual} domain.
-% I've tried to designate what counts as ``a relevant world'' by having a layer above inflection that contains the some of: an \textsc{assert} operator or \citealt{Kaufmann2005}-style accessibility relation/\textit{mak(u)}/a complement clause (which seems kinda of x-linguistically motivated given how people have often claimed that epistemics are higher (Hacquard \textit{et præc}))
-
-
-
-
-%ŋarra gana guyaŋana ŋunhi waṯuy balaŋu bayŋu ḻuki chocolate
-
-
-
-\iffalse
-	\begin{tikzpicture}
-		\tikzset{level 1/.style={level distance=60pt,sibling distance=130pt}}
-		\tikzset{level 2/.style={level distance=60pt,sibling distance=130pt}}
-		\tikzset{level 3/.style={level distance=60pt,sibling distance=130pt}}
-		\tikzset{level 4/.style={level distance=60pt,sibling distance=130pt}}
-		\tikzset{level 5/.style={level distance=60pt,sibling distance=90pt}}
-		\tikzset{every tree node/.style={align=center}}
-		\node [font=\bfseries] (cp) {CP}
-		child[xshift=.5cm,yshift=1cm] {node (speccp) {$ \boldsymbol{i*} $} edge from parent[]}
-		child[font=\bfseries] {node (cbar) {C{$^\prime$}}
-			child[yshift=.5cm,sibling distance=145pt] {node (chead) {$\lambda i.f_c(\cap\sim_\alpha i) $}
-				child[level distance=30pt,sibling distance=65pt,font=\bfseries] {node (assert) {\textsc{assert}}}
-				child[level distance=30pt,sibling distance=65pt,font=\bfseries] {node (maku) {\textit{maku}}}}
-			child[yshift=-.5cm,text depth=3ex,font=\bfseries] {node (ip) {IP}
-				child[xshift=-1cm,font=\bfseries] {node (infl) {Infl}}
-				child[yshift=-1cm,text depth=4ex,font=\bfseries] {node (modp) {ModP$ _{\langle s,t\rangle} $}
-					child[xshift=-1cm,text depth=3ex,font=\bfseries] {node (dhu) {\textit{dhu}}}
-					child[yshift=-1cm,text depth=3ex,font=\bfseries] {node (aspp) {AspP$ _{\langle s,t \rangle} $}
-						child[text depth=3ex,font=\bfseries] {node (ipfv) {\textsc{ipfv}$_{\langle\langle\varepsilon,t\rangle,\langle s,t\rangle\rangle}$}}
-						child[text depth=3ex,font=\bfseries] {node (vp) {VP}
-		}}}}};
-		\node at ([xshift=0cm,yshift=-.5cm]assert) [text width=1.75cm] {
-			$ \lambda i.\cap\sim_\alpha i $
-		};
-		\node at ([xshift=0cm,yshift=-.5cm]maku) [text width=2cm] {
-			$ \lambda r.f_c(r) $
-		};
-		\node at ([xshift=1cm,yshift=-.2cm]ip) [text width=7cm] {
-			$ \lambda i:\exists i'\in\cap\approx_i\wedge\neg\denote{\textbf{ModP}}(i').\denote{\textbf{ModP}}(i)$
-		};
-		\node at ([xshift=0cm,yshift=-.2cm]infl) [text width=6cm] {
-			$ \lambda P\lambda i:\exists i{^\prime}[i{^\prime}\in\cap\approx_{i}\wedge\neg P(i{^\prime})\big].P(i) $
-		};
-		\node at ([xshift=0cm,yshift=-.2cm]modp) [text width=11cm] {
-			$\lambda i.\forall b\ni i[b\in\textsc{best}(\cap m(i))\to\exists i{^\prime}\in b[i{^\prime}\succeq i\wedge\exists e[\textsc{see}(e)\wedge\tau(e)\sqsupset i{^\prime}]]]$
-		};
-		\node at ([xshift=0cm,yshift=-.2cm]dhu) [text width=11cm] {
-			$ \lambda P_{\langle s,t\rangle}\lambda i_s.\forall b\ni i[b\in\textsc{best}(\cap m(i))\to\exists i{^\prime}\in b[i{^\prime}\succeq i\wedge\textsc{at}(P,i{^\prime})]] $
-		};
-		\node at ([xshift=0cm,yshift=-.2cm]aspp) [text width=4cm] {
-			$\lambda i.\exists e[\textsc{see}(e)\wedge\tau(e)\sqsupset i] $
-		};
-		\node at ([xshift=-.25cm,yshift=-.2cm]ipfv) [text width=3.75cm] {
-			$ \lambda P^\epsilon\lambda i[P(e)\wedge\tau(e)\sqsupset i] $
-		};
-		\node at ([xshift=0cm,yshift=-.2cm]vp) [text width=1.5cm] {
-			$ \lambda e.\textsc{see}(e) $
-		};
-	\end{tikzpicture}
-\fi
-
-\subsubsection*{A wrinkle}
-
-While much of this analysis emphasises distributional similarities between negative operators in WD and the modal particles \textit{dhu, balaŋ(u)...} in view of assimilating the former into a ``modal operator'' class, it is also worth considering distributional differences between them, demonstrated in (\nextx) below (compare also Figs \ref{NegSchem}/\ref{BalSchem} above).\marginnote{possible intuition for neutralisation of metricality: vagueness of \textit{balaŋu} relative to \textit{bäyŋu}}
-
-\pex\begingl\glpreamble Neutralisation of temporal remoteness distinctions with \textit{balaŋ(u) `\gls{irr}'}//
-\gla barpuru ŋarra guyaŋa... balaŋ limurr bu-\textbf{nha} maypal. + Yurru bäyŋu napurru bu-\textbf{ŋu} maypal//
-\glb yesterday 1s think-\I{} \gls{irr} 1d.\gls{excl} hit.\IV{} shellfish but \gls{neg} 1p.\gls{excl} hit-\II{} shellfish//
-\glft`Yesterday I'd thought that we might collect shellfish, but we didn't collect shellfish'\trailingcitation{[AW~20190429]}//\endgl
-\xe\marginnote{Albert does seem to give the first instance \II{} marking in a rep 64'}
-
-
-The three predicates in (\lastx) --- each of which receives yesterday past temporal reference --- are each inflected differently. Note in particular that while \textit{buma} `hit, kill, collect (shellfish)' is inflected with \II{}  in a negative context, (\II{} being the ``negative counterpart'' of \I{}), it receives \IV{}-marking in a non-negative modal context (with \textit{balaŋ}). In effect, the temporal remoteness effects in the past are lost in modal contexts, but not in negative predications.
-
-
-
-\subsection{The same-day future}\label{yolngu-sdf}
-
-
-The same day future, both in positive and negative clauses receives \I-inflection --- this is the only place where the neutralisation doesn't happen.
-
-\pex Negated same-day future predications fail to license irrealis-mood shift (unlike negated present predications)\trailingcitation{[AW~20190501]}\deftagex{sdf-ex}
-\a\begingl\gla ŋarra (yaka) dhu nhä-\textbf{ma} mukulnha//
-\glb 1s (\gls{neg}) \gls{fut} see-\I{} aunt.\gls{acc}//
-\glft `I will (won't) see aunty (tonight).'//\deftaglabel{sdf}\endgl
-\a \begingl\gla (goḏarr) ŋarra (yaka) dhu nhä-\textbf{ŋu} mukulnha//
-\glb toomorrow 1s (\gls{neg}) \gls{fut} see-\II{} aunt.\gls{acc}//
-\glft `Tomorrow I will (won't) see aunty.'//\deftaglabel{fut}\endgl
-\a\begingl\gla (dhiyaŋ~bala) bäyŋu ŋarra gi nhä-\textbf{ŋu} mukulnha//
-\glb now 1s (\gls{neg}) \gls{fut} see-\II{} aunt.\gls{acc}//
-\glft `At the moment, I'm not looking at aunty.'//\deftaglabel{pres}\endgl
-\xe
-
-\pex
-\a\begingl\gla Ŋunhi ŋarra dhu bäyŋu ḻuk-\textbf{a}, ŋarra dhu rirrikthu-\textbf{n}//
-\glb \gls{hyp} 1s \gls{fut} \gls{neg} consume-\gls{I} 1s \gls{fut} sick-\gls{inch}-\gls{I}//
-\glft`If I don't drink (water) (soon), I'll get sick.'\trailingcitation{[AW~20190409]}//\deftagex{neg-fut}
-\endgl
-\a\begingl\gla yaka ŋarra dhu ḻuplupthu-\textbf{n} bili bäru ŋuli ga ḻuk-\textbf{a} yolŋu'yulŋu//
-\glb \gls{neg} 1s \gls{fut} swim-\gls{I} \gls{cplv} crocoodile \gls{hab} \gls{ipfv}.\gls{I} eat-\gls{I} people//
-\glft`I'm not going to swim; crocodiles eat people.'\trailingcitation{[AW~20190428]}//
-\endgl\xe
-
-Recent work on futurate constructions (\citealp[see e.g.,][]{Copley2009,Copley2008a} \textit{et seq.}, \citealp{Kaufmann2002,Kaufmann2005}) formalises an intuition that these constructions involve some ``presumption of settledness'' or ``certainty condition''\footnote{\citet{Kaufmann2002} cites commentary including \citet{Dowty1979,Comrie1985} among numerous others on this distinction. See also \citet[note 1]{Copley2008a}} While the WD same-day future construction is not technically a morphosyntactic futurate,\footnote{\citet[261]{Copley2008a} defines \textit{futurates} ``sentence[s] with no obvious means of future reference that nonetheless conveys that a future-oriented eventuality is planned, scheduled or otherwise determined.' Given that same-day futures in WD are obligatorily indicated with \textit{dhu}, they shouldn't be described as futurate.} analysis of these devices can shed potential insight on the (functional) motivation for this phenomenon.
-
-The surprising contrast between (\getfullref{sdf-ex.sdf}) and (\getref{sdf-ex.pres}), then, becomes less surprising when we consider that the latter eventuality is situated at a counterfactual index and consequently licenses an irrealis-aligned inflection (\II). The same-day future, in which \textit{dhu} and \I{} co-occur can in effect be understood as a \textbf{grammaticalised futurate construction}. While \textit{dhu} obligatorily advances the instantiation time of the eventuality, the unexpected occurrence of \I{} implicates the ``presumed settledness'' of its prejacent in context. Given that the instantiation and non-instantiation of a given event are, in principle, equally plannable, they are both asserted to be metaphysically ``actual.''\marginnote{this needs to be foregrounded as support for treating the nonveridicality condition on \II/\IV{} as presuppositional}
-
-Above, we have modelled irrealis mood as a presupposition of unsettledness built into the semantics for \II~and \IV. These inflections are generally obligatory in irrealis contexts (as triggered by modal (incl. negative) operators) in view of general pragmatic principles (\textit{viz.} \textsc{Maximize Presupposition.}\footnote{A operationalisation of scalar implicature (\textit{i.e.}, using a ``weaker'' alternative $ Q $-implicates that the speaker was not in a position to use its ``stronger'' counterpart,\textit{ e.g.}, \citealt{Horn1984}), \textsc{Maximize Presupposition} is a formulation of a pragmatic principle that appears to be originally due to \citet{Heim1991} and further developed by \citet{Sauerland2009,Percus2006} a.o.}) The analysis of the same-day future, then, is based on the hypothesis that the same-day future --- even if it's taken to inflect a property of future (\textsc{potential}) indices --- receives a \textsc{non-irrealis} inflection (\I{}) in view of/\textbf{Q}-implicating plannability and ``presumed settledness.'' 
-
-%The claim will be that there's some notion of \textbf{settledness} that permits for a non-irrealis inflection to show up here --- a grammaticalised futurate effectively where predications about same-day futures count as assertible (key references here are \citealp{Copley2009,Kaufmann2005}) and \citealp[180]{Dowty1979}.)
-
-%Copley's futurate is based on the idea that ``if $ p $ is \textsc{planned} then $ p $ will happen'' --- it's reasonable to think that predications about the immediate future are taken to represent plans and this gave rise to the current situation. Similarly the reality status of \textsc{plan}$ (p) $ and $ \textsc{plan}(\neg p)$ could be identical.
-
-%Conversely, things that \textbf{aren't happening now} --- which receive \II{} marking are --- for all intents and purposes -- counterfactual.
-
-%I don't expect to build in some silent \textsc{plan} operator, but rather take it to be that all times on the day of utterance are historical necessities. --- The issue with \textit{this} is that negative-present receives \gls{II} marking still. (There's gonna be some way of talking about this: a context supports predications about present-plans (including negative plans).)
 
 
 
