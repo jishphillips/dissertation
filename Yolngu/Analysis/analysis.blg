@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: analysis.aux
+The style file: apa.bst
+I found no \bibdata command---while reading file analysis.aux
+Warning--I didn't find a database entry for "Wilkinson1991"
+Warning--I didn't find a database entry for "Glasgow1964"
+Warning--I didn't find a database entry for "Eather2011"
+Warning--I didn't find a database entry for "Green1987"
+Warning--I didn't find a database entry for "Green1995"
+Warning--I didn't find a database entry for "Comrie1985"
+Warning--I didn't find a database entry for "Hamblin1972"
+Warning--I didn't find a database entry for "Heath1980"
+Warning--I didn't find a database entry for "Comrie1976"
+Warning--I didn't find a database entry for "Smith1997"
+Warning--I didn't find a database entry for "Malchukov2009"
+Warning--I didn't find a database entry for "Vendler1957"
+Warning--I didn't find a database entry for "Bach1986"
+Warning--I didn't find a database entry for "Dowty1979"
+Warning--I didn't find a database entry for "Taylor1977"
+Warning--I didn't find a database entry for "Smith2008"
+Warning--I didn't find a database entry for "Dowty1986"
+Warning--I didn't find a database entry for "Deo2015"
+Warning--I didn't find a database entry for "Dowty1972"
+Warning--I didn't find a database entry for "Bennett"
+Warning--I didn't find a database entry for "Dowty1977"
+Warning--I didn't find a database entry for "Cover2010"
+Warning--I didn't find a database entry for "Stump1985"
+Warning--I didn't find a database entry for "Bybee1994"
+Warning--I didn't find a database entry for "McCoard1978"
+Warning--I didn't find a database entry for "Portner2003"
+Warning--I didn't find a database entry for "Klein1992"
+Warning--I didn't find a database entry for "Schaden2009"
+Warning--I didn't find a database entry for "Howe2006"
+Warning--I didn't find a database entry for "CurelliGotor1990"
+Warning--I didn't find a database entry for "Schaden2012"
+Warning--I didn't find a database entry for "Schwenter1994"
+Warning--I didn't find a database entry for "Condoravdi2014"
+Warning--I didn't find a database entry for "Dahl1985"
+Warning--I didn't find a database entry for "Cable2013"
+Warning--I didn't find a database entry for "Klecha2016"
+Warning--I didn't find a database entry for "Bohnemeyer2018"
+Warning--I didn't find a database entry for "Deo2006"
+Warning--I didn't find a database entry for "Horn1984"
+Warning--I didn't find a database entry for "Horn2012a"
+You've used 0 entries,
+            1940 wiz_defined-function locations,
+            552 strings with 4482 characters,
+and the built_in function-call counts, 17 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 2
+(There was 1 error message)

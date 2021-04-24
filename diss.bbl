@@ -1,4 +1,4 @@
-\begin{thebibliography}{293}
+\begin{thebibliography}{349}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -18,7 +18,6 @@ Alonso-Ovalle, Luis \& Paula Men{\'{e}}ndez-Benito. 2003.
 Anand, Pranav \& Valentine Hacquard. 2013.
 \newblock {Epistemics and attitudes}.
 \newblock \emph{Semantics {\&} Pragmatics} 6. 1--59.
-\newblock \urlprefix\url{internal-pdf://228.60.152.33/2802-6075-1-PB.pdf}.
 
 \bibitem[{AnderBois \& D{\c{a}}bkowski(2020)}]{AnderBois2020}
 AnderBois, Scott \& Maksymilian D{\c{a}}bkowski. 2020.
@@ -27,17 +26,17 @@ AnderBois, Scott \& Maksymilian D{\c{a}}bkowski. 2020.
 \newblock In \emph{Proceedings of salt 30}, 371--91. Linguistic Society of
   America.
 
+\bibitem[{Anderson(2008)}]{Anderson2008}
+Anderson, Stephen~R. 2008.
+\newblock {The Logical Structure of Linguistic Theory}.
+\newblock \emph{Language} 84(4). 795--814.
+\newblock \doi{10.1353/lan.0.0075}.
+
 \bibitem[{Anderson(2016)}]{Anderson2016a}
 Anderson, Stephen~R. 2016.
 \newblock {Synchronic versus diachronic explanation and the nature of the
   language faculty}.
 \newblock \emph{Annual Review of Linguistics} 2. 11--31.
-
-\bibitem[{Anderson(2008)}]{Anderson2008}
-Anderson, Victoria~B. 2008.
-\newblock {Static Palatography for Language Fieldwork}.
-\newblock \emph{Language Documentation and Conservation} 2. 1--27.
-\newblock \urlprefix\url{internal-pdf://228.60.152.52/anderson.pdf}.
 
 \bibitem[{Angelo \& Schultze-Berndt(2016)}]{Angelo2016}
 Angelo, Denise \& Eva Schultze-Berndt. 2016.
@@ -68,6 +67,14 @@ Austin, Peter~K. 1998.
 \newblock
   \urlprefix\url{http://cat.inist.fr/?aModele=afficheN{\&}cpsidt=2019579}.
 
+\bibitem[{Bach(1986)}]{Bach1986}
+Bach, Emmon~W. 1986.
+\newblock {The algebra of events}.
+\newblock \emph{Linguistics and Philosophy} 9(1). 5--16.
+\newblock \doi{10.1007/bf00627432}.
+\newblock
+  \urlprefix\url{https://link.springer.com/article/10.1007{\%}2FBF00627432}.
+
 \bibitem[{Bednall(2019)}]{Bednall2019}
 Bednall, James. 2019.
 \newblock \emph{{Temporal, aspectual and modal expression in Anindilyakwa, the
@@ -85,6 +92,12 @@ Bennett, Michael \& Barbara~Hall Partee. 2004.
 \newblock {Towards the Logic of Tense and Aspect in English}.
 \newblock In \emph{Compositionality in formal semantics: Selected papers by
   barbara h. partee}, chap.~4, 59--109. Blackwell.
+
+\bibitem[{Benveniste(1966)}]{Benveniste1966}
+Benveniste, {\'{E}}mile. 1966.
+\newblock {Les relations de temps dans le verbe fran{\c{c}}ais}.
+\newblock In \emph{Probl{\`{e}}mes de linguistique g{\'{e}}n{\'{e}}rale},
+  vol.~I, chap.~19, 237--250. Paris: Gallimard.
 
 \bibitem[{Berm{\'{u}}dez-Otero(2015)}]{Bermudez-Otero2013}
 Berm{\'{u}}dez-Otero, Ricardo. 2015.
@@ -104,10 +117,9 @@ Binnick, Robert~I. 1991.
 \newblock Oxford University Press.
 
 \bibitem[{Blake(1993)}]{Blake1993}
-Blake, Barry. 1993.
+Blake, Barry~J. 1993.
 \newblock {Verb affixes from case markers : some Australian examples.}
 \newblock \emph{La Trobe working papers in linguistics} 6. 33--58.
-\newblock \urlprefix\url{internal-pdf://228.60.152.45/Blake93.pdf}.
 
 \bibitem[{Bl{\"{u}}hdorn(2008)}]{Bluhdorn2008}
 Bl{\"{u}}hdorn, Hardarik. 2008.
@@ -124,6 +136,16 @@ Bochnak, M~Ryan, Vera Hohaus \& Anne Mucha. 2019.
 \newblock \emph{Journal of Semantics} 1--46.
 \newblock \doi{10.1093/jos/ffz008}.
 
+\bibitem[{Bohnemeyer(2018)}]{Bohnemeyer2018}
+Bohnemeyer, J{\"{u}}rgen. 2018.
+\newblock {Temporal remoteness markers in a tenseless language}.
+
+\bibitem[{Bohnemeyer \& Swift(2004)}]{Bohnemeyer2004}
+Bohnemeyer, J{\"{u}}rgen \& Mary Swift. 2004.
+\newblock {Event Realization and Default Aspect}.
+\newblock \emph{Linguistics and Philosophy} 27(3). 263--296.
+\newblock \doi{10.1023/b:ling.0000023371.15460.43}.
+
 \bibitem[{Boogaart(2009)}]{Boogaart2009}
 Boogaart, Ronny. 2009.
 \newblock {Een retorische straks-constructie}.
@@ -137,6 +159,19 @@ Boogaart, Ronny. 2020.
   (‘Shortly') in Dutch}}.
 \newblock Springer International Publishing.
 \newblock \doi{10.1007/978-3-030-28367-4_12}.
+
+\bibitem[{Botne(2012)}]{Botne2012}
+Botne, Robert. 2012.
+\newblock {Remoteness Distinctions}.
+\newblock In \emph{The oxford handbook of tense and aspect}, 536--60.
+\newblock \doi{10.1093/oxfordhb/9780195381979.013.0018}.
+
+\bibitem[{Botne \& Kershner(2008)}]{Botne2008}
+Botne, Robert \& Tiffany~L. Kershner. 2008.
+\newblock {Tense and cognitive space: On the organization of tense/aspect
+  systems in Bantu languages and beyond}.
+\newblock \emph{Cognitive Linguistics} 19(2). 145--218.
+\newblock \doi{10.1515/COG.2008.008}.
 
 \bibitem[{Bouckaert et~al.(2018)Bouckaert, Bowern \& Atkinson}]{Bouckaert2018}
 Bouckaert, Remco~R, Claire Bowern \& Quentin~D Atkinson. 2018.
@@ -157,6 +192,12 @@ Bowern, Claire. 1998.
 Bowern, Claire. 2009.
 \newblock {Conjugation class stablity: Charting the history of conjugation
   classes in Yolŋu languages}.
+
+\bibitem[{Bowern(2021)}]{Bowern2021}
+Bowern, Claire. 2021.
+\newblock {How many languages are and were spoken in Australia?}
+\newblock In Claire Bowern (ed.), \emph{The oxford handbook of australian
+  languages}, chap.~7. Oxford: Oxford University Press.
 
 \bibitem[{Bowler(2014)}]{Bowler2014}
 Bowler, Margit. 2014.
@@ -192,6 +233,16 @@ Bybee, Joan. 1998.
 \newblock {"Irrealis" as a Grammatical Category}.
 \newblock \emph{Anthropological Linguistics} 40. 257--265.
 
+\bibitem[{Bybee \& Pagliuca(1978)}]{Bybee1978}
+Bybee, Joan \& William Pagliuca. 1978.
+\newblock {The evolution of future meaning}.
+
+\bibitem[{Bybee et~al.(1991)Bybee, Pagliuca \& Perkins}]{Bybee1991}
+Bybee, Joan, William Pagliuca \& Revere~D Perkins. 1991.
+\newblock {Back to the future}.
+\newblock In Elizabeth~Closs Traugott \& Bernd Heine (eds.), \emph{Approaches
+  to grammaticalization}, vol.~II, 17--58. Amsterdam: John Benjamins.
+
 \bibitem[{Bybee et~al.(1994)Bybee, Perkins \& Pagliuca}]{Bybee1994}
 Bybee, Joan, Revere~D Perkins \& William Pagliuca. 1994.
 \newblock \emph{{The evolution of grammar: Tense, aspect, and modality in the
@@ -212,6 +263,12 @@ Carlson, Lauri. 1983.
 \newblock Dordrecht: D Reidel.
 \newblock \doi{10.1017/CBO9781107415324.004}.
 
+\bibitem[{Carruthers(2012)}]{Carruthers2012}
+Carruthers, Janice. 2012.
+\newblock {Discourse and Text}.
+\newblock In \emph{The oxford handbook of tense and aspect}, chap.~10, 306--35.
+\newblock \doi{10.1093/oxfordhb/9780195381979.013.0010}.
+
 \bibitem[{Caudal et~al.(2012)Caudal, Dench \& Roussarie}]{Caudal2012}
 Caudal, Patrick, Alan Dench \& Laurent Roussarie. 2012.
 \newblock {A Semantic Type-driven Account of Verb-formation Patterns in
@@ -231,7 +288,6 @@ Chung, Sandra \& Alan Timberlake. 1985.
 \newblock In Timothy Shopen (ed.), \emph{Language typology and syntactic
   description}, vol. III: Gramm, 202--258. Cambridge: Cambridge University
   Press.
-\newblock \urlprefix\url{internal-pdf://228.60.152.47/ChungTimberlake.pdf}.
 
 \bibitem[{Clark(1979)}]{Clark1979}
 Clark, Ross. 1979.
@@ -243,6 +299,11 @@ Clark, Ross. 1979.
 Cole, Peter. 1975.
 \newblock {The synchronic and diachronic status of conversational implicature}.
 \newblock In \emph{Syntax and semantics 3: Speech acts}, 257--88.
+
+\bibitem[{Comrie(1976)}]{Comrie1976}
+Comrie, Bernard. 1976.
+\newblock \emph{{Aspect}}.
+\newblock Cambridge: Cambridge University Press.
 
 \bibitem[{Comrie(1983)}]{Comrie1983}
 Comrie, Bernard. 1983.
@@ -263,8 +324,10 @@ Condoravdi, Cleo. 2002.
 
 \bibitem[{Condoravdi(2003)}]{Condoravdi2003}
 Condoravdi, Cleo. 2003.
-\newblock {Moods and Modalities for Will and Would}.
-\newblock In \emph{Amsterdam colloquium 2003}, 1--16. Amsterdam.
+\newblock {Moods and Modalities for
+  {\textless}i{\textgreater}Will{\textless}/i{\textgreater} and
+  {\textless}i{\textgreater}Would{\textless}/i{\textgreater}}.
+\newblock In \emph{Amsterdam colloquium 2003}, 1--16.
 
 \bibitem[{Condoravdi \& Deo(2015)}]{Condoravdi2014}
 Condoravdi, Cleo \& Ashwini Deo. 2015.
@@ -303,6 +366,11 @@ Corblin, Francis. 2002.
   Introduction et applications au fran{\c{c}}ais}}.
 \newblock Paris: Presses Universitatires de France.
 
+\bibitem[{Cover(2010)}]{Cover2010}
+Cover, Rebecca~Tamar. 2010.
+\newblock \emph{{Aspect, Modality, and Tense in Badiaranke}}: UC Berkeley Phd
+  dissertation.
+
 \bibitem[{Cristofaro(2005)}]{Cristofaro2005}
 Cristofaro, Sonia. 2005.
 \newblock \emph{{Subordination}}.
@@ -328,18 +396,33 @@ Culicover, Peter~W \& Ray Jackendoff. 1997.
 \newblock {Semantic Subordination despite Syntactic Coordination}.
 \newblock \emph{Linguistic Inquiry} 28(2). 195--217.
 
+\bibitem[{{Curell i Gotor}(1990)}]{CurelliGotor1990}
+{Curell i Gotor}, Hort{\`{e}}nsia. 1990.
+\newblock \emph{{The present perfect in English and in Catalan: Uses and
+  meanings}}: Universitat Aut{\`{o}}noma de Barcelona Phd thesis.
+
 \bibitem[{D{\c{a}}bkowski \& AnderBois()}]{Dabkowski}
 D{\c{a}}bkowski, Maksymilian \& Scott AnderBois. ????
 \newblock {The apprehensional domain in A'ingae (Cof{\'{a}}n)}.
 \newblock In Marine Vuillermet, Eva Schultze-Berndt \& Martina Faller (eds.),
   \emph{Apprehensional constructions}, Berlin: Language Sciences Press.
 
+\bibitem[{Dahl(1980)}]{Dahl1980}
+Dahl, {\"{O}}sten. 1980.
+\newblock {Tense-mood-aspect}.
+
+\bibitem[{Dahl(1983)}]{Dahl1983}
+Dahl, {\"{O}}sten. 1983.
+\newblock {Temporal distance: remoteness distinctions in tense-aspect systems}.
+\newblock \emph{Linguistics} 21(1). 105--122.
+\newblock \doi{10.1515/ling.1983.21.1.105}.
+\newblock
+  \urlprefix\url{https://www.degruyter.com/view/j/ling.1983.21.issue-1/ling.1983.21.1.105/ling.1983.21.1.105.xml}.
+
 \bibitem[{Dahl(1985)}]{Dahl1985}
 Dahl, {\"{O}}sten. 1985.
 \newblock \emph{{Tense and Aspect Systems}}.
 \newblock Oxford; New York: Blackwell.
-\newblock
-  \urlprefix\url{internal-pdf://176.6.200.61/Dahl{\_}Tense{\&}aspectsystems.pdf}.
 
 \bibitem[{Dawson(1831)}]{Dawson1831}
 Dawson, Robert. 1831.
@@ -348,6 +431,12 @@ Dawson, Robert. 1831.
   account o f the manners, customs, and condition of its Aboriginal
   inhabitants.}}
 \newblock London: Smith Elder {\&} co. 2nd edn.
+
+\bibitem[{Deo(2006)}]{Deo2006}
+Deo, Ashwini. 2006.
+\newblock \emph{{Tense and Aspect in Indo-Aryan Languages: Variation and
+  diachrony}}.
+\newblock Stanford, CA: Phd dissertation.
 
 \bibitem[{Deo(2009)}]{Deo2009a}
 Deo, Ashwini. 2009.
@@ -372,13 +461,16 @@ Dickson, Greg. 2015.
 \newblock \emph{{Marra and Kriol: the loss and maintenance of knowledge across
   an language shift boundary}}.
 \newblock Canberra: dissertation.
-\newblock
-  \urlprefix\url{internal-pdf://209.155.80.11/Marra{\_}and{\_}Kriol{\_}the{\_}loss{\_}and{\_}maintenance.pdf}.
 
 \bibitem[{Dineen(1990)}]{Dineen1990}
 Dineen, Anne~H. 1990.
 \newblock \emph{{A comparative survey of reduplication in Australian
   languages}}: Australian National University Ma thesis.
+
+\bibitem[{Dixon(1980)}]{Dixon1980}
+Dixon, Robert M~W. 1980.
+\newblock \emph{{The languages of Australia}}.
+\newblock Cambridge: Cambridge University Press.
 
 \bibitem[{Dixon(2002{\natexlab{a}})}]{Dixon2002a}
 Dixon, Robert M~W. 2002{\natexlab{a}}.
@@ -390,6 +482,11 @@ Dixon, Robert M~W. 2002{\natexlab{b}}.
 \newblock {Copula Clauses in Australian Languages: A Typological Perspective}.
 \newblock \emph{Anthropological Linguistics} 44. 1--36.
 \newblock \urlprefix\url{http://www.jstor.org/stable/30028823}.
+
+\bibitem[{Dowty(1972)}]{Dowty1972}
+Dowty, David~Roach. 1972.
+\newblock \emph{{Studies in the logic of verb aspect and time reference in
+  English}}: University of Texas at Austin Phd dissertation.
 
 \bibitem[{Dowty(1977)}]{Dowty1977}
 Dowty, David~Roach. 1977.
@@ -407,6 +504,19 @@ Dowty, David~Roach. 1982.
 \newblock {Tenses, time adverbs, and compositional semantic theory}.
 \newblock \emph{Linguistics and Philosophy} 5(1). 23--55.
 \newblock \doi{10.1007/BF00390692}.
+
+\bibitem[{Dowty(1986)}]{Dowty1986}
+Dowty, David~Roach. 1986.
+\newblock {The effects of aspectual class on the temporal structure of
+  discourse: semantics or pragmatics?}
+\newblock \emph{Linguistics {\&} Philosophy} 9(1). 37--61.
+
+\bibitem[{Duchet \& P{\"{e}}rnaska(2016)}]{Duchet2016}
+Duchet, Jean-Louis \& Remzi P{\"{e}}rnaska. 2016.
+\newblock {The aorist and the perfect in Albanian}.
+\newblock In \emph{Aspectuality and temporality: Descriptive and theoretical
+  issues}, 357--374. Amsterdam.
+\newblock \doi{10.1075/slcs.172.11duc}.
 
 \bibitem[{Eather(2011)}]{Eather2011}
 Eather, Bronwyn. 2011.
@@ -430,7 +540,6 @@ Eckardt, Regine. 2009.
 Eckardt, Regine. 2011.
 \newblock {Semantic Reanalysis and Language Change}.
 \newblock \emph{Language and Linguistics Compass} 5. 33--46.
-\newblock \urlprefix\url{internal-pdf://0847366850/ContentServer.pdf}.
 
 \bibitem[{Elliott(2000)}]{Elliott2000}
 Elliott, Jennifer~R. 2000.
@@ -438,6 +547,22 @@ Elliott, Jennifer~R. 2000.
   reality}.
 \newblock \emph{Linguistic Typology} 4(1). 55--90.
 \newblock \doi{10.1515/lity.2000.4.1.55}.
+
+\bibitem[{Evans(2001)}]{Evans2001}
+Evans, Nicholas~D. 2001.
+\newblock {The last speaker is dead – long live the last speaker!}
+\newblock In Paul Newman \& Martha Ratliff (eds.), \emph{Linguistic fieldwork},
+  250--281. Cambridge University Press.
+\newblock \doi{10.1017/cbo9780511810206.013}.
+
+\bibitem[{Facques(2007)}]{Facques2007}
+Facques, B{\'{e}}n{\'{e}}dicte. 2007.
+\newblock {Pr{\'{e}}sent historique et pr{\'{e}}sent de reportage dans la
+  presse anglaise et fran{\c{c}}aise}.
+\newblock In Emmanuelle Labeau, Carl Vetters \& Patrick Caudal (eds.),
+  \emph{S{\'{e}}mantique et diachronie du syst{\`{e}}me verbal fran{\c{c}}ais},
+  235--62. Amsterdam: Rodopi.
+\newblock \doi{10.4000/cediscor.655}.
 
 \bibitem[{Fagin et~al.(1995)Fagin, Halpern, Moses \& Vardi}]{Fagin}
 Fagin, Ronald, Joseph~Y Halpern, Yoram Moses \& Moshe~Y Vardi. 1995.
@@ -474,7 +599,6 @@ Finegan, Edward. 1995.
 von Fintel, Kai. 1994.
 \newblock \emph{{Restrictions on quantifier domains}}.
 \newblock Amherst: University of Massachusetts dissertation.
-\newblock \urlprefix\url{internal-pdf://228.60.152.37/fintel-1994-thesis.pdf}.
 
 \bibitem[{von Fintel(2001)}]{VonFintel2001}
 von Fintel, Kai. 2001.
@@ -487,8 +611,6 @@ von Fintel, Kai. 2012.
 \newblock {Subjunctive conditionals}.
 \newblock In Gillian Russell \& Delia~Graff Fara (eds.), \emph{The routledge
   companion to philosophy of language}, 466--477. NY: Routledge.
-\newblock
-  \urlprefix\url{internal-pdf://121.226.169.206/fintel-2012-subjunctives.pdf}.
 
 \bibitem[{von Fintel \& Heim(2011)}]{VonFintel2011}
 von Fintel, Kai \& Irene~Roswitha Heim. 2011.
@@ -502,10 +624,27 @@ von Fintel, Kai \& Sabine Iatridou. 2008.
   and modality} Studies in Natural Language and Linguistic Theory, 115--141.
   New York: Springer.
 
+\bibitem[{Fleischman(1982)}]{Fleischman1982}
+Fleischman, Susan. 1982.
+\newblock \emph{{The Future in thought and language: Diachronic evidence from
+  Romance}}.
+\newblock Cambridge: Cambridge University Press.
+
+\bibitem[{Fleischman(1990)}]{Fleischman1990}
+Fleischman, Susan. 1990.
+\newblock \emph{{Tense and Narrativity: from medieval performance to modern
+  fiction}}.
+\newblock London: Routledge.
+
 \bibitem[{Foley(1986)}]{Foley1986}
 Foley, William~A. 1986.
 \newblock \emph{{The Papuan languages of New Guinea}}.
 \newblock Cambridge: Cambridge University Press.
+
+\bibitem[{Fraser(1987)}]{Fraser1987}
+Fraser, Julius~Thomas. 1987.
+\newblock \emph{{Time: the familiar stranger}}.
+\newblock Amherst: University of Massachusetts.
 
 \bibitem[{Frege(1897)}]{Frege1897}
 Frege, Gottlob. 1897.
@@ -524,8 +663,7 @@ Geis, Michael~L \& Arnold~M Zwicky. 1971.
 Geurts, Bart, David Beaver \& Emar Maier. 2016.
 \newblock {Discourse Representation Theory}.
 \newblock
-  \urlprefix\url{internal-pdf://121.226.169.204/discourse-representation-theory{\_}a4.pdf
-  https://plato.stanford.edu/archives/spr2016/entries/discourse-representation-theory}.
+  \urlprefix\url{https://plato.stanford.edu/archives/spr2016/entries/discourse-representation-theory}.
 
 \bibitem[{Giannakidou(2011)}]{Giannakidou2011}
 Giannakidou, Anastasia. 2011.
@@ -576,7 +714,6 @@ Glasgow, Kathleen. 1964.
 Green, Rebecca. 1987.
 \newblock \emph{{A sketch grammar of Burarra}}.
 \newblock Canberra, ACT: dissertation.
-\newblock \urlprefix\url{internal-pdf://4.94.69.214/BurarraSketch.pdf}.
 
 \bibitem[{Green(1995)}]{Green1995}
 Green, Rebecca. 1995.
@@ -628,6 +765,22 @@ Hacquard, Valentine. 2011.
   \emph{Semantics: An international handbook of meaning}, 1484--1515. Berlin:
   De Gruyter Mouton.
 
+\bibitem[{Hale(1964)}]{Hale1964}
+Hale, Ken. 1964.
+\newblock {Classification of Northen Paman Languages, Cape York Peninsula,
+  Australia: A Research Report}.
+\newblock \emph{Oceanic Linguistics} 3. 248--265.
+\newblock \urlprefix\url{http://www.jstor.org/stable/3622881}.
+
+\bibitem[{Hamblin(1972)}]{Hamblin1972}
+Hamblin, Charles~Leonard. 1972.
+\newblock {Instants and Intervals}.
+\newblock In J~T Fraser, F~C Haber \& G~H M{\"{u}}ller (eds.), \emph{The study
+  of time}, 324--31. Berlin, Heidelberg: Springer Berlin Heidelberg.
+\newblock \doi{10.1007/978-3-642-65387-2_23}.
+\newblock
+  \urlprefix\url{http://link.springer.com/10.1007/978-3-642-65387-2{\_}23}.
+
 \bibitem[{Harder(1995)}]{Harder1995}
 Harder, Peter. 1995.
 \newblock {Subordinators in a semantic clause structure}.
@@ -639,6 +792,17 @@ Harder, Peter. 1995.
 \bibitem[{Harris(1986)}]{Harris1986a}
 Harris, John. 1986.
 \newblock {Northern Territory Pidgins and the Origin of Kriol}.
+
+\bibitem[{Hayashi \& Oshima(2015)}]{Hayashi2015}
+Hayashi, Midori \& David~Y Oshima. 2015.
+\newblock {How multiple past tenses divide the labor: The case of South Baffin
+  Inuktitut}.
+\newblock \emph{Linguistics} 53(4). 773--808.
+\newblock \doi{10.1515/ling-2015-0017}.
+
+\bibitem[{Heath()}]{Heath}
+Heath, Jeffrey. ????
+\newblock {Nunggubuyu}.
 
 \bibitem[{Heath(1978)}]{Heath1978}
 Heath, Jeffrey. 1978.
@@ -655,8 +819,6 @@ Heath, Jeffrey. 1980{\natexlab{b}}.
 \newblock \emph{{Basic Materials in Warndarang: grammar, texts and
   dictionary}}.
 \newblock Canberra: Pacific Linguistics.
-\newblock
-  \urlprefix\url{internal-pdf://121.226.169.193/heath{\_}warndarang1980{\_}o.pdf}.
 
 \bibitem[{Heath(1980{\natexlab{c}})}]{Heath1980}
 Heath, Jeffrey. 1980{\natexlab{c}}.
@@ -670,8 +832,13 @@ Heath, Jeffrey. 1980{\natexlab{d}}.
 \newblock Canberra: Australian Institute for Aboriginal Studies.
 \newblock \doi{10.2307/415482}.
 
-\bibitem[{Heath(1981)}]{Heath1981}
-Heath, Jeffrey. 1981.
+\bibitem[{Heath(1981{\natexlab{a}})}]{Heath1981b}
+Heath, Jeffrey. 1981{\natexlab{a}}.
+\newblock {A Case of Intensive Lexical Diffusion: Arnhem Land, Australia}.
+\newblock \emph{Language} 57(2). 335--367.
+
+\bibitem[{Heath(1981{\natexlab{b}})}]{Heath1981}
+Heath, Jeffrey. 1981{\natexlab{b}}.
 \newblock \emph{{Basic Materials in Mara: grammar, texts and dictionary}}.
 \newblock Canberra: Pacific Linguistics.
 
@@ -719,8 +886,6 @@ Horn, Laurence~Robert. 1984.
   implicature}.
 \newblock In Deborah Schriffen (ed.), \emph{Meaning, form and use in context:
   Linguistic applications}, Washington, D.C.: Georgetown University Press.
-\newblock
-  \urlprefix\url{internal-pdf://57.13.130.89/Horn1984{\_}Q{\_}R{\_}OCR.pdf}.
 
 \bibitem[{Horn(1993)}]{Horn1993}
 Horn, Laurence~Robert. 1993.
@@ -760,6 +925,11 @@ Horn, Laurence~Robert \& Samuel Bayer. 1984.
 Horton, D~R. 1996.
 \newblock {Aboriginal Australia Wall Map}.
 
+\bibitem[{Howe(2006)}]{Howe2006}
+Howe, Lewis~Chadwick. 2006.
+\newblock \emph{{Cross-dialectal Features of the Spanish Present Perfect}}: The
+  Ohio State University Phd dissertation.
+
 \bibitem[{Hughes \& Cresswell(1996)}]{HC1996}
 Hughes, G~E \& Max~J Cresswell. 1996.
 \newblock \emph{{A New Introduction to Modal Logic}}.
@@ -772,16 +942,11 @@ Huntley, Martin. 1984.
 \newblock \emph{Linguistics and Philosophy} 7(2). 103--133.
 \newblock \doi{10.1007/BF00630809}.
 
-\bibitem[{Ippolito(2013{\natexlab{a}})}]{Ippolito2013a}
-Ippolito, Michela. 2013{\natexlab{a}}.
+\bibitem[{Ippolito(2013)}]{Ippolito2013a}
+Ippolito, Michela. 2013.
 \newblock {Counterfactuals and conditional questions under Discussion}.
 \newblock In \emph{Semantics and linguistic theory}, vol.~23, 194.
 \newblock \doi{10.3765/salt.v23i0.2659}.
-
-\bibitem[{Ippolito(2013{\natexlab{b}})}]{Ippolito2013}
-Ippolito, Michela. 2013{\natexlab{b}}.
-\newblock \emph{{Subjunctive conditionals: A linguistic analysis}}.
-\newblock Boston: MIT Press.
 
 \bibitem[{Isaacs \& Rawlins(2008)}]{Isaacs2008}
 Isaacs, James \& Kyle Rawlins. 2008.
@@ -872,7 +1037,6 @@ Kaufmann, Stefan, Cleo Condoravdi \& Valentina Harizanov. 2006.
 \newblock {Formal approaches to modality}.
 \newblock In William Frawley (ed.), \emph{The expression of modality}, 71--106.
   De Gruyter.
-\newblock \doi{10.1039/DT9770001453}.
 
 \bibitem[{Kiparsky(2006)}]{Kiparsky2006}
 Kiparsky, Paul. 2006.
@@ -893,6 +1057,11 @@ Klecha, Peter \& M~Ryan Bochnak. 2016.
 \newblock In Christopher Hammerly \& Brandon Prickett (eds.), \emph{Proceedings
   of north-east linguistic society (nels) 46}, 213--26. GSLA.
 
+\bibitem[{Klein(1992)}]{Klein1992}
+Klein, Wolfgang. 1992.
+\newblock {The Present Perfect Puzzle}.
+\newblock \emph{Language} 68(3). 525--52.
+
 \bibitem[{Klinedinst(2007)}]{Klinedinst2007}
 Klinedinst, Nathan. 2007.
 \newblock {Plurals, possibilities, and conjunctive disjunction}.
@@ -903,6 +1072,13 @@ Klinedinst, Nathan \& Daniel Rothschild. 2012.
 \newblock {Connectives without truth tables}.
 \newblock \emph{Natural Language Semantics} 20(2). 137--175.
 \newblock \doi{10.1007/s11050-011-9079-5}.
+
+\bibitem[{K{\"{o}}lbel(2004)}]{Kolbel2004}
+K{\"{o}}lbel, Max. 2004.
+\newblock {Faultless disagreement}.
+\newblock In \emph{Proceedings of the aristotelean society}, vol. 104 1,
+  53--73. Oxford: The Aristotlean Society.
+\newblock \doi{10.1111/j.0066-7373.2004.00081.x}.
 
 \bibitem[{Korotkova(2016)}]{Korotkova2016}
 Korotkova, Natasha. 2016.
@@ -924,6 +1100,7 @@ Korotkova, Natasha. 2021.
 Kratzer, Angelika. 1977.
 \newblock {What ‘must' and ‘can' must and can mean}.
 \newblock \emph{Linguistics and Philosophy} 1. 337--355.
+\newblock \doi{10.1007/BF00353453}.
 
 \bibitem[{Kratzer(1979)}]{Kratzer1979}
 Kratzer, Angelika. 1979.
@@ -937,8 +1114,7 @@ Kratzer, Angelika. 1979.
 Kratzer, Angelika. 1981{\natexlab{a}}.
 \newblock {Partition and Revision: The Semantics of Counterfactuals}.
 \newblock \emph{Journal of Philosophical Logic} 10. 201--216.
-\newblock \urlprefix\url{internal-pdf://228.60.152.30/30227189.pdf
-  http://www.jstor.org/stable/30227189}.
+\newblock \urlprefix\url{http://www.jstor.org/stable/30227189}.
 
 \bibitem[{Kratzer(1981{\natexlab{b}})}]{Kratzer1981}
 Kratzer, Angelika. 1981{\natexlab{b}}.
@@ -954,17 +1130,11 @@ Kratzer, Angelika. 1991.
   international handbook of contemporary research}, 639--650. Berlin: de
   Gruyer.
 
-\bibitem[{Kratzer(1998)}]{Kratzer1998}
-Kratzer, Angelika. 1998.
-\newblock {More Structural Analogies Between Pronouns and Tenses}.
-\newblock \doi{10.3765/salt.v8i0.2808}.
-\newblock
-  \urlprefix\url{https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/2808}.
-
 \bibitem[{Kratzer(2012)}]{Kratzer2012}
 Kratzer, Angelika. 2012.
 \newblock \emph{{Modals and Conditionals}}.
 \newblock Oxford: OUP.
+\newblock \doi{10.1093/acprof:oso/9780199234684.001.0001}.
 
 \bibitem[{Krifka(2015)}]{Krifka2015}
 Krifka, Manfred. 2015.
@@ -974,7 +1144,7 @@ Krifka, Manfred. 2015.
 \bibitem[{Krifka(2016)}]{Krifka2016}
 Krifka, Manfred. 2016.
 \newblock {Realis and non-realis modalities in Daakie (Ambrym, Vanuatu)}.
-\newblock In \emph{Proceedings of salt}, vol.~26, 566--583.
+\newblock In \emph{Proceedings of salt 26}, 566--583.
 
 \bibitem[{Kripke(1963)}]{Kripke1963}
 Kripke, Saul~A. 1963.
@@ -1066,11 +1236,26 @@ Lowe, Beulah~M. 1996.
 \newblock \emph{{Grammar Lessons in Gupapuyŋu}}.
 \newblock Darwin, NT: Yolŋu Studies, CDU.
 
+\bibitem[{Malchukov(2009)}]{Malchukov2009}
+Malchukov, Andrej~L. 2009.
+\newblock {Incompatible categories: Resolving the ``present perfective''
+  paradox}.
+\newblock In Lotte Hogeweg, Helen de~Hoop \& Andrej Malchukov (eds.),
+  \emph{Cross-linguistic semantics of tense, aspect, and modality}, 13--31.
+  Amsterdam/Philadelphia: John Benjamins.
+
 \bibitem[{Markoska-Cubrinovska(2016)}]{Markoska-Cubrinovska2016}
 Markoska-Cubrinovska, Aneta. 2016.
 \newblock {Possible worlds in “The Craft of Formal Logic”}.
 \newblock \emph{Synthese} 193(11). 3459--3471.
 \newblock \doi{10.1007/s11229-015-0912-0}.
+
+\bibitem[{Martin(2010)}]{Martin2010}
+Martin, Jack~B. 2010.
+\newblock {How to Tell a Creek Story in Five Past Tenses}.
+\newblock \emph{International Journal of American Linguistics} 76. 43--70.
+\newblock \doi{10.1086/652754}.
+\newblock \urlprefix\url{http://www.jstor.org/stable/10.1086/652754}.
 
 \bibitem[{Matthewson(2006)}]{Matthewson2006}
 Matthewson, Lisa. 2006.
@@ -1083,11 +1268,27 @@ Matthewson, Lisa. 2010.
 \newblock {Cross-linguistic variation in modality systems: The role of mood}.
 \newblock \emph{Semantics {\&} Pragmatics} 3. 1--74.
 
+\bibitem[{Matthewson(2016)}]{Matthewson2016}
+Matthewson, Lisa. 2016.
+\newblock {On the (non-)future orientation of modals}.
+\newblock In \emph{Sinn und bedeutung}, .
+
 \bibitem[{Mauri \& Sans{\`{o}}(2016)}]{Mauri2016}
 Mauri, Caterina \& Andrea Sans{\`{o}}. 2016.
 \newblock {The linguistic marking of irrealis and subjunctive}.
 \newblock In Jan Nuyts \& Johan van~der Auwera (eds.), \emph{The oxford
   handbook of modality and mood}, chap.~9, 166--195. Oxford.
+
+\bibitem[{McCoard(1978)}]{McCoard1978}
+McCoard, Robert~W. 1978.
+\newblock \emph{{The English perfect: tense-choice and pragmatic inferences}}.
+\newblock Amsterdam: North-Holland.
+
+\bibitem[{McConvell \& Bowern(2011)}]{McConvell2011}
+McConvell, Patrick \& Claire Bowern. 2011.
+\newblock {The Prehistory and Internal Relationships of Australian Languages}.
+\newblock \emph{Linguistics and Language Compass} 5(1). 19--32.
+\newblock \doi{10.1111/j.1749-818X.2010.00257.x}.
 
 \bibitem[{McCready(2010)}]{McCready2010}
 McCready, Eric. 2010.
@@ -1130,6 +1331,14 @@ Merlan, Francesca~C. 1989.
 \newblock \emph{{Mangarayi}}.
 \newblock London: Routledge.
 
+\bibitem[{Merrifield(1968)}]{Merrifield1968}
+Merrifield, William~R. 1968.
+\newblock \emph{{Palantla Chinantec grammar}}.
+\newblock C{\'{o}}rdoba, Ver.: Instituto Nacionál de Anthropología e
+  Historia.
+\newblock
+  \urlprefix\url{https://www.sil.org/system/files/reapdata/15/01/06/150106410701014844614780526485045628479/cpa{\_}PalantlaGrammar.pdf}.
+
 \bibitem[{Michael(2014)}]{Michael2014}
 Michael, Lev. 2014.
 \newblock {The Nanti reality status system: Implications for the typological
@@ -1156,6 +1365,11 @@ Montague, Richard. 1970.
 \newblock \doi{10.1111/j.1755-2567.1970.tb00434.x}.
 \newblock \urlprefix\url{http://languagelog.ldc.upenn.edu/nll/?p=2507}.
 
+\bibitem[{Morgan(1978)}]{Morgan1978}
+Morgan, Jerry~L. 1978.
+\newblock {Two types of convention in indirect speech acts}.
+\newblock \emph{Syntax and Semantics 9: Pragmatics} 261--280.
+
 \bibitem[{Morphy(1977)}]{Morphy1977}
 Morphy, Frances. 1977.
 \newblock {Language And Moiety: Sociolectal Variation in a Yu:lngu Language of
@@ -1170,7 +1384,6 @@ Morphy, Frances. 1983.
 \newblock {Djapu, a Yolngu dialect}.
 \newblock In R~M~W Dixon \& Barry~J Blake (eds.), \emph{Handbook of australian
   languages}, 1--140.
-\newblock \urlprefix\url{internal-pdf://189.27.88.182/Djapu.pdf}.
 
 \bibitem[{M{\"{u}}ller(2014)}]{Muller2014}
 M{\"{u}}ller, Thomas. 2014.
@@ -1191,6 +1404,12 @@ Nishimura, Hirokazu. 1979.
 \newblock {Is the semantics of branching structures adequate for chronological
   modal logics?}
 \newblock \emph{Journal of Philosophical Logic} 8(3). 469--475.
+
+\bibitem[{Nordlinger(2021)}]{Nordlinger2021}
+Nordlinger, Rachel. 2021.
+\newblock {Australian languages and syntactic theory}.
+\newblock In \emph{The oxford handbook of australian languages}, chap.~4.
+  Oxford: Oxford University Press.
 
 \bibitem[{Nuyts(2005)}]{Nuyts2005}
 Nuyts, Jan. 2005.
@@ -1224,7 +1443,7 @@ Ogihara, Toshiyuki. 1996.
 \bibitem[{Palmer(2001)}]{Palmer2001}
 Palmer, Frank~Robert. 2001.
 \newblock \emph{{Mood {\&} Modality}}.
-\newblock Cambridge: Cambrdige University Press 2nd edn.
+\newblock Cambridge: Cambridge University Press 2nd edn.
 
 \bibitem[{Parkhouse(1895)}]{Parkhouse1895}
 Parkhouse, Thomas~Anstey. 1895.
@@ -1276,9 +1495,7 @@ Peterson, Tyler. 2010.
 Phillips, Josh. 2011.
 \newblock \emph{{Kriol and Kriolisation: exploring the creole language of
   Northern Australia}}.
-\newblock Sydney: dissertation.
-\newblock \urlprefix\url{internal-pdf://228.60.152.35/Thesis Presentation Print
-  ii.pdf}.
+\newblock Sydney: Honours thesis.
 
 \bibitem[{Phillips(2021)}]{Phillips2021b}
 Phillips, Josh. 2021.
@@ -1309,6 +1526,12 @@ Plungian, Vladimir~A. 2005.
 Portner, Paul. 1997.
 \newblock {The semantics of mood, complementation, and conversational force}.
 \newblock \doi{10.1023/A:1008280630142}.
+
+\bibitem[{Portner(2003)}]{Portner2003}
+Portner, Paul. 2003.
+\newblock {The (Temporal) Semantics and (Modal) Pragmatics of the Perfect}.
+\newblock \emph{Linguistics and Philosophy} 26(4). 459--510.
+\newblock \doi{10.1023/A:1024697112760}.
 
 \bibitem[{Portner(2009)}]{Portner2009}
 Portner, Paul. 2009.
@@ -1353,6 +1576,14 @@ von Prince, Kilu. 2019.
 \newblock {Counterfactuality and past}.
 \newblock \emph{Linguistics and Philosophy} 42(6). 577--615.
 \newblock \doi{10.1007/s10988-019-09259-6}.
+
+\bibitem[{von Prince et~al.()von Prince, Krajinovi{\'{c}} \&
+  Krifka}]{VonPrincea}
+von Prince, Kilu, Ana Krajinovi{\'{c}} \& Manfred Krifka. ????
+\newblock {Irrealis is real}.
+\newblock \emph{Language} (resubm.).
+\newblock
+  \urlprefix\url{http://kiluvonprince.de/wp-content/uploads/2020/08/Irrealis.pdf}.
 
 \bibitem[{von Prince et~al.(2019)von Prince, Krajinovi{\'{c}}, Krifka,
   Gu{\'{e}}rin \& Franjieh}]{VonPrince2018}
@@ -1427,8 +1658,6 @@ Roberts, Craige. 1996.
 Roberts, Craige. 1998.
 \newblock {Focus, the flow of information and universal grammar}.
 \newblock \emph{Syntax and Semantics} 29. 109--160.
-\newblock
-  \urlprefix\url{internal-pdf://121.226.169.201/Roberts{\_}1998{\_}focusflow.pdf}.
 
 \bibitem[{Roberts(2004)}]{Roberts2004}
 Roberts, Craige. 2004.
@@ -1500,6 +1729,19 @@ Sauerland, Uli. 2009.
   underspecified structures}, 581--600. Berlin: De Gruyter Mouton.
 \newblock \doi{10.1515/9783110209303.4.581}.
 
+\bibitem[{Schaden(2009)}]{Schaden2009}
+Schaden, Gerhard. 2009.
+\newblock {Present Perfects Compete}.
+\newblock \emph{Linguistics and Philosophy} 32. 115--141.
+\newblock \urlprefix\url{http://www.jstor.org/stable/40270167}.
+
+\bibitem[{Schaden(2011)}]{Schaden2011}
+Schaden, Gerhard. 2011.
+\newblock {Introducing the present perfective puzzle}.
+\newblock In Jesse Mortelmans, Tanja Mortelmans \& Walter {De Mulder} (eds.),
+  \emph{From now to eternity} Cahiers Chronos, 105--122. Amsterdam: Rodopi.
+\newblock \doi{10.1163/9789042032682_007}.
+
 \bibitem[{Schaden(2012)}]{Schaden2012}
 Schaden, Gerhard. 2012.
 \newblock {Modelling the “Aoristic Drift of the Present Perfect” as
@@ -1519,6 +1761,11 @@ Schmerling, Susan~F. 1975.
 \newblock In Peter Cole \& Jerry~L Morgan (eds.), \emph{Speech acts}, New York:
   Academic Press.
 
+\bibitem[{Schmidt(1990)}]{Schmidt1990}
+Schmidt, Annette. 1990.
+\newblock \emph{{The loss of Australia's aboriginal language heritage}}.
+\newblock Canberra: Aboriginal Studies Press.
+
 \bibitem[{Schultze-Berndt et~al.(2019)Schultze-Berndt, Ponsonnet \&
   Angelo}]{Schultze-Berndt}
 Schultze-Berndt, Eva, Ma{\"{i}}a Ponsonnet \& Denise Angelo. 2019.
@@ -1530,11 +1777,33 @@ Schwager, Magdalena. 2006.
 \newblock \emph{Semantics and Linguistic Theory} 16. 241--58.
 \newblock \doi{10.3765/salt.v16i0.2937}.
 
+\bibitem[{Schwenter(1994)}]{Schwenter1994}
+Schwenter, Scott~A. 1994.
+\newblock {The Grammaticalization of an Anterior IN Progress: Evidence from a
+  Peninsular Spanish Dialect}.
+\newblock \emph{Studies in Language} 18(1). 71--111.
+\newblock \doi{10.1075/sl.18.1.05sch}.
+
 \bibitem[{Simons et~al.(2017)Simons, Beaver, Roberts \& Tonhauser}]{Simons2017}
 Simons, Mandy, David Beaver, Craige Roberts \& Judith Tonhauser. 2017.
 \newblock {The Best Question: Explaining the Projection Behavior of Factives}.
 \newblock \emph{Discourse Processes} 54(3). 187--206.
 \newblock \doi{10.1080/0163853X.2016.1150660}.
+
+\bibitem[{Smith(1997)}]{Smith1997}
+Smith, Carlota~S. 1997.
+\newblock \emph{{The Parameter of Aspect}}, vol.~43 Studies in Linguistics and
+  Philosophy.
+\newblock Dordrecht: Springer Netherlands 2nd edn.
+\newblock \doi{10.1007/978-94-011-5606-6}.
+\newblock \urlprefix\url{http://link.springer.com/10.1007/978-94-011-5606-6}.
+
+\bibitem[{Smith(2008)}]{Smith2008}
+Smith, Carlota~S. 2008.
+\newblock {Time With and Without Tense}.
+\newblock In J~Gu{\'{e}}ron \& J~Lecarme (eds.), \emph{Time and modality},
+  227--250. Springer.
+\newblock \doi{10.1007/978-1-4020-8354-9_10}.
 
 \bibitem[{Stalnaker(1968)}]{Stalnaker1968}
 Stalnaker, Robert~C. 1968.
@@ -1581,12 +1850,25 @@ Starr, William~B. 2014.
 \newblock {What ‘if'?}
 \newblock \emph{Philosophers' Imprint} 14(april). 1--27.
 
+\bibitem[{Stirling(2012)}]{Stirling2012a}
+Stirling, Lesley. 2012.
+\newblock {Tense/Aspect Shifting in Kala Lagaw Ya Oral Narratives}.
+\newblock \emph{Australian Journal of Linguistics} 32(1). 157--190.
+
 \bibitem[{Stirling \& Dench(2012)}]{Stirling2012}
 Stirling, Lesley \& Alan Dench. 2012.
 \newblock {Tense, aspect, modality and evidentiality in Australian Languages:
   Foreword}.
 \newblock \emph{Australian Journal of Linguistics} 32(1). 1--6.
 \newblock \doi{10.1080/07268602.2012.662888}.
+
+\bibitem[{Stojanovi{\'{c}}(2014)}]{Stojanovic2014}
+Stojanovi{\'{c}}, Isidora. 2014.
+\newblock {Talking about the future: Unsettled truth and assertion}.
+\newblock In Philippe {De Brabanter}, Mikhail Kissine \& Saghie Sharifzadeh
+  (eds.), \emph{Future times, future tenses}, chap.~2, 26--. Oxford: Oxford
+  University Press.
+\newblock \doi{10.1093/acprof:oso/9780199679157.003.0002}.
 
 \bibitem[{Stone(1997)}]{Stone1997}
 Stone, Matthew. 1997.
@@ -1631,6 +1913,17 @@ Tedeschi, Philip~J. 1981.
 \newblock Minto, NSW: Bible Society in Australia Inc.
 \newblock \urlprefix\url{http://aboriginalbibles.org.au/Kriol/Conc/root.htm}.
 
+\bibitem[{{The Bible Society of Australia}(2007)}]{KB}
+{The Bible Society of Australia}. 2007.
+\newblock \emph{{Holi Baibul: the Bible in the Kriol of North Australia}}.
+\newblock \urlprefix\url{https://aboriginalbibles.org.au/kriol/}.
+
+\bibitem[{{The Bible Society of Australia}(2008)}]{DB}
+{The Bible Society of Australia}. 2008.
+\newblock \emph{{God-Waŋarrwu Walŋamirr Dh{\"{a}}ruk: The new testament in
+  the Djambarrpuyŋu language of Australia}}.
+\newblock \urlprefix\url{https://aboriginalbibles.org.au/djambarrpuyngu/}.
+
 \bibitem[{Thomason(1970)}]{Thomason1970}
 Thomason, Richmond~H. 1970.
 \newblock {Indeterminist time and truth‐value gaps}.
@@ -1665,12 +1958,11 @@ Traugott, Elizabeth~Closs. 1980.
 
 \bibitem[{Traugott(1989)}]{Traugott1989}
 Traugott, Elizabeth~Closs. 1989.
-\newblock {On the Rise of Epistemic Meanings in English: An Example of
-  Subjectification in Semantic Change}.
+\newblock {On the Rise of Epistemic Meanings in English: An example of
+  subjectification in semantic change}.
 \newblock \emph{Language} 65(1). 31--55.
 \newblock \doi{10.2307/414841}.
-\newblock \urlprefix\url{internal-pdf://57.13.130.106/414841.pdf
-  http://www.jstor.org/stable/414841}.
+\newblock \urlprefix\url{http://www.jstor.org/stable/414841}.
 
 \bibitem[{Traugott(1995)}]{Traugott1995}
 Traugott, Elizabeth~Closs. 1995.
@@ -1714,6 +2006,11 @@ Troy, Jakelin. 1994.
 \newblock \emph{{Melaleuka: A history and description of New South Wales
   Pidgin}}: Australian National University dissertation.
 
+\bibitem[{Vendler(1957)}]{Vendler1957}
+Vendler, Zeno. 1957.
+\newblock {Verbs and Times}.
+\newblock \emph{The Philosophical Review} 66. 143--160.
+
 \bibitem[{Verstraete(2006)}]{Verstraete2006}
 Verstraete, Jean-Christophe. 2006.
 \newblock {The Nature of Irreality in the Past Domain: Evidence from Past
@@ -1746,6 +2043,12 @@ van~der Wal, Anita~E. 1992.
 \newblock \emph{{Structure and Function in Gupapuyŋu: a Yolŋu dialect of
   North-east Arnhemland}}.
 \newblock NSW: University of Newcastle Phd thesis.
+
+\bibitem[{Waters(1980)}]{Waters1980}
+Waters, Bruce~E. 1980.
+\newblock {Djinang verb morphology}.
+\newblock In \emph{Papers in australian linguistics}, vol.~14, Canberra:
+  Pacific Linguistics A-60.
 
 \bibitem[{Waters(1989)}]{Waters1989}
 Waters, Bruce~E. 1989.
@@ -1781,6 +2084,11 @@ Westerst{\aa}hl, Dag. 2019.
 \newblock {Generalized Quantifiers}.
 \newblock \doi{10.5860/choice.41sup-0181}.
 
+\bibitem[{Whitrow(1980)}]{Whitrow1980}
+Whitrow, Gerald~James. 1980.
+\newblock \emph{{Natural Philosophy of TIme}}.
+\newblock Oxford: Clarendon Press.
+
 \bibitem[{Wilkinson()}]{Wilkinson}
 Wilkinson, Melanie~P. ????
 \newblock {Complement clauses in Djambarrpuyŋu}.
@@ -1789,6 +2097,12 @@ Wilkinson, Melanie~P. ????
 Wilkinson, Melanie~P. 2012.
 \newblock \emph{{Djambarrpuyŋu: a Yolŋu variety of Northern Australia}}.
 \newblock Munich: LINCOM.
+
+\bibitem[{Williams(1986)}]{Williams1986}
+Williams, Nancy~M. 1986.
+\newblock \emph{{The Yolŋu and their Land: A system of land tenure and the
+  fight for its recognition}}.
+\newblock Stanford: Stanford University Press.
 
 \bibitem[{Williamson(1996)}]{Williamson1996}
 Williamson, Timothy. 1996.
@@ -1801,6 +2115,12 @@ Winans, Lauren~Danae. 2016.
 \newblock \emph{{Inferences of will}}: UCLA Phd dissertation.
 \newblock
   \urlprefix\url{https://escholarship.org/uc/item/0cz3t955{\%}0Ahttps://escholarship.org/uc/item/6cm9v671}.
+
+\bibitem[{de~Wit(2016)}]{DeWit2016}
+de~Wit, Astrid. 2016.
+\newblock \emph{{The present perfective paradox across languages}} Oxford
+  studies of time in language and thought.
+\newblock Oxford: Oxford University Press.
 
 \bibitem[{Yalcin(2010)}]{Yalcin2010}
 Yalcin, Seth. 2010.

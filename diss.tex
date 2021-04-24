@@ -10,7 +10,15 @@
 		\xdef\marginnotetextwidth{\the\textwidth}
 \usepackage{amssymb,amsthm,upgreek}
 	\usepackage{IEEEtrantools}
-\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{blech}{rgb}{.78,.78.,.62}
+\definecolor{link}{rgb}{.25,.25,.25}
+\definecolor{ochre}{cmyk}{0, .42, .83, .20}
+\definecolor{forest}{cmyk}{.57, .13, .57, .08}
+\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
+
+\usepackage[pdfborderstyle={/S/U/W 1},colorlinks=true,linkcolor={link},citecolor={Sepia}]{hyperref}%Bittersweet also nice
 %\usepackage[tiny,compact]{titlesec}
 \usepackage{graphicx}
 \graphicspath{ {figs/} }
@@ -76,6 +84,8 @@
 
 
 \usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing,decorations.markings,trees}
+\usetikzlibrary{fadings}
+%	\tikzfading[name=fade right,left color=transparent!0, right color=transparent!100]
 \tikzset{snake it/.style={decorate, decoration=snake}}
 \usetikzlibrary{calc, shapes, backgrounds,angles,quotes,tikzmark}
 		\newcommand*\circled[1]{\tikz[baseline=(C.base)]\node[draw,circle,inner sep=1.2pt,line width=0.2mm,](C) {\small #1};}
@@ -99,8 +109,12 @@
 \usepackage{ot-tableau}
 
 \usepackage{paralist} 
-\usepackage[labelsep=period,labelfont=bf]{caption}
+\usepackage[labelsep=period,labelfont=bf,figurewithin=none,tablewithin=none]{caption}
 \usepackage{subcaption}
+%\usepackage{chngcntr}
+%todo this is where figure/table numbering can be rejigged: I'm not really sure what I'm doing atm.
+%	\counterwithin{figure}{part}
+
 \usepackage{fancyhdr} 
 \usepackage{sectsty}
 %\allsectionsfont{\sffamily\mdseries\upshape} 
@@ -109,12 +123,7 @@
 \usepackage[titles,subfigure]{tocloft} 
 \usepackage{setspace}
 %\usepackage[colorinlistoftodos]{todonotes}
-\usepackage{xcolor}
 
-\definecolor{blech}{rgb}{.78,.78.,.62}
-\definecolor{ochre}{cmyk}{0, .42, .83, .20}
-\definecolor{forest}{cmyk}{.57, .13, .57, .08}
-\definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
 %\usepackage[explicit]{titlesec}
 %\usepackage{type1cm}
 %\usepackage{xcolor}
@@ -189,6 +198,11 @@
 \newcommand{\note}[1]{{ }\mcom{Note}\textbf{#1}}
 
 
+\newcommand{\fancybreak}{\begin{center}
+		\huge\sf	 ※ %\tt	 ❧❦☙ ※
+\end{center}}
+
+
 \newcommand{\glem}[1]
 {\MakeUppercase{\scriptsize{\textbf{#1}}}}
 
@@ -242,7 +256,10 @@
 			description = Gupapuyŋu (Pama-Nyungan: Yolŋu (Dhuwala)),
 			type=lang,	}
 		
-		
+		\newglossaryentry{kik}{
+			name = \texttt{kik} ,
+			description = Kuikuyu (Bantu: Central Kenya),
+			type=lang,	}
 		
 		
 			\newglossaryentry{dwu}{
@@ -250,6 +267,19 @@
 			description = Dhuwal (proper) (Pama-Nyungan: Yolŋu (Dhuwal)),
 			type=lang,	}
 		
+		
+				\newglossaryentry{nbi}{
+			name = \texttt{nbi} ,
+			description = Mao Naga/Sopvoma (Sino-Tibetan: Nagaland\, NE India),
+			type=lang,	}
+			\newglossaryentry{mni}{
+			name = \texttt{mni} ,
+			description = Manipuri/Meitei (Sino-Tibetan: Manipur\, NE India),
+			type=lang,	}
+				\newglossaryentry{lil}{
+			name = \texttt{lil} ,
+			description = St̓át̓imcets (Interior Salish: Lillooet River valley\, British Columbia),
+			type=lang,	}
 		\newglossaryentry{dji}{
 		name = \texttt{dji} ,
 		description = Djinaŋ (Pama-Nyungan: Yolŋu),
@@ -278,6 +308,10 @@
 		name = \texttt{wga} ,
 		description = Wakaya (Pama-Nyungan: Ngarna),
 		type=lang,	}
+		\newglossaryentry{fra}{
+		name = \texttt{fra} ,
+		description = French (Indo-European\, Romance: France),
+		type=lang,	}
 	
 	
 		\newglossaryentry{gge}{
@@ -288,6 +322,11 @@
 		\newglossaryentry{yua}{
 		name = \texttt{yua} ,
 		description = Yucatec Maya (Mayan -- Central America),
+		type=lang,	}
+	
+		\newglossaryentry{sqi}{
+		name = \texttt{sqi} ,
+		description = Albanian (Indo-European: Albania/Kosovo),
 		type=lang,	}
 	
 		\newglossaryentry{nck}{
@@ -305,12 +344,21 @@
 			name = \texttt{tpr} ,
 			description = Tuparí (Tupian\, Norte do Brasil),
 			type=lang,	}
+		
+			\newglossaryentry{cad}{
+			name = \texttt{cad} ,
+			description = Caddo (Caddoan\, Oklahoma),
+			type=lang,	}
 	
 	%%%%GLOSSING	
 		
 			\newglossaryentry{mod}{
 			name = \textsc{mod} ,
 			description = modal operator,
+			type=gloss,	} 
+			\newglossaryentry{oblig}{
+			name = \textsc{oblig} ,
+			description = obligative,
 			type=gloss,	} 
 			\newglossaryentry{refl}{
 			name = \textsc{r/r} ,
@@ -319,6 +367,10 @@
 			\newglossaryentry{pl}{
 			name = \textsc{pl} ,
 			description = plural,
+			type=gloss,	} 
+			\newglossaryentry{rlv}{
+			name = \textsc{rlv} ,
+			description = ``relevant'',
 			type=gloss,	} 
 		
 		
@@ -367,6 +419,10 @@
 			\newglossaryentry{perg}{
 			name = \textsc{perg} ,
 			description = pergressive, , 
+			type = gloss , }
+			\newglossaryentry{trm}{
+			name = \textsc{trm} ,
+			description = temporal remoteness morpheme, 
 			type = gloss , }
 		
 			\newglossaryentry{inan}{
@@ -685,7 +741,22 @@
 			name = \textsc{fact} ,
 			description = factative (mood),
 			type = gloss , }
-		 
+		 		\newglossaryentry{I}{
+		 	name = \textcolor{forest}{\textbf{I}} ,
+		 	description = primary/\textsc{first} inflection (Western Dhuwal/a),
+		 	type = gloss , }
+	 			\newglossaryentry{II}{
+	 		name = \textcolor{ochre}{\textbf{II}} ,
+	 		description =  secondary/\textsc{second} inflection (Western Dhuwal/a),
+	 		type = gloss , }
+		\newglossaryentry{III}{
+ 			name = \textcolor{blue}{\textbf{III}} ,
+ 			description =  tertiary/\textsc{third} inflection (Western Dhuwal/a),
+ 			type = gloss , }
+		\newglossaryentry{IV}{
+ 			name = \textcolor{violet}{\textbf{IV}} ,
+ 			description =  quarternary/\textsc{fourth} inflection (Western Dhuwal/a),
+ 			type = gloss , }
 		\newglossaryentry{ipfv}{
 			name = \textsc{ipfv} ,
 			description = imperfective (aspect),
@@ -769,6 +840,10 @@
 		name = \texttt{fud} ,
 		description =  East Futunan (Polynesian),
 		type=lang,	}
+		\newglossaryentry{wd}{
+		name = WD ,
+		description =  Western Dhuwal-Dhuwala (Yolŋu Matha dialect cluster),
+		type=lang,	}
 	
 	
 	\newglossaryentry{dhg}{
@@ -779,6 +854,11 @@
 	\newglossaryentry{nna}{
 		name = \texttt{nna} ,
 		description = Nyangumarta (Pama-Nyungan: Marrngu),
+		type=lang,	}
+	
+		\newglossaryentry{gnn}{
+		name = \texttt{gnn} ,
+		description = Gumatj (Pama-Nyungan: Yolŋu (E. Dhuwala)),
 		type=lang,	}
 	
 	
@@ -828,6 +908,15 @@
 		name = \texttt{bcj} ,
 		description = Bardi (Pama-Nyungan: Nyulnyulan),
 		type=lang,	}
+	\newglossaryentry{wac}{
+		name = \texttt{wac} ,
+		description = Kiksht (Chinookan: Pacific Northwest),
+		type=lang,	}
+	
+	\newglossaryentry{zmq}{
+	name = \texttt{zmq} ,
+	description = Mituku (Bantu: Democratic Republic of the Congo),
+	type=lang,	}
 	
 		\newglossaryentry{stat}{
 		name = \texttt{lil} ,
@@ -868,7 +957,14 @@
 		name = \texttt{dbl} ,
 		description = Dyirbal (Pama-Nyungan: Dyirbalic),
 		type=lang,	}
-	
+		\newglossaryentry{mwp}{
+		name = \texttt{mwp} ,
+		description = Kala Lagaw Ya (Pama-Nyungan: Western Torres Strait),
+		type=lang,	}
+		\newglossaryentry{aoi}{
+		name = \texttt{aoi} ,
+		description = Anindilyakwa (Gunywinguan: SE Arnhem),
+		type=lang,	}
 	
 	\newglossaryentry{gbb}{
 		name = \texttt{gbb} ,
@@ -922,7 +1018,15 @@
 		type=lang,	}
 	
 	
+		\newglossaryentry{bli}{
+		name = \texttt{bli} ,
+		description = Bolia (Bantu (Zone \textsc{c}): W. DR Congo),
+		type=lang,	}
 	
+		\newglossaryentry{cpa}{
+		name = \texttt{cpa} ,
+		description = Palantla Chicantec (Oto-Manguean: Oaxaca),
+		type=lang,	}
 
 
 	
@@ -1046,9 +1150,13 @@
 
 
 \setcounter{tocdepth}{3}\tableofcontents	\gathertags
+
 \setcounter{chapter}{0}
 \setcounter{part}{0}
 \reversemarginpar%\onehalfspacing
+
+
+%\listoftables
 \chapter{Introduction}\pagenumbering{arabic}%\doublespacing
 %\input{intro.tex}
 \label{IntroCh}
@@ -1064,7 +1172,7 @@ The role of this introduction is to lay out (and motivate) the major assumptions
 Each essay considers data from a number of languages spoken in Aboriginal Australia --- particularly Yolŋu Matha and Australian Kriol --- on the basis of both published and original data, collected on-site in the Top End and in consultation with native speakers. While there is a rich tradition of Australian language description and recent work has attended to a number of distinctive features in the functional semantics of Australian Languages, in places deploying formal tools, the languages of this continent, hugely linguistically diverse, has otherwise received vanishingly little attention in formal semantic theory (some exceptions to this include \citeauthor{Stirling2012}'s 2012 special issue of \textit{Aust. J. Linguist. 32},\footnote{\textit{Australian Journal of Linguistics}'s special issue contained six pieces on various TAME phenomena in Australian languages emerging out of a four-year European Commission-funded grant. Of particular interest from a formal perspective are the contributions of \citet{Caudal2012} and \citet{Ritz2012}.} James \citeauthor{Bednall2019}'s 2019 thesis on Anindilyakwa temporal and modal expression and \citealt{Bowler2014} \& \citealt{Kapitonov2018} on quantificational expressions in Warlpiri and Kunbarlang respectively.) As we will see, data from these languages promise to challenge and enrich the methodological and theoretical toolbox of formal semantics, just as insights from contrastive work on, \textit{e.g.}, the indigenous languages of the Americas and the Pacific have (\citealp[\textit{e.g.},][]{Matthewson2006,Tonhauser2007,Krifka2016,VonPrince2018,Bochnak2019}, among many others.) Furthermore, it is a general contention throughout this work formal perspectives hold exceptional promise in terms of better understanding this diversity and developing typologies of the expression of functional categories across these languages.
 
 %todo highlight/topicalise ALs as emp focus
-\section{Overview}
+\section{Overview}\label{sec:overview}
 
 
 The body of this dissertation comprises three discrete parts, which represent three related but distinct projects. While they can each be read as independent pieces of work that tackle separate linguistic phenomena, the methodological tools, assumptions and upshots of each component are mutually informing. As described above, the four chapters all engage with various phenomena at the intersections of tense, mood/modality and negation. They each interrogate the linguistic manifestations of interactions between these semantic categories in view of contributing to a nuanced and cross-linguistically sound semantic theory, with particular implications for our theoretical conceptions of, for example, irreality and counterfactuality. Here, I provide a brief abstract of each of the dissertation's constituent parts.
@@ -1366,7 +1474,7 @@ Once again, and drawing on the relations described above, this relation between 
 
 
 
-\paragraph{A modal trichotomy} As a consequence of this,  \Citet{VonPrince2017a,VonPrince2019} establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
+\paragraph{A modal trichotomy}\label{vP-trich} As a consequence of this,  \Citet{VonPrince2017a,VonPrince2019} establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
 
 \pex Given a contextually defined \textsc{actual present} $( i*=\langle w*,t*\rangle )$, $ \mathcal I $ can be partitioned into three subdomains:
 \a The \textsc{actual} (past/present) = $\boldsymbol{ \{i\mid i\preccurlyeq i*\} }$
@@ -1386,7 +1494,7 @@ Those $ i\in\mathcal I $ which neither precede nor succeed the utterance index $
 
  Each cell of this partition is represented in Figure \ref{BT-dia} above: solid lines join those indices that are \textsc{$ i* $-actual}, whereas dashed and dotted lines represent \textsc{$ i* $-potential} and \textsc{-counterfactual} branches respectively. This trichotomy is shown to have significant linguistic import (which will be explored throughout the dissertation.)
 
-\subsection{Modal auxiliaries as quantifiers: \citealt{Kratzer1977} \textit{et seq.}}
+\subsection{Modal auxiliaries as quantifiers: \citealt{Kratzer1977} \textit{et seq.}}\label{sec:kratzer}
  Building on the tense logics introduced above, following (Kratzer \citeyear{Kratzer1977,Kratzer1981,Kratzer1991} a.o.), modal expressions are taken to denote \textbf{quantifiers over possible worlds}. Crucially, like other natural language quantifiers, modal auxiliaries are taken to contain (implicit) restrictions over their quantificational domain. For Kratzer the distinction between so-called \textit{epistemic} and \textit{deontic} readings of modal auxiliaries is a function of this restriction. This distinction is shown in the sentence pair in (\getref{K77-mod}) below.
 
 \pex Two readings of English modal auxiliary \textit{must} from \citet[338]{Kratzer1977}\deftagex{K77-mod}
@@ -1397,9 +1505,9 @@ Those $ i\in\mathcal I $ which neither precede nor succeed the utterance index $
 In effect, the different readings (``flavours'') of \textit{must} in (\getfullref{K77-mod.de}-\getref{K77-mod.ep}) arise as a consequence of different \textbf{restrictions} that are made over the set of possible worlds. In effect, the deontic reading (\getfullref{K77-mod.de}) makes a claim about only (and all) those worlds/possible states-of-affairs in which Māori children adhere to some set of societally-given rules, laws and expectations. Conversely (\getfullref{K77-mod.ep}) makes a claim about only (and all) those possible worlds that are compatible with everything that the speaker knows. These subsets of $ \mathcal W$ are referred to as \textbf{conversational backgrounds} (\textit{sc.} an \textit{epistemic} vs. \textit{deontic} conversational background). By assuming that conversational backgrounds are supplied by broader lingusitic context, a major advantage of the Kratzerian program is that modal auxiliaries like \textit{must} and \textit{can} can be taken to be semantically unambiguous. The accessibility relations against which modal propositions were verified in earlier modal logics (sc. modals as unary operators) are reconceptualised as contextually-retrieved functions from worlds to (sets of) propositions \citep*[see][]{Kaufmann2006}. 
 
 
- A sentence of the form \textit{must} $ \varphi $ asserts that $ \varphi $ is true in all relevant worlds (universally quantifying over a subset of $ \mathcal W $, returned by a \textbf{modal base} (\textit{i.e.}, a conversational background) $ f $) whereas one of the form \textit{can $ \varphi $} makes a weaker claim, namely that the truth of $ \varphi $ is \textit{compatible} with those worlds. That is, \textit{must} is a universal quantifier and \textit{can} is an existential quantifier over possible worlds (\nextx). %Consequently, on formal accounts, modal operators are analysed as 
+ A sentence of the form \textit{must} $ \varphi $ asserts that $ \varphi $ is true in all relevant worlds (universally quantifying over a subset of $ \mathcal W $, returned by a \textbf{modal base} (\textit{i.e.}, a conversational background $ f $) whereas one of the form \textit{can $ \varphi $} makes a weaker claim, namely that the truth of $ \varphi $ is \textit{compatible} with those worlds. That is, \textit{must} is a universal quantifier and \textit{can} is an existential quantifier over possible worlds (\nextx). %Consequently, on formal accounts, modal operators are analysed as 
 
-\pex The semantics of necessity/possibility modal auxiliaries \citep[adapting from][346]{Kratzer1977}\deftagex{K-modals}
+\pex The semantics of necessity/possibility modal auxiliaries \trailingcitation{\citep[adapting from][346]{Kratzer1977}}\deftagex{K-modals}
 \a $ \denote{\textit{must}}=\lambda f\lambda p\lambda w.\forall w'[w'\in\cap f(w)\to w'\in p] $
 
 \textit{must $ p $} is true given a modal base $ f(w) $ if $ p $ follows from $ f(w) $
@@ -1413,18 +1521,18 @@ In effect, the different readings (``flavours'') of \textit{must} in (\getfullre
 
 A second type of conversational background, the \textbf{ordering source}, is formally similar to the modal bases invoked above insofar as it comprises a set of propositions $ o(w) $. This set can induce an \textit{ordering} over the worlds in the modal base in terms of how well each world conforms with $ o(w) $. Appealing to multiple interacting conversational backgrounds has allowed for successful modelling of linguistic expressions that denote/appeal to graded possibilities and probability and subtle differences in modal ``flavours.'' That more than one conversational background is required is well illustrated in (\nextx) (adapted from \citealp*{Kaufmann2006}).
 
-\pex \textit{Randi must pay a fine for drink-driving}\\ $ \boldsymbol{\not\Rightarrow }$ `In all those worlds where the rules are best followed, Randi must drink-drive.'\xe
+\pex \textit{Randi must pay a fine for drink-driving}\\ $ \boldsymbol{\not\Rightarrow }$ `In all those worlds where the rules are best followed, Randi must drink-drive.'\label{ex:randi}\xe
 
-\noindent(\lastx) shows that a deontic conversational background can't serve as the modal base for \textit{must} (as this would require that all law-abiding worlds be characterised by Randi's drink-driving.) Instead, we appeal to a ``circumstantial'' modal base $ f(w) $: that is, we consider worlds where relevant circumstances (including Randi's drink-driving) obtain, and universally quantify into a subset of those, namely the ones that best conform to whichever set of rules/laws govern drink-driving (\textit{sc.} those propositions in the deontic ordering source $ o(w) $.) Generally this is operationalised by appealing to a function $ \underset{o(w)}{\textsc{best}}$ which takes a set of worlds and returns the ``best'' worlds as determined by an ordering source $ o $ (\textit{i.e.}, those worlds in $ f $ best conforming to the ideal contained in $ o $ as in (\nextx) adapted from \citealp[61]{VonFintel2011}.)\footnote{This same function is sometimes also given as \textbf{\textit{max}} (\citealp[e.g.][]{Hacquard2006,VonFintel2008,VonFintel2011}, a.o.) or \textbf{\textit{O(pt)}} \citep[247]{Schwager2006}.} 
+\noindent(\lastx) shows that a deontic conversational background can't serve as the modal base for \textit{must} (as this would require that all law-abiding worlds be characterised by Randi's drink-driving.) Instead, we appeal to a ``circumstantial'' modal base $ m(w) $: that is, we consider worlds where relevant circumstances (including Randi's drink-driving) obtain, and universally quantify into a subset of those, namely the ones that best conform to whichever set of rules/laws govern drink-driving (\textit{sc.} those propositions in the deontic ordering source $ o(w) $.) Generally this is operationalised by appealing to a function $ \underset{o(w)}{\textsc{best}}$ which takes a set of worlds and returns the ``best'' worlds as determined by an ordering source $ o $ (\textit{i.e.}, those worlds in $ m $ best conforming to the ideal contained in $ o $ as in (\nextx) adapted from \citealp[61]{VonFintel2011}.)\footnote{This same function is sometimes also given as \textbf{\textit{max}} (\citealp[e.g.][]{Hacquard2006,VonFintel2008,VonFintel2011}, a.o.) or \textbf{\textit{O(pt)}} \citep[247]{Schwager2006}.} 
 
-\ex The best worlds in a modal base $ f $ according to an ordering $\boldsymbol{\underset{o(w)}{\prec}}$
+\ex The best worlds in a modal base $ m $ according to an ordering $\boldsymbol{\underset{o(w)}{\prec}}$
 
-$ \underset{o(w)}{\textsc{best}}\big((\cap f(w)\big)=\{w\in\cap f(w)\mid \neg\exists w'[w'\underset{o(w)}{\prec}w]\}$\label{ord-source}\xe
+$ \underset{o(w)}{\textsc{best}}\big((\cap m(w)\big)=\{w\in\cap m(w)\mid \neg\exists w'[w'\underset{o(w)}{\prec}w]\}$\label{ord-source}\xe
 \pex \textit{must} relativised to two conversational backgrounds (modal base $ f $ and ordering source $ o $)
 
-$\denote[o,f]{\textit{must}}=\lambda p\lambda w.\forall w'[w'\in\underset{o(w)}{\textsc{best}}(\cap f(w))\to w'\in p] $
+$\denote[o,m]{\textit{must}}=\lambda p\lambda w.\forall w'[w'\in\underset{o(w)}{\textsc{best}}(\cap m(w))\to w'\in p] $
 
-\textit{must $ p $} is true in $ w $, given conversational backgrounds $ \langle{f,o}\rangle $ if $ p $ is in true in all the worlds that are best conforming to $ o(w) $ in $ \cap f(w) $
+\textit{must $ p $} is true in $ w $, given conversational backgrounds $ \langle{m,o}\rangle $ if $ p $ is in true in all the worlds that are best conforming to $ o(w) $ in $ \cap m(w) $
 \xe
 
 
@@ -1442,13 +1550,13 @@ This involves recasting conversational backgrounds --- sets of propositions --- 
 Proposals for Branching-theoretic lexical entries for the English modal auxiliaries in (\getref{K-modals}) are modified accordingly below.\footnote{Ordering sources can be added back in straightforwardly (\textit{i.e.}, again as sets of propositions which induce an order over a modal base.) They are not given in these entries for the sake of exposition.}
 
 \pex[exno=\getref{K-modals}′⁣] Proposed modification to semantics for modal auxiliaries (\getref{K-modals}) for $ \mathfrak T $-frames.
-\a$ \denote[f]{\textit{must}}=\lambda p\lambda i.\forall b\ni i[b\in\cap f(i)\to \exists i':i'\in b\wedge p(i')] $\\
+\a$ \denote[m]{\textit{must}}=\lambda p\lambda i.\forall b\ni i[b\in\cap m(i)\to \exists i':i'\in b\wedge p(i')] $\\
 %\textit{must $ p $} is true given a modal base $ f(i) $ is $ p $ follows from $ f(i) $...?
-\textit{must} $ p $ is true if, along all the branches through $ i $ that are selected by the modal base $ f(i) $, there is a branchmate $ i' $ such that $ p $ holds at $ i' $.
+\textit{must} $ p $ is true if, along all the branches through $ i $ that are selected by the modal base $ m(i) $, there is a branchmate $ i' $ such that $ p $ holds at $ i' $.
 
-\a$ \denote[f]{\textit{can}}=\lambda p\lambda i.\exists b\ni i[b\in\cap f(i)\wedge \exists i':i'\in b\wedge p(i')] $\\
+\a$ \denote[m]{\textit{can}}=\lambda p\lambda i.\exists b\ni i[b\in\cap m(i)\wedge \exists i':i'\in b\wedge p(i')] $\\
 %\textit{must $ p $} is true given a modal base $ f(i) $ is $ p $ follows from $ f(i) $...?
-\textit{ can } $ p $ is true if, there is some branch running through $ i $, which is selected by the modal base $ f(i) $ and along that branch there is an index $ i' $ such that $ p $ holds at $ i' $.
+\textit{ can } $ p $ is true if, there is some branch running through $ i $, which is selected by the modal base $ m(i) $ and along that branch there is an index $ i' $ such that $ p $ holds at $ i' $.
 
 
 \xe
@@ -1474,19 +1582,68 @@ Due to Kiparsky (\citeyear{Kiparsky2006} \textit{et seq.}), \textit{amphichronic
 
 In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langauge faculty at work. Formal renewal engenders new categories that conform to cross-linguistic generalisations regardless of their source'' \citep[73]{Kiparsky2015}. Over past decades, research on meaning change has led to the discovery of regular grammaticalisation ``clines/pathways/trajectories'': that is, a given lexical expression with meaning $ \alpha $ comes to denote $ \beta $, then $ \gamma $ \textit{etc.} as an independent development across languages separated in space and time \citep[see][]{Deo2015,Eckardt2011}. In view of these robust cross-linguistic tendencies emerges the question of what is driving this change and \textbf{\textit{why}}. In this dissertation, I apply a methodology where the precise synchronic meaning of particular linguistic expressions is analysed while simultaneously attending to changes in the interpretive conventions associated with these expressions.\footnote{See also James Leow's recent \citeyearpar{Leow2020} dissertation where he reports change in the modal necessity domain of Cuban Spanish.} It is a goal of the current research, then, to contribute insights into the ætiology of these changes and to consider what light, if any, they may shed on the universal ``structure'' of the semantic domains that are investigated here.
 
-\section{Languages}
-{\color{Blue}
-Some three hundred Australian languages have been reconstructed to a single family, Pama-Nyungan, spoken across Australia except for some regions in the north of the continent. The most recent common ancestor of these languages is estimated to have been spoken roughly five to six thousand years \textsc{BP} (a similar timedepth to Indo-European, see \citealt[742]{Bouckaert2018}). Many of these languages remain underdescribed, and consequently, poorly integrated into (model-)theoretic treatments of cross-linguistic semantics...
+\section{The linguistic ecology of Arnhem Land}\label{sec:ecol}
+
+%Initial human inhabitation of the Australian landmass is generally estimated at roughly 50,000 years ago (50Kya).
+The past few decades have seen mounting interest in the deployment of historical/comparative linguistic methods for uncovering linguistic and anthropological prehistory of the continent \citetext{\citealp[see][]{McConvell2011} for an overview.} Some three hundred Australian languages have been reconstructed to a single family, Pama-Nyungan, spoken across mainland Australia (approx. 90\% of its area) except for some regions in the north of the continent \citep{Dixon1980,Bowern2021}. The most recent common ancestor of these languages (\textit{sc. proto-Pama-Nyungan}) is estimated to have been spoken roughly five to seven thousand years before present (5--7Kya, during the mid-Holocene/Northgrippian age: a comparable timedepth to Indo-European), originating in the ``Gulf Plains'' bioregion around the Gulf of Carpentaria \citetext{\citet{Bouckaert2018}, supporting earlier work, incl. \citealp{Hale1964} a.o.}. Many of these languages remain underdescribed (extinct, or recorded in ``salvage''-oriented documentatary work.) As a consequence, they are by and large poorly integrated into (model-)theoretic treatments of cross-linguistic semantics (as suggested in \S~\ref{IntroCh} above, see also \citealp{Nordlinger2021} for an overview of the impact of theoretical treatments of Australian language data.)
+
+\begin{figure}[h]\caption{Map of Australian linguistic areas, including detail of Northern Australia and Arnhem Land}\label{maps}
+	\begin{subfigure}[t]{\textwidth}
+		\caption{Australian language families: Pama-Nyungan is shaded yellow, with detail of diverse Northern Australia \citep[adapted from][]{Dixon2002a}}\label{pn}\centering
+		\includegraphics[width=.6\linewidth]{ALs.png}
+	\end{subfigure}
+\clearpage
+\begin{subfigure}[t]{\textwidth}
+	\caption{Languages of Arnhem Land. \textit{Yolŋu}-speaking area is shaded. Primary data in this dissertation was elicited in Ramingining \& Ngukurr (highlighted). Map adapted from \citet[2]{Wilkinson1991}.}\label{arn}\centering
+		\includegraphics[width=.85\linewidth]{arnhem-mw2.png}
+\end{subfigure}
+\end{figure}
+
+\paragraph*{Multilingualism}
+
+Arnhem land --- detail provided in figure \ref{arn} --- is a linguistically diverse region of Australia's ``Top End.'' Relatively isolated (several hundred kilometers east of Darwin), the population is roughly 85\% indigenous, home to a number of ethnolinguistic groups. Owing to the relative isolation of northern Australian communities, 12 of the 20 aboriginal languages judged as ``strong'' are spoken in the Northern Territory \citep[3]{Schmidt1990}. Language families spoken in Arnhem Land include Yolŋu (Pama-Nyungan) in the northeast, surrounded by a number of non-Pama-Nyungan isolates as well as the Iwaidjan, Maningrida/Burarran, Gunwinyguan, Rembarngic, Marran and SE Arnhem families; the constituency of these groupings and the relations between them are still uncertain \citetext{see \textit{e.g.}, \citealp{Green2003} for the proto-Arnhem proposal.} Assessing these relations is complicated by the especially high degree of language contact and endemic ``personal multilingualism'' that characterise Arnhem Land speech communities, patterns reinforced by universal moiety/clan exogamy \citetext{\citealp{McConvell2011,Evans2001}, see also \citealp[Ch. 1]{Williams1986,Wilkinson1991} for a discussion of clan exogamy in Yolŋu society}. Children are raised in multilingual settings and continue acquiring new languages throughout their life. 
+
+\paragraph*{Endangerment \& displacement}
+
+As suggested above, the effects of European invasion of the Australian continent in the eighteenth century were catastrophic for Aboriginal Australia; one consequence of this being the fragmentation of traditional language ecologies. According to \citet[1]{Schmidt1990}, two-thirds of Australian languages spoken at the time of contact (which she, perhaps conservatively, numbers as 250) are no longer spoken and estimates that only one in every ten Aboriginal people speaks their indigenous language. Westward frontier expansion had the effect of bringing Aboriginal pidgin varieties into Arnhem Land, which subsequently developed into a creole language. With varieties estimated to be spoken by more than 30,000 people across Northern Australia, Australian Kriol is understood to have first emerged as a community language in the Roper Gulf region (SE Arnhem), close to the contemporary community of Ngukurr \citetext{\textit{e.g.}, \citealp{Harris1986a}, see also \citealp{Phillips2011} for an overview.} Kriol continues to be the first language of the vast majority of Ngukurr's indigenous population; with a couple of exceptions, most of the traditional Australian languages of the area are now critically endangered (see also chapter \ref{bambai.desc}.)
 
 
+Additional background information on the sociolinguistic context of the language varieties under investigation is provided in each chapter.
 
-ARnhem land more generally (esp given the survey Roper languages in tthe appr chapter)
-}
+
 \section{Data \& glossing conventions}
 
-Each subpart of this dissertation makes use of (novel and published) data from different sources. Example sentences are glossed following (modified) Leipzig conventions (all adopted conventions listed on \textit{pg.} \pageref{}).
+Each subpart of this dissertation makes use of (novel and published) data from different sources. Example sentences are glossed following (modified) Leipzig conventions (all adopted abbreviations listed on \textit{pg.} \pageref{}).\marginnote{orthographic stuff} I adopt standard orthographic conventions for Australian languages and for Yolŋu Matha (including the standardisation of other sources to Yolŋu spelling conventions.) These writing systems are derived from English orthography; digraphs and diacritics which may be unfamiliar or otherwise ambiguous to the reader and their IPA correspondences are tabulated below \citetext{see also, \textit{e.g.}, \citealt[549]{Dixon2002a} for an overview of ``canonical'' phoneme inventories in Australian Language and \citealt[41,44]{Wilkinson1991} for the Yolŋu orthography, originally proposed by Beulah Lowe.}
 
-Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 and 2019 from native speakers in Arnhem Land (in particular the Ngukurr and Ramingining communities) and Darwin. Where data are sourced from published material, a numbered bibliographic citation is provided. Where data is sourced from original fieldwork, the consultant's initials and date of recording are provided in square brackets --- \textit{e.g.}, [JP~20201216].\marginnote{field methods}
+\begin{table}[h]
+\caption{Correspondences between \textbf{\texttt{[IPA]}}, \textcolor{violet}{\textbf{\textit{Australianist}}} and \textcolor{ochre}{\textbf{\textit{Yolŋu}}} orthographic conventions adopted in the dissertation}	\centering
+	\begin{tabular}{>{[~}l<{~]}>{\it\color{violet}}c>{\it\color{ochre}}c}
+		l&rl&ḻ\\
+		ɲ&rn&ṉ\\
+		ʈ&rt&ṯ\\
+		ɖ&rd&ḏ\\
+		ɻ&r&r\\
+		ɾ&rr&rr\\
+		t̪&\multicolumn{2}{c}{\textit{th}}\\
+		d̪&\multicolumn{2}{c}{\textit{dh}}\\
+		n̪&\multicolumn{2}{c}{\textit{nh}}\\
+		ŋ&ng&ŋ\\
+		ɟ&j/dy&dj\\
+		ʔ&&ˀ\\
+		c&ch/ty&tj\\
+		aː&aa&ä\\
+		iː&ii&e\\
+		uː&uu&o\\
+	\end{tabular}
+\end{table}
+
+
+\defcitealias{KB}{KB}
+\defcitealias{DB}{DB}
+
+Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 and 2019 from native speakers in Arnhem Land (in particular the Ngukurr and Ramingining communities) and Darwin. Where data are sourced from published material, a numbered bibliographic citation is provided. An exception to this is the Djambarrpuyŋu and Kriol bible translations, abbreviated as \citetalias{DB} and \citetalias{KB} respectively and accompanied by a cross-reference to the name of the \textsc{book} as well as the chapter and verse numbers (\textit{e.g.} [\citetalias{KB}~\textit{Jen.} 1:3]). Each of these texts is online at \url{https://aboriginalbibles.org.au/}, made publicly available by \citet{KB,DB}.
+
+  Where data is sourced from original fieldwork, the consultant's initials and date of recording are provided in square brackets --- \textit{e.g.}, [JP~20201216].\marginnote{field methods}
 
 \part{The emergence of apprehensionality in Australian Kriol}\label{bambai}
 \input{Kriol/Bambai.tex} 
@@ -1506,7 +1663,7 @@ Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 
 
 
 \iffalse
-	\part{Yolŋu Matha intensionality}\label{yolngu}
+%	\part{Yolŋu Matha intensionality}\label{yolngu}
 	\input{abstract}
 	%	\vspace*{\fill}
 		\noindent\sl Drawing on data from Yolŋu~Matha, a subfamily of Pama-Nyungan spoken in central- and eastern Arnhem Land, this part of the Dissertation provides an amphichronic description and analysis of the Yolŋu~Matha verbal paradigm and a discussion of the linguistic devices that speakers use for displacement: temporal and modal displacement.
@@ -1521,13 +1678,13 @@ Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 
 		\vfill
 		
 		\upshape 
-	\chapter{The Yolŋu~Matha verbal paradigm}\label{descY}
+%	\chapter{The Yolŋu~Matha verbal paradigm}\label{descY}
 	%\mcom{On inspection this isn't the most appropriate ch title if i'm speaking about nonparadigmatic things (auxiliaries, adverbials etc.) Also the fact that the demonstrative system is gonna get a treatment... should this be i this chapter? Do we wanna make the title much more inclusive? ughhhh}
 	%\input{Yolngu/puzzle/Puzzle.tex}
 \fi
 
 
-\part{Reality status \& the Yolŋu verbal paradigm}\label{anY}\label{yolŋu}
+\part{Reality status \& the Yolŋu verbal paradigm}\label{yolŋu}
 %\input{Yolngu/Analysis/analysis.tex}
 \input{Yolngu/Analysis/asymmetries.tex}
 
