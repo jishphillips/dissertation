@@ -2,124 +2,90 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: diss.aux
 The style file: biblo/sp.bst.bst
-Illegal, another \bibstyle command---line 1115 of file diss.aux
+Illegal, another \bibstyle command---line 732 of file diss.aux
  : \bibstyle
  :          {biblo/sp.bst}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 14178 items from 5000.
+Reallocated field_info (elt_size=4) to 11214 items from 5000.
 Database file #1: biblo/library.bib
-Repeated entry---line 345 of file biblo/library.bib
+Repeated entry---line 346 of file biblo/library.bib
  : @incollection{Malchukov2009
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 513 of file biblo/library.bib
- : @book{Traugott1991
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 749 of file biblo/library.bib
- : @article{Schaden2009
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 4962 of file biblo/library.bib
- : @article{Anderson2008
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5748 of file biblo/library.bib
- : @article{Schaden2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7138 of file biblo/library.bib
- : @book{Eckardt2006
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 11615 of file biblo/library.bib
- : @book{Eckardt2006
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 12988 of file biblo/library.bib
- : @article{Traugott2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 13975 of file biblo/library.bib
- : @article{Deo2009a
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 15703 of file biblo/library.bib
- : @article{Traugott1989
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16146 of file biblo/library.bib
- : @book{Bybee1994
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16218 of file biblo/library.bib
- : @incollection{Reichenbach1947
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16352 of file biblo/library.bib
- : @article{Eckardt2011
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16451 of file biblo/library.bib
- : @book{Comrie1976
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 16574 of file biblo/library.bib
- : @book{Smith1997
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18820 of file biblo/library.bib
- : @incollection{Eckardt2009
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 20375 of file biblo/library.bib
+Repeated entry---line 2832 of file biblo/library.bib
  : @misc{Bowern2009
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21018 of file biblo/library.bib
+Repeated entry---line 3760 of file biblo/library.bib
  : @article{Kratzer1977
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 21443 of file biblo/library.bib
- : @article{Vendler1957
- :                     ,
+Repeated entry---line 7752 of file biblo/library.bib
+ : @article{Anderson2008
+ :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22407 of file biblo/library.bib
- : @inproceedings{Condoravdi2003
- :                              ,
+Repeated entry---line 10764 of file biblo/library.bib
+ : @article{Deo2009a
+ :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 22507 of file biblo/library.bib
+Repeated entry---line 12514 of file biblo/library.bib
  : @article{Deo2015a
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 23238 of file biblo/library.bib
+Repeated entry---line 12577 of file biblo/library.bib
+ : @inproceedings{Condoravdi2003
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13172 of file biblo/library.bib
  : @article{Deo2015
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 24094 of file biblo/library.bib
- : @incollection{Malchukov2009
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 24248 of file biblo/library.bib
+Repeated entry---line 13513 of file biblo/library.bib
  : @incollection{Condoravdi2014
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "PhilKotek2018"
+Repeated entry---line 13805 of file biblo/library.bib
+ : @article{Vendler1957
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15723 of file biblo/library.bib
+ : @article{Eckardt2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18381 of file biblo/library.bib
+ : @article{Schaden2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 19285 of file biblo/library.bib
+ : @book{Comrie1976
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 20252 of file biblo/library.bib
+ : @book{Smith1997
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21141 of file biblo/library.bib
+ : @book{Bybee1994
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 21149 of file biblo/library.bib
+ : @article{Schaden2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 23457 of file biblo/library.bib
+ : @incollection{Malchukov2009
+ :                            ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in Belnap2001a
 Warning--missing publisher in Bermudez-Otero2013
 Warning--missing publisher in Botne2012
-Warning--empty year in Browne; set to ????
 Warning--missing publisher in Buchanan1978
 Warning--missing publisher in Carruthers2012
-Warning--missing publisher in Cole1975
-Warning--empty year in Dabkowski; set to ????
 Warning--empty note in Dahl1980
 Warning--missing school in Deo2006
-Warning--missing school in Dickson2015
 Warning--can't use both author and editor fields in Dowty1979
 Warning--missing publisher in Duchet2016
-Warning--missing school in Faller2002
 Warning--missing publisher in VonFintel2011
 Warning--can't use both author and editor fields in Glasgow1964
 Warning--missing publisher in Glasgow1964
@@ -144,52 +110,50 @@ Warning--empty note in PhilKotek
 Warning--empty note in Portner2018
 Warning--empty year in VonPrincea; set to ????
 Warning--there's a number but no volume in VonPrincea
-Warning--empty note in Starr2011
-Warning--empty note in Stone1997
 Warning--missing publisher in KB
 Warning--missing publisher in DB
 Warning--empty year in Wilkinson; set to ????
 Warning--empty note in Wilkinson
 Warning--missing publisher in Wilt2016
-You've used 352 entries,
+You've used 239 entries,
             3147 wiz_defined-function locations,
-            2834 strings with 55682 characters,
-and the built_in function-call counts, 194555 in all, are:
-= -- 16692
-> -- 5335
-< -- 385
-+ -- 1876
-- -- 1514
-* -- 11292
-:= -- 30361
-add.period$ -- 1605
-call.type$ -- 352
-change.case$ -- 2552
-chr.to.int$ -- 384
-cite$ -- 397
-duplicate$ -- 16233
-empty$ -- 16602
-format.name$ -- 2157
-if$ -- 40088
-int.to.chr$ -- 11
+            2162 strings with 40149 characters,
+and the built_in function-call counts, 131418 in all, are:
+= -- 11261
+> -- 3631
+< -- 263
++ -- 1274
+- -- 1031
+* -- 7646
+:= -- 20554
+add.period$ -- 1084
+call.type$ -- 239
+change.case$ -- 1730
+chr.to.int$ -- 271
+cite$ -- 277
+duplicate$ -- 10933
+empty$ -- 11183
+format.name$ -- 1474
+if$ -- 27023
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 3194
-newline$ -- 1893
-num.names$ -- 1558
-pop$ -- 6409
+missing$ -- 2156
+newline$ -- 1286
+num.names$ -- 1052
+pop$ -- 4333
 preamble$ -- 1
-purify$ -- 1858
+purify$ -- 1265
 quote$ -- 0
-skip$ -- 6026
+skip$ -- 4070
 stack$ -- 0
-substring$ -- 8850
-swap$ -- 7432
-text.length$ -- 39
+substring$ -- 5963
+swap$ -- 4981
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2940
-warning$ -- 45
-while$ -- 1615
+type$ -- 1989
+warning$ -- 38
+while$ -- 1090
 width$ -- 0
-write$ -- 4858
-(There were 25 error messages)
+write$ -- 3288
+(There were 18 error messages)
