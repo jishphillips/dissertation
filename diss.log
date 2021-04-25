@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  25 APR 2021 01:19
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  25 APR 2021 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3203,6 +3203,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [71]
 \excnt=1
 [72]
+Overfull \hbox (43.56363pt too wide) in paragraph at lines 1869--1871
+\TU/Cambria(0)/m/n/12 of $\OML/cmm/m/it/12 i$ \TU/Cambria(0)/m/n/12 (relative t
+o \TU/lmtt/m/n/12 F\TU/Cambria(0)/m/n/12 ), the use of [][][][]\TU/Cambria(0)/b
+x/n/12 I[][][] \TU/Cambria(0)/m/n/12 is taken to implicate a presupposition of 
+\TU/Cambria(0)/m/sc/12 final/contemporary
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1911.
@@ -3467,29 +3474,31 @@ Overfull \hbox (14.3429pt too wide) in paragraph at lines 2954--2955
 tivation for this phenomenon. 
  []
 
-[101] [102]
+[101]
+Overfull \hbox (1.01883pt too wide) in paragraph at lines 2993--2993
+[]\TU/Cambria(0)/bx/n/17.28 Conclusion: motivating \TU/Cambria(0)/bx/sc/17.28 n
+onveridicality \TU/Cambria(0)/bx/n/17.28 and \TU/Cambria(0)/bx/sc/17.28 ir-
+ []
+
+[102]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2994.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3072.
+(hyperref)                removing `\gls' on input line 3005.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3072.
+(hyperref)                removing `\gls' on input line 3085.
 
 [103
 
 ] [104]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 3127.
+(hyperref)                than one, level fixed on input line 3140.
 
 
-Overfull \hbox (20.61519pt too wide) detected at line 3136
+Overfull \hbox (20.61519pt too wide) detected at line 3149
 \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 \ ^^X[] \OML/cmm/m/it/12 
 i\OMS/cmsy/m/n/12 ^^C\OT1/cmr/m/n/12 ) \U/msa/m/n/12 ^^O \OMS/cmsy/m/n/12 8\OML
 /cmm/m/it/12 b \OMS/cmsy/m/n/12 3 \OML/cmm/m/it/12 i \OMS/cmsy/m/n/12 ^^C []\OM
@@ -3502,24 +3511,24 @@ OT1/cmr/m/n/12 ) \U/msa/m/n/12 A \OML/cmm/m/it/12 i[]\OT1/cmr/m/n/12 ][][]
  []
 
 Package marginnote Info: Margin note 109.1 is on absolute page 110
-(marginnote)              on input line 3139.
-Package marginnote Info: right page because not two side mode on input line 313
-9.
+(marginnote)              on input line 3152.
+Package marginnote Info: right page because not two side mode on input line 315
+2.
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 3139.
+(marginnote)             \marginnoteleftadjust ignored on input line 3152.
 
-Overfull \hbox (5.19966pt too wide) in paragraph at lines 3185--3187
+Overfull \hbox (5.19966pt too wide) in paragraph at lines 3198--3200
 [][][][]$\OML/cmm/m/it/12 ^^Ue:[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 e\OT1/cmr/m/
 n/12 )$  
  []
 
 
-Overfull \hbox (33.50423pt too wide) in paragraph at lines 3139--3189
+Overfull \hbox (33.50423pt too wide) in paragraph at lines 3152--3202
 |[] [] 
  []
 
 [105] [106]
-Overfull \hbox (10.74498pt too wide) in paragraph at lines 3227--3228
+Overfull \hbox (10.74498pt too wide) in paragraph at lines 3240--3241
 \TU/Cambria(0)/m/n/12 ([][]1980a[][]), inflections cognate with WD []\TU/Cambri
 a(0)/bx/n/12 I[]\TU/Cambria(0)/m/n/12 , []\TU/Cambria(0)/bx/n/12 II[] \TU/Cambr
 ia(0)/m/n/12 and []\TU/Cambria(0)/bx/n/12 III[] \TU/Cambria(0)/m/n/12 are robus
@@ -3531,18 +3540,18 @@ tly associated with present,
 Missing character: There is no ‑ in font Cambria/OT:script=latn;language=DFLT;m
 apping=tex-text;!
 [109]
-Underfull \hbox (badness 1448) in paragraph at lines 3315--3315
+Underfull \hbox (badness 1448) in paragraph at lines 3328--3328
 \TU/Cambria(0)/m/n/10 sample include: Burarra, Laragia, Mangarrayi, Maung, Tiwi
 , Warndarang, Wubuy, Nyulnyul,
  []
 
 [110]
-Underfull \hbox (badness 10000) in paragraph at lines 3343--3347
+Underfull \hbox (badness 10000) in paragraph at lines 3356--3360
  
  []
 
 
-Overfull \hbox (1.65619pt too wide) in paragraph at lines 3355--3356
+Overfull \hbox (1.65619pt too wide) in paragraph at lines 3368--3369
 \TU/Cambria(0)/m/n/12 Yolŋu languages (conserved in, \TU/Cambria(0)/m/it/12 e.g
 .\TU/Cambria(0)/m/n/12 , Ritharrŋu-Wägilak) have been radically restruc-
  []
@@ -3740,7 +3749,7 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1734.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1734.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 38BE4B6067C458B2C1DA5A091B9DEEAA.
+(rerunfilecheck)             Checksum: 63361482B3D882F68C39789B8E3C88F8.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3753,10 +3762,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1734.
 (\end occurred when \ifx on line 1645 was incomplete)
 (\end occurred when \ifx on line 261 was incomplete) 
 Here is how much of TeX's memory you used:
- 55479 strings out of 492970
- 1046370 string characters out of 6133938
- 1234246 words of memory out of 5000000
- 58463 multiletter control sequences out of 15000+600000
+ 55480 strings out of 492970
+ 1046374 string characters out of 6133938
+ 1234325 words of memory out of 5000000
+ 58464 multiletter control sequences out of 15000+600000
  560693 words of font info for 241 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  77i,18n,92p,10435b,1918s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -44,7 +44,7 @@
 \contentsline {subsubsection}{\numberline {2.3.2.2}Non-final instantiation}{69}{subsubsection.2.3.2.2}
 \contentsline {paragraph}{Hodiernal}{70}{section*.33}
 \contentsline {paragraph}{Prehodiernal}{71}{section*.34}
-\contentsline {subsubsection}{\numberline {2.3.2.3}A pragmatic blocking/strengthening account}{71}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.3}\textsc {\textit {MaxPresupp 1}}: A blocking account}{71}{subsubsection.2.3.2.3}
 \contentsline {section}{\numberline {2.4}Theorising cyclic tense \& the status of $ \mathbf {\mathtt {F}_c} $}{73}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}``Cognitive domains''}{74}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}\textit {Énonciation}, diachrony \& functional unity}{75}{subsection.2.4.2}
@@ -64,12 +64,13 @@
 \contentsline {subsection}{\numberline {3.4.2}The negators: \textit {yaka} \& \textit {bäyŋu}}{97}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}A temporomodal interaction}{99}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}\textsc {\textit {MaxPresupp 2}}: The same-day future}{100}{section.3.5}
-\contentsline {chapter}{\numberline {4}The \gls {wd} paradigm: Towards a compositional semantics}{103}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Epistemic modality in \gls {wd}}{103}{subsection.4.0.1}
-\contentsline {subsubsection}{\numberline {4.0.1.1}The proposal in action}{105}{subsubsection.4.0.1.1}
-\contentsline {section}{\numberline {4.1}Semantic change in Southern Yolŋu}{106}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{107}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Morphosemantic change}{110}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Conclusion}{111}{section.4.2}
+\contentsline {section}{\numberline {3.6}Conclusion: motivating \textsc {nonveridicality} and \textsc {irrealis mood}}{102}{section.3.6}
+\contentsline {chapter}{\numberline {4}The \gls {wd} paradigm}{103}{chapter.4}
+\contentsline {section}{\numberline {4.1}Epistemic modality in \gls {wd}}{103}{section.4.1}
+\contentsline {subsubsection}{\numberline {4.1.0.1}The proposal in action}{105}{subsubsection.4.1.0.1}
+\contentsline {section}{\numberline {4.2}Semantic change in Southern Yolŋu}{106}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{107}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Morphosemantic change}{110}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Conclusion}{111}{section.4.3}
 \contentsline {chapter}{General conclusion}{113}{chapter*.42}
 \contentsline {chapter}{Bibliography}{115}{chapter*.43}
