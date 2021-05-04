@@ -18,7 +18,7 @@
 \definecolor{forest}{cmyk}{.57, .13, .57, .08}
 \definecolor{shadecolor}{cmyk}{.08,.08,.1,.12}
 
-\usepackage[pdfborderstyle={/S/U/W 1},colorlinks=true,linkcolor={link},citecolor={Sepia}]{hyperref}%Bittersweet also nice
+\usepackage[breaklinks,pdfborderstyle={/S/U/W 1},colorlinks=true,linkcolor={link},citecolor={Sepia}]{hyperref}%Bittersweet also nice
 %\usepackage[tiny,compact]{titlesec}
 \usepackage{graphicx}
 \graphicspath{ {figs/} }
@@ -139,7 +139,7 @@
 
 \usepackage[sort]{natbib}
 \bibliographystyle{biblo/sp.bst}
-\bibpunct[:]{(}{)}{;}{a}{}{,}
+\bibpunct[:\allowbreak]{(}{)}{;}{a}{}{,}
 
 
 \pagestyle{fancy}
@@ -1002,6 +1002,10 @@
 		description = Nyawaygi (Pama-Nyungan: Dyirbalic),
 		type=lang,	}
 	
+		\newglossaryentry{bem}{
+		name = \texttt{bem} ,
+		description = ChiBemba (Bantu (Zone \textsc{m}): NE Zambia),
+		type=lang,	}
 	
 	\newglossaryentry{kgs}{
 		name = \texttt{kgs} ,
@@ -1066,11 +1070,14 @@
 		name = \textsc{infl} ,
 		description = verbal inflection (TMA),
 		type = gloss , }
-		\newglossaryentry{PstPot}{
-		name = \textsc{PstPot} ,
-		description = past potential,
-		type = gloss , }
-	
+	\newglossaryentry{PstPot}{
+	name = \textsc{PstPot} ,
+	description = past potential,
+	type = gloss , }
+	\newglossaryentry{NEC}{
+	name = NƎC ,
+	description = Negative Existential Cycle,
+	type = gloss , }%	
 	
 	 
 	\newcommand{\I}{\textbf{\textcolor{forest}{I}}}
@@ -1279,7 +1286,7 @@ Models of branching time capture a crucial asymmetry between past and future tem
 
  In effect, branching time formalisms seek to capture the idea that ``for any given time there may be not merely a single future course of time, but multiple possible futures'' (\citealp[63]{Dowty1977}, see also \citealp{Thomason1970,Burgess1978} a.o.) --- that is, a model of time as \textit{right-branching} (rather than linear.) This asymmetry between the past and the future is observed in multiple places by Prior (\citeyear{Prior1957,Prior1967}, see also \citealt{Copeland2020}), who develops what he refers to as a couple of alternative solutions, developed by indeterminists, to the problem of future contingency \citeyearpar[\textit{e.g.},][121\textit{ff}]{Prior1967}: namely an \textit{Ockhamist} versus a \textit{Peircian} conception of the truth of tensed propositions.\footnote{In adopting these descriptors -- recast in \citealt{Burgess1978} as the \textit{actualist} and \textit{antactualist} schools respectively -- Prior alludes to observations made in William of Ockham's tract \textit{De Prædestinatione} (\citeyear{praedestinatione} [ca. 1322-4]) and by Charles Sanders \citeauthor{Peirce} (\textit{e.g.}, Collected Works, Vol 6, ¶368). The primary flection point between these two notions of truth is the ``Peircian'' collapse of the distinction between Ockhamist notions of future necessity and contingency. For the Ockhamist \textbf{Fut}$ _t\varphi$ is valuable at $ t $, even if its truth value is unknown, whereas for the Peircian \textbf{Fut}$_t\varphi $ is false until that point in the future of $ t $ where (perhaps) $ p $ comes to be true (that is, the systems differ on whether or not $ \textbf{Fut}_t\varphi\wedge\textbf{Fut}_t\neg\varphi $ is valid.) \citet[126\textit{ff}]{Prior1967} formalises and give a detailed comparison of these two systems (also additional discussion in \citealp{Øhrstrøm1995,Øhrstrøm2020,Nishimura1979} including the so-called ``Leibnizian'' extensions made to the Ockhamist system.)\label{FutCont}} Here, the distinction between tense and modality begins to come apart.
 
-For the indeterminist (\textit{i.e.}, on the assumption that the future isn't settled and predetermined), then, \textsc{future} markers, are inherently modal operators insofar as they can be taken to quantify over different possible worlds --- here to be represented as ``branches.''\footnote{``Branches'' --- the set of (maximal) chains within the (poset) $\mathfrak T$ --- refers directly to this apparent ``right-branching'' property of time (\textit{sc.} future contingents). Prior also refers to ``routes.'' This terminology s apparently equivalent to the ``histories'' of other authors (\citealp{Thomason1970,Dowty1977,Tedeschi1981,Belnap2001a} a.o.) or ``chronicles'' of yet others \citep{Øhrstrøm1995}. For some authors histories are distinguished from branches in that branches consist only of sequences of indices $ \prec $-posterior to a specified branching point -- that is, $ \prec $-final subsets of histories \citep[\textit{e.g.},][4]{Zanardo1996}. I'll be using the terms interchangeably.} (Potential) futures, then, are calculated from with respect to a given evaluation time. Broadly speaking, $ \mathbf{Fut} \varphi $, when evaluated at $ t $, can be taken to say that, along all those futures branching from $ t $, there's some later time $ (t') $ at which $ \varphi $ is true \citep[see][267]{Thomason1970}.\footnote{Given a \textbf{Peircian} conception of truth-in-the-future (see fn \ref{FutCont}). In fact, on Thomason's modified, trivalent account of truth valuation, a given sentence is generally true at $ \alpha $ iff it is is true in all $ h\in\mathcal H_\alpha $ (\textit{i.e.} all those histories $ h $ that run through $ \alpha $) \citeyearpar[274\textit{ff}]{Thomason1970}. \citet{Thomason1984} uses $\mathit B_t $ equivalently. \citet[247]{Tedeschi1981} uses a closely related strategy. Note that this semantics yields \textsc{necessity}-in-the-future on an Ockhamist account.} 
+For the indeterminist (\textit{i.e.}, on the assumption that the future isn't settled and predetermined), then, \textsc{future} markers, are inherently modal operators insofar as they can be taken to quantify over different possible worlds --- here to be represented as ``branches.''\footnote{``Branches'' --- the set of (maximal) chains within the (poset) $\mathfrak T$ --- refers directly to this apparent ``right-branching'' property of time (\textit{sc.} future contingents). Prior also refers to ``routes.'' This terminology s apparently equivalent to the ``histories'' of other authors (\citealp{Thomason1970,Dowty1977,Tedeschi1981,Belnap2001a} a.o.) or ``chronicles'' of yet others \citep{Øhrstrøm1995}. For some authors \textit{histories} are distinguished from \textit{branches} in that branches consist only of sequences of indices $ \prec $-posterior to a specified branching point -- that is, $ \prec $-final subsets of histories \citep[\textit{e.g.},][4]{Zanardo1996}. I'll be using the terms interchangeably.} (Potential) futures, then, are calculated from with respect to a given evaluation time. Broadly speaking, $ \mathbf{Fut} \varphi $, when evaluated at $ t $, can be taken to say that, along all those futures branching from $ t $, there's some later time $ (t') $ at which $ \varphi $ is true \citep[see][267]{Thomason1970}.\footnote{Given a \textbf{Peircian} conception of truth-in-the-future (see fn \ref{FutCont}). In fact, on Thomason's modified, trivalent account of truth valuation, a given sentence is generally true at $ \alpha $ iff it is is true in all $ h\in\mathcal H_\alpha $ (\textit{i.e.} all those histories $ h $ that run through $ \alpha $) \citeyearpar[274\textit{ff}]{Thomason1970}. \citet{Thomason1984} uses $\mathit B_t $ equivalently. \citet[247]{Tedeschi1981} uses a closely related strategy. Note that this semantics yields \textsc{necessity}-in-the-future on an Ockhamist account.} 
 
 Here, I briefly lay out a version of the ``branching time frame'' as laid out by authors including Thomason \citeyearpar[\textit{e.g.},][\S 5]{Thomason1984} and Burgess (\citeyear[\textit{e.g.},][]{Burgess1978} a.o.) 
 
@@ -1287,7 +1294,7 @@ Here, I briefly lay out a version of the ``branching time frame'' as laid out by
 %One of the primary payoffs of the branching time is the formalisation of Prior's observations about the asymmetries of the past and the future \citep[see also][]{Copeland2020,Dowty1977,Thomason1970,Thomason1984}. The version I adopt here follows closely from recent work on the realis-irrealis distinction \citep{VonPrince2019,Krifka2016} and other insights about temporal and modal interaction (\citealp[e.g.][]{Condoravdi2002,Ippolito2013}, a.o.)
 
 
-\paragraph{The mechanics} A branching-time/tree frame $ \mathfrak T$ is a partially-ordered set (\textit{i.e.}, a pair $\langle \mathcal{I,\prec}\rangle $). That is, we assume a set of semantical indices (referred to elsewhere as \textit{moments}) that is partially-ordered by the transitive precedence relation \textsc{`precedes'} $ \boldsymbol\prec $. In effect, this set $ \mathcal I $ can be recast as comprising a set of world-time pairs $ \langle w,t\rangle\in\mathcal{W\times T} $ (which is assumed in the so-called ``parallel worlds'' model, presented in Figure \ref{KCH-WTframe}.)\footnote{For an excellent overview of the related set of objects $ \mathcal{W\times T} $-frames --- adopted in \citet*{Kaufmann2005,Condoravdi2002} a.o., see \citet{Kaufmann2006}. For comparisons with branching times models, see \citealt{Thomason1970,Thomason1984,Rumberg2016}.}
+\paragraph{The mechanics} A branching-time/tree frame $ \mathfrak T$ is a partially-ordered set (\textit{i.e.}, a pair $\langle \mathcal{I,\prec}\rangle $). That is, we assume a set of semantical indices (referred to elsewhere as \textit{moments}) that is partially-ordered by the transitive precedence relation \textsc{`precedes'} $ \boldsymbol\prec $. In effect, this set $ \mathcal I $ can be recast as comprising a set of world-time pairs $ \langle w,t\rangle\in\mathcal{W\times T} $ (which is assumed in the so-called ``parallel worlds'' model, presented in Figure \ref{KCH-WTframe}.)\footnote{For an excellent overview of the related set of objects $ \mathcal{W\times T} $-frames --- (perhaps more familiar in much of the linguistic semantics literature and) adopted in \citet{Kaufmann2005,Condoravdi2002,Klecha2016a} a.o., see \citet*{Kaufmann2006}. For comparisons with branching times models, see \citealt{Thomason1970,Thomason1984,Rumberg2016}.}
 
 
 \begin{figure}[b]
@@ -1354,9 +1361,7 @@ The framework is diagrammed in Figure \ref{BT-dia} below.
 \end{tikzpicture}\end{figure}
 
 %$ \risingdotseq $
-\paragraph{Branches} A branch $b $ which runs through any $ i\in\mathcal I $ is a (maximal) linearly $ \prec $-ordered subset (\textit{sc.} \textit{chain}) of $ \mathcal I $. In this sense, a branch can be taken to correspond to a possible world/a complete possible course of events charting ``an entire possible temporal development of the world'' \citep[148]{Rumberg2019}. If all indices $ i$ are analogous to world-time pairs $\langle w,t\rangle $, then some $ b$ which contains $ i\, (\text{notated }b\ni i)$ is formally a chain of indices, effectively modelling a timeline/set of possible developments of a given world through time --- analogous to a chain over $ \mathcal{W\times T}:\big\langle\langle w,t\rangle,\langle w,t'\rangle,\langle w,t''\rangle,\hdots,\langle w,t_n\rangle\big\rangle$. Note that these frameworks normally appear to assume that indices correspond to the state of a world at a moment of time. I assume that this model can be extended relatively straightforwardly to capture interval semantic notions (\citealp[\textit{e.g.},][]{Landman1991,Dowty1982,Bennett} a.o.). \footnote{This extensibility is also suggested by \citet{Dowty1977} and \citet{Tedeschi1981}, who propose an interval semantic formalism for branching futures. Dowty gives a branching time (re)definition of an interval $ \boldsymbol\imath $ as a connected proper subset ($ \sqsubset $) of a history \citeyearpar[64]{Dowty1977} --- \textit{i.e.}, a ``sub-branch.'' Formally:
-	
-An interval $ \boldsymbol\imath $ is a subset of $ \mathcal I $ such that: $\exists b\big[\boldsymbol\imath\sqsubset b\wedge\forall i,i',i''\in b[i,i''\in b\wedge i\prec i'\prec i''\to i'\in\boldsymbol\imath]\big] $}
+\paragraph{Branches} A branch $b $ which runs through any $ i\in\mathcal I $ is a (maximal) linearly $ \prec $-ordered subset (\textit{sc.} \textit{chain}) of $ \mathcal I $. In this sense, a branch can be taken to correspond to a possible world/a complete possible course of events charting ``an entire possible temporal development of the world'' \citep[148]{Rumberg2019}. If all indices $ i$ are analogous to world-time pairs $\langle w,t\rangle $, then some $ b$ which contains $ i\, (\text{notated }b\ni i)$ is formally a chain of indices, effectively modelling a timeline/set of possible developments of a given world through time --- analogous to a chain over $ \mathcal{W\times T}:\big\langle\langle w,t\rangle,\langle w,t'\rangle,\langle w,t''\rangle,\hdots,\langle w,t_n\rangle\big\rangle$. Note that these frameworks normally appear to assume that indices correspond to the state of a world at a moment of time. I assume that this model can be extended relatively straightforwardly to capture interval semantic notions (\citealp[\textit{e.g.},][]{Landman1991,Dowty1982,Bennett} a.o.). \footnote{This extensibility is also suggested by \citet{Dowty1977} and \citet{Tedeschi1981}, who propose an interval semantic formalism for branching futures. Dowty gives a branching time (re)definition of an interval $ \boldsymbol\imath $ as a connected proper subset ($ \sqsubset $) of a history \citeyearpar[64]{Dowty1977} --- \textit{i.e.}, a ``sub-branch.'' Formally, an interval $ \boldsymbol\imath $ is a subset of $ \mathcal I $ such that: $\exists b\big[\boldsymbol\imath\sqsubset b\wedge\forall i,i',i''\in b[i,i''\in b\wedge i\prec i'\prec i''\to i'\in\boldsymbol\imath]\big] $\label{fn:intervals}}
 
 I will refer to these indices, which constitute the elements of a given branch as \textbf{branchmates}. Given that branches are linearly ordered by $ \prec $, pairs of branchmates are necessarily related by $ \prec $ (and equally by the related linear orders: the weak counterpart $\boldsymbol\preccurlyeq$ and the complements of these two orders $\succ,\succcurlyeq $ respectively.)
 
@@ -1372,15 +1377,16 @@ And Priorian-type tense operators can be reformulated as asserting relations bet
 \xe
 
 
-Given that there are, in-principle, infinite logically possible futures for a given index,  $ \mathtt{B}_i $ will be taken to represent the set of all possible branches $ b $ that run through (that is, contain) a given index $ i $ $(\cup{\scriptstyle\!\ni}\!i\text{ or }b,b',b'',\hdots\ni i )$. This is closely related to the notion of a \textbf{metaphysical modal base}, notated throughout as $ \boldsymbol{\cap{\approx_i}} $, which should be conceived of as comprising the set of branches that represent all the metaphysical/historical alternatives to a given index $ i $ (see \getref{histaltdef} for further discussion of this important phenomenon.)\footnote{See also \citet{Rumberg2016a} for an discussion of the differences between logical, metaphysical and physical definitions of \textit{possibility} (the alethic modalities.)}
+Given that there are, in-principle, infinite logically possible futures for a given index,  $ \mathtt{B}_i $ will be taken to represent the set of all possible branches $ b $ that run through (that is, contain) a given index $ i $ $(\bigcup\limits_{b\scriptstyle\ni i}b)$. This is closely related to the notion of a \textbf{metaphysical modal base}, notated throughout as $ \boldsymbol{\cap{\approx_i}} $, which should be conceived of as comprising the set of branches that represent all the metaphysical/historical alternatives to a given index $ i $ (see (\getref{histaltdef}) for further explication of this important phenomenon.)\footnote{See also \citet{Rumberg2016a} for an discussion of the differences between logical, metaphysical and physical definitions of \textit{possibility} (the alethic modalities.)}
 
- I'll sometimes also use the notation $ {}^bi $ in quantified expressions as a shorthand restricting the domain of $ \mathcal I $ to a specified branch --- \textit{i.e.}, that subset of $ \mathcal I $ : $ \{i\in\mathcal I\mid i\in b\} $.\footnote{\textit{E.g.}, $ \exists^bi\varphi=\exists i[i\in b\wedge\varphi]$ reads `there exists some index along $ b $ s.t. $ \varphi $.'}
+ I'll sometimes also use the notation $ {}^bi $ in quantified expressions as a shorthand restricting the domain of $ \mathcal I $ to a specified branch --- \textit{i.e.}, that subset of $ \mathcal I $ : $ \{i\in\mathcal I\mid i\in b\} $.\footnote{\textit{E.g.}, $ \exists^bi\varphi=\exists i[i\in b\wedge\varphi]$ reads `there exists some index $ i $ along $ b $ s.t. $ \varphi $.'}
 
 
 
 \paragraph{The ``co-present''} \citet{Øhrstrøm2020} additionally point out that, for Kripke, these points are ranked with respect to one another --- where each rank (or, diagrammatically, layer) of the tree constitutes an equivalence class of ``co-present'' indices (modally accessible in a $ \mathcal{W\times T }$-model, see \citealp*[95]{Kaufmann2006}).\footnote{Similarly, \citet[194\textit{ff}]{Belnap2001a} distinguish between \textit{moments} (=indices) and \textit{instants}, where the latter are partitions of a tree structure that represent ``[a] horizontal counterpart of histories (=branches).'' ``Rank'' is attributed to Kripke in a 1958 letter to Arthur Prior \citep[published in][373\textit{ff}]{Ploug2012}.} 
-That is, indices that are neither successors nor predecessors of one another -- \textit{i.e.}, those are not ordered by $ \prec $ with respect to one another -- can still be temporally compared. In developing a branching-time semantics for conditionals,\footnote{A crucial desideratum of their account is that it formalise Stalnaker's notion of maximal ``similarity'' between the evaluation world and the antecedent proposition, following \citealp{Stalnaker1968,Stalnaker1970}.}$ ^, $\footnote{This formalism, related to the alternativeness relation $ (\approx )$ of \citet[149]{Thomason1984}, has a similar outcome/motivation to the ``instant'' or ``time (value) function'' of \citet[27]{Rumberg2016a}, \citet[195]{Belnap2001a} and \citet[592]{VonPrince2019}, where $ \mathit{time}$ maps an index to a set of ``clock times'' ordered by $ \prec $ (isomorphic to branches). Similarly \citet[102]{Landman1991} provides a number of ways of establishing equivalence classes of co-present indices. \textit{E.g.}, in what turns out to be an operationalisation of the Kripke's observation referenced above, ``rank'' can be measured using a function $ d:\mathcal I\to\mathbb N $ that returns the how many ``nodes'' a given index is from $ \mathfrak T $'s defined ``origin'' node (\textit{viz.} $ \bigcirc $ --- the $ \prec $-minimal element of $ \mathcal I $, \textit{cf.} Zorn's lemma). Equivalence classes can then be defined as sets of indices the same number of nodes from the origin, \textit{sc. }$ \approx\underset{\text{def}}{=}\lambda i\lambda i'.d(i)=d(i') $.} 
-
+That is, indices that are neither successors nor predecessors of one another -- \textit{i.e.}, those are not ordered by $ \prec $ with respect to one another -- can still be temporally compared. In developing a branching-time semantics for conditionals,\footnote{A crucial desideratum of their account is that it formalise Stalnaker's notion of maximal ``similarity'' between the evaluation world and the antecedent proposition, following \citealp{Stalnaker1968,Stalnaker1970}.}$ ^, $\footnote{This formalism, related to the alternativeness relation $ (\approx )$ of \citet[149]{Thomason1984}, has a similar outcome/motivation to the ``Clock'' invoked in \citet{Dowty1977,Thomason1981} and, in later work, the ``instant'' or ``time (value) function'' of \citet[27]{Rumberg2016a}, \citet[195]{Belnap2001a} and \citet[592]{VonPrince2019}, where $ \mathit{\mathsf{time}}$ maps an index to a set of ``clock times'' ordered by $ \prec $ (isomorphic to branches).
+	
+	Similarly \citet[102]{Landman1991} provides a number of ways of establishing equivalence classes of co-present indices. \textit{E.g.}, in what turns out to be an operationalisation of the Kripke's observation referenced above, ``rank'' can be measured using a function $ d:\mathcal I\to\mathbb N $ that returns the how many ``nodes'' a given index is from $ \mathfrak T $'s defined ``origin'' node (\textit{viz.} $ \bigcirc $ --- the $ \prec $-minimal element of $ \mathcal I $, \textit{cf.} Zorn's lemma). Equivalence classes can then be defined as sets of indices the same number of nodes from the origin, \textit{sc. }$ \approx\underset{\text{def}}{=}\lambda i\lambda i'.d(i)=d(i') $.} 
 \cite{Thomason1980} propose an additional ``co-present'' relation $( \boldsymbol\simeq\ \subseteq\mathcal I^2) $ which defines an equivalence class of co-present indices. With the relation $ \simeq $ over $ \mathcal I $, an index can be compared across, \textit{e.g.}, all possible futures. As \citet[101]{Landman1991} points out, in counterfactuals like: \textit{if she hadn't left me a week ago, I wouldn't be so miserable now}, the indexical adverb \textit{now} appears to pick out an index co-present with the time of speech, but crucially on a different ``branch.'' %\footnote{And a ``future choice function'' $ \mathcal F\in\Omega$ which maps individual indices onto a unique history through....}
 
 
@@ -1392,7 +1398,7 @@ $i \boldsymbol\succsim j\Leftrightarrow\exists j'[j'\simeq j\wedge i\succcurlyeq
 %$i \precsim j\Leftrightarrow\exists j'[j'\simeq j\wedge i\succcurlyeq j] )$
 \xe
 
-\paragraph{Settledness} As suggested above, models of branching time seek to formalise intuitions about asymmetries between past and future predications. We have seen above how the truth of future contingents can be modelled using ``forking paths'' (i.e. branches of linearly ordered subsets of $ \mathcal I $). Conversely, the model is ``left-linear'', depicting `our notion of necessity \textit{given} the past, [where] only one past, the actual one, is possible' \citep[159]{Burgess1978}. That is, for any index there is only one unique sub-branch representing its history/set of predecessors
+\paragraph{Settledness} As suggested above, models of branching time seek to formalise intuitions about asymmetries between past and future predications. We have seen above how the truth of future contingents can be modelled using ``forking paths'' (i.e. branches of linearly ordered subsets of $ \mathcal I $). Conversely, the model is ``left-linear'', depicting `our notion of necessity \textit{given} the past, [where] only one past, the actual one, is possible' \citep[159]{Burgess1978}. That is, for any index there is only one unique sub-branch representing its history/set of predecessors.\label{par:settledness}
 
 \ex \deftagex{ll-def} \textbf{Left linearity }--- \textit{i.e.}, $ \mathfrak T $ is not branching to the past iff --- where $ a,b,b'\in\mathcal I: $\\
 $ \forall a.b,b'[(b\prec a\wedge b'\prec a)\to(b\prec b'\vee b=b'\vee b\succ b')] $\trailingcitation{\citep[105]{Landman1991}}\xe
@@ -1480,9 +1486,9 @@ Once again, and drawing on the relations described above, this relation between 
 
 
 
-\paragraph{A modal trichotomy}\label{vP-trich} As a consequence of this,  \Citet{VonPrince2017a,VonPrince2019} establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
+\paragraph{A modal trichotomy}\label{vP-trich} As a consequence of this,  \citeauthor{VonPrince2017a} (\citeyear{VonPrince2017a,VonPrince2019}; \citealp{VonPrincea} forthcoming) establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
 
-\pex Given a contextually defined \textsc{actual present} $( i*=\langle w*,t*\rangle )$, $ \mathcal I $ can be partitioned into three subdomains:
+\pex Given a contextually defined \textsc{actual present} $( i*\doteqdot\langle w*,t*\rangle )$, $ \mathcal I $ can be partitioned into three subdomains:
 \a The \textsc{actual} (past/present) = $\boldsymbol{ \{i\mid i\preccurlyeq i*\} }$
 
 The utterance index $ i* $ and its predecessors are the realm of the \textsc{actual}.
@@ -1643,6 +1649,15 @@ Each subpart of this dissertation makes use of (novel and published) data from d
 	\end{tabular}
 \end{table}
 
+\begin{table}\caption{Consultants}
+\centering	\begin{tabular}{ll|ll}
+	\multicolumn{2}{c}{\textbf{Ramingiṉiŋ}} &	\multicolumn{2}{c}{\textbf{Ngukurr}}\\
+	AW& Albert Waninymarr	& AJ & Angelina Joshua\\
+	DB & Daphne Banyawarra	& GT & Grant Thompson\\
+	DhG & Dhuḻumburrk Gaykamaŋu † & RŊ & Roy Ŋatilma	\\
+	MG & Mätjarra Garrawurra& DW & David Wilfred \\
+	\end{tabular}
+\end{table}
 
 \defcitealias{KB}{KB}
 \defcitealias{DB}{DB}
@@ -1652,7 +1667,7 @@ Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 
   Where data is sourced from original fieldwork, the consultant's initials and date of recording are provided in square brackets --- \textit{e.g.}, [JP~20201216].\marginnote{field methods}
 
 \part{The emergence of apprehensionality in Australian Kriol}\label{bambai}
-%\input{Kriol/Bambai.tex} 
+\input{Kriol/Bambai.tex} 
 
 
 %\chapter{Discourse anaphora and dynamic interpretation: the case of \textit{otherwise}}\label{otherwise}
