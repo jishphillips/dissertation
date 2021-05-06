@@ -3,6 +3,8 @@
 \documentclass[12pt,dvipsnames]{report}
 %\usepackage{import}
 %\usepackage[subpreambles=true]{standalone}
+%				\usepackage{morewrites}
+\usepackage{scrwfile}
 \usepackage[lmargin=1.5in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
 
 	\usepackage{marginnote}
@@ -110,7 +112,7 @@
 
 \usepackage{paralist} 
 \usepackage[labelsep=period,labelfont=bf,figurewithin=none,tablewithin=none]{caption}
-\usepackage{subcaption}
+\usepackage[list=true]{subcaption}
 %\usepackage{chngcntr}
 %todo this is where figure/table numbering can be rejigged: I'm not really sure what I'm doing atm.
 %	\counterwithin{figure}{part}
@@ -120,7 +122,8 @@
 %\allsectionsfont{\sffamily\mdseries\upshape} 
 \usepackage{float}
 \usepackage[nottoc,notlof,notlot]{tocbibind} 
-\usepackage[titles,subfigure]{tocloft} 
+\usepackage[titles,%subfigure
+					]{tocloft} 
 \usepackage{setspace}
 %\usepackage[colorinlistoftodos]{todonotes}
 
@@ -219,10 +222,10 @@
 
 
 	%%%%%%GLOSSARIES
-		\usepackage[nonumberlist]{glossaries}
+		\usepackage{glossaries}
 		\newglossary*{lang}{Language index}
 		\newglossary*{gloss}{List of metalinguistic abbreviations}
-		\newglossary*{kinship}{List of kinship abbreviations}
+%		\newglossary*{kinship}{List of kinship abbreviations}
 		\newglossary*{text}{General (textual) abbreviations}
 %		\newglossary*{lang}{Language index}
 %		\newglossary*{gloss}{List of abbreviations}
@@ -237,6 +240,10 @@
 		\newglossaryentry{rit}{
 			name = \texttt{rit} ,
 			description = Ritharrŋu (Pama-Nyungan: Yolŋu (Yaku)),
+			type=lang,	}
+		\newglossaryentry{poo}{
+			name = \texttt{poo} ,
+			description = Central Pomo (Pomoan: N California),
 			type=lang,	}
 			\newglossaryentry{aux}{
 			name = \textsc{aux} ,
@@ -354,55 +361,67 @@
 		
 			\newglossaryentry{mod}{
 			name = \textsc{mod} ,
-			description = modal operator,
-			type=gloss,	} 
+			description = modal particle,
+			type=gloss,	
+				sort = mod} 
 			\newglossaryentry{oblig}{
 			name = \textsc{oblig} ,
 			description = obligative,
-			type=gloss,	} 
+			type=gloss,	
+				sort = obli} 
 			\newglossaryentry{refl}{
 			name = \textsc{r/r} ,
 			description = reflexive-reciprocal marker,
-			type=gloss,	} 
+			type=gloss,
+				sort = re	} 
 			\newglossaryentry{pl}{
 			name = \textsc{pl} ,
 			description = plural,
-			type=gloss,	} 
-			\newglossaryentry{rlv}{
-			name = \textsc{rlv} ,
-			description = ``relevant'',
-			type=gloss,	} 
+			type=gloss,
+				sort = pl	} 
+%			\newglossaryentry{rlv}{
+%			name = \textsc{rlv} ,
+%			description = ``relevant'',
+%			type=gloss,	} 
 		
 		
 		\newglossaryentry{irr}{
 			name = \textsc{irr} ,
-			description = irrealis (modality)marker,
-			type=gloss,	} 
+			description = irrealis mood,
+			type=gloss,	
+				sort = irr} 
 			\newglossaryentry{comp}{
 			name = \textsc{comp} ,
 			description = complementiser,
-			type=gloss,	} 
+			type=gloss,	
+				sort = compl} 
 		\newglossaryentry{malk}{
 			name = \textsc{\textit{mälk}} ,
 			description = Skin name (cultural `subsection'),
-			type=gloss,	} 
+			type=gloss,
+				sort = kinship z	} 
 			\newglossaryentry{cplv}{
 			name = \textsc{cplv} ,
 			description = completive aspect,
-			type=gloss,	} 
+			type=gloss,	
+				sort = cplv} 
 		\newglossaryentry{priv}{
 			name = \textsc{priv} ,
 			description = privative case , 
-			type = gloss , }
+			type = gloss , 
+				sort = priv}
 		
-		\newglossaryentry{sn}{
-			name = SN ,
-			description = standard negation/negator, 
-			type = gloss , }
+%		\newglossaryentry{sn}{
+%			name = SN ,
+%			description = standard negation, 
+%			type = gloss , }
+		
+		\newacronym{sn}{SN}{standard negation}
 		
 		\newglossaryentry{indef}{
-			name = \textsc{indef} ,
-			description = indefinite indexical \citet[280]{Wilkinson1991}, 
+			name = \textsc{indf} ,
+			description = indefinite,
+					sort = indf
 			type = gloss , }
 		
 		
@@ -410,58 +429,72 @@
 		\newglossaryentry{appr}{
 			name = \textsc{appr} ,
 			description = apprehensional,
-			type = gloss , }
+			type = gloss , 
+				sort = appr}
 		
 		\newglossaryentry{anim}{
 			name = \textsc{anim} ,
-			description = animate (3rd-person discourse participant), 
-			type = gloss , }
+			description = animate, 
+			type = gloss ,
+				sort = anim }
 			\newglossaryentry{perg}{
 			name = \textsc{perg} ,
 			description = pergressive, , 
-			type = gloss , }
-			\newglossaryentry{trm}{
-			name = \textsc{trm} ,
-			description = temporal remoteness morpheme, 
-			type = gloss , }
+			type = gloss , 
+				sort = perg}
+%			\newglossaryentry{trm}{
+%			name = \textsc{trm} ,
+%			description = temporal remoteness morpheme, 
+%			type = gloss , }
+\newacronym{trm}{\textsc{trm}}{temporal remoteness morpheme}
 		
 			\newglossaryentry{inan}{
 			name = \textsc{inan} ,
 			description = inanimate (3rd-person discourse participant), 
-			type = gloss , }
+			type = gloss ,
+				sort = inan }
 				\newglossaryentry{prog}{
 			name = \textsc{prog} ,
 			description = progressive aspect,
-			type = gloss , }
+			type = gloss , 
+				sort = prog}
 			\newglossaryentry{iter}{
 			name = \textsc{iter} ,
 			description = iterative aspect,
-			type = gloss , }
+			type = gloss ,
+				sort = iter }
 			\newglossaryentry{dur}{
 			name = \textsc{dur} ,
 			description = durative aspect,
-			type = gloss , }
+			type = gloss , 
+				sort = dur}
 			\newglossaryentry{hort}{
 			name = \textsc{hort} ,
 			description = hortative (mood),
-			type = gloss , }
+			type = gloss ,
+				sort = hort }
 		\newglossaryentry{npst}{
 			name = \textsc{npst} ,
 			description = nonpast tense,
-			type = gloss , }
+			type = gloss ,
+				sort = npst }
 		\newglossaryentry{aug}{
 			name = \textsc{aug} ,
 			description = augment,
-			type = gloss , }
+			type = gloss ,
+				sort = aug }
 		
 		\newglossaryentry{pneg}{
 			name = \textsc{pneg} ,
 			description = past negative,
-			type = gloss , }
+			type = gloss ,
+				sort = pneg }
 			\newglossaryentry{deic}{
 			name = \textsc{deic} ,
 			description = deictic,
-			type = gloss , }
+			type = gloss, 
+					sort = dei, 
+		}
 		
 %		\newglossaryentry{obls}{
 %		name = \textsc{obls} ,
@@ -470,271 +503,319 @@
 	
 		
 		
-		\newglossaryentry{NP}{
-			name = \textsc{NP} ,
-			description = noun phrase,
-			type = gloss , }
-		
-		\newglossaryentry{TFA}{
-			name = \textsc{tfa} ,
-			description = temporal frame adverbial,
-			type = gloss , }
+%		\newglossaryentry{NP}{
+%			name = \textsc{NP} ,
+%			description = noun phrase,
+%			type = gloss , }
+\newacronym{NP}{NP}{noun phrase}
+%		\newglossaryentry{TFA}{
+%			name = \textsc{tfa} ,
+%			description = temporal frame adverbial,
+%			type = gloss , }
+\newacronym{TFA}{\textsc{tfa}}{Temporal frame adverbial}
 		
 		\newglossaryentry{proh}{
 			name = \textsc{proh} ,
 			description = prohibitive,
-			type = gloss , }
+			type = gloss , 
+				sort = proh}
 		\newglossaryentry{recip}{
 			name = \textsc{recip} ,
 			description = reciprocal,
-			type = gloss , }
+			type = gloss ,
+				sort = recip }
 		
 			\newglossaryentry{perf}{
 			name = \textsc{perf} ,
 			description = perfect aspect,
-			type = gloss , }
+			type = gloss , 
+				sort = perf}
 		\newglossaryentry{neg}{
 			name = \textsc{neg} ,
 			description = negator,
-			type = gloss , }
+			type = gloss ,
+				sort = neg }
 		\newglossaryentry{all}{
 			name = \textsc{all} ,
 			description = allative case,
-			type = gloss , }
+			type = gloss , 
+				sort = all}
 		\newglossaryentry{abl}{
 			name = \textsc{abl} ,
 			description = ablative case,
-			type = gloss , }
+			type = gloss , 
+				sort = abl}
 		
 		
 			\newglossaryentry{dp}{
 			name = \textsc{dp} ,
 			description = discourse particle,
-			type = gloss , }
+			type = gloss ,
+				sort = dp }
 		
 		\newglossaryentry{acc}{
 			name = \textsc{acc} ,
 			description = accusative case,
-			type = gloss , }
+			type = gloss ,
+				sort = acc }
 		\newglossaryentry{nom}{
 			name = \textsc{nom} ,
 			description = nominative case,
-			type = gloss , }
+			type = gloss ,
+				sort = nom }
 			\newglossaryentry{mvtawy}{
 			name = \textsc{mvtawy} ,
-			description = `movement away' \citep{Wilkinson1991} -- perhaps \textsc{vend} or sth?,
-			type = gloss , }
+			description = `movement away' \citep{Wilkinson1991},
+			type = gloss ,
+				sort = mvta }
 		
 			\newglossaryentry{add}{
 			name = \textsc{add} ,
 			description = additive particle,
-			type = gloss , }
+			type = gloss , 
+				sort = add}
 		
 		\newglossaryentry{neu}{
 			name = \textsc{neu} ,
 			description = ``neutral'' verbal inflection \citep{Kabisch-Lindenlaub2017,McLellan1992},
-			type = gloss , }
+			type = gloss , 
+				sort = neu}
 		
 			\newglossaryentry{mvttwd}{
 			name = \textsc{mvttwd} ,
-			description = `movement toward' \citep{Wilkinson1991} -- perhaps \textsc{itv} or sth?,
-			type = gloss , }
+			description = `movement toward' \citep{Wilkinson1991},
+			type = gloss ,
+				sort = mvtt }
 				\newglossaryentry{cond}{
 				name = \textsc{cond} ,
 				description = conditional,
-				type = gloss , }
+				type = gloss , 
+					sort = cond}
 		\newglossaryentry{cfact}{
 			name = \textsc{cfact} ,
 			description = counterfactual,
-			type = gloss , }
+			type = gloss , 
+				sort = cfac}
 		\newglossaryentry{pres}{
-			name = \textsc{pres} ,
+			name = \textsc{prs} ,
 			description = present tense,
-			type = gloss , }
+			type = gloss ,
+				sort = prs }
 		\newglossaryentry{erg}{
 			name = \textsc{erg} ,
 			description = ergative case,
-			type = gloss , }
+			type = gloss , 
+				sort = erg}
 		\newglossaryentry{dm}{
 			name = \textsc{dm} ,
 			description = ``discourse clitic'' \citep{McLellan1992},
-			type = gloss , }
+			type = gloss , 
+				sort = dm}
 		\newglossaryentry{intens}{
-			name = \textsc{intens} ,
+			name = \textsc{intns} ,
 			description = intensifier,
-			type = gloss , }
+			type = gloss ,
+				sort = intn }
 		\newglossaryentry{negex}{
 			name = \textsc{negex} ,
-			description = negative existential/quantifier,
-			type = gloss , }
+			description = negative existential $ \nexists $,
+			type = gloss , 
+				sort = neg}
 		\newglossaryentry{red}{
 			name = \textsc{redup} ,
 			description = reduplicant,
-			type = gloss , }
+			type = gloss ,
+				sort = red }
 		\newglossaryentry{negq}{
 			name = \textsc{negq} ,
-			description = negative quantifier (existential) $\nexists$,
-			type = gloss , }
+			description = negative quantifier $\nexists$,
+			type = gloss ,
+				sort = neg }
 			\newglossaryentry{epist}{
 			name = \textsc{epist} ,
 			description = epistemic modal,
-			type = gloss , }
+			type = gloss ,
+				sort = epist }
 		\newglossaryentry{comit}{
 			name = \textsc{comit} ,
 			description = comitative case,
-			type = gloss , }
+			type = gloss , 
+				sort = comit}
 		
 			\newglossaryentry{vblzr}{
 			name = \textsc{vblzr} ,
-			description = `\textit{-Thu-} verbalizer' (derivational suffix),
-			type = gloss , }
+			description = `\textit{-\textsc{t}hu-} verbalizer',
+			type = gloss , 
+				sort = vblz}
 			\newglossaryentry{dim}{
 			name = \textsc{dim} ,
 			description = diminuitive,
-			type = gloss , }
+			type = gloss ,
+				sort = dim }
 		\newglossaryentry{instr}{
 		name = \textsc{instr} ,
-		description = instrumental case,
-		type = gloss , }
+		description = instrumental case (\gls{erg}),
+		type = gloss , 
+			sort = instr}
 		\newglossaryentry{temp}{
 		name = \textsc{temp} ,
-		description = temporal case (see \citealt[585]{Wilkinson1991}),
-		type = gloss , }
+		description = temporal case (\gls{erg}),
+		type = gloss , 		sort = temp }
 		\newglossaryentry{prop}{
 			name = \textsc{prop} ,
 			description = proprietive case,
-			type = gloss , }
+			type = gloss , 		sort = prop}
 			\newglossaryentry{SS}{
-			name = \textup{SS} ,
-			description = Signals identity between the subjects of a subordinate clause and its matrix,
-			type = gloss , }
+			name = \textsf{ss} ,
+			description = same subject (subordinate clause),
+			type = gloss ,		sort = ss }
 		
 			\newglossaryentry{kinprop}{
-			name = \textsc{prop} ,
-			description = proprietive case -- kinship augment,
-			type = gloss , }
+			name = \textsc{kinprop} ,
+			description = proprietive case (kinship augment),
+			type = gloss , 		sort = kinp}
 		
 		\newglossaryentry{perl}{
 			name = \textsc{perl} ,
 			description = perlative case,
-			type = gloss , }
+			type = gloss ,		sort = perl }
 		
 		\newglossaryentry{inch}{
 			name = \textsc{inch} ,
 			description = inchoative,
-			type = gloss , }
+			type = gloss , 		sort = inch}
 		\newglossaryentry{seq}{
 			name = \textsc{seq} ,
 			description = sequential,
-			type = gloss , }
+			type = gloss ,		sort = seq }
 		\newglossaryentry{abs}{
 			name = \textsc{abs} ,
 			description = absolutive case,
-			type = gloss , }
+			type = gloss , 		sort = abs}
 		
 		\newglossaryentry{prom}{
 			name = \textsc{prom} ,
-			description = prominence marker ($\approx$ focus),
-			type = gloss , }
+			description = prominence ($\approx$ focus),
+			type = gloss ,		sort = promj }
 		\newglossaryentry{nmlzr}{
 			name = \textsc{nmlzr} ,
 			description = nominaliser (derivation),
-			type = gloss , }
+			type = gloss , 
+				sort = nmlz}
 		
 			\newglossaryentry{tr}{
 			name = \textsc{tr} ,
-			description = transitiviser (derivation),
-			type = gloss , }
+			description = \textit{\textsc{-th}u-} transitiviser,
+			type = gloss ,
+				sort = tra }
 		
-			\newglossaryentry{tfa}{
-			name = \textsc{tfa} ,
-			description = temporal frame adverbial,
-			type = gloss , }
+%			\newglossaryentry{tfa}{
+%			name = \textsc{tfa} ,
+%			description = temporal frame adverbial,
+%			type = gloss , }nt
 		
 		
 		\newglossaryentry{emph}{
 			name = \textsc{emph} ,
-			description = (em)phatic particle \textcolor{red}{Wilk91},
-			type = gloss , }
+			description = (em)phatic,
+			type = gloss ,
+				sort = emp }
 		
 		\newglossaryentry{ana}{
 			name = \textsc{ana} ,
 			description = ``anaphoric reference'' \citet{McLellan1992};\citet[248]{Wilkinson1991},
-			type = gloss , }
+			type = gloss ,
+				sort = ana }
 		
 			\newglossaryentry{hab}{
 			name = \textsc{hab} ,
-			description = ``habitual (aspect)'',
-			type = gloss , }
+			description = habitual,
+			type = gloss ,
+				sort = hab }
 		
 			\newglossaryentry{purp}{
 			name = \textsc{purp} ,
 			description = purposive,
-			type = gloss , }
+			type = gloss , 
+				sort = purp}
 		
 		\newglossaryentry{caus}{
 			name = \textsc{caus} ,
 			description = causative,
-			type = gloss , }
+			type = gloss , 
+				sort = caus}
 		
 		\newglossaryentry{foc}{
 			name = \textsc{foc} ,
 			description = focus marker
-			type = gloss , }
+			type = gloss ,
+				sort = foc }
 		\newglossaryentry{loc}{
 			name = \textsc{loc} ,
 			description = locative case,
-			type = gloss , }
+			type = gloss ,
+				sort = loc }
 		\newglossaryentry{per}{
 			name = \textsc{per} ,
 			description = pergressive case,
-			type = gloss , }
+			type = gloss , 
+				sort = perg}
 		\newglossaryentry{excl}{
 			name = \textsc{excl} ,
 			description = exclusive (1ns-pronoun),
-			type = gloss , }
+			type = gloss ,		sort = excl }
 		\newglossaryentry{pst}{
 			name = \textsc{pst} ,
 			description = past tense,
-			type = gloss , }
+			type = gloss ,
+				sort = pst }
 		\newglossaryentry{incl}{
 			name = \textsc{incl} ,
-			description = inclusive (1ns-pronoun),
-			type = gloss , }
+			description = inclusive (pronoun),
+			type = gloss ,
+				sort = incl }
 		\newglossaryentry{dist}{
 			name = \textsc{dist} ,
 			description = distal (demonstrative),
-			type = gloss , }
+			type = gloss ,
+				sort = dist }
 		\newglossaryentry{prox}{
 			name = \textsc{prox} ,
 			description = proximal (demonstrative),
-			type = gloss , }
+			type = gloss ,
+				sort = prox }
 		\newglossaryentry{med}{
 			name = \textsc{med} ,
 			description = medial (demonstrative),
-			type = gloss , }
+			type = gloss ,
+				sort = med }
 		\newglossaryentry{sbjv}{
 			name = \textsc{sbjv} ,
 			description = subjunctive mood,
-			type = gloss , }
+			type = gloss ,
+				sort = sbjv }
 		\newglossaryentry{indic}{
 			name = \textsc{indic} ,
 			description = indicative mood,
-			type = gloss , }
+			type = gloss ,
+				sort = indic }
 		\newglossaryentry{texd}{
 			name = \textsc{endo} ,
-			description = endophoric  demonstrative (Wilkinson's ``textual deictic'' \citeyear[e.g. 254]{Wilkinson1991}),
-			type = gloss , }
+			description = endophoric  demonstrative (Wilkinson's ``textual deictic'',
+			type = gloss ,
+				sort = endo }
 		\newglossaryentry{obl}{
 			name = \textsc{obl} ,
 			description = oblique case,
-			type = gloss , }
+			type = gloss ,
+				sort = obl }
 		\newglossaryentry{dat}{
 			name = \textsc{dat} ,
 			description = dative case,
-			type = gloss , }
+			type = gloss ,
+				sort = dat }
 		\newglossaryentry{ds}{
-			name = \textsc{ds} ,
+			name = \textsc{DS} ,
 			description = different subject (subordinate clause),
 			type = gloss , }
 			\newglossaryentry{fact}{
@@ -743,87 +824,106 @@
 			type = gloss , }
 		 		\newglossaryentry{I}{
 		 	name = \textcolor{forest}{\textbf{I}} ,
-		 	description = primary/\textsc{first} inflection (Western Dhuwal/a),
-		 	type = gloss , }
+		 	description = primary/\textsc{first} inflection,
+		 	type = gloss ,
+	 	sort=infli }
 	 			\newglossaryentry{II}{
 	 		name = \textcolor{ochre}{\textbf{II}} ,
-	 		description =  secondary/\textsc{second} inflection (Western Dhuwal/a),
-	 		type = gloss , }
+	 		description =  secondary/\textsc{second} inflection,
+	 		type = gloss ,
+ 		sort=inflii  }
 		\newglossaryentry{III}{
  			name = \textcolor{blue}{\textbf{III}} ,
- 			description =  tertiary/\textsc{third} inflection (Western Dhuwal/a),
- 			type = gloss , }
+ 			description =  tertiary/\textsc{third} inflection,
+ 			type = gloss ,
+ 		sort=infliii }
 		\newglossaryentry{IV}{
  			name = \textcolor{violet}{\textbf{IV}} ,
- 			description =  quarternary/\textsc{fourth} inflection (Western Dhuwal/a),
- 			type = gloss , }
+ 			description =  quarternary/\textsc{fourth} inflection,
+ 			type = gloss , 
+ 		sort= infliv}
 		\newglossaryentry{ipfv}{
 			name = \textsc{ipfv} ,
 			description = imperfective (aspect),
-			type = gloss , }
+			type = gloss ,
+				sort = ipf }
 		\newglossaryentry{imp}{
 			name = \textsc{imp} ,
 			description = imperative,
-			type = gloss , }
+			type = gloss ,
+				sort = imp }
 		
 		\newglossaryentry{pfv}{
 			name = \textsc{pfv} ,
 			description = perfective (aspect),
-			type = gloss , }
+			type = gloss ,
+				sort = pfv }
 		
 		\newglossaryentry{fut}{
 			name = \textsc{fut} ,
 			description = future (tense),
-			type = gloss , }
+			type = gloss ,
+				sort = fu }
 
 		\newglossaryentry{assoc}{
 		name = \textsc{assoc} ,
 		description = associative,
-		type = gloss , }
+		type = gloss , 
+			sort = ass}
 	
 		\newglossaryentry{ncl}{
 		name = \textsc{ncl} ,
 		description = noun (class) marker,
-		type = gloss , }
+		type = gloss , 
+			sort = n}
 	
 	\newglossaryentry{hyp}{
 		name = \textsc{hyp} ,
 		description = hypothetical (modality),
-		type = gloss , }
+		type = gloss ,
+			sort = h }
 	
 	
 	
 	\newglossaryentry{mo}{
 	name = \textsc{Mo} ,
 	description = mother,
-	type = kinship, }
+	type = gloss , 
+	sort = kinship, }
 
 	\newglossaryentry{ch}{
 	name = \textsc{Ch} ,
 	description = child,
-	type = kinship, }
+	type = gloss , 
+	sort = kinship, }
 	\newglossaryentry{da}{
 	name = \textsc{Da} ,
 	description = daughter,
-	type = kinship, }
+	type = gloss , 
+	sort = kinship, }
 	\newglossaryentry{so}{
 	name = \textsc{son} ,
 	description = son,
-	type = kinship, }	
+	type = gloss , 
+	sort = kinship, 
+}	
 		
 	\newglossaryentry{fa}{
 		name = \textsc{Fa} ,
 		description = father,
-		type = kinship, }
+		type = gloss , 
+		sort = kinship, }
 	
 		\newglossaryentry{si}{
 		name = \textsc{Si} ,
 		description = sister,
-		type = kinship, }
+		type = gloss , 
+		sort = kinship, }
 		\newglossaryentry{bro}{
 		name = \textsc{Bro} ,
 		description = brother,
-		type = kinship, }
+		type = gloss , 
+		sort = kinship, }
 	
 	%from NEC paper
 	\newglossaryentry{yil}{
@@ -840,11 +940,11 @@
 		name = \texttt{fud} ,
 		description =  East Futunan (Polynesian),
 		type=lang,	}
-		\newglossaryentry{wd}{
-		name = WD ,
-		description =  Western Dhuwal-Dhuwala (Yolŋu Matha dialect cluster),
-		type=lang,	}
-	
+%		\newglossaryentry{wd}{
+%		name = WD ,
+%		description =  Western Dhuwal-Dhuwala (Yolŋu Matha dialect cluster),
+%		type=lang,	}
+	\newacronym{wd}{WD}{Western Dhuwal-Dhuwala (Yolŋu Matha dialect cluster)}
 	
 	\newglossaryentry{dhg}{
 		name = \texttt{dhg} ,
@@ -1034,24 +1134,27 @@
 
 
 	
-	\newglossaryentry{np}{
-		name = \textsc{NP} ,
-		description = noun phrase,
-		type = gloss , }
+	\newacronym{np}{NP}{noun phrase}
+%		name = \textsc{NP} ,
+%		description = noun phrase,
+%		type = gloss , }
 	
 
 	\newglossaryentry{s}{
-		name = \textsc{.sg} ,
+		name = s,
 		description = singular (number),
-		type = gloss , }
+		type = gloss ,
+		sort = s }
 	\newglossaryentry{d}{
-		name = \textsc{.dl} ,
+		name = d,
 		description = dual (number),
-		type = gloss , }
+		type = gloss , 
+			sort = d}
 	\newglossaryentry{p}{
-		name = \textsc{.pl} ,
+		name = p ,
 		description = plural (number),
-		type = gloss , }
+		type = gloss ,
+			sort = p }
 	
 	\newglossaryentry{1}{
 		name = 1,
@@ -1069,16 +1172,48 @@
 	\newglossaryentry{infl}{
 		name = \textsc{infl} ,
 		description = verbal inflection (TMA),
-		type = gloss , }
+		type = gloss ,
+			sort = infl }
 	\newglossaryentry{PstPot}{
 	name = \textsc{PstPot} ,
 	description = past potential,
-	type = gloss , }
-	\newglossaryentry{NEC}{
-	name = NƎC ,
-	description = Negative Existential Cycle,
-	type = gloss , }%	
+	type = gloss ,
+	sort = inflp }
+
+	\newacronym{NEC}{NƎC}{Negative Existential Cycle}
+%	name = NƎC ,
+%	description = Negative Existential Cycle,
+%	type = gloss , }%	
 	
+	
+	 \usepackage{glossary-mcols}
+\newglossarystyle{mymcolalttree}{%
+	\glossarystyle{alttree}%
+	\renewenvironment{theglossary}%
+	{%
+		\begin{multicols}{2}%
+			\def\@gls@prevlevel{-1}%
+			\mbox{}\par
+		}%
+		{\par\end{multicols}}%
+	\renewcommand{\glossaryentryfield}[5]{%
+		\ifnum\@gls@prevlevel=0
+		\hangindent\glstreeindent%%%%%%%%%%%%%% this has been added
+		\else
+		\settowidth{\glstreeindent}{\textbf{\@glswidestname\space}}%
+		\hangindent\glstreeindent
+		\parindent\glstreeindent
+		\fi
+		\makebox[0pt][r]{\makebox[\glstreeindent][l]{%
+				\glsentryitem{##1}\textbf{\glstarget{##1}{##2}}}}%
+		\ifx\relax##4\relax
+		\else
+		(##4)\space
+		\fi
+		##3\glspostdescription \space ##5\par
+		\def\@gls@prevlevel{0}%
+	}%
+}%
 	 
 	\newcommand{\I}{\textbf{\textcolor{forest}{I}}}
 	\newcommand{\II}{\textbf{\textcolor{ochre}{II}}}
@@ -1089,6 +1224,9 @@
 \date{}
  \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \setcounter{secnumdepth}{3}
+
+
+
 
 \begin{document}\pagenumbering{roman}
 	
@@ -1156,14 +1294,21 @@
 
 
 
-\setcounter{tocdepth}{3}\tableofcontents	\gathertags
+\setcounter{tocdepth}{3}\tableofcontents	
 
 \setcounter{chapter}{0}
 \setcounter{part}{0}
 \reversemarginpar%\onehalfspacing
 
 
-%\listoftables
+\listoffigures
+\listoftables
+%
+%\glossarystyle{nonumberlist}
+	\printglossary[type=gloss,nonumberlist,style=mymcolalttree]
+	
+\gathertags
+
 \chapter{Introduction}\pagenumbering{arabic}%\doublespacing
 %\input{intro.tex}
 \label{IntroCh}
@@ -1252,7 +1397,7 @@ The sets of times that are made available by each of these relations is schemati
 
 
 \begin{figure}[h]\centering
-	\caption{Temporal accessibility relations: the sets of world-time pairs preceding and following $ \langle w,t\rangle $  are labelled $ \prec_{\langle w,t\rangle} $ and  $ \succ_{\langle w,t\rangle} $ respectively \citep*[adapted from][93]{Kaufmann2006}. Time is assumed to ``flow'' infinitely rightwards.}\label{temp-access}
+	\caption[Temporal accessibility relations]{Temporal accessibility relations: the sets of world-time pairs preceding and following $ \langle w,t\rangle $  are labelled $ \prec_{\langle w,t\rangle} $ and  $ \succ_{\langle w,t\rangle} $ respectively \citep*[adapted from][93]{Kaufmann2006}. Time is assumed to ``flow'' infinitely rightwards.}\label{temp-access}
 \begin{tikzpicture}
 		% draw horizontal line   
 	\draw[<->, line width=.5mm] (0,0) -- (12,0) node[label=right:$ \boldsymbol w $] {};
@@ -1298,9 +1443,9 @@ Here, I briefly lay out a version of the ``branching time frame'' as laid out by
 
 
 \begin{figure}[b]
-	\centering
+	\centering	\caption[$ \mathcal{W\times T}: $Two dimensional modal logic: the Parallel Worlds model]{Two-dimensional modal logic: the $ \mathcal{W\times T} $-frame. The thick lines represent sets of individual indices accessible from $ \langle w,t\rangle $ by the modal relation $ \approx $ (vertical) and the temporal relation [$ \preccurlyeq $] (horizontal). For example, the worlds accessible via $ \approx $ from $ w $ and $ t $ are also accessible at $ t' $, but not necessarily vice versa \citep*[diagram and caption from][95]{Kaufmann2006}}	\label{KCH-WTframe}
 	\includegraphics[width=0.8\linewidth]{KCH06-95-WTframe}
-		\caption[$ \mathcal{W\times T} $-frame]{Two-dimensional modal logic. The thick lines represent sets of individual indices accessible from $ \langle w,t\rangle $ by the modal relation $ \approx $ (vertical) and the temporal relation [$ \preccurlyeq $] (horizontal). For example, the worlds accessible via $ \approx $ from $ w $ and $ t $ are also accessible at $ t' $, but not necessarily vice versa \citep*[diagram and caption from][95]{Kaufmann2006}}	\label{KCH-WTframe}
+	
 \end{figure}
 
 
@@ -1310,7 +1455,7 @@ The framework is diagrammed in Figure \ref{BT-dia} below.
 
 
 \begin{figure}[h]
-	\caption{A branching times frame $ \mathfrak T=\langle\mathcal I,\prec\rangle $ following von Prince \citeyearpar[\textit{e.g.},][591]{VonPrince2019}. Time ``flows'' rightwards and vertically aligned indices are taken to be ``copresent''. $\boldsymbol{i*} $ represents the \textit{evaluation index} (present time \& actual world.)}\label{BT-dia}\centering
+	\caption[$ \mathfrak T :$ The Branching Times model]{A branching times frame $ \mathfrak T=\langle\mathcal I,\prec\rangle $ following von Prince \citeyearpar[\textit{e.g.},][591]{VonPrince2019}. Time ``flows'' rightwards and vertically aligned indices are taken to be ``copresent''. $\boldsymbol{i*} $ represents the \textit{evaluation index} (present time \& actual world.)}\label{BT-dia}\centering
 	\begin{tikzpicture}
 		[scale=2,level distance=9mm,
 		every node/.style={fill=black,circle,inner sep=1.5pt},
@@ -1442,11 +1587,11 @@ A property $P$ (\textit{e.g.}, an eventuality) is settled in a reference world $
 
 \pex[nopreamble]\deftagex{CondoravdiSett}\a \textbf{The common ground}\deftaglabel{cg}
 
-Common beliefs (somewhat heuristically) are the set of propositions that are taken to be believed by all discourse participants (doxastic agents) $ \alpha $ in the discourse context $ (c) $.
+\textsc{Common beliefs} (somewhat heuristically) are the set of propositions that are taken to be believed by all discourse participants (doxastic agents) $ \alpha $ in the discourse context $ (c) $.
 
 \textit{\textsc{cb}}$ _c(\varphi) \underset{\texttt{def}}{=} \varphi\in \underset{\alpha\in c}{\bigcap} \textsc{dox}_\alpha (w*) $
 
-The common ground  $ \mathit{cg_c} $, then, is the transitive closure of the common belief relation (that is, an ancestral relation that) \citep[see][]{Stalnaker2002,Kaufmann2010,Fagin}.
+\textsc{The common ground}  $ \mathit{cg_c} $, then, is the transitive closure of the common belief relation (that is, an ancestral relation, \citealp[see][]{Stalnaker2002,Kaufmann2010,Fagin}.)
 
 $ \mathit{cg_c}(\varphi)=\varphi\in\bigcup\limits_{i=1}^\infty\textit{\textsc{cb}}_c^i\text{ where }\textsc{\textit{cb}}^{i+1}_c\varphi=\textsc{\textit{cb}}_c\textsc{\textit{cb}}^{i}_c\varphi $ That is, a proposition $ \varphi $ is in the common ground iff it is a common belief of all participants that it is a common belief of all participants \textit{etc.} that $ \varphi $.
 
@@ -1599,14 +1744,14 @@ In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langaug
 %Initial human inhabitation of the Australian landmass is generally estimated at roughly 50,000 years ago (50Kya).
 The past few decades have seen mounting interest in the deployment of historical/comparative linguistic methods for uncovering linguistic and anthropological prehistory of the continent \citetext{\citealp[see][]{McConvell2011} for an overview.} Some three hundred Australian languages have been reconstructed to a single family, Pama-Nyungan, spoken across mainland Australia (approx. 90\% of its area) except for some regions in the north of the continent \citep{Dixon1980,Bowern2021}. The most recent common ancestor of these languages (\textit{sc. proto-Pama-Nyungan}) is estimated to have been spoken roughly five to seven thousand years before present (5--7Kya, during the mid-Holocene/Northgrippian age: a comparable timedepth to Indo-European), originating in the ``Gulf Plains'' bioregion around the Gulf of Carpentaria \citetext{\citet{Bouckaert2018}, supporting earlier work, incl. \citealp{Hale1964} a.o.}. Many of these languages remain underdescribed (extinct, or recorded in ``salvage''-oriented documentatary work.) As a consequence, they are by and large poorly integrated into (model-)theoretic treatments of cross-linguistic semantics (as suggested in \S~\ref{IntroCh} above, see also \citealp{Nordlinger2021} for an overview of the impact of theoretical treatments of Australian language data.)
 
-\begin{figure}[h]\caption{Map of Australian linguistic areas, including detail of Northern Australia and Arnhem Land}\label{maps}
+\begin{figure}[h]\caption[Australian language maps]{Map of Australian linguistic areas, including detail of Northern Australia and Arnhem Land}\label{maps}
 	\begin{subfigure}[t]{\textwidth}
-		\caption{Australian language families: Pama-Nyungan is shaded yellow, with detail of diverse Northern Australia \citep[adapted from][]{Dixon2002a}}\label{pn}\centering
+		\caption[Australia \& the top end]{Australian language families: Pama-Nyungan is shaded yellow, with detail of diverse Northern Australia \citep[adapted from][]{Dixon2002a}}\label{pn}\centering
 		\includegraphics[width=.6\linewidth]{ALs.png}
 	\end{subfigure}
 \clearpage
 \begin{subfigure}[t]{\textwidth}
-	\caption{Languages of Arnhem Land. \textit{Yolŋu}-speaking area is shaded. Primary data in this dissertation was elicited in Ramingining \& Ngukurr (highlighted). Map adapted from \citet[2]{Wilkinson1991}.}\label{arn}\centering
+	\caption[Languages of Arnhem Land]{Languages of Arnhem Land. \textit{Yolŋu}-speaking area is shaded. Primary data in this dissertation was elicited in Ramingining \& Ngukurr (highlighted). Map adapted from \citet[2]{Wilkinson1991}.}\label{arn}\centering
 		\includegraphics[width=.85\linewidth]{arnhem-mw2.png}
 \end{subfigure}
 \end{figure}
@@ -1625,10 +1770,12 @@ Additional background information on the sociolinguistic context of the language
 
 \section{Data \& glossing conventions}
 
-Each subpart of this dissertation makes use of (novel and published) data from different sources. Example sentences are glossed following (modified) Leipzig conventions (all adopted abbreviations listed on \textit{pg.} \pageref{}).\marginnote{orthographic stuff} I adopt standard orthographic conventions for Australian languages and for Yolŋu Matha (including the standardisation of other sources to Yolŋu spelling conventions.) These writing systems are derived from English orthography; digraphs and diacritics which may be unfamiliar or otherwise ambiguous to the reader and their IPA correspondences are tabulated below \citetext{see also, \textit{e.g.}, \citealt[549]{Dixon2002a} for an overview of ``canonical'' phoneme inventories in Australian Language and \citealt[41,44]{Wilkinson1991} for the Yolŋu orthography, originally proposed by Beulah Lowe.}
+Each subpart of this dissertation makes use of (novel and published) data from different sources. Example sentences are glossed following (modified) Leipzig conventions (all adopted abbreviations listed on \textit{pg.} \pageref{}).
+
+ I adopt standard orthographic conventions for Australian languages and for Yolŋu Matha (including the standardisation of other sources to Yolŋu spelling conventions.) These writing systems are derived from English orthography; digraphs and diacritics which may be unfamiliar or otherwise ambiguous to the reader and their IPA correspondences are tabulated below \citetext{see also, \textit{e.g.}, \citealt[549]{Dixon2002a} for an overview of ``canonical'' phoneme inventories in Australian Language and \citealt[41,44]{Wilkinson1991} for the Yolŋu orthography, originally proposed by Beulah Lowe.}
 
 \begin{table}[h]
-\caption{Correspondences between \textbf{\texttt{[IPA]}}, \textcolor{violet}{\textbf{\textit{Australianist}}} and \textcolor{ochre}{\textbf{\textit{Yolŋu}}} orthographic conventions adopted in the dissertation}	\centering
+\caption[Orthographic conventions]{Correspondences between \textbf{\texttt{[IPA]}}, \textcolor{violet}{\textbf{\textit{Australianist}}} and \textcolor{ochre}{\textbf{\textit{Yolŋu}}} orthographic conventions adopted in the dissertation}	\centering
 	\begin{tabular}{>{[~}l<{~]}>{\it\color{violet}}c>{\it\color{ochre}}c}
 		l&rl&ḻ\\
 		ɲ&rn&ṉ\\
@@ -1649,7 +1796,7 @@ Each subpart of this dissertation makes use of (novel and published) data from d
 	\end{tabular}
 \end{table}
 
-\begin{table}\caption{Consultants}
+\begin{table}\caption[List of consultants]{Consultant initials}
 \centering	\begin{tabular}{ll|ll}
 	\multicolumn{2}{c}{\textbf{Ramingiṉiŋ}} &	\multicolumn{2}{c}{\textbf{Ngukurr}}\\
 	AW& Albert Waninymarr	& AJ & Angelina Joshua\\
@@ -1660,7 +1807,7 @@ Each subpart of this dissertation makes use of (novel and published) data from d
 \end{table}
 
 \defcitealias{KB}{KB}
-\defcitealias{DB}{DB}
+\defcitealias{DB}{DjB}
 
 Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 and 2019 from native speakers in Arnhem Land (in particular the Ngukurr and Ramingining communities) and Darwin. Where data are sourced from published material, a numbered bibliographic citation is provided. An exception to this is the Djambarrpuyŋu and Kriol bible translations, abbreviated as \citetalias{DB} and \citetalias{KB} respectively and accompanied by a cross-reference to the name of the \textsc{book} as well as the chapter and verse numbers (\textit{e.g.} [\citetalias{KB}~\textit{Jen.} 1:3]). Each of these texts is online at \url{https://aboriginalbibles.org.au/}, made publicly available by \citet{KB,DB}.
 
@@ -1679,7 +1826,7 @@ Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 
 
 %todo  Ga wiripuny ŋayi yolŋu nhakun djäl-ḏumurra wiripuŋuw ga wiripuŋuw yätjkurruw romgu, ga wiripuny ŋayi yolŋu dhäruk-märranhamiriwnha ŋäṉḏi'mirriŋuw ga bäpa'mirriŋuw, djäl-gänaŋumirra ŋayi ŋunhi balanya. 
 
-%\input{NEC/NegEx-diss.tex}
+\input{NEC/NegEx-diss.tex}
 
 
 
@@ -1746,4 +1893,5 @@ In this dissertation, I hope to have made a contribution to the following relate
 
 \vfill\bibliographystyle{biblo/sp.bst}\bibliography{biblo/library.bib}
 
+	\printglossary[type=lang]
 \end{document}

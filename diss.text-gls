@@ -1,0 +1,6 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossentry{xnow}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{178\delimN 179}}}%
+\end{theglossary}\glossarypostamble
