@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  14 MAY 2021 23:10
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  15 MAY 2021 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2348,41 +2348,41 @@ Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
 (./diss.aux)
 \openout1 = `diss.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 1333.
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1333.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1333
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 1334.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 1334.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 1334
 .
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 1333.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 1333.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 1333.
+LaTeX Font Info:    ... okay on input line 1334.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 1334.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 1334.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 1333.
-Package tocbasic Info: usage of `tocbibind' detected on input line 1333.
-Package scrwfile Info: Using `\Hy@AtBeginDocument` on input line 1333.
+LaTeX Font Info:    ... okay on input line 1334.
+Package tocbasic Info: usage of `tocbibind' detected on input line 1334.
+Package scrwfile Info: Using `\Hy@AtBeginDocument` on input line 1334.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2422,7 +2422,7 @@ Package marginnote Info: \pdfoutput not 0 or unimportant and
 (marginnote)             \pdflastxpos or \lastxpos available.
 (marginnote)             Extended position detection mode activated.
 \AtBeginShipoutBox=\box173
-Package hyperref Info: Link coloring ON on input line 1333.
+Package hyperref Info: Link coloring ON on input line 1334.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2431,15 +2431,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count404
 )
-LaTeX Info: Redefining \ref on input line 1333.
-LaTeX Info: Redefining \pageref on input line 1333.
-LaTeX Info: Redefining \nameref on input line 1333.
+LaTeX Info: Redefining \ref on input line 1334.
+LaTeX Info: Redefining \pageref on input line 1334.
+LaTeX Info: Redefining \nameref on input line 1334.
 
 (./diss.out) (./diss.out)
 \@outlinefile=\write12
 \openout12 = `diss.out'.
 
-Package scrwfile Info: Extending `\@starttoc`  on input line 1333.
+Package scrwfile Info: Extending `\@starttoc`  on input line 1334.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -2456,77 +2456,77 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \check on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 1333.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 1333.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 1333.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 1333.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \check on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 1334.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 1334.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 1334.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 1334.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 1333
+(Font)              `operators' in the math version `normal' on input line 1334
 .
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/LinuxLibertineO(0)/m/n on input line
- 1333.
+ 1334.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 1333.
+(Font)              `operators' in the math version `bold' on input line 1334.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/LinuxLibertineO(0)/m/n on input lin
-e 1333.
+e 1334.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/LinuxLibertineO(0)/m/n --> TU/LinuxLibertineO(0)/m/n
- on input line 1333.
+ on input line 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/LinuxLibertineO(0)/m/it on input li
-ne 1333.
+ne 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/LinuxLibertineO(0)/bx/n on input li
-ne 1333.
+ne 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/LinuxBiolinumO(0)/m/n on input line
- 1333.
+ 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 1333.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 1334.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/LinuxLibertineO(0)/m/n --> TU/LinuxLibertineO(0)/bx/
-n on input line 1333.
+n on input line 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/LinuxLibertineO(0)/bx/it on input 
-line 1333.
+line 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/LinuxBiolinumO(0)/bx/n on input li
-ne 1333.
+ne 1334.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 1333.
-LaTeX Font Info:    Try loading font information for U+msa on input line 1367.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 1334.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1368.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 1367.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1368.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 1367
+LaTeX Font Info:    Try loading font information for U+stmry on input line 1368
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
@@ -2569,12 +2569,12 @@ Use my own \@starttoc for lot
 (./diss.lot) [10
 
 ]
-Overfull \hbox (30.82756pt too wide) in paragraph at lines 1473--1515
+Overfull \hbox (30.82756pt too wide) in paragraph at lines 1474--1516
 [][] 
  []
 
 
-Overfull \hbox (18.43156pt too wide) in paragraph at lines 1517--1537
+Overfull \hbox (18.43156pt too wide) in paragraph at lines 1518--1538
 [][] 
  []
 
@@ -2645,48 +2645,48 @@ File: figs/KCH06-95-WTframe.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 1783--1785
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1786
  
  []
 
 
-Overfull \hbox (3.40182pt too wide) in paragraph at lines 1787--1788
+Overfull \hbox (3.40182pt too wide) in paragraph at lines 1788--1789
 \TU/LinuxLibertineO(0)/m/n/12 how the truth of future contingents can be modell
 ed using “forking paths” (i.e. branches
  []
 
 [10]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1819.
+LaTeX Warning: Command \! invalid in math mode on input line 1820.
 
 LaTeX Font Info:    Try loading font information for T3+LinuxLibertineO(0) on i
-nput line 1819.
-LaTeX Font Info:    No file T3LinuxLibertineO(0).fd. on input line 1819.
+nput line 1820.
+LaTeX Font Info:    No file T3LinuxLibertineO(0).fd. on input line 1820.
 
 LaTeX Font Warning: Font shape `T3/LinuxLibertineO(0)/m/n' undefined
-(Font)              using `T3/cmr/m/n' instead on input line 1819.
+(Font)              using `T3/cmr/m/n' instead on input line 1820.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1819.
+LaTeX Warning: Command \! invalid in math mode on input line 1820.
 
 [11]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1847.
+LaTeX Warning: Command \! invalid in math mode on input line 1848.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1847.
+LaTeX Warning: Command \! invalid in math mode on input line 1848.
 
 [12] [13] [14]
 Missing character: There is no ⁣ in font Linux Libertine O/OT:script=latn;langu
 age=DFLT;mapping=tex-text;!
  [15] [16]
-Underfull \hbox (badness 1558) in paragraph at lines 1989--1989
+Underfull \hbox (badness 1558) in paragraph at lines 1990--1990
 [][]\TU/LinuxLibertineO(0)/m/n/10 Also James Leow’s recent ([][]2020[][]) disse
 rtation which conceives of variation and change in
  []
 
 
-Overfull \hbox (15.20715pt too wide) in paragraph at lines 1999--2000
+Overfull \hbox (15.20715pt too wide) in paragraph at lines 2000--2001
 \TU/LinuxLibertineO(0)/m/n/12 hundred Australian languages have been reconstruc
 ted to a single family, Pama-Nyungan,
  []
@@ -2698,13 +2698,13 @@ File: figs/arnhem-mw2.png Graphic file (type bmp)
 <figs/arnhem-mw2.png>
  [18] [19]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2034.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2035.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.30713pt too wide) in paragraph at lines 2076--2077
+Overfull \hbox (9.30713pt too wide) in paragraph at lines 2077--2078
 \TU/LinuxLibertineO(0)/m/n/12 and 2019 from native speakers in Arnhem Land (in 
 particular the Ngukurr and Ramingin-
  []
@@ -3020,13 +3020,15 @@ LaTeX Warning: Command \! invalid in math mode on input line 1625.
 
 LaTeX Warning: Command \! invalid in math mode on input line 1625.
 
-Package marginnote Info: Margin note 97.1 is on absolute page 98
+[84]
+Package marginnote Info: Margin note 98.1 is on absolute page 98
 (marginnote)              on input line 1632.
 Package marginnote Info: right page because not two side mode on input line 163
 2.
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 1632.
 \g__fontspec_family_Cambria_int=\count405
+
 
 LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1638
 .
@@ -3119,350 +3121,311 @@ LaTeX Info: Redefining \rmfamily on input line 1638.
 . O/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 1646.
-[84]
-Package marginnote Info: Margin note 98.1 is on absolute page 98
-(marginnote)              on input line 1663.
-Package marginnote Info: right page because not two side mode on input line 166
-3.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1663.
- [85]
-Overfull \hbox (3.80316pt too wide) in paragraph at lines 1697--1698
+[85]
+Overfull \hbox (3.80316pt too wide) in paragraph at lines 1698--1699
 []\TU/LinuxLibertineO(0)/m/n/12 As shown above, given the notion of historical 
 necessity/the left-linearity of branch-
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1706.
+LaTeX Warning: Command \! invalid in math mode on input line 1707.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1706.
+LaTeX Warning: Command \! invalid in math mode on input line 1707.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1720.
+LaTeX Warning: Command \! invalid in math mode on input line 1721.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1720.
+LaTeX Warning: Command \! invalid in math mode on input line 1721.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1720.
+LaTeX Warning: Command \! invalid in math mode on input line 1721.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1720.
+LaTeX Warning: Command \! invalid in math mode on input line 1721.
 
 [86]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1723.
+LaTeX Warning: Command \! invalid in math mode on input line 1724.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1723.
+LaTeX Warning: Command \! invalid in math mode on input line 1724.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1728.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1728.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1728.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1728.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
 LaTeX Font Warning: Font shape `T3/LinuxLibertineO(0)/bx/n' undefined
 (Font)              using `T3/LinuxLibertineO(0)/m/n' instead on input line 176
-2.
+3.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1762.
+LaTeX Warning: Command \! invalid in math mode on input line 1763.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1775.
+LaTeX Warning: Command \! invalid in math mode on input line 1776.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1775.
+LaTeX Warning: Command \! invalid in math mode on input line 1776.
 
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1775.
+LaTeX Warning: Command \! invalid in math mode on input line 1776.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1775.
+LaTeX Warning: Command \! invalid in math mode on input line 1776.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1778.
+LaTeX Warning: Command \! invalid in math mode on input line 1779.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1778.
+LaTeX Warning: Command \! invalid in math mode on input line 1779.
 
 [87]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1792.
+LaTeX Warning: Command \! invalid in math mode on input line 1793.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1792.
+LaTeX Warning: Command \! invalid in math mode on input line 1793.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1800.
+LaTeX Warning: Command \! invalid in math mode on input line 1801.
 
 
-Overfull \hbox (59.06566pt too wide) detected at line 1800
+Overfull \hbox (59.06566pt too wide) detected at line 1801
 []
  []
 
 
-Overfull \hbox (50.95201pt too wide) in paragraph at lines 1800--1800
+Overfull \hbox (50.95201pt too wide) in paragraph at lines 1801--1801
  [] 
  []
 
-Package marginnote Info: Margin note 101.1 is on absolute page 101
-(marginnote)              on input line 1801.
-Package marginnote Info: right page because not two side mode on input line 180
-1.
-Package marginnote Info: xpos seems to be 162.35701pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1801.
 
-Overfull \hbox (40.09113pt too wide) in paragraph at lines 1829--1830
+Overfull \hbox (40.09113pt too wide) in paragraph at lines 1830--1831
 \TU/LinuxLibertineO(0)/m/n/12 In unsettled contexts, \TU/LinuxLibertineO(0)/m/i
 t/12 bambai\TU/LinuxLibertineO(0)/m/n/12 ’s metaphysical modal base gives rise 
 to a nonfactual/nonveridical
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1839.
+LaTeX Warning: Command \! invalid in math mode on input line 1840.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1839.
+LaTeX Warning: Command \! invalid in math mode on input line 1840.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1839.
+LaTeX Warning: Command \! invalid in math mode on input line 1840.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1839.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Command \! invalid in math mode on input line 1840.
 
 [88]
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1888.
+LaTeX Warning: Command \! invalid in math mode on input line 1889.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1888.
+LaTeX Warning: Command \! invalid in math mode on input line 1889.
 
 
-Overfull \hbox (4.55727pt too wide) in paragraph at lines 1888--1889
+Overfull \hbox (4.55727pt too wide) in paragraph at lines 1889--1890
  [][]$[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 \[][]\OT1/cmr/m/n/12 )$ \TU/LinuxLibe
 rtineO(0)/m/n/12 then returns just that subset of metaphysical alternative bran
 ches
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1910.
+LaTeX Warning: Command \! invalid in math mode on input line 1911.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1910.
+LaTeX Warning: Command \! invalid in math mode on input line 1911.
 
 [89]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1927.
+LaTeX Warning: Command \! invalid in math mode on input line 1928.
 
 
-Overfull \hbox (49.74109pt too wide) detected at line 1927
+Overfull \hbox (49.74109pt too wide) detected at line 1928
 []
  []
 
 
-Overfull \hbox (50.95201pt too wide) in paragraph at lines 1927--1927
+Overfull \hbox (50.95201pt too wide) in paragraph at lines 1928--1928
  [] 
  []
 
-Package marginnote Info: Margin note 103.1 is on absolute page 103
-(marginnote)              on input line 1930.
-Package marginnote Info: right page because not two side mode on input line 193
-0.
-Package marginnote Info: xpos seems to be 420.64902pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1930.
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1954.
+LaTeX Warning: Command \! invalid in math mode on input line 1955.
 
-Package marginnote Info: Margin note 103.2 is on absolute page 104
-(marginnote)              on input line 1963.
-Package marginnote Info: right page because not two side mode on input line 196
-3.
-Package marginnote Info: xpos seems to be 445.92906pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1963.
 [90]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1978.
+LaTeX Warning: Command \! invalid in math mode on input line 1979.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1978.
+LaTeX Warning: Command \! invalid in math mode on input line 1979.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1978.
+LaTeX Warning: Command \! invalid in math mode on input line 1979.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1978.
+LaTeX Warning: Command \! invalid in math mode on input line 1979.
 
-Package marginnote Info: Margin note 104.1 is on absolute page 104
-(marginnote)              on input line 1980.
-Package marginnote Info: right page because not two side mode on input line 198
-0.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 1980.
-[91] [92]
+[91]
 
-LaTeX Warning: Command \! invalid in math mode on input line 2065.
+LaTeX Warning: Command \! invalid in math mode on input line 2067.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2065.
+LaTeX Warning: Command \! invalid in math mode on input line 2067.
+
+[92]
+
+LaTeX Warning: Command \! invalid in math mode on input line 2078.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2076.
+LaTeX Warning: Command \! invalid in math mode on input line 2078.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2076.
+LaTeX Warning: Command \! invalid in math mode on input line 2078.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2076.
+LaTeX Warning: Command \! invalid in math mode on input line 2078.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2076.
-
-
-Overfull \hbox (0.13115pt too wide) in paragraph at lines 2078--2079
+Overfull \hbox (0.13115pt too wide) in paragraph at lines 2080--2081
  [][]\TU/LinuxLibertineO(0)/m/n/12 That [][]is, along all branches best conform
 ing with circumstances/expectations
  []
 
-Package marginnote Info: Margin note 106.1 is on absolute page 106
-(marginnote)              on input line 2089.
-Package marginnote Info: right page because not two side mode on input line 208
-9.
-Package marginnote Info: xpos seems to be 361.0176pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 2089.
-[93] [94]
-Overfull \hbox (5.09915pt too wide) in paragraph at lines 2117--2118
+[93]
+Overfull \hbox (5.09915pt too wide) in paragraph at lines 2119--2120
 []\TU/LinuxLibertineO(0)/m/n/12 From a functionalist perspective, this associat
 ion in unsurprising, given that speaker
  []
 
-
-Overfull \hbox (7.45282pt too wide) in paragraph at lines 2138--2139
+[94]
+Overfull \hbox (7.45282pt too wide) in paragraph at lines 2140--2141
 \TU/LinuxLibertineO(0)/m/n/12 ([][]2016[][]). A meaning change trajectory docum
 ented in other literature ([][]Angelo & Schultze-
  []
@@ -3471,7 +3434,7 @@ ented in other literature ([][]Angelo & Schultze-
 
 ]
 Package hyperref Info: bookmark level for unknown toc defaults to 0 on input li
-ne 2107.
+ne 2108.
  (./NEC/NegEx-diss.tex
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -4279,10 +4242,10 @@ Overfull \hbox (14.60614pt too wide) in paragraph at lines 3861--3862
 
 [246] [247] [248]) [249] [250]
 
-LaTeX Warning: Reference `otherwise' on page 251 undefined on input line 2150.
+LaTeX Warning: Reference `otherwise' on page 251 undefined on input line 2151.
 
 
-LaTeX Warning: Reference `otherwise' on page 251 undefined on input line 2150.
+LaTeX Warning: Reference `otherwise' on page 251 undefined on input line 2151.
 
 [251
 
@@ -4532,10 +4495,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 2905--2909
 Package natbib Warning: There were undefined citations.
 
 [289]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2176.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2177.
 \openout2 = `diss.wrt'.
 
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2177.
  (./diss.aux
 Use my own \@writefile for toc
 Use my own \@writefile for toc
@@ -4755,7 +4718,7 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for section
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2176.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2177.
 
 Process extension: `toc'
 \openout2 = `diss.toc'.
@@ -4769,7 +4732,7 @@ Process extension: `lot'
 \openout2 = `diss.lot'.
 
 (./diss.wrt)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2177.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
 (rerunfilecheck)             Checksum: C0710DEE7701008FD3FC01B345CE0444.
@@ -4780,13 +4743,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2177.
  )
 (\end occurred when \ifx on line 1740 was incomplete)
 (\end occurred when \ifx on line 304 was incomplete)
-(\end occurred when \ifx on line 2093 was incomplete)
-(\end occurred when \ifx on line 1723 was incomplete)
-(\end occurred when \ifhmode on line 1663 was incomplete)
+(\end occurred when \ifx on line 2095 was incomplete)
+(\end occurred when \ifx on line 1724 was incomplete)
 (\end occurred when \ifx on line 1621 was incomplete)
 (\end occurred when \ifx on line 1621 was incomplete)
 (\end occurred when \ifx on line 1293 was incomplete)
@@ -4798,13 +4760,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2176.
 (\end occurred when \ifx on line 991 was incomplete)
 (\end occurred when \ifx on line 967 was incomplete)
 (\end occurred when \ifx on line 614 was incomplete)
-(\end occurred when \ifx on line 1928 was incomplete) 
+(\end occurred when \ifx on line 1929 was incomplete) 
 Here is how much of TeX's memory you used:
- 59938 strings out of 492970
- 1134420 string characters out of 6133938
- 1324799 words of memory out of 5000000
- 62820 multiletter control sequences out of 15000+600000
- 565598 words of font info for 285 fonts, out of 8000000 for 9000
+ 59960 strings out of 492970
+ 1134642 string characters out of 6133938
+ 1324916 words of memory out of 5000000
+ 62843 multiletter control sequences out of 15000+600000
+ 565590 words of font info for 284 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,24n,100p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
