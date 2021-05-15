@@ -1,25 +1,33 @@
+\@writefile{toc}{\contentsline {chapter}{Front matter}{}{Doc-Start}}
+\@writefile{toc}{\contentsline {section}{Contents}{iii}{Doc-Start}}
+\@writefile{toc}{\contentsline {subsection}{List of figures}{ix}{chapter*.2}}
+\@writefile{toc}{\contentsline {subsection}{List of tables}{x}{chapter*.3}}
+\@writefile{toc}{\contentsline {section}{Abbreviations}{xi}{section*.4}}
+\@writefile{toc}{\contentsline {section}{Acknowledgments}{xiii}{section*.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Overview}{2}{section.1.1}}
+\@writefile{toc}{\contentsline {paragraph}{Part \ref {bambai}}{2}{section*.7}}
+\@writefile{toc}{\contentsline {paragraph}{Part \ref {NEC}}{3}{section*.8}}
+\@writefile{toc}{\contentsline {paragraph}{Part \ref {yolŋu}}{3}{section*.9}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}Formal theories of displacement}{4}{section.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Temporal accessibility relations}}{6}{figure.caption.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Temporal accessibility relations}}{5}{figure.caption.10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Indeterminist tense logic}{6}{subsection.1.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{The mechanics}{7}{section*.7}}
-\@writefile{toc}{\contentsline {paragraph}{Branches}{7}{section*.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $ \mathcal {W\times T}: $Two dimensional modal logic: the Parallel Worlds model}}{8}{figure.caption.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $ \mathfrak T :$ The Branching Times model}}{9}{figure.caption.9}}
-\@writefile{toc}{\contentsline {paragraph}{The ``co-present''}{9}{section*.11}}
-\@writefile{toc}{\contentsline {paragraph}{Settledness}{10}{section*.12}}
-\@writefile{toc}{\contentsline {paragraph}{A modal trichotomy}{13}{section*.13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Modal auxiliaries as quantifiers: \citealt {Kratzer1977} \textit {et seq.}}{13}{subsection.1.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{Quantifying over $ \mathfrak {T} $}{15}{section*.14}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}A note on the ``amphichronic program''}{17}{section.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}The linguistic ecology of Arnhem Land}{18}{section.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}Data \& glossing conventions}{19}{section.1.5}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Orthographic conventions}}{20}{table.caption.18}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces List of consultants}}{20}{table.caption.19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Australian language maps}}{21}{figure.caption.15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {a}{\ignorespaces Australia \& the top end}}{21}{figure.caption.15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {b}{\ignorespaces Languages of Arnhem Land}}{21}{figure.caption.15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $ \mathcal {W\times T}: $Two dimensional modal logic: the Parallel Worlds model}}{7}{figure.caption.12}}
+\@writefile{toc}{\contentsline {paragraph}{The mechanics}{7}{section*.11}}
+\@writefile{toc}{\contentsline {paragraph}{Branches}{7}{section*.14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces $ \mathfrak T :$ The Branching Times model}}{8}{figure.caption.13}}
+\@writefile{toc}{\contentsline {paragraph}{The ``co-present''}{9}{section*.15}}
+\@writefile{toc}{\contentsline {paragraph}{Settledness}{10}{section*.16}}
+\@writefile{toc}{\contentsline {paragraph}{A modal trichotomy}{12}{section*.17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Modal auxiliaries as quantifiers}{13}{subsection.1.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{Quantifying over $ \mathfrak {T} $}{15}{section*.18}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}A note on the ``amphichronic program''}{16}{section.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}The linguistic ecology of Arnhem Land}{17}{section.1.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textsc {map.} Australia \& the top end}}{18}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textsc {map.} Languages of Arnhem Land}}{19}{figure.caption.20}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}Data \& glossing conventions}{20}{section.1.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Orthographic conventions}}{21}{table.caption.23}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces List of consultants}}{21}{table.caption.24}}
 \@writefile{toc}{\contentsline {part}{I\hspace {1em}The emergence of apprehensionality in Australian Kriol}{22}{part.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}\textit {bambai} as an apprehensional}{23}{chapter.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Background}{24}{section.2.1}}
@@ -27,180 +35,183 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Apprehensionality as a semantic domain}{26}{subsection.2.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Apprehensionality in the context of Australian Kriol}{30}{subsection.2.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.3}Temporal frame adverbs and apprehensionality}{33}{subsection.2.2.3}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Etyma and polysemy for apprehensional modals\relax }}{34}{table.caption.20}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}The distribution of Kriol \textit {bambai}}{36}{section.2.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Range of functions for \textit {bambai}\relax }}{36}{figure.caption.21}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Etyma and polysemy for apprehensional modals\relax }}{34}{table.caption.25}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}The distribution of Kriol \textit {bambai}}{35}{section.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Range of functions for \textit {bambai}\relax }}{36}{figure.caption.26}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Temporal frame reading}{36}{subsection.2.3.1}}
-\@writefile{toc}{\contentsline {paragraph}{Narrative cohesion}{40}{section*.22}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Apprehensional reading}{40}{subsection.2.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.1}Precautioning uses}{41}{subsubsection.2.3.2.1}}
-\@writefile{toc}{\contentsline {paragraph}{Indicative `nonimplicationals.'}{41}{section*.23}}
-\@writefile{toc}{\contentsline {paragraph}{Counterfactual `nonimplicationals'}{44}{section*.24}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.2}Apprehensive uses}{45}{subsubsection.2.3.2.2}}
-\@writefile{toc}{\contentsline {paragraph}{Counterfactual}{47}{section*.25}}
-\@writefile{toc}{\contentsline {paragraph}{cond}{48}{section*.26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Summary}{49}{subsection.2.3.3}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Semantic operators}}{50}{table.caption.27}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}An apprehensional pragmatics}{51}{chapter.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}A modal subordination account}{51}{section.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Accommodation and restriction}{54}{subsection.3.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}A modal discourse representation language}{55}{subsubsection.3.1.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Discourse representation of the precautioning construction}{57}{subsubsection.3.1.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.3}Modal subordination in action}{60}{subsubsection.3.1.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Information structure}{63}{subsection.3.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Apprehensive domain restriction}{66}{subsection.3.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Apprehensionality emerging}{68}{section.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Temporal sequence \& conditional modality}{69}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}\textit {Conventionalized...not just conversational}}{72}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Use conditions}{74}{section.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}The status of apprehensional ``attitude conditions''}{75}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Competition in the modal-adverb domain}{78}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Summary}{79}{section.3.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}A semantics for \textit {bambai}}{81}{chapter.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Possible readings of \textit {bambai}\relax }}{81}{figure.caption.28}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Subsequentiality}{81}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}`Settledness' \& intensionalisation}{83}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}The omniscience restriction}{86}{section.4.3}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Readings of \textit {bambai} \& the relation between speech, reference and event time}}{87}{table.caption.29}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Deriving the subsequential reading}{88}{section.4.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces $ \cap {\approx _{i*}} $ and the past of $ i* $}}{89}{figure.caption.30}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Deriving the apprehensional reading}{91}{section.4.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces $ \cap {\approx _{i*}} $ and the future of $ i* $}}{91}{figure.caption.31}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}The semantics of a counterfactual apprehensional}{94}{subsection.4.5.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces $ \cap {\approx _{i_0}} $: $ i* $ and its counterfactual histories}}{95}{figure.caption.32}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}The ``epistemic apprehensive'' use}{96}{subsection.4.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Possibly pessimistic}{96}{subsection.4.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Apprehensionalisation and the synchronic system}{97}{subsection.4.5.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{98}{section.4.6}}
-\@writefile{toc}{\contentsline {part}{II\hspace {1em}Semantics of the Negative Existential Cycle}{100}{part.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}The landscape of negation in Australia}{101}{chapter.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Introduction}{101}{section.5.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The Negative Existential Cycle}}{102}{figure.caption.33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textsc {map.} Pama-Nyungan subgroups investigated in Part \ref {NEC}}}{103}{figure.caption.34}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}The Australian negative domain \& a semantics for the privative case}{103}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Negation \& Australia: a typological snapshot}{104}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}``Standard'' negation}{104}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}The ``privative case'' and existential predications}{105}{subsection.5.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Privatives and the NƎC}{109}{subsection.5.2.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}The negative domains \& the NƎC in three Pama-Nyungan subgroups}{110}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Thura-Yura: change \& renewal in the negative domain}{111}{subsection.5.3.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \textsc {phylogeny.} Subgrouping in Thura-Yura}}{111}{figure.caption.35}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Lexicalisation of the negative domain in Thura-Yura}}{112}{table.caption.36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}The Yolŋu negative domain}{114}{subsection.5.3.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Lexicalisation of the negative domain in three Yolŋu Matha varieties}}{115}{table.caption.37}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Djambarrpuyŋu}{115}{subsubsection.5.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Ritharrŋu}{117}{subsubsection.5.3.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Innovative standard negation in Ritharrŋu}}{119}{figure.caption.38}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.3}Wangurri}{119}{subsubsection.5.3.2.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.4}The \gls {priv}ative in Yolŋu}{121}{subsubsection.5.3.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Arandic: the nominal status of negated verbals}{124}{subsection.5.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Hypothesised reconstruction of the Arandic negative domain}}{127}{figure.caption.39}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}The NƎC and a unified semantics}{128}{chapter.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Semantic change and grammaticalisation pathways}{128}{section.6.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The nature of cyclic change \citep {Deo2015a}}}{129}{figure.caption.40}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Unifying \gls {priv} and \gls {neg}}{130}{section.6.2}}
+\@writefile{toc}{\contentsline {paragraph}{Narrative cohesion}{39}{section*.27}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Apprehensional reading}{39}{subsection.2.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.1}Precautioning uses}{40}{subsubsection.2.3.2.1}}
+\@writefile{toc}{\contentsline {paragraph}{Indicative `nonimplicationals.'}{40}{section*.28}}
+\@writefile{toc}{\contentsline {paragraph}{Counterfactual `nonimplicationals'}{42}{section*.29}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.2}Apprehensive uses}{44}{subsubsection.2.3.2.2}}
+\@writefile{toc}{\contentsline {paragraph}{Counterfactual}{46}{section*.30}}
+\@writefile{toc}{\contentsline {paragraph}{cond}{46}{section*.31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Summary}{47}{subsection.2.3.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Semantic operators}}{48}{table.caption.32}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}An apprehensional pragmatics}{49}{chapter.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}A modal subordination account}{49}{section.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Accommodation and restriction}{52}{subsection.3.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.1}A modal discourse representation language}{53}{subsubsection.3.1.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.2}Discourse representation of the precautioning construction}{55}{subsubsection.3.1.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1.3}Modal subordination in action}{58}{subsubsection.3.1.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Information structure}{61}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Apprehensive domain restriction}{64}{subsection.3.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Apprehensionality emerging}{66}{section.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Temporal sequence \& conditional modality}{67}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}\textit {Conventionalized...not just conversational}}{70}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Use conditions}{72}{section.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}The status of apprehensional ``attitude conditions''}{73}{subsection.3.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Competition in the modal-adverb domain}{75}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Summary}{77}{section.3.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}A semantics for \textit {bambai}}{79}{chapter.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Possible readings of \textit {bambai}\relax }}{79}{figure.caption.33}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Subsequentiality}{79}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}`Settledness' \& intensionalisation}{81}{section.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}The omniscience restriction}{83}{section.4.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Readings of \textit {bambai} \& the relation between speech, reference and event time}}{85}{table.caption.34}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Deriving the subsequential reading}{86}{section.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces $ \cap {\approx _{i*}} $ and the past of $ i* $}}{87}{figure.caption.35}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Deriving the apprehensional reading}{88}{section.4.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces $ \cap {\approx _{i*}} $ and the future of $ i* $}}{89}{figure.caption.36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}The semantics of a counterfactual apprehensional}{92}{subsection.4.5.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces $ \cap {\approx _{i_0}} $: $ i* $ and its counterfactual histories}}{92}{figure.caption.37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}The ``epistemic apprehensive'' use}{93}{subsection.4.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Possibly pessimistic}{94}{subsection.4.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Apprehensionalisation and the synchronic system}{95}{subsection.4.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{95}{section.4.6}}
+\@writefile{toc}{\contentsline {part}{II\hspace {1em}Semantics of the Negative Existential Cycle}{97}{part.2}}
+\@writefile{chapter}{\contentsline {toc}{Introduction}{98}{part.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The Negative Existential Cycle}}{99}{figure.caption.39}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}The landscape of negation in Australia}{102}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}The Australian negative domain \& a semantics for the privative case}{102}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Negation \& Australia: a typological snapshot}{102}{subsection.5.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \textsc {map.} Pama-Nyungan subgroups investigated in Part \ref {NEC}}}{103}{figure.caption.40}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}``Standard'' negation}{104}{subsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}The ``privative case'' and existential predications}{104}{subsection.5.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Privatives and the \acrshort {NEC}}{108}{subsection.5.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Negative domains \& the \acrshort {NEC} in three Pama-Nyungan subgroups}{109}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Thura-Yura: change \& renewal in the negative domain}{110}{subsection.5.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces \textsc {phylogeny.} Subgrouping in Thura-Yura}}{110}{figure.caption.41}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Lexicalisation of the negative domain in Thura-Yura}}{111}{table.caption.42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}The Yolŋu negative domain}{113}{subsection.5.2.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Lexicalisation of the negative domain in three Yolŋu Matha varieties}}{114}{table.caption.43}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2.1}Djambarrpuyŋu}{114}{subsubsection.5.2.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2.2}Ritharrŋu}{116}{subsubsection.5.2.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Innovative standard negation in Ritharrŋu}}{118}{figure.caption.44}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2.3}Wangurri}{118}{subsubsection.5.2.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2.4}The \gls {priv}ative in Yolŋu}{120}{subsubsection.5.2.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Arandic: the nominal status of negated verbals}{123}{subsection.5.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Hypothesised reconstruction of the Arandic negative domain}}{126}{figure.caption.45}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}The \acrshort {NEC} and a unified semantics}{127}{chapter.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Semantic change and grammaticalisation pathways}{127}{section.6.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The nature of cyclic change \citep {Deo2015a}}}{128}{figure.caption.46}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Unifying \gls {priv} and \gls {neg}}{129}{section.6.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}Event-privation}{130}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Negation as an impossibility operator}{133}{section.6.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.5}Domain expansion}{134}{section.6.5}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces The domains of negative quantifiers}}{135}{table.caption.41}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.6}Grammaticalization and indexicality}{135}{section.6.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.6.1}A note on existential codas and the NƎC}{137}{subsection.6.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.7}Conclusion}{138}{section.6.7}}
-\@writefile{toc}{\contentsline {part}{III\hspace {1em}Reality status \& the Yolŋu verbal paradigm}{141}{part.3}}
-\@writefile{toc}{\contentsline {section}{Introduction}{142}{section*.42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces A multidimensional schema for Djambarrpuyŋu inflectional semantics \citep {Wilkinson1991}}}{144}{figure.caption.44}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Background}{145}{chapter.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Grammars of TMA: the notion of ``prominence''}{145}{section.7.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Futurity and mood-prominence}{145}{subsection.7.1.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Semantic change between conceptual domains}}{146}{figure.caption.45}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {a}{\ignorespaces \gls {perf} grams develop into \gls {pfv} markers (\citealp [e.g.][]{Condoravdi2014} for Indo-Aryan) or \gls {pst} markers (\citealp [e.g.][]{Schaden2012} a.o.)\relax }}{146}{figure.caption.45}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {b}{\ignorespaces \gls {prog} grams develop into \gls {ipfv} markers (\citealp [see][]{Deo2015a}) or \gls {pres} markers (\citealp [e.g.][]{Heinrichs2002} for Neo-Aramaic)\relax }}{146}{figure.caption.45}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Negation and mood}{147}{subsection.7.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Yolŋu Matha}{149}{section.7.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces \textsc {map.} Languages of (eastern) Arnhem Land}}{149}{figure.caption.46}}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces \textsc {phylogeny.} Yolŋu Matha}}{150}{figure.caption.47}}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces \textsc {phylogeny.} Southern Yolŋu}}{150}{figure.caption.48}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}The Yolŋu verb: Typology \& morphosemantics}{151}{section.7.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}The Ritharrŋu-Wägilak paradigm}{151}{subsection.7.3.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Ritharrŋu conjugation classes}}{152}{table.caption.49}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}The central Arnhem linguistic area}{153}{subsection.7.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Partition of $\mathfrak T$: Ritharrŋu-Wägilak inflection}}{154}{figure.caption.50}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Verbal inflection in Western Dhuwal(a)}{155}{section.7.4}}
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Western Dhuwal(a) conjugation classes}}{156}{table.caption.51}}
-\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Different glossing conventions for Dhuwal(a) inflectional categories}}{156}{table.caption.52}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}The Primary inflection}{156}{subsection.7.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}The Secondary inflection}{158}{subsection.7.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}The Tertiary inflection}{160}{subsection.7.4.3}}
-\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Tense and temporal frames à la \citealt {Glasgow1964}}}{162}{table.caption.53}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}The Quaternary inflection}{163}{subsection.7.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.5}Summary}{164}{subsection.7.4.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Temporal interpretation \& \textsc {cyclic tense\\{\relax \fontsize {14.4}{18}\selectfont distinguishing \textbf {\leavevmode {\color {forest}I}}\nobreakspace {}from \textbf {\leavevmode {\color {blue}III}}}}}{166}{chapter.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces \textsc {temporal schema}. \textsc {wd} inflection}}{167}{figure.caption.54}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Aspectuality \& the \gls {wd} verb stem}{168}{section.8.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}The \textsc {wd} verb as a property of events}{169}{subsection.8.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Modelling predication in \gls {wd}}{174}{subsection.8.1.2}}
-\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Morphological derivation of inflecting eventive predicates\relax }}{175}{table.caption.55}}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces \textsc {become}: a state change predicate \citep {Dowty1979}}}{176}{figure.caption.56}}
-\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces How to talk about the present in \gls {wd}}}{176}{table.14}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Talking about the past}{177}{section.8.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}An attempt at an aspect-based analysis}{178}{subsection.8.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}A disjunctive semantics}{180}{subsection.8.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Proposal: A cyclic tense system}{182}{section.8.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Temporal schema: partitioning the \gls {wd} past domain}}{182}{figure.caption.57}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Metricality (temporal remoteness) in the past}{182}{subsection.8.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Cyclicity --- discontinuous temporal reference}{184}{subsection.8.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.1}Property instantiation --- modelling assumptions}{185}{subsubsection.8.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.2}Non-final instantiation}{187}{subsubsection.8.3.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Non-final Instantiation \citep {Condoravdi2014}}}{188}{figure.caption.58}}
-\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces How to partition a temporal frame}}{188}{table.caption.59}}
-\@writefile{toc}{\contentsline {paragraph}{Hodiernal}{189}{section*.60}}
-\@writefile{toc}{\contentsline {paragraph}{Prehodiernal}{189}{section*.61}}
-\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces The \textsc {precontemporary} domain}}{190}{figure.caption.62}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.3}\textsc {\textit {MaxPresupp 1}}: A blocking account}{190}{subsubsection.8.3.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Theorising cyclic tense \& the status of $ \mathbf {\mathtt {F}_c} $}{191}{section.8.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}``Cognitive domains''}{192}{subsection.8.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Burarran ``cognitive domains'' \citep {Botne2008}}}{193}{figure.caption.63}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.2}\textit {Énonciation}, diachrony \& functional unity}{194}{subsection.8.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.3}Aspect \& temporal interpreation}{195}{subsection.8.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.5}Conclusion}{196}{section.8.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Modal interpretation \& \textsc {negative asymmetry}\\{\relax \fontsize {14.4}{18}\selectfont \scshape distinguishing $\relax \mathversion {bold}{ \delimiter "426830A \gls {I},\gls {III}\delimiter "526930B }$ from $\relax \mathversion {bold}{ \delimiter "426830A \gls {II},\gls {IV}\delimiter "526930B }$}}{198}{chapter.9}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}Sentential negation and paradigm neutralisation}{198}{section.9.1}}
-\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Neutralisation of \gls {I} and \gls {III} inflections under negation.\relax }}{199}{table.caption.64}}
-\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces \textsc {temporal schema.} \gls {wd} negative clauses}}{201}{figure.caption.65}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}The meaning of the modal particles}{202}{section.9.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}\textit {dhu}: irreality and the \textsc {future}}{203}{subsection.9.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces \textsc {temporal schema.} \textit {dhu}-clauses}}{204}{figure.caption.66}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}\textit {balaŋ(u)} \& modal claims}{205}{subsection.9.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces \textsc {temporal schema.} \textit {balaŋu} clauses}}{208}{figure.caption.67}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.3}Semantics of ``\textsc {nonrealised}'' inflections}{210}{section.9.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.1}On the status of ``reality status''}{210}{subsection.9.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.2}Verbal mood}{211}{subsection.9.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.3}An \textsc {irrealis} mood}{213}{subsection.9.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.4}Metaphysical nonveridicality}{215}{section.9.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Nonveridical operators and historic alternatives}}{216}{figure.caption.68}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.1}A nonveridical semantics for \textsc {irrealis}}{216}{subsection.9.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.2}Negation \& irrealis}{218}{subsection.9.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Negative clauses and the counterfactual affirmative}}{221}{figure.caption.69}}
-\@writefile{toc}{\contentsline {subsubsection}{What does a negative sentence presuppose?}{221}{figure.caption.69}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.3}A temporomodal interaction}{223}{subsection.9.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.5}\textsc {\textit {MaxPresupp 2}}: The same-day future}{224}{section.9.5}}
-\@writefile{toc}{\contentsline {paragraph}{Antipresuppositional: \textit {realis} as an epiphenomenon.}{225}{section*.71}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.6}Conclusion: motivating \textsc {nonveridicality} and \textsc {irrealis mood}}{226}{section.9.6}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {10}An analysis of the \gls {wd} paradigm}{227}{chapter.10}}
-\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces The contributions of \gls {wd}'s four inflectional categories\relax }}{227}{table.caption.72}}
-\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces \textit {A \textsc {MaxPresup}poset}}}{228}{figure.caption.73}}
-\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces Partition of $ \mathfrak T $: the WD inflectional categories}}{229}{figure.caption.74}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.1}Assertoric force}{230}{section.10.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.1}Epistemic modality in \gls {wd}}{230}{subsection.10.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.2}\textit {mak(u)} as an force modifier}{231}{subsection.10.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.3}Embedding predicates}{233}{subsection.10.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.4}Revisiting \textit {nonveridicality}}{234}{subsection.10.1.4}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.1}Locality}{234}{subsubsection.10.1.4.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.2}\textit {Objective nonveridicality}}{235}{subsubsection.10.1.4.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.3}Indexicality \& indexical shift}{236}{subsubsection.10.1.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.2}Semantic change in Southern Yolŋu}{237}{section.10.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{238}{subsection.10.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.2}Morphosemantic change}{241}{subsection.10.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {10.3}Conclusion}{243}{section.10.3}}
-\@writefile{toc}{\contentsline {chapter}{General conclusion}{245}{chapter*.77}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{247}{chapter*.78}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces The domains of negative quantifiers}}{136}{table.caption.47}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6.1}A loss of indexical content}{136}{subsection.6.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.6.2}A note on existential codas and the NƎC}{137}{subsection.6.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.7}Conclusion}{139}{section.6.7}}
+\@writefile{toc}{\contentsline {part}{III\hspace {1em}Reality status \& the Yolŋu verbal paradigm}{142}{part.3}}
+\@writefile{toc}{\contentsline {section}{Introduction}{143}{section*.48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces A multidimensional schema for Djambarrpuyŋu inflectional semantics \citep {Wilkinson1991}}}{145}{figure.caption.50}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Background}{147}{chapter.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Grammars of TMA: the notion of ``prominence''}{147}{section.7.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Futurity and mood-prominence}{147}{subsection.7.1.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Semantic change between conceptual domains}}{148}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {a}{\ignorespaces \gls {perf} grams develop into \gls {pfv} markers (\citealp [e.g.][]{Condoravdi2014} for Indo-Aryan) or \gls {pst} markers (\citealp [e.g.][]{Schaden2012} a.o.)\relax }}{148}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {b}{\ignorespaces \gls {prog} grams develop into \gls {ipfv} markers (\citealp [see][]{Deo2015a}) or \gls {pres} markers (\citealp [e.g.][]{Heinrichs2002} for Neo-Aramaic)\relax }}{148}{figure.caption.51}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Negation and mood}{149}{subsection.7.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Yolŋu Matha}{152}{section.7.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces \textsc {map.} Languages of (eastern) Arnhem Land}}{152}{figure.caption.52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces \textsc {phylogeny.} Yolŋu Matha}}{153}{figure.caption.53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces \textsc {phylogeny.} Southern Yolŋu}}{153}{figure.caption.54}}
+\@writefile{subsection}{\contentsline {toc}{Moiety \& sociolingustic variation}{154}{section*.55}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}The Yolŋu verb: Typology \& morphosemantics}{154}{section.7.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}The Ritharrŋu-Wägilak paradigm}{155}{subsection.7.3.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Ritharrŋu conjugation classes}}{155}{table.caption.56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Partition of $\mathfrak T$: Ritharrŋu-Wägilak inflection}}{157}{figure.caption.57}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}The central Arnhem linguistic area}{157}{subsection.7.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Verbal inflection in Western Dhuwal(a)}{158}{section.7.4}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Western Dhuwal(a) conjugation classes}}{159}{table.caption.58}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Different glossing conventions for Dhuwal(a) inflectional categories}}{159}{table.caption.59}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}The Primary inflection}{160}{subsection.7.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}The Secondary inflection}{162}{subsection.7.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}The Tertiary inflection}{163}{subsection.7.4.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Tense and temporal frames à la \citealt {Glasgow1964}}}{166}{table.caption.60}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}The Quaternary inflection}{166}{subsection.7.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.5}Summary}{168}{subsection.7.4.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Temporal interpretation \& \textsc {cyclic tense\\{\relax \fontsize {14.4}{18}\selectfont distinguishing \textbf {\leavevmode {\color {forest}I}}\nobreakspace {}from \textbf {\leavevmode {\color {blue}III}}}}}{169}{chapter.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces \textsc {temporal schema}. \textsc {wd} inflection}}{171}{figure.caption.61}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Aspectuality \& the \gls {wd} verb stem}{171}{section.8.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}The \acrshort {wd} verb as a property of events}{172}{subsection.8.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Modelling predication in \gls {wd}}{177}{subsection.8.1.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Morphological derivation of inflecting eventive predicates\relax }}{178}{table.caption.62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces \textsc {become}: a state change predicate \citep {Dowty1979}}}{180}{figure.caption.63}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces How to talk about the present in \gls {wd}}}{180}{table.15}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Talking about the past}{181}{section.8.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}An attempt at an aspect-based analysis}{181}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}A disjunctive semantics?}{183}{subsection.8.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Proposal: A cyclic tense system}{185}{section.8.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}Metricality (temporal remoteness) in the past}{185}{subsection.8.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Temporal schema: partitioning the \gls {wd} past domain}}{186}{figure.caption.64}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Cyclicity --- discontinuous temporal reference}{188}{subsection.8.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.1}Event instantiation --- modelling assumptions}{189}{subsubsection.8.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.2}Non-final instantiation}{191}{subsubsection.8.3.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Non-final Instantiation \citep {Condoravdi2014}}}{192}{figure.caption.65}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces How to partition a temporal frame}}{192}{table.caption.66}}
+\@writefile{toc}{\contentsline {paragraph}{Hodiernal}{192}{section*.67}}
+\@writefile{toc}{\contentsline {paragraph}{Prehodiernal}{193}{section*.68}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.3.2.3}\textsc {\textit {MaxPresupp 1}}: A blocking account}{193}{subsubsection.8.3.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces The \textsc {precontemporary} domain}}{194}{figure.caption.69}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Theorising cyclic tense \& the status of $ \mathbf {\mathtt {F}_c} $}{195}{section.8.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.1}``Cognitive domains''}{196}{subsection.8.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Burarran ``cognitive domains'' \citep {Botne2008}}}{197}{figure.caption.70}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.2}\textit {Énonciation}, diachrony \& functional unity}{197}{subsection.8.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4.3}Aspect \& temporal interpreation}{200}{subsection.8.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.5}Conclusion}{201}{section.8.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Modal interpretation \& \textsc {negative asymmetry}\\{\relax \fontsize {14.4}{18}\selectfont \scshape distinguishing $\relax \mathversion {bold}{ \delimiter "426830A \gls {I},\gls {III}\delimiter "526930B }$ from $\relax \mathversion {bold}{ \delimiter "426830A \gls {II},\gls {IV}\delimiter "526930B }$}}{202}{chapter.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}Sentential negation and paradigm neutralisation}{202}{section.9.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Neutralisation of \gls {I} and \gls {III} inflections under negation.\relax }}{203}{table.caption.71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces \textsc {temporal schema.} \gls {wd} negative clauses}}{205}{figure.caption.72}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}The meaning of the modal particles}{206}{section.9.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}\textit {dhu}: irreality and the \textsc {future}}{207}{subsection.9.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces \textsc {temporal schema.} \textit {dhu}-clauses}}{208}{figure.caption.73}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}\textit {balaŋ(u)} \& modal claims}{209}{subsection.9.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces \textsc {temporal schema.} \textit {balaŋu} clauses}}{212}{figure.caption.74}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.3}Semantics of ``\textsc {nonrealised}'' inflections}{214}{section.9.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.1}On the status of ``reality status''}{214}{subsection.9.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.2}Verbal mood}{215}{subsection.9.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3.3}An \textsc {irrealis} mood}{216}{subsection.9.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.4}Metaphysical nonveridicality}{219}{section.9.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.1}A nonveridical semantics for \textsc {irrealis}}{219}{subsection.9.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Nonveridical operators and historic alternatives}}{220}{figure.caption.75}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.2}Negation \& irrealis}{222}{subsection.9.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Negative clauses and the counterfactual affirmative}}{226}{figure.caption.76}}
+\@writefile{toc}{\contentsline {subsubsection}{What does a negative sentence presuppose?}{226}{figure.caption.76}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4.3}A temporomodal interaction}{227}{subsection.9.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.5}\textsc {\textit {MaxPresupp 2}}: The same-day future}{228}{section.9.5}}
+\@writefile{toc}{\contentsline {paragraph}{Antipresuppositional: \textit {realis} as an epiphenomenon.}{230}{section*.78}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.6}Conclusion: motivating \textsc {nonveridicality} and \textsc {irrealis mood}}{231}{section.9.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}An analysis of the \gls {wd} paradigm}{232}{chapter.10}}
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces The contributions of \gls {wd}'s four inflectional categories\relax }}{232}{table.caption.79}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces \textit {A \textsc {MaxPresup}poset}}}{233}{figure.caption.80}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces Partition of $ \mathfrak T $: the WD inflectional categories}}{234}{figure.caption.81}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.1}Assertoric force}{234}{section.10.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.1}Epistemic modality in \gls {wd}}{235}{subsection.10.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.2}\textit {mak(u)} as an force modifier}{237}{subsection.10.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.3}Embedding predicates}{238}{subsection.10.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.1.4}Revisiting \textit {nonveridicality}}{239}{subsection.10.1.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.1}Locality}{240}{subsubsection.10.1.4.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.2}\textit {Objective nonveridicality}}{240}{subsubsection.10.1.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {10.1.4.3}Indexicality \& indexical shift}{242}{subsubsection.10.1.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.2}Semantic change in Southern Yolŋu}{243}{section.10.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{243}{subsection.10.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {10.2.2}Morphosemantic change}{246}{subsection.10.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {10.3}Conclusion}{248}{section.10.3}}
+\@writefile{toc}{\contentsline {chapter}{General conclusion}{251}{chapter*.84}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{253}{chapter*.85}}
+\@writefile{section}{\contentsline {toc}{Index of languages}{289}{chapter*.85}}
