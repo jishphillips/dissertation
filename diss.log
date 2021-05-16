@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  16 MAY 2021 01:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  16 MAY 2021 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2684,8 +2684,8 @@ Overfull \hbox (24.6642pt too wide) in paragraph at lines 1527--1557
 \openout4 = `diss-tags.tex'.
 
  [12] (./acknowledgments
-LaTeX Font Info:    Font shape `TU/LinuxBiolinumO(0)/m/sl' in size <10.95> not 
-available
+LaTeX Font Info:    Font shape `TU/LinuxBiolinumO(0)/m/sl' in size <10> not ava
+ilable
 (Font)              Font shape `TU/LinuxBiolinumO(0)/m/it' tried instead on inp
 ut line 2.
  [13
@@ -4603,11 +4603,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2271.
 (\end occurred when \ifx on line 614 was incomplete)
 (\end occurred when \ifx on line 1965 was incomplete) 
 Here is how much of TeX's memory you used:
- 60148 strings out of 492970
- 1137799 string characters out of 6133938
- 1324736 words of memory out of 5000000
- 62999 multiletter control sequences out of 15000+600000
- 563959 words of font info for 281 fonts, out of 8000000 for 9000
+ 60154 strings out of 492970
+ 1138097 string characters out of 6133938
+ 1324737 words of memory out of 5000000
+ 63002 multiletter control sequences out of 15000+600000
+ 563983 words of font info for 284 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,24n,100p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
