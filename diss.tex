@@ -1,11 +1,11 @@
 \synctex=1
 
-\documentclass[12pt,dvipsnames]{report}
+\documentclass[11pt,dvipsnames]{report}
 %\usepackage{import}
 %\usepackage[subpreambles=true]{standalone}
 %				\usepackage{morewrites}
 \usepackage{scrwfile}
-\usepackage[lmargin=1.5in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=110pt,marginparsep=5pt,a4paper]{geometry}
+\usepackage[lmargin=1.5in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=110pt,marginparsep=5pt,letterpaper]{geometry}
 
 	\usepackage{marginnote}
 		\renewcommand*{\marginfont}{\color{gray!80}\sffamily\small}
@@ -25,11 +25,13 @@
 \usepackage{graphicx}
 \graphicspath{ {figs/} }
 \renewcommand{\baselinestretch}{1.15}
+	\expandafter\def\expandafter\quote\expandafter{\quote\singlespacing}
+	
 
 \usepackage{Sanremo,lettrine}
 \usepackage{booktabs}
 	\usepackage{colortbl}
-
+\usepackage{doi}
 
 %\newcommand{\cul}[2][black]{\setulcolor{#1}\ul{#2}\setulcolor{black}}
 
@@ -75,6 +77,11 @@
 				}
 			}
 \usepackage{expex}
+	\lingset{Everyex=\onehalfspacing,
+		aboveglftskip=.5ex,
+		belowglpreambleskip=.5ex
+					}
+
 	\def\beginsubsub{%
 		\par
 		\begingroup
@@ -83,7 +90,7 @@
 	\def\endsubsub{\par\endgroup}
 
 
-
+\setlength{\footnotesep}{\baselineskip}
 
 \usetikzlibrary{positioning,decorations.pathmorphing,arrows.meta,decorations.text,decorations.pathreplacing,decorations.markings,trees}
 \usetikzlibrary{fadings}
@@ -119,14 +126,14 @@
 
 \usepackage{fancyhdr} 
 \usepackage{sectsty}
-%\allsectionsfont{\sffamily\mdseries\upshape} 
+		\allsectionsfont{\singlespacing} 
 \usepackage{float}
 \usepackage[nottoc,notlof,notlot]{tocbibind} 
 \usepackage[titles,%subfigure
 					]{tocloft} 
 \usepackage{setspace}
 %\usepackage[colorinlistoftodos]{todonotes}
-
+\usepackage[bottom]{footmisc}
 %\usepackage[explicit]{titlesec}
 %\usepackage{type1cm}
 %\usepackage{xcolor}
@@ -213,6 +220,11 @@
 \end{center}
 
 \noindent}
+\newcommand{\fleuronbreak}{\begin{center}
+		\huge ❧ %\tt	 ❧❦☙ ※
+	\end{center}
+	
+	\noindent}
 
 
 \newcommand{\glem}[1]
@@ -243,6 +255,7 @@
 %			\input{NEC/NEC-gloss.tex}
 		% textual
 	\newacronym{xnow}{\textsc{\textsf{xnow}}}{\textit{Extended Now}}
+		\newacronym{drs}{\textsc{drs}}{Discourse representation structure}
 		% abbreviations:
 		\newglossaryentry{rit}{
 			name = \texttt{rit} ,
@@ -561,7 +574,7 @@
 %			name = \textsc{tfa} ,
 %			description = temporal frame adverbial,
 %			type = gloss , }
-\newacronym{TFA}{\textsc{tfa}}{Temporal frame adverbial}
+\newacronym{TFA}{\textsc{tfa}}{temporal frame adverbial}
 		
 		\newglossaryentry{proh}{
 			name = \textsc{proh} ,
@@ -1280,7 +1293,7 @@
 	\newacronym{NEC}{NƎC}{Negative Existential Cycle}
 		\newacronym{GQ}{GQ}{generalised quantifier}
 			\newacronym{FID}{FID}{Free indirect discourse}
-	\newacronym{mp}{\textsc{mp}}{Modal Particle}
+	\newacronym{mp}{\textsc{mp}}{modal particle}
 		\newacronym{S}{\textsf{\textsc{s}}}{symmetric negation}
 		\newacronym{A}{\textsf{\textsc{a}}}{asymmetric negation}
 		\newacronym{anr}{\textsc{\textsf{a/nonreal}}}{Asymmetry in the marking of reality status}
@@ -1333,24 +1346,27 @@
 
 \begin{document}
 
+%\begin{abstract}
+	\include{abstract}
+%\end{abstract}
 %TODO ABSTRACT TO BEGIN	
-%\include{abstract}
+
 	
 \begin{center}
 	\thispagestyle{empty}
-	{\Large	\textsc{doctoral dissertation}}
+%	{\Large	\textsc{doctoral dissertation}}
 	\vfill
 	\HRule\vspace{.33cm}
 	
 	\setcounter{page}{-1}
-	\textbf{{\huge At the intersection of temporal \& modal interpretation:}\\
-		{\Large Essays on irreality}}\\\textit{[working title]}
+	\textbf{{\Large At the intersection of temporal \& modal interpretation:}\\
+		{\large Essays on irreality}}%\\\textit{[working title]}
 	
-	\HRule
+	\HRule\setmainfont{Linux Libertine Display O}
 	\vfill
-	\normalsize	A Dissertation
+	\large	A Dissertation
 	
-	\textit{to be }Presented to the Faculty of the Graduate School%todo get rid of the prospective marking!
+	Presented to the Faculty of the Graduate School%todo get rid of the prospective marking!
 	
 	of
 	
@@ -1362,11 +1378,14 @@
 	\vfill
 	{\small by
 		
-		\textbf{Josh Phillips}\\\footnotesize BInSt (Hons I\textasteriskcentered)  (UNSW)\\MA, MPhil (Yale)}
+		{\normalsize\textbf{Joshua Phillips}}\\\scriptsize BInSt (Hons I\textasteriskcentered)  (UNSW)\\[-.625em]MA, MPhil (Yale)}
 	\vfill
-	\textit{\textbf{Committee}}\\
+	
+	\textbf{Dissertation director:} Claire Bowern
+	\vfill
+	{\normalsize\ul{\textit{\textbf{Committee}}}\\[.5em]
 	\begin{tabular}{ll}
-		Claire Bowern (c.) & Yale U.\\
+%		Claire Bowern (c.) & Yale U.\\
 		Veneeta Dayal & Yale U.\\
 		Cleo Condoravdi & Stanford U.\\
 		Ashwini Deo & Ohio State U.\\
@@ -1374,17 +1393,17 @@
 		%Lisa Matthewson (??) & U. of British Columbia\\
 %		? María Piñango & Yale U.\\
 		%Judith Tonnhauser (??) & Ohio State U.
-	\end{tabular}
+	\end{tabular}}
 	
 	
 %	\vspace*{.3in}{\color{gray} \textit{+ one vacancy}}
 	
+%	\vfill
+%	\sc Department of Linguistics
+%	
+%	Yale University
 	\vfill
-	\sc Department of Linguistics
-	
-	Yale University
-	
-	\textbf{\textsc{draft} for \today}
+\textbf{\textsc{December 2021}}
 	
 	
 \end{center}
@@ -1400,7 +1419,7 @@
 \hspace{0pt}
 \pagebreak
 
-
+	\setmainfont{Linux Libertine O}
 %%%%%%EVENTUAL ACKNOWLEDGEMENTS%%%%%%
 % Claire (doktormutter), Hadas, Veneeta, Ashwini, Cleo
 % Consultants
@@ -1463,15 +1482,15 @@ fut &future (tense).\\
 hab &habitual.\\
 hyp &hypothetical.\\
 hort &hortative.\\
-imp &imperative.\\
-impf & imperfect.\\
-inch &inchoative.\\
-incl &inclusive (pn).\\
-indic &indicative mood.\\
-indf & indefinite.\\
 \end{tabular}
 
 \begin{tabular}{>{\sc}>{\bf} l|l}
+	imp &imperative.\\
+	impf & imperfect.\\
+	inch &inchoative.\\
+	incl &inclusive (pn).\\
+	indic &indicative mood.\\
+	indf & indefinite.\\
 	infl &verbal inflection (TMA).\\
 	\I &primary inflection.\\
 	\II &secondary inflection.\\
@@ -1492,32 +1511,32 @@ indf & indefinite.\\
 	\textit{mälk}&Skin name (‘subsection’).\\
 	med &medial (demonstrative).\\
 	mod &modal particle.\\
-	mvtawy &‘movement away’ \\
+	mvtawy &‘movement away’. \\
 	ncl &noun (class) marker.\\
 	negex &negative existential ∄.\\
 	negq &negative quantifier ∄.\\
 	neg &negator.\\
 	nmlzr &nominaliser.\\
-	nom &nominative case.\\
+	nom &nominative.\\
 	npst &nonpast tense.\\
-	obl &oblique case.\\oblig &obligative.\\
-	\textup{p} &plural.\\
-	perf &perfect aspect.\\
-	perg& pergressive.\\
-	perl &perlative case.\\
-	pfv &perfective.\\
-	pneg &past negative.\\
-	precontemp & precontemporary\\
-	priv &privative case.\\
-	prog &progressive.\\
-	proh &prohibitive.\\
+	obl &oblique case.\\
 %	\textup{p} &plural.\\
 \end{tabular}
 
 
 \begin{tabular}{>{\sc}>{\bf} l|l}
 
-
+oblig &obligative.\\
+\textup{p} &plural.\\
+perf &perfect aspect.\\
+perg& pergressive.\\
+perl &perlative case.\\
+pfv &perfective.\\
+pneg &past negative.\\
+precontemp & precontemporary\\
+priv &privative case.\\
+prog &progressive.\\
+proh &prohibitive.\\
 prom &prominence (≈ focus).\\
 prop &proprietive case.\\
 prox &proximal (demonstrative).\\
@@ -1549,9 +1568,14 @@ vblzr &\textit{-thu-} verbalizer.\\
 
 
 \clearpage\section*{Acknowledgments}\addcontentsline{toc}{section}{Acknowledgments}
-%\input{acknowledgments}
+{\sf\input{acknowledgments}}
 
-\chapter{Introduction}\pagenumbering{arabic}%\doublespacing
+
+
+
+\doublespacing
+
+\chapter{Introduction}\pagenumbering{arabic}
 %\input{intro.tex}
 \label{IntroCh}
 \lettrine{D}{isplacement} has been proposed as a universal and distinctive property of human language which permits us to make assertions that are embedded in different times, locations and possible worlds (\textit{e.g.}, \citeauthor{Hockett1960}'s `design features of human language' \citeyear[90]{Hockett1960}). Traditionally, linguistic work --- descriptive, pedagogical, theoretical --- has often seemed to take for granted a categorical distinction between subtypes of verbal inflection: \textit{viz.} the \textsc{temporal} and \textsc{modal} domains. Whether or not these basic claims are intended as heuristic, the independence of tense, modality, aspect and related categories quickly unravels upon close inquiry or on consideration of cross-linguistic data: a challenge for linguistic theory, and one that a rapidly expanding body of literature is identifying  (\citealp[\textit{e.g.},][]{Condoravdi2002,Laca2012,Hacquard2006,Rullmann2018} among many others).
@@ -1572,11 +1596,12 @@ Each essay considers data from a number of languages spoken in Aboriginal Austra
 The body of this dissertation comprises three discrete parts, which represent three related but distinct projects. While they can each be read as independent pieces of work that tackle separate linguistic phenomena, the methodological tools, assumptions and upshots of each component are mutually informing. As described above, the four chapters all engage with various phenomena at the intersections of tense, mood/modality and negation. They each interrogate the linguistic manifestations of interactions between these semantic categories in view of contributing to a nuanced and cross-linguistically sound semantic theory, with particular implications for our theoretical conceptions of, for example, irreality and counterfactuality. Here, I provide a brief abstract of each of the dissertation's constituent parts.
 
 
-\paragraph{Part \ref{bambai}} provides a first formal semantic account of ``\textbf{apprehensionality}'' --- a ``mixed modal'' category that encodes possibility and negative affect with respect to some described eventuality. I pay particular attention to an apparent meaning change trajectory, where future-oriented temporal expressions develop modal readings: the semantical connections between futurity and modality are elegantly modelled by formal apparatus like that described in \S \ref{LitRev} below. In order to get at this, Chapter \ref{bambai.desc} describes and accounts for the changes in the distribution of the Australian Kriol adverb \textit{bambai}. An observation originally due to \citet{Angelo2016,Angelo2018}, \textit{bambai} started its life as a temporal frame adverbial (`soon, shortly thereafter') and has developed so-called ``apprehensional'' uses. The chapter provides a detailed explanation of the range of uses available to \textit{bambai} in both its temporal and modal functions. 
+\paragraph{Part \ref{bambai}} provides a first formal semantic account of ``\textbf{apprehensionality}'' --- a ``mixed modal'' category that encodes possibility and negative affect with respect to some described eventuality. I pay particular attention to an apparent meaning change trajectory, where future-oriented temporal expressions develop modal readings: the semantical connections between futurity and modality are elegantly modelled by formal apparatus like that described in \S \ref{LitRev} below. In order to get at this, Chapter \ref{bambai.desc} describes and accounts for the changes in the distribution of the Australian Kriol adverb \textit{bambai}. An observation originally due to \citet{Angelo2016,Angelo2018}, \textit{bambai} started life as a temporal frame adverbial (`soon, shortly thereafter') and has developed so-called ``apprehensional'' uses. The chapter provides a detailed explanation of the range of uses available to \textit{bambai} in both its temporal and modal functions. 
 
-In many contexts \textit{bambai} is translatable as `otherwise': the account defended here treats \textit{bambai}-type apprehensionals as discourse anaphors that involve the ``modal subordination'' of their prejacent to elements of foregoing discourse (Ch \ref{bambai.prag}, \textit{cf.} \citet{PhilKotek} forthcoming).
+In many contexts \textit{bambai} is translatable as `otherwise': the account defended here treats \textit{bambai}-type apprehensionals as discourse anaphors that involve the ``modal subordination'' of their prejacent to elements of foregoing discourse. An analysis of the mechanics of this process are provided in Chapter \ref{bambai.prag}. This chapter also provides a historical pragmatic account of the ``emergence'' of apprehensional readings --- their modal and expressive components --- in terms of the generalisation of speaker-based implicatures.
 
-On the basis of this, Ch. \ref{bambai.semx} comprises a proposed lexical entry which unifies these uses, in so doing, offering an account of the emergence of explicitly modal readings in a future-oriented (``subsequential'') temporal adverb, as well as a semantics for apprehensional marking.%todo about apprehensionality and temporality (subjectivity, speaker evaluativity and the links between temporality and modality etc.) and discourse relations
+On the basis of this, Chapter \ref{bambai.semx} comprises a proposal for a single lexical entry for \textit{bambai} which unifies the uses described in this chapter. 
+%which unifies these uses, in so doing, offering an account of the emergence of explicitly modal readings in a future-oriented (``subsequential'') temporal adverb, as well as a semantics for apprehensional marking.%todo about apprehensionality and temporality (subjectivity, speaker evaluativity and the links between temporality and modality etc.) and discourse relations
 
 \iffalse
 	In \textbf{Chapter \ref{otherwise}}, we propose an analysis of the meaning and interpretation constraints on the English lexical item \textit{otherwise}. Drawing on a proposal by \citet{Webber2001}, we treat \textit{otherwise} as a ``discourse anaphor'', that is, an adverbial that signals `discourse relations between adjacent discourse units' \citep[1]{Webber2001}. In order to model its contribution, we argue that the antecedent is accommodated from the pronounced utterance preceding \textit{otherwise} and can be furnished by any of the propositions (\textit{sc.} sets of worlds) that serve to restrict the context set of this utterance, crucially deploying the ``modal subordination'' framework due to Roberts (\citeyear{Roberts1989} \textit{et seq.}) in order to account for this. We appeal to information structural notions, and in particular to the notion of a  current ``Question under Discussion'', in determining the nature of the antecedent. Consequently, the chapter constitutes a \textbf{dynamic analysis of a discourse anaphor}  (\textit{sc.}, one that considers the development of discourse participants' information states over time) that additionally accounts for its flexible distribution and previously unobserved limitations on its use.%todo about (mod.) disc. anaphora rather than English ``otherwise'' --- ow is the ``way into the topic''. foregrond thbeoretical ideas (smooths over eemp. things) --- the reason working on o/w, problem with bambai, highlights links. Add para about "Generalised disc. anaphora" 
@@ -1584,12 +1609,21 @@ On the basis of this, Ch. \ref{bambai.semx} comprises a proposed lexical entry w
 
 
  
-\paragraph{Part \ref{NEC}} comprises a first semantic treatment of the \textbf{\acrfull{NEC}}, also demonstrating its instantiation in a number of subgroups of Pama-Nyungan on the basis of comparative data from Thura-Yura, Yolŋu Matha and Arandic. The \acrlong{NEC} (see \citealt{Croft1991,Veselinova2016}) is a proposed grammaticalisation process where negative existential predicates develop into markers of \acrlong{sn}. Here (in Ch. \ref{NEC1}) I propose a treatment where the \textsc{privative}---a grammatical category described in many Australian languages \citep[\textit{e.g.},][]{Dixon2002a,Phillips2021b}---is taken to realise the semantics of a negative existential. Diachronically, I provide evidence that erstwhile privatives generalise into sentential negators: an instantiation of the Negative Existential Cycle, giving a unified semantics for nominal and verbal negation in Ch \ref{NEC2}. I take this cycle to provide support for a treatment of \textbf{negation as a two-place operator} (comparable to contemporary treatments of modal expressions) and additionally suggest that this cycle can be united with general observations made in the grammaticalisation literatures regarding the functional pressures underpinning meaning change --- particularly the diachronic loss of the property of ``strict/discretional'' indexicality \citep[see][]{Perry2012}.
+\paragraph{Part \ref{NEC}} represents a first semantic treatment of the \textbf{\acrfull{NEC}}, also demonstrating its instantiation in a number of subgroups of Pama-Nyungan on the basis of comparative data from Thura-Yura, Yolŋu Matha and Arandic. The \acrlong{NEC} (see \citealt{Croft1991,Veselinova2016}) is a proposed grammaticalisation process where negative existential predicates develop into markers of \acrlong{sn}. Chapter \ref{NEC1}) comprises a proposal for the \textsc{privative}---a grammatical category described in many Australian languages \citep[\textit{e.g.},][]{Dixon2002a,Phillips2021b}---where this marker taken to realise the semantics of a negative existential predicate. Diachronically, I provide evidence from each of these subgroups that erstwhile privatives generalise into sentential negators: instantiating the \acrlong{NEC}.
+
+In Chapter \ref{NEC2}, then, I propose a unified semantics for nominal and verbal negation (that is, one that accounts for the polyfunctionality of negative existential predicates which have generalised into markers of clausal negation: the core observation of the \acrshort{NEC}.
+I take this cycle to provide support for a treatment of \textbf{negation as a two-place operator} (comparable to contemporary treatments of modal expressions) and additionally suggest that this cycle can be united with general observations made in the grammaticalisation literatures regarding the functional pressures underpinning meaning change --- particularly the diachronic loss of the property of ``strict/discretional'' indexicality \citep[see][]{Perry2012}.
  
  
-\paragraph{Part \ref{yolŋu}} comprises a description and analysis of the encoding of mood/``reality status'' in \acrfull{wd} --- a variety (or cluster of varieties) of Yolŋu Matha spoken in northern Arnhem Land. Unlike neighbouring varieties, \gls{wd} exhibits \textbf{cyclic tense} (a species of \textit{metricality}/temporal distance marking where a given inflectional category appears to encode the instantiation of a given property at discontinuous intervals) in addition to \textbf{negation-based asymmetries in reality-status marking} \citep[\textit{cf.}][]{Miestamo2005}: a phenomenon where mood distinctions are collapsed in negative predications. Part \textbf{\ref{yolŋu}} provides a semantics for \acrshort{wd}'s four inflectional categories (in particular their modal contribution) which captures and predicts the negative asymmetry. Central to the analysis is the idea that the inflections encode a two-way mood (or ``reality status'') distinction. This is formulated as a presupposition that a metaphysical modal base is \textbf{nonveridical} with respect to the inflected predicate. The species of nonveridicality itself is encoded by a modal predicate modifier. In \gls{wd}, the negative particles \textit{yaka} and \textit{bäyŋu} are two such modal expressions. In this sense, the account converges with observations made in Part \textbf{\ref{NEC}}, \textit{viz.} it advocates for a treatment of sentential negators and modal expressions as a natural class. These two phenomena (to varying degrees) represent areal features of the languages of central Arnhem Land. Part \textbf{\ref{yolŋu}} concludes with a note discussing change and variation with respect to the semantics of verbal inflections in varieties of Yolŋu Matha.
+\paragraph{Part \ref{yolŋu}} comprises a description and analysis of the encoding of temporal and modal information (``reality status'' in \acrfull{wd} --- a variety (or cluster of varieties of Yolŋu Matha spoken in northern Arnhem Land.
+
+Unlike neighbouring varieties, \gls{wd} exhibits \textbf{cyclic tense} (a species of \textit{metricality}\slash temporal distance marking where a given inflectional category appears to encode the instantiation of a given property at discontinuous intervals) in addition to \textbf{negation-based asymmetries in reality-status marking} \citep[\textit{cf.}][]{Miestamo2005}: a phenomenon where mood distinctions are collapsed in negative predications. Part \textbf{\ref{yolŋu}}, then, provides a semantics for each of \acrshort{wd}'s four inflectional categories which captures and predicts the negative asymmetry. 
 
 
+Chapter \ref{sec:djr-temp} provides an account of temporal expression in \acrshort{wd}, motivating cyclic tense and explicating the grammaticalisation of a paradigmatic \textsc{contemporary\slash pre\-con\-temporary} distinction. Chapter \ref{sec:yol-mood} is concerned with \acrshort{wd} modal expression. Central to the analysis is the idea that the paradigm encodes a two-way mood (or ``reality status'') distinction. This is formulated as a presupposition that a metaphysical modal base is \textbf{nonveridical} with respect to the inflected predicate. The species of nonveridicality itself is encoded by a predicate modifier. In \gls{wd}, the negative particles \textit{yaka} and \textit{bäyŋu} realise two such nonveridical operators. In this sense, the account converges with observations made in Part \textbf{\ref{NEC}}, \textit{viz.} it advocates for a treatment of sentential negators and modal expressions as a natural class.
+
+A complete proposal for the distribution of inflectional forms, then, is provided at the beginning of chapter \ref{ch:paradigm}, casting the relevant distinctions in terms of two semantical properties which capture the phenomena described above. These two phenomena (to varying degrees) represent areal features of the languages of central Arnhem Land. Part \textbf{\ref{yolŋu}} concludes with a note discussing change and variation with respect to the semantics of verbal inflections in varieties of Yolŋu Matha.
+\fancybreak
 The next section introduces a number of the key assumptions and formal tools that will be used to analyse each of the phenomena introduced above. Each individual subpart further engages with literature relevant to the respective analysis (\textit{e.g.}, existing treatments of \textit{apprehensionality, modal subordination, existential predication} and \textit{verbal mood}.)
 
 
@@ -1626,13 +1660,13 @@ Where $ \varphi $ is some well-formed formula, $ \lozenge\varphi $ is true in so
 \xe
 
 
-\noindent Building on these modal logic traditions, Prior (\citeyear{Prior1958,Prior1967,Prior1957}) analogised \textbf{P}ast and \textbf{F}uture tense operators to possibility modals: effectively, these operators are all taken to existentially quantify over a set of states-of-affairs (set of accessible reference points: times/possible worlds).\footnote{See \citet{Copeland2002,Copeland2020} and \citet{Markoska-Cubrinovska2016} for more on the foundational contributions of Arthur Prior to the development of modal (esp. tense) logic.} In the case of temporal operators, the relevant accessibility relation $ \mathcal R $ is identified as $ \prec $ (or $ \succ $), where $ t\prec t' $ reads: `$ t \text{ precedes }t' $'. Consequently, $ \prec_{\langle w,t\rangle} (\succ_{\langle w,t\rangle}) $ make available only the temporal predecessors (successors) of the evaluation index, assuming a dense, linearly-ordered set of times $ t,t',t''\hdots\in\mathcal T $.\footnote{For completeness:
-\pex[exno=,exnoformat=X] A binary relation (\textit{e.g.}, $ \prec $ over $ \mathcal T $) is:
+\noindent Building on these modal logic traditions, Prior (\citeyear{Prior1958,Prior1967,Prior1957}) analogised \textbf{P}ast and \textbf{F}uture tense operators to possibility modals: effectively, these operators are all taken to existentially quantify over a set of states-of-affairs (set of accessible reference points: times/possible worlds).\footnote{See \citet{Copeland2002,Copeland2020} and \citet{Markoska-Cubrinovska2016} for more on the foundational contributions of Arthur Prior to the development of modal (esp. tense) logic.} In the case of temporal operators, the relevant accessibility relation $ \mathcal R $ is identified as $ \prec $ (or $ \succ $), where $ t\prec t' $ reads: `$ t \text{ precedes }t' $'. Consequently, $ \prec_{\langle w,t\rangle} (\succ_{\langle w,t\rangle}) $ make available only the temporal predecessors (successors) of the evaluation index, assuming a dense, linearly-ordered set of times $ t,t',t''\hdots\in\mathcal T $.\footnote{
+	For completeness, a binary relation (\textit{e.g.}, $ \prec $ over $ \mathcal T $) is:
+\pex~[exno=,exnoformat=X,textoffset=2.5em,numoffset=1em] 
 \a  \textsc{linearly ordered} iff it is connex, transitive, irreflexive and asymmetric
-\a \textsc{dense} iff it is isomorphic to $ \mathbb R (\textit{ i.e., } \forall t,t''\big[[t\prec t'']\to\exists t'[t'\neq t\neq t''\wedge t\prec t'\prec t'']\big] )$
+\a \textsc{dense} iff it is isomorphic to $ \mathbb R (\textit{i.e.}, \forall t,t''\big[[t\prec t'']\to\exists t'[t'\neq t\neq t''\wedge t\prec t'\prec t'']\big] )$
 \xe	
-	
-} 
+	} 
 The sets of times that are made available by each of these relations is schematised in Fig. \ref{temp-access}. 
 
 
@@ -1661,7 +1695,9 @@ The sets of times that are made available by each of these relations is schemati
 
 By analogy, then, with possibility modals, a past tense operator might be taken to existentially quantify over times preceding the reference time (as in \nextx~below.)
 
-\pex $ \denote[w,t]{\mathbf{PAST}\varphi}=1\leftrightarrow\exists \langle{w,t'}\rangle\big[\langle{w,t'}\rangle\prec \langle{w,t}\rangle\wedge \denote[w,t']{\varphi}\big]$\\
+\pex\textbf{The meaning of a \textsc{past} tense operator}
+
+ $ \denote[w,t]{\mathbf{PAST}\varphi}=1\leftrightarrow\exists \langle{w,t'}\rangle\big[\langle{w,t'}\rangle\prec \langle{w,t}\rangle\wedge \denote[w,t']{\varphi}\big]$\\
 $ \mathbf{PAST}\varphi $ is true at $ t $ iff there is some time $ t' $ that is a predecessor to the reference index (formally, a world-time pair $ \langle w,t\rangle $) such that $ \varphi $ was true at $ t' $.\xe
 
 
@@ -1778,7 +1814,7 @@ That is, indices that are neither successors nor predecessors of one another -- 
 
 
 Armed with this relation then, \citeauthor{Thomason1980} define an (anti)posteriority relation that holds between indices that aren't branchmates:
-\pex (Anti)posteriority \citep[311]{Thomason1980}
+\pex \textbf{(Anti)posteriority} \citep[311]{Thomason1980}
 \a $ i $ is \textbf{posterior} $ (\boldsymbol\succsim )$ to $ j $ iff there is some copresent index of $ j $ (say, $ j' $) that is a successor to $ i $ \hfill
 $i \boldsymbol\succsim j\Leftrightarrow\exists j'[j'\simeq j\wedge i\succcurlyeq j'] )$
 \a $ i $ is \textbf{antiposterior} to $ j $ iff $ i $ is not posterior to $ j $ or is copresent with $ j $ \\
@@ -1790,7 +1826,7 @@ $i \boldsymbol\succsim j\Leftrightarrow\exists j'[j'\simeq j\wedge i\succcurlyeq
 \ex \deftagex{ll-def} \textbf{Left linearity }--- \textit{i.e.}, $ \mathfrak T $ is not branching to the past iff --- where $ a,b,b'\in\mathcal I: $\\
 $ \forall a.b,b'[(b\prec a\wedge b'\prec a)\to(b\prec b'\vee b=b'\vee b\succ b')] $\trailingcitation{\citep[105]{Landman1991}}\xe
 
-Settledness/historical necessity is normally expressed in terms of \textbf{historical alternatives}. This refers to the notion of equivalence classes of possible worlds $\boldsymbol{(\approx_{t}}\subseteq\mathcal{W\times W})$ : those worlds which have identical `histories' up to and including a reference time $t$. 
+Settledness/historical necessity is normally expressed in terms of \textbf{historical alternatives}. This refers to the notion of equivalence classes of possible worlds $\boldsymbol{(\approx_{t}}\subseteq\mathcal{W\times W})$: those worlds which have identical `histories' up to and including a reference time $t$. 
 
 The properties of the \textit{historical alternative} relation (in a $ \mathcal{T\times W} $ model) are given in (\nextx) which will permit for a formal definition of settledness as in (\anextx).
 	\pex \textbf{Historical alternatives} $\boldsymbol\approx\,\subset\mathcal{T\times W\times W}$\deftagex{histaltdef}
@@ -1806,7 +1842,7 @@ The properties of the \textit{historical alternative} relation (in a $ \mathcal{
 The monotonicity property (\lastx{b}) captures the intuition that the metaphysical alternatives that are available at given world-time pair change (monotonically) through time: that is, there is a unique possible state of the worlds at all times in the past.  Given that branching-time models are definitionally taken to be left-linear, this additional equivalence relation isn't needed for them: it is a theorem of the system that $ \preccurlyeq $ is monotonic (compare \lastx{b′} below.)
 
 \pex[exno=\getref{histaltdef}]
-\a[label=b′] \textbf{monotonicity of $ \boldsymbol\preccurlyeq $}\\$ \forall i,i',i''\big[[i'\preccurlyeq i\wedge i''\preccurlyeq i]\to [i'\preccurlyeq i'' \vee i'' \preccurlyeq i' \vee i=i'']\big] $
+\a[label=b′] \textbf{Monotonicity of $ \boldsymbol\preccurlyeq $}\\$ \forall i,i',i''\big[[i'\preccurlyeq i\wedge i''\preccurlyeq i]\to [i'\preccurlyeq i'' \vee i'' \preccurlyeq i' \vee i=i'']\big] $
 \xe
 
 
@@ -1900,7 +1936,7 @@ Those $ i\in\mathcal I $ which neither precede nor succeed the utterance index $
 \subsection[Modal auxiliaries as quantifiers]{Modal auxiliaries as quantifiers: \citealt{Kratzer1977} \textit{et seq.}}\label{sec:kratzer}
  Building on the tense logics introduced above, following (Kratzer \citeyear{Kratzer1977,Kratzer1981,Kratzer1991} a.o.), modal expressions are taken to denote \textbf{quantifiers over possible worlds}. Crucially, like other natural language quantifiers, modal auxiliaries are taken to contain (implicit) restrictions over their quantificational domain. For Kratzer the distinction between so-called \textit{epistemic} and \textit{deontic} readings of modal auxiliaries is a function of this restriction. This distinction is shown in the sentence pair in (\getref{K77-mod}) below.
 
-\pex Two readings of English modal auxiliary \textit{must} from \citet[338]{Kratzer1977}\deftagex{K77-mod}
+\pex \textbf{Two readings of English modal auxiliary \textit{must} from \citet[338]{Kratzer1977}}\deftagex{K77-mod}
 \a\textit{All Māori children \textbf{must} learn the names of their ancestors}\deftaglabel{de}
 \a\textit{The ancestors of the Māori \textbf{must} have arrived from Tahiti}\deftaglabel{ep}
 \xe
@@ -1970,7 +2006,7 @@ As mentioned above, the vast majority of work in the formal semantic program has
 
 For example, recent work on cross-linguistic semantics has shown how the semantics for English modals -- where quantificational force is lexically encoded and conversational backgrounds are provided by context -- does not provide the correct semantics for other languages' modal systems. \citet{Rullmann2008}, for example show that, in St̓át̓imcets (\gls{lil} Salish: British Columbia), deontic and epistemic modal clitics are separately lexified whereas quantificational force is contextually determined (\textit{viz.} \textit{ka}~`\textsc{irr}', \textit{kˀa}~`\textsc{epist}' and \textit{kelh}~\textsc{fut}') \citep[see also][]{Peterson2010,Matthewson2010}. They model this with a choice function $ f_{\mathfrak c}$, pragmatically provided that restricts the size of the set (\textit{sc.} modal base) which is being universally quantified over (\nextx).\footnote{\citet{Deal2011} shows that a similar phenomenon in Niimiipuutímt [\gls{nez}] suggests an analysis of a variable-force modal as an existential quantifier. She claims that, because there is no ``stronger'' circumstantial modal competitor to \textit{-o'qa} `\gls{mod}', the variable force phenomenon (her ``quantificationally variable modal[ity]'') is a result of a single lexical item performing all modal functions.}
 
-\pex Semantics for \textit{kˀa} `\gls{epist}' (St̓át̓imcets epistemic variable-force modal, from \citealp[340]{Rullmann2008})
+\pex \textbf{Semantics for \textit{kˀa} }`\gls{epist}' (St̓át̓imcets epistemic variable-force modal, from \citealp[340]{Rullmann2008})
 
 \denote[c,w]{\textit{kˀa}} presupposes an epistemic modal base $ m $ \&\\
 $ \denote[c,w]{\textit{kˀa}}=\lambda f_{\mathfrak c}\lambda p.\forall w'[w'\in f_{\mathfrak c}(m(w))\to p(w')]$
@@ -1983,7 +2019,7 @@ Building on other insight on usage of possibility modals \citep[notably][]{Kline
 
 Due to Kiparsky (\citeyear{Kiparsky2006} \textit{et seq.}), \textit{amphichronic} linguistics is an approach to linguistic theory that assumes that synchronic and diachronic levels of explanation ``feed each other'' \citep[see also][]{Bermudez-Otero2013}. This research program is motivated by the necessity to dissociate \textit{typological generalisations} from \textit{language universals}. Are the phenomena that we see (or don't see) expressed in natural language a function of universal design features and constraints on the human language faculty? Or are they derivable ``by-products'' from tendencies of language change? \citep[see also][]{Anderson2008,Anderson2016a}.%\marginnote{further elaboration; explanation of ``diachronic level of explanation''}
 
-In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langauge faculty at work. Formal renewal engenders new categories that conform to cross-linguistic generalisations regardless of their source'' \citep[73]{Kiparsky2015}. Over past decades, research on meaning change has led to the discovery of regular grammaticalisation ``clines/pathways/trajectories'': that is, a given lexical expression with meaning $ \alpha $ comes to denote $ \beta $, then $ \gamma $ \textit{etc.} as an independent development across languages separated in space and time \citep[see][]{Deo2015,Eckardt2011}. From the identification of these robust cross-linguistic tendencies emerges the question of what is driving this change and \textbf{\textit{why}}.
+In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langauge faculty at work. Formal renewal engenders new categories that conform to cross-linguistic generalisations regardless of their source'' \citep[73]{Kiparsky2015}. Over past decades, research on meaning change has led to the discovery of regular grammaticalisation ``clines\slash pathways\slash trajectories'': that is, a given lexical expression with meaning $ \alpha $ comes to denote $ \beta $, then $ \gamma $ \textit{etc.} as an independent development across languages separated in space and time \citep[see][]{Deo2015,Eckardt2011}. From the identification of these robust cross-linguistic tendencies emerges the question of what is driving this change and \textbf{\textit{why}}.
 
 As an example, \citet{Bybee1994} present a hypothesis that grammaticalisation pathways ought to be derivable from the meanings of the lexical items involved in them; frequently these changes involve the ``generalisation'' of a given item. As \citet[7]{Leow2020} points out, this idea has been taken seriously by diachronic semanticists, where \textit{generalisation} has been modelled as the expansion in the functional domain of a given expression \citep[\textit{e.g.},][]{Deo2015a,Condoravdi2014}.\footnote{Also James Leow's recent \citeyearpar{Leow2020} dissertation which conceives of variation and change in (semi)modal expressions in Cuban Spanish (viz. \textit{\textsc{iba} a, tener que}) as reflexes of grammaticalisation.
 
@@ -1997,7 +2033,7 @@ A concise history of formal diachronic semantics as a research program is provid
 \section{The linguistic ecology of Arnhem Land}\label{sec:ecol}
 
 %Initial human inhabitation of the Australian landmass is generally estimated at roughly 50,000 years ago (50Kya).
-The past few decades have seen mounting interest in the deployment of historical\slash{}comparative linguistic methods for uncovering linguistic and anthropological prehistory of the continent \citetext{\citealp[see][]{McConvell2011} for an overview.} Some three hundred Australian languages have been reconstructed to a single family, Pama-Nyungan, spoken across mainland Australia (approx. 90\% of its area) except for some regions in the north of the continent \citep{Dixon1980,Bowern2021}. The most recent common ancestor of these languages (\textit{sc. proto-Pama-Nyungan}) is estimated to have been spoken roughly five to seven thousand years before present (5--7Kya, during the mid-Holocene/Northgrippian age: a comparable timedepth to Indo-European), originating in the ``Gulf Plains'' bioregion around the Gulf of Carpentaria \citetext{\citealp{Bouckaert2018}, supporting earlier work, incl. \citealp{Hale1964} a.o.}. Many of these languages remain underdescribed (extinct, or recorded in ``salvage''-oriented documentatary work.) As a consequence, they are by and large poorly integrated into (model-)theoretic treatments of cross-linguistic semantics (as suggested in \S~\ref{sec:overview} above, see also \citealp{Nordlinger2021} for an overview of the impact of theoretical treatments of Australian language data.)
+The past few decades have seen mounting interest in the deployment of historical\slash{}comp\-arative linguistic methods for uncovering linguistic and anthropological prehistory of the continent \citetext{\citealp[see][]{McConvell2011} for an overview.} Some three hundred Australian languages have been reconstructed to a single family, Pama-Nyungan, spoken across mainland Australia (approx. 90\% of its area) except for some regions in the north of the continent \citep{Dixon1980,Bowern2021}. The most recent common ancestor of these languages (\textit{sc. proto-Pama-Nyungan}) is estimated to have been spoken roughly five to seven thousand years before present (5--7Kya, during the mid-Holocene/Northgrippian age: a comparable timedepth to Indo-European), originating in the ``Gulf Plains'' bioregion around the Gulf of Carpentaria \citetext{\citealp{Bouckaert2018}, supporting earlier work, incl. \citealp{Hale1964} a.o.}. Many of these languages remain underdescribed (extinct, or recorded in ``salvage''-oriented documentatary work.) As a consequence, they are by and large poorly integrated into (model-)theoretic treatments of cross-linguistic semantics (as suggested in \S~\ref{sec:overview} above, see also \citealp{Nordlinger2021} for an overview of the impact of theoretical treatments of Australian language data.)
 
 %\begin{figure}[h]\caption[Australian language maps]{Map of Australian linguistic areas, including detail of Northern Australia and Arnhem Land}\label{maps}
 %	\begin{subfigure}[t]{\textwidth}
@@ -2139,29 +2175,70 @@ Much of the Australian Kriol and Yolŋu Matha dataset was elicited between 2016 
 %\chapter{Variation, change \& `design principles'}\label{diaY}
 %\input{Yolngu/dia/comparative.tex}
 
-\chapter*{General conclusion}
-\addcontentsline{toc}{chapter}{General conclusion}
+\chapter{General conclusions}
+%\addcontentsline{toc}{chapter}{General conclusions}
 
 
 
-The three essays that constitute this dissertation have sought to provide new data, analysis and insights of how the conceptual domains of modality, temporality and negation interact. In particular, each represents an investigation of some dimension of irreality.
+The three essays that constitute this dissertation have sought to provide new data, analytic perspectives and insights of how the conceptual domains of modality, temporality and negation interact. In particular, each represents an investigation of some dimension of \textsb{irreality}. This concluding section briefly rehearses the main findings of each component before discussing the dissertation's uniting themes and broader theoretical implications.
 
-Part \ref{bambai} showed how an Australian Kriol future-oriented temporal frame expression has developed \textsc{apprehensional} meaning. From advancing the temporal reference of its prejacent (\textsc{subsequentiality}-marking), \textit{bambai} has come to encode possibility and negative speaker affect. Further, it is a discourse anaphor that appears to, by default, restrict its modal base to (a subset of) the negation of some foregoing proposition.
+\section[Dissertation summary]{Summary of the dissertation}
+%\addcontentsline{toc}{section}{Dissertation summary}
 
-Relatedly, chapter~\ref{otherwise}~develops a ``dynamic'' account for the interpretation of \textit{otherwise} on the basis of contemporary theories of \textbf{modal subordination} \citep{Roberts1989,Roberts2020,Roberts1995} and \textbf{information structure} \citep[\textit{e.g.},][]{Roberts2012}. Building on existing treatments of \textit{discourse anaphora} (\citealt{Webber2001,Kruijff-Korbayova2001}), we propose to treat a sentence of the form \textbf{\textit{p otherwise q}} as asserting both $ p $ and \textit{if not $ p' $, $ \square q $}. The second conjunct has the form of a conditional --- i.e. $ q $ is \textit{modally subordinate} to the negation of some proposition related to $ p $, calculated from discourse context. Chapter \ref{otherwise}, then, constituted an exploration of a lexical item that encodes negative conditionality and requires a pragmatic/discourse structure-sensitive modal restriction (one of several available readings to \textit{bambai}.)
+\paragraph{Part \textbf{\ref{bambai}}} showed how an Australian Kriol future-oriented temporal frame expression has developed \textsc{apprehensional} meaning. From advancing the temporal reference of its prejacent (\textsc{subseq\-uentiality}-marking), \textit{bambai} has come to encode possibility and negative speaker affect. Further, it is a discourse anaphor that appears to, by default, restrict its modal base to (a subset of) the negation of some foregoing proposition. It was shown that the identification of this domain restriction is a pragmatic process, involving reasoning about alternatives.
 
-Part \ref{NEC} proposed a formal semantic treatment of the Negative Existential Cycle --- a grammaticalisation cycle described in the typological literature where nominal negators develop into sentential negators. I showed that the generalisation of \textsc{privative} case morphology in a number of Australian languages instantiates this cycle. By analysing \gls{priv} as a (negative) generalised quantifier, the NƎC can be conceived of as a stemming from the generalisation in the quantificational domain of this operator. A consequence of this unified treatment of \gls{priv} and \gls{neg} is a modal semantics for sentential negation.
+Crucially, as analysed here, the apprehensional reading of \textit{bambai} arises categorically when its prejacent is \textbf{presumed unsettled} (in the sense of \citealp{Condoravdi2002}). In view of this observation, I develop a monosemous, unified treatment of the meaning contribution of \textit{bambai}; it receives a \acrlong{TFA} reading in settled contexts and an apprehensional one in unsettled contexts. In both cases, \textit{bambai} advances the index $ i $ at which the eventuality its prejacent describes is instantiated. Ultimately, the modal meaning conventionally associated with apprehensional readings can be construed as having resulted from an (\textsc{r}-based) implicature: a predication $ P $ about something unsettled is unassertable, if the index $ i $ to which \textit{bambai} has advanced $ P $ is \textsc{non-actual} then $ P(i) $ can't be settled, therefore $ P(i) $ can't be being asserted. I've referred to this reasoning process as (emerging out of) the \textbf{omniscience restriction} (\getref{omni1}/\getref{omni2}). As a consequence of (iterations of) this reasoning process, and by virtue of semantic reanalysis (``the algebraic backbone of meaning change'' \citep{Eckardt2006}), \textit{bambai} is reanalysed as the locus of modal (apprehensional) displacement.
+\paragraph{Part \textbf{\ref{NEC}}} proposed a formal semantic treatment of the \acrlong{NEC} --- a grammaticalisation cycle described in the typological literature where nominal negators develop into sentential negators. I showed that the generalisation of \textsc{privative} case morphology in a number of Australian languages can be understood as an instantiation of this cycle. By formally treating \gls{priv} as a (negative) generalised quantifier, the \acrshort{NEC} can be conceived of as a stemming from the generalisation in the quantificational domain of this operator.
 
-Finally, Part \ref{yolŋu} comprised an account of verbal mood semantics in the Western Dhuwal(a) language, including a type of ``asymmetric negation'' where the ±\textsc{irrealis} mood distinction drawn on WD verbal predicates is neutralised in negative predications. By assuming the ``branching time'' framework familiar from work on intensional logic and appealing to other notions from the formal literature, a compositional account that unifies the disparate distribution of each of WD's four inflectional categories is proposed. As in Part \ref{NEC}, an apparent quantificational semantics for negation makes a number of felicitous predictions.
+Trading on insights about existential predications from \citet{Francez2007,Francez2009}, this account of privative marking and of the \acrshort{NEC} emphasises the radical context dependence of negative existential claims (modelled as \citeauthor{Francez2007}'s \textit{contextual closure} --- the pragmatic retrieval of a domain into which the absence of some entity is being predicated.) The ``in part or in whole'' dependence on utterance context to retrieve a domain restriction is a widely recognised property of quantificational elements \citep[see][661]{Roberts1995}. Worth noting is that an explicit \textit{coda} phrase is better modelled as a ``contextual modifier'' rather than directly supplying the quantificational domain in an existential proposition.
+
+So while negative existentials (including privative markers) are canonically understood as predicating the absence of some individual concept in a contextual domain, closer investigation shows that their use diachronically expands to predicating the \textit{noninstantiation} of some eventive concept in a contextual domain (and scoping over phrase-level constituents). A further extension, namely predicating the nonobtention of a given proposition (and scoping over an entire sentence), sees these quantificational operators entering the domain of standard (truth-conditional) negation. That is, the \acrshort{NEC} gets a treatment in terms of the \textit{generalisation} of a quantifier, modelled as the \textit{expansion} in that quantifier's domain (hence the types of entities over which it scopes) and a concomitant loss of this ``radical context dependence.''
+
+ A consequence of this unified treatment of \gls{priv} and \gls{neg}, then is a semantics that emphasises the kinship between negative and quantificational (\textit{sc.} modal) operators and couches the \acrshort{NEC} in terms of this kinship. Further, this treatment serves as an clear illustration of the potential that diachronic data have for shedding additional light on puzzling synchronic phenomena.
+
+\paragraph{Part \textbf{\ref{yolŋu}}} comprised an formal treatment of the verbal paradigm semantics of the \acrlong{wd} language. As observed there, previous descriptions of these (and related) languages have (explicitly or otherwise) avoided unified characterisations of the \acrshort{wd}'s four inflectional categories, eschewing a metalinguistic gloss \citep[\textit{e.g.},][]{Lowe1996} or attributing to each form multiple meanings \citep[\textit{e.g.},][]{Waters1989}.
+
+ Confusing an analysis of \acrshort{wd} verbal inflection is the presence of ``cyclic tense'' --- a phenomenon where the temporal intervals licensing particular inflections appear to interrupt each other --- and a variety of ``asymmetric negation'' (\citeauthor{Miestamo2005}'s \acrshort{anr}) --- where the ±\textsc{irrealis} mood distinction drawn on \acrshort{wd} verbal predicates is neutralised in negative predications.
+By assuming the ``branching time'' framework familiar from work on intensional logic and appealing to other notions from the formal literature, a compositional account that unifies the disparate distribution of each of \acrshort{wd}'s four inflectional categories is proposed.
+
+Chapter \ref{sec:djr-temp} accounts for the expression of temporal categories in \acrshort{wd}. Proposing an analysis of the aspectual properties of verb stems and verbal predication, I've argued that the verbal paradigm realises a ±\textsc{precontemporary} feature which accounts for the observed ``cyclicity'', unifying the discontinuous temporal spans associated with each inflectional category. It was further claimed that the grammaticalisation of precontemporaneity emerges out of different usage conventions in narrative as against discursive modes.
+ 
+In view of explaining the species of \acrshort{anr} exhibited in \acrshort{wd}, chapter \ref{sec:yol-mood} motivates another property, \textit{(objective) nonveridicality}, which underpins the second distinction (±\textsc{irrealis}) drawn in \acrshort{wd}'s verbal paradigm. In one of the first formal treatments of ``reality status''/an \textsc{irrealis} verbal mood, I effectively suggest that \gls{irr}-aligned inflections presuppose the \textit{non-settledness} of the event whose instantiation is described in their prejacent; that same property that was shown to license apprehensional readings of \textit{bambai} in Part \textbf{\ref{bambai}}.
+
+As in Part \textbf{\ref{NEC}}, then, a result of this analysis is a semantics for negation that emphasises this operation's ``kinship'' with (root) modal operators. This makes a number of predictions, some of which are clearly desirable, others remain untested and are wanting of further investigation in order to appropriately restrict the generalisation. In any case negative and \acrfullpl{mp} are united insofar as they indicate that their prejacent is not to be asserted as a true, actual fact. In this respect, these operators all satisfy \textit{nonveridicality}; explaining the manifestation of \acrshort{anr} in \acrshort{wd}. This account further trades on insights that, in some sense negative sentences ``suppose'' the corresponding affirmation: a claim that \citeauthor{Horn2001} refers to as the \textit{``Asymmetry thesis}'' \citeyearpar[\S\thinspace3]{Horn2001}. On this view, as do \acrshortpl{mp}, negative operators somehow invoke the possibility of their prejacent in a given discourse context.
 
 
-In this dissertation, I hope to have made a contribution to the following related enterprises:
-\begin{enumerate}[\bf\it 1 ]
-	\item The pay-off of deploying tools from the formal semantics and symbolic traditions in developing a systematic and precise understanding the meaning contributions of cross-linguistic phenomena as well as ``grammaticalisation'' trajectories and synchronic variation.
-	
-	Particularly crucial from the perspective of the empirical phenomena treated here is the insight that temporal and modal logics are intimately related, a fact that predicts visible interactions between linguistic tense and modal operators.
-	\item The importance and utility of rigorous investigation of understudied (and particularly threatened) language varieties and typological phenomena in developing a nuanced and complete theory of natural language semantics.
-\end{enumerate}
+\section{Implications}
+
+Shown above, the three components of this dissertation are united in terms of their theoretical foci and their methodologies. Each project has taken data from Australian languages as its empirical basis, including data collected in the field via targeted elicitation. Each has considered a number of phenomena at the intersections of temporality, modality and negation in view of theorising the connections between these semantic domains and understanding their role in ``displacing'' discourse away from the utterance context --- the \textsf{here, now \textrm{and} actual}.
+%Here, I hope to have made a contribution to the following related enterprises:
+
+
+Deploying tools from the formal semantic and model-theoretic/symbolic logic traditions has promoted the development of a systematic and precise understanding the meaning contributions of cross-linguistic phenomena and the relations between them. Modelling the meaning of a linguistic expression in terms of its truth-conditional contribution is an extremely powerful tool for developing deeper insights into the space of linguistic variation and the nature of language change. By assuming (as we did in Part \textbf{\ref{bambai}}) that the two primary readings of \textit{bambai} --- \textit{viz.} as an apprehensional and as a \acrshort{TFA} --- derive from a single (semantically unambiguous) meaning, we gain insights into a common meaning that underpins them, can develop precise hypotheses about the pragmatic principles underpinning both synchronic distribution and diachronic changes, and we have a way of comparing the semantics of this marker (and its meaning change trajectory) to expressions that serve (ostensibly) similar functions in other languages.
+
+Similarly, a unified treatment of nominal (existential) and sentential negation in Part \textbf{\ref{NEC}} provides a way of making precise the functional similarities between these classes of expression and sheds light on the structure of a conceptual domain and the linguistic variation (synchronic and diachronic) that realises associated concepts. The payoff of a treatment of negative operators that highlights their kinship with natural language quantification were again brought to bear in Part \textbf{\ref{yolŋu}}, where their association with modal operators has clear linguistic reflexes --- namely in the fact that they, like \acrshortpl{mp}, license irrealis mood.
+
+Generally, the assumption that, in principle, the \acrshort{wd} inflections make a uniform contribution to the meaning of a given sentence permitted us to develop an understanding of the language's inflectional system and its mechanisms of temporal and modal displacement. While the analyses of the \acrshort{wd} system are of course heavily influenced by existing theories of the semantics of tense and mood, the difficulty in applying many of the generalisations made in this literature can also be taken to indicate the degree to which models of particular grammatical categories are ``overfitted'' to data from European languages. We should take this to underscore the importance of variationist approaches  in linguistics, and the rigorous examination of understudied language, to developing nuanced and complete theories of human language. Further, this is an urgent enterprise in view of mass language endangerment, particularly in indigenous communities.
+
+
+
+%• a as well as ``grammaticalisation'' trajectories and synchronic variation.
+
+
+%• formalism + semantic models, truth conditional accuracy, intuitions cross-linguistically
+%process has raised ``other issues??'' vacuity of quantification (neg) obfuscates differences between them?
+%sbjv machinery in yolngu -- overfit of sbjv to european languages
+%adverbs constrain contextual domains -- tma inflections/particles, epis, codas
+%givón
+%
+%what have we learned about yolngu
+%what has yolngu taught us about semantics/displacement?
+%	Particularly crucial from the perspective of the empirical phenomena treated here is the insight that temporal and modal logics are intimately related, a fact that predicts visible interactions between linguistic tense and modal operators.
+
+
+
+% The importance and utility of rigorous investigation of understudied (and particularly threatened) language varieties and typological phenomena in developing a nuanced and complete theory of natural language semantics.
+
 %
 %\begin{itemize}
 %	\item Mathematical logical tradition builds temporal logics out of modal logic tools
@@ -2170,8 +2247,25 @@ In this dissertation, I hope to have made a contribution to the following relate
 %	\item formal semanticists have predominantly focussed on data from european/other majority languages. a (more) complete semantic theory has a lot to gain from application to cross-linguistic data
 %\end{itemize}
 
+\section{Envoi}
 
-\vfill\bibliographystyle{biblo/sp.bst}\bibliography{biblo/library.bib}
+As indicated in each of the component parts in the dissertation, the proposals and results of the work undertaken here uncover further questions that demand further investigation of the meaning of intensional and negative operators and how and why these change diachronically.
 
-\clearpage	\printglossary[type=lang,title=Index of languages]\addcontentsline{section}{toc}{Index of languages}
+For example, the application of the formal treatments of the \textsc{precontemporary} tense and the \textsc{irrealis} mood to other languages, particularly those of western Arnhem Land and other varieties of Yolŋu Matha ought to reveal both •~how generalisable the treatment of the \acrshort{wd} paradigm is to apparent reflexes in other languages, and •~further insights into the variation space for these types of systems as well as their historic development. Chapter \ref{sec:djr-temp} presented a hypothesis about the development of cyclic tense systems on the basis of the grammaticalisation of features associated with particular registers\slash stylistic modes. The further development of hypothesis, particularly while considering the differences in the manifestation of cyclicity in other `cyclic tense' languages is a particularly fertile area for future work. While the ``emergence'' of a \textsc{contemporary}\slash\textsc{precontemporary} distinction can well be attributed to contact and to the (partial) levelling of a \textit{narratif\slash discours} distinction, are these explanations sufficiently powerful to predict (or account for) the parametric variation exhibited between \acrshort{wd} and its neighbours?
+
+In Chapter \ref{NEC2}, the subtle relationship between `privative predicates' and their subjects (or codas) was raised in conjunction with a undertheorised observations about apparent morphotactic and/or thematic constraints on the ``eventive privative.'' This again, is an area for further investigation which is sure to be revelatory and crucial for the further development of an understanding of generalisation processes: both as they relate to the \acrshort{NEC} and to grammaticalisation\slash cyclic change more broadly.
+
+Chapters \ref{NEC2} and \ref{sec:yol-mood} both propose an (asymmetricalist) treatment of negative operators as quantificational, effectively shunting \gls{neg} into the modal domain, where they quantify trivially over the properties of an evaluation world/index. The motivations for this treatment ought to be clear (\textit{i.e.}: • it permits for a uniform treatment of existential and sentential negation, • it predicts similar \gls{irr}-licensing behaviour (\textit{sc.} the satisfaction of nonveridicality) between \acrshortpl{mp} and \gls{neg}). Nevertheless, the assimilation of negative and modal operators into a single ``nonveridical'' class makes some predictions (of broader similarities in their behaviour) that aren't borne out. Further work is of course needed to better address these issues concerning `without doubt, the most maligned of the logical connectives' \citep[45]{Horn1984}.
+
+\fleuronbreak
+
+\singlespacing
+\vfill\bibliographystyle{biblo/sp.bst}\bibliography{biblo/libraryF.bib}
+
+\clearpage
+\addcontentsline{section}{toc}{Index of languages}
+\subsection*{Index of languages}
+
+	\printglossary[type=lang,title=Index of languages]
+	
 \end{document}

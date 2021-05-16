@@ -1,4 +1,4 @@
-\begin{thebibliography}{482}
+\begin{thebibliography}{481}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -19,7 +19,6 @@ Ahern, Christopher \& Robin Clark. 2017.
 \newblock {Conflict, cheap talk and Jespersen's cycle}.
 \newblock \emph{Semantics {\&} Pragmatics} 10(11). 1--40.
 \newblock \doi{10.3765/sp}.
-\newblock \urlprefix\url{http://ling.auf.net/lingbuzz/002938/}.
 
 \bibitem[{Alonso-Ovalle \& Men{\'{e}}ndez-Benito(2003)}]{AlonsoBenito2015}
 Alonso-Ovalle, Luis \& Paula Men{\'{e}}ndez-Benito. 2003.
@@ -61,21 +60,22 @@ Anderson, Stephen~R. 2005.
 \newblock Oxford: Oxford University Press.
 \newblock \doi{10.1093/acprof:oso/9780199279906.001.0001}.
 
+\bibitem[{Anderson(2008)}]{Anderson2008}
+Anderson, Stephen~R. 2008.
+\newblock {The Logical Structure of Linguistic Theory}.
+\newblock \emph{Language} 84(4). 795--814.
+\newblock \doi{10.1353/lan.0.0075}.
+
 \bibitem[{Anderson(2016)}]{Anderson2016a}
 Anderson, Stephen~R. 2016.
 \newblock {Synchronic versus diachronic explanation and the nature of the
   language faculty}.
 \newblock \emph{Annual Review of Linguistics} 2. 11--31.
 
-\bibitem[{Anderson(2008)}]{Anderson2008}
-Anderson, Victoria~B. 2008.
-\newblock {Static Palatography for Language Fieldwork}.
-\newblock \emph{Language Documentation and Conservation} 2. 1--27.
-\newblock \urlprefix\url{internal-pdf://228.60.152.52/anderson.pdf}.
-
 \bibitem[{Angelo \& Schultze-Berndt(2016)}]{Angelo2016}
 Angelo, Denise \& Eva Schultze-Berndt. 2016.
-\newblock {Beware bambai – soon it may turn apprehensive}.
+\newblock {Beware {\textless}i{\textgreater}bambai{\textless}/i{\textgreater}
+  – soon it may turn apprehensive}.
 \newblock In Felicity Meakins \& Carmel O'Shannessy (eds.), \emph{Loss and
   renewal: Australian languages since contact}, 255--296. Berlin: Mouton de
   Gruyter.
@@ -166,7 +166,7 @@ Berm{\'{u}}dez-Otero, Ricardo. 2015.
 \newblock \emph{{Amphichronic explanation and the life cycle of phonological
   processes}}.
 \newblock \doi{10.1093/oxfordhb/9780199232819.013.014}.
-\newblock \urlprefix\url{http://ling.auf.net/lingbuzz/001679/current.pdf}.
+\newblock \urlprefix\url{http://ling.auf.net/lingbuzz/001679}.
 
 \bibitem[{Bhat(1999)}]{Bhat1999}
 Bhat, D N~Shankara. 1999.
@@ -256,7 +256,6 @@ Bouckaert, Remco~R, Claire Bowern \& Quentin~D Atkinson. 2018.
   Australia}.
 \newblock \emph{Nature Ecology {\&} Evolution} 2. 741--9.
 \newblock \doi{10.1038/s41559-018-0489-3}.
-\newblock \urlprefix\url{https://doi.org/10.1038/s41559-018-0489-3}.
 
 \bibitem[{Bowern()}]{BowernAL}
 Bowern, Claire (ed.). ????
@@ -273,7 +272,8 @@ Bowern, Claire. 1998.
 
 \bibitem[{Bowern(2006)}]{Bowern2006}
 Bowern, Claire. 2006.
-\newblock {Tense Categorization in North-East Arnhem Land} 1--3.
+\newblock {Tense Categorization in North-East Arnhem Land}.
+\newblock In \emph{Lsa annual meeting}, .
 
 \bibitem[{Bowern(2009)}]{Bowern2009}
 Bowern, Claire. 2009.
@@ -292,8 +292,8 @@ Bowern, Claire. 2012.
 \newblock \emph{{A grammar of Bardi}}.
 \newblock Berlin; Boston: Mouton de Gruyter.
 
-\bibitem[{Bowern(2021)}]{Bowern2021}
-Bowern, Claire. 2021.
+\bibitem[{Bowern(to appear 2021)}]{Bowern2021}
+Bowern, Claire. to appear 2021.
 \newblock {How many languages are and were spoken in Australia?}
 \newblock In Claire Bowern (ed.), \emph{The oxford handbook of australian
   languages}, chap.~7. Oxford: Oxford University Press.
@@ -306,7 +306,7 @@ Bowern, Claire \& Quentin~D Atkinson. 2012.
 
 \bibitem[{Bowler(2014)}]{Bowler2014}
 Bowler, Margit. 2014.
-\newblock {Conjunction and disjunction in a language without 'and'}.
+\newblock {Conjunction and disjunction in a language without `and'}.
 \newblock \emph{Semantics and Linguistic Theory} 24. 137--155.
 \newblock
   \urlprefix\url{http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/24.137}.
@@ -332,8 +332,8 @@ Breen, J~Gavan. 2000.
 \newblock \emph{{Bularnu Grammar and Dictionary}}.
 \newblock Alice Springs, NT: Institute for Aboriginal Development.
 
-\bibitem[{Browne et~al.()Browne, Ennever \& Osgarby}]{Browne}
-Browne, Mitchell, Thomas Ennever \& David Osgarby. ????
+\bibitem[{Browne et~al.(forthcoming)Browne, Ennever \& Osgarby}]{Browne}
+Browne, Mitchell, Thomas Ennever \& David Osgarby. forthcoming.
 \newblock {Apprehension as a grammatical category in Ngumpin-Yapa languages}.
 \newblock In Marine Vuillermet, Eva Schultze-Berndt \& Martina Faller (eds.),
   \emph{Apprehensional constructions}, Berlin: Language Sciences Press.
@@ -545,7 +545,6 @@ Cristofaro, Sonia. 2012.
   affairs and ‘irrealis'}.
 \newblock \emph{Language Sciences} 34(2). 131--146.
 \newblock \doi{10.1016/j.langsci.2011.08.001}.
-\newblock \urlprefix\url{http://dx.doi.org/10.1016/j.langsci.2011.08.001}.
 
 \bibitem[{Croft(1991)}]{Croft1991}
 Croft, William. 1991.
@@ -563,8 +562,8 @@ Culicover, Peter~W \& Ray Jackendoff. 1997.
 \newblock \emph{{The present perfect in English and in Catalan: Uses and
   meanings}}: Universitat Aut{\`{o}}noma de Barcelona Phd thesis.
 
-\bibitem[{D{\c{a}}bkowski \& AnderBois()}]{Dabkowski}
-D{\c{a}}bkowski, Maksymilian \& Scott AnderBois. ????
+\bibitem[{D{\c{a}}bkowski \& AnderBois(forthcoming)}]{Dabkowski}
+D{\c{a}}bkowski, Maksymilian \& Scott AnderBois. forthcoming.
 \newblock {The apprehensional domain in A'ingae (Cof{\'{a}}n)}.
 \newblock In Marine Vuillermet, Eva Schultze-Berndt \& Martina Faller (eds.),
   \emph{Apprehensional constructions}, Berlin: Language Sciences Press.
@@ -578,8 +577,6 @@ Dahl, {\"{O}}sten. 1983.
 \newblock {Temporal distance: remoteness distinctions in tense-aspect systems}.
 \newblock \emph{Linguistics} 21(1). 105--122.
 \newblock \doi{10.1515/ling.1983.21.1.105}.
-\newblock
-  \urlprefix\url{https://www.degruyter.com/view/j/ling.1983.21.issue-1/ling.1983.21.1.105/ling.1983.21.1.105.xml}.
 
 \bibitem[{Dahl(1985)}]{Dahl1985}
 Dahl, {\"{O}}sten. 1985.
@@ -805,7 +802,7 @@ Farkas, Donka~F. 2003.
 \newblock {Assertion, belief and mood choice}.
 \newblock In \emph{Workshop on conditional and unconditional modality, esslli},
   Vienna.
-\newblock \urlprefix\url{https://people.ucsc.edu/{~}farkas/papers/mood.pdf}.
+\newblock \urlprefix\url{https://people.ucsc.edu/~farkas/papers/mood.pdf}.
 
 \bibitem[{Ferreira(2016)}]{Ferreira2016}
 Ferreira, Marcelo. 2016.
@@ -893,7 +890,7 @@ Fraser, Julius~Thomas. 1987.
 Freeze, Ray. 1992.
 \newblock {Existentials and Other Locatives}.
 \newblock \emph{Language} 68(3). 553--595.
-\newblock \doi{https://dx.doi.org/10.2307/415794}.
+\newblock \doi{10.2307/415794}.
 
 \bibitem[{Frege(1879)}]{Frege1879}
 Frege, Gottlob. 1879.
@@ -930,8 +927,6 @@ Geurts, Bart. 2000.
 \newblock {Explaining grammaticalization (the standard way)}.
 \newblock \emph{Linguistics} 38(4). 781--788.
 \newblock \doi{10.1515/ling.2000.006}.
-\newblock
-  \urlprefix\url{https://www.degruyter.com/view/j/ling.2000.38.issue-4/ling.2000.006/ling.2000.006.xml}.
 
 \bibitem[{Geurts et~al.(2016)Geurts, Beaver \& Maier}]{Geurts}
 Geurts, Bart, David Beaver \& Emar Maier. 2016.
@@ -978,7 +973,7 @@ Giannakidou, Anastasia \& Alda Mari. 2021.
   propositional attitudes}}.
 \newblock Chicago: The University of Chicago Press.
 \newblock
-  \urlprefix\url{http://home.uchicago.edu/{~}giannaki/pubs/BookGiannakidouMari.pdf}.
+  \urlprefix\url{http://home.uchicago.edu/~giannaki/pubs/BookGiannakidouMari.pdf}.
 
 \bibitem[{Giorgi \& Pianesi(1997)}]{Giorgi1997}
 Giorgi, Alessandra \& Fabio Pianesi. 1997.
@@ -1013,11 +1008,12 @@ Goddard, Cliff. 1983.
 \bibitem[{Green(1987)}]{Green1987}
 Green, Rebecca. 1987.
 \newblock \emph{{A sketch grammar of Burarra}}.
-\newblock Canberra, ACT: dissertation.
+\newblock Canberra, ACT: Australian National University Ba thesis.
 
 \bibitem[{Green(1995)}]{Green1995}
 Green, Rebecca. 1995.
-\newblock {A Grammar of Gurr-goni (North Central Arnhem Land)} (June). 352.
+\newblock \emph{{A Grammar of Gurr-goni (North Central Arnhem Land)}}:
+  Australian National University Phd thesis.
 
 \bibitem[{Green(2003)}]{Green2003}
 Green, Rebecca. 2003.
@@ -1050,8 +1046,6 @@ de~Haan, Ferdinand. 2012.
 \newblock {Irrealis: fact or fiction?}
 \newblock \emph{Language Sciences} 34(2). 107--130.
 \newblock \doi{10.1016/J.LANGSCI.2011.06.016}.
-\newblock
-  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0388000111001185}.
 
 \bibitem[{Hacquard(2006)}]{Hacquard2006}
 Hacquard, Valentine. 2006.
@@ -1097,8 +1091,8 @@ Hamari, Arja. 2015.
 \newblock In Matti Miestamo, Anne Tamm \& Be{\'{a}}ta Wagner-Nagy (eds.),
   \emph{Negation in uralic languages}, 238--263. Amsterdam: John Benjamins.
 
-\bibitem[{Hamari \& Veselinova()}]{Hamari}
-Hamari, Arja \& Ljuba~N Veselinova (eds.). ????
+\bibitem[{Hamari \& Veselinova(to appear 2021)}]{Hamari}
+Hamari, Arja \& Ljuba~N Veselinova (eds.). to appear 2021.
 \newblock \emph{{The Negative Existential Cycle from a historical-comparative
   perspective}}.
 \newblock Berlin: Language Sciences Press.
@@ -1111,7 +1105,7 @@ Hamblin, Charles~Leonard. 1972.
   of time}, 324--31. Berlin, Heidelberg: Springer Berlin Heidelberg.
 \newblock \doi{10.1007/978-3-642-65387-2_23}.
 \newblock
-  \urlprefix\url{http://link.springer.com/10.1007/978-3-642-65387-2{\_}23}.
+  \urlprefix\url{http://link.springer.com/10.1007/978-3-642-65387-2_23}.
 
 \bibitem[{Harder(1995)}]{Harder1995}
 Harder, Peter. 1995.
@@ -1193,9 +1187,6 @@ Heim, Irene~Roswitha. 1991.
 Heine, Bernd \& Tania Kuteva. 2003.
 \newblock {On contact-induced grammaticalization}.
 \newblock \emph{Studies in Language} 27. 529--572.
-\newblock \urlprefix\url{internal-pdf://s3-0588220417/s3.pdf LB - {\%}22This
-  atlas was sponsored y the International Council of Philosophy and Humanistic
-  Studies (UNESCO)... [et al.]{\%}22}.
 
 \bibitem[{Heinrichs(2002)}]{Heinrichs2002}
 Heinrichs, Wolfhart. 2002.
@@ -1223,7 +1214,7 @@ Hercus, Luise~Anna. 1992.
 \newblock \emph{{A Nukunu Dictionary}}.
 \newblock Canberra: s.n.
 \newblock
-  \urlprefix\url{http:/​/​aiatsis.gov.au/​sites/​default/​files/​catalogue{\_}resources/​0425{\_}access.zip}.
+  \urlprefix\url{http:/​/​aiatsis.gov.au/​sites/​default/​files/​catalogue_resources/​0425_access.zip}.
 
 \bibitem[{Hercus(1999)}]{Hercus1999}
 Hercus, Luise~Anna. 1999.
@@ -1277,12 +1268,12 @@ Horn, Laurence~Robert. 1993.
 \newblock {Economy and Redundancy in a Dualistic Model of Natural Language}.
 \newblock \emph{Yearbook of the Linguistic Association of Finland} 6. 33--72.
 \newblock
-  \urlprefix\url{https://ling.yale.edu/sites/default/files/files/horn/horn93{\_}SKY{\_}pdfEconomyandRedundancy.pdf}.
+  \urlprefix\url{https://ling.yale.edu/sites/default/files/files/horn/horn93_SKY_pdfEconomyandRedundancy.pdf}.
 
 \bibitem[{Horn(2001)}]{Horn2001}
 Horn, Laurence~Robert. 2001.
 \newblock \emph{{A natural history of negation}}.
-\newblock Stanford: Centre for the Study of Language and Information 2nd edn.
+\newblock Stanford: CSLI 2nd edn.
 
 \bibitem[{Horn(2007)}]{Horn2007a}
 Horn, Laurence~Robert. 2007.
@@ -1477,14 +1468,13 @@ Kiparsky, Paul. 2015.
 \newblock In Claire~L Bowern \& Bethwyn Evans (eds.), \emph{The routledge
   handbook of historical linguistics}, 64--103. Routledge.
 \newblock \doi{10.4324/9781315794013.ch2}.
-\newblock \urlprefix\url{http://web.stanford.edu/{~}kiparsky/}.
+\newblock \urlprefix\url{http://web.stanford.edu/~kiparsky/}.
 
 \bibitem[{Klecha(2016)}]{Klecha2016a}
 Klecha, Peter. 2016.
 \newblock {Modality and embedded temporal operators}.
 \newblock \emph{Semantics and Pragmatics} 9(9). 1--55.
 \newblock \doi{10.3765/sp.9.9}.
-\newblock \urlprefix\url{http://dx.doi.org/10.3765/sp.9.9}.
 
 \bibitem[{Klecha \& Bochnak(2016)}]{Klecha2016}
 Klecha, Peter \& M~Ryan Bochnak. 2016.
@@ -1693,7 +1683,7 @@ Lewis, David. 1973.
 Lewis, David. 1975.
 \newblock {Adverbs of Quantification}.
 \newblock In Edward~L Keenan (ed.), \emph{Formal semantics of natural
-  language.}, 178--88. Cambrdige University Press.
+  language.}, 178--88. Cambridge University Press.
 
 \bibitem[{Lewis(1981)}]{Lewis1981}
 Lewis, David. 1981.
@@ -1769,8 +1759,6 @@ Matisoff, James~A. 1973.
 \newblock \emph{{The Grammar of Lahu}}.
 \newblock Berkeley: University of California Press.
 \newblock \doi{10.2307/598700}.
-\newblock
-  \urlprefix\url{https://books.google.com/books?hl=en{\&}lr={\&}id=hS-llzIfLbkC{\&}oi=fnd{\&}pg=PR21{\&}dq=mattisoff+lahu{\&}ots=oCtNh{\_}lIh6{\&}sig=W2glG8bUgSxDPawQc1OPdDQ3mlI}.
 
 \bibitem[{M{\"{a}}tjarra(1981)}]{matjarra1981}
 M{\"{a}}tjarra. 1981.
@@ -1812,11 +1800,10 @@ McConvell, Patrick \& Claire Bowern. 2011.
 \newblock \doi{10.1111/j.1749-818X.2010.00257.x}.
 
 \bibitem[{McCready(2010)}]{McCready2010}
-McCready, Eric. 2010.
+McCready, Elin. 2010.
 \newblock {Varieties of conventional implicature}.
 \newblock \emph{Semantics and Pragmatics} 3(8). 1--57.
 \newblock \doi{10.3765/sp.3.8}.
-\newblock \urlprefix\url{http://dx.doi.org/10.3765/sp.3.8}.
 
 \bibitem[{McGregor \& Wagner(2006)}]{McGregor2006}
 McGregor, William~B \& Tamsin Wagner. 2006.
@@ -1829,7 +1816,8 @@ McGregor, William~B \& Tamsin Wagner. 2006.
 McKay, Graham~Richard. 2000.
 \newblock {Ndj{\'{e}}banna}.
 \newblock In R~M~W Dixon \& Barry~J Blake (eds.), \emph{The handbook of
-  australian languages}, vol.~V, 155--354. Melbourne?: Oxford University Press?
+  australian languages}, vol.~5, 155--354. Oxford: Oxford University Press.
+\newblock \doi{10.1353/lan.2003.0193}.
 
 \bibitem[{McKay(2011)}]{McKay2011}
 McKay, Graham~Richard. 2011.
@@ -1887,7 +1875,7 @@ Merrifield, William~R. 1968.
 \newblock C{\'{o}}rdoba, Ver.: Instituto Nacionál de Anthropología e
   Historia.
 \newblock
-  \urlprefix\url{https://www.sil.org/system/files/reapdata/15/01/06/150106410701014844614780526485045628479/cpa{\_}PalantlaGrammar.pdf}.
+  \urlprefix\url{https://www.sil.org/system/files/reapdata/15/01/06/150106410701014844614780526485045628479/cpa_PalantlaGrammar.pdf}.
 
 \bibitem[{Michael(2014)}]{Michael2014}
 Michael, Lev. 2014.
@@ -1906,7 +1894,6 @@ Miestamo, Matti. 2005.
 Miestamo, Matti. 2007.
 \newblock {Negation – An Overview of Typological Research}.
 \newblock \emph{Language and Linguistics Compass} 1. 552--570.
-\newblock \urlprefix\url{internal-pdf://145.144.205.219/miestamo.pdf}.
 
 \bibitem[{Mithun(1995)}]{Mithun1995}
 Mithun, Marianne. 1995.
@@ -1960,7 +1947,6 @@ Murray, Sarah~E. 2014.
 \newblock {Varieties of update}.
 \newblock \emph{Semantics and Pragmatics} 7(2). 1--53.
 \newblock \doi{10.3765/sp.7.2}.
-\newblock \urlprefix\url{http://dx.doi.org/10.3765/sp.7.2}.
 
 \bibitem[{Nishimura(1979)}]{Nishimura1979}
 Nishimura, Hirokazu. 1979.
@@ -2057,22 +2043,20 @@ Partee, Barbara~Hall. 1973.
 \newblock {Some Structural Analogies between Tenses and Pronouns in English}.
 \newblock \emph{The Journal of Philosophy} 70. 601--609.
 \newblock \doi{10.2307/2025024}.
-\newblock \urlprefix\url{http://www.jstor.org/stable/2025024}.
 
 \bibitem[{Partee(1984)}]{Partee}
 Partee, Barbara~Hall. 1984.
 \newblock {Nominal and temporal anaphora}.
 \newblock \emph{Linguistics {\&} Philosophy} 7. 243--281.
 
-\bibitem[{Peirce()}]{Peirce}
-Peirce, Charles~Sanders. ????
-\newblock \emph{{The Collected Papers of Charles Sanders Peirce}}.
-\newblock Cambridge, MA: Belknap Press electronic edn.
-
 \bibitem[{Peirce(1934)}]{Peirce1934}
 Peirce, Charles~Sanders. 1934.
 \newblock \emph{{Belief and Judgment}}.
 \newblock Cambridge, Mass.: Harvard University Press.
+
+\bibitem[{Peirce(n.d.)}]{Peirce}
+Peirce, Charles~Sanders. n.d.
+\newblock Cambridge, MA electronic edn.
 
 \bibitem[{people et~al.(2012)people, Turpin \& Ross}]{Kaytetye2012}
 people, Kaytetye, Myfany Turpin \& Alison Ross. 2012.
@@ -2089,7 +2073,7 @@ Percus, Orin. 2000.
 Percus, Orin. 2006.
 \newblock {Antipresuppositions}.
 \newblock
-  \urlprefix\url{http://www.crisco.unicaen.fr/IMG/pdf/Orin{\_}PERCUS-3.pdf}.
+  \urlprefix\url{http://www.crisco.unicaen.fr/IMG/pdf/Orin_PERCUS-3.pdf}.
 
 \bibitem[{Perry(2012)}]{Perry2012}
 Perry, John. 2012.
@@ -2101,7 +2085,7 @@ Peterson, Tyler. 2008.
 \newblock {The ordering source and graded modality in Gitksan epistemic
   modals}.
 \newblock
-  \urlprefix\url{http://www.public.asu.edu/{~}trpete13/papers/Peterson(SuB).pdf}.
+  \urlprefix\url{http://www.public.asu.edu/~trpete13/papers/Peterson(SuB).pdf}.
 
 \bibitem[{Peterson(2010)}]{Peterson2010}
 Peterson, Tyler. 2010.
@@ -2114,24 +2098,17 @@ Phillips, Josh. 2011.
   Northern Australia}}.
 \newblock Sydney: Honours thesis.
 
-\bibitem[{Phillips(2021)}]{Phillips2021b}
-Phillips, Josh. 2021.
+\bibitem[{Phillips(to appear 2021a)}]{Phillips2021b}
+Phillips, Josh. to appear 2021a.
 \newblock {Negation}.
 \newblock In Claire Bowern (ed.), \emph{The oxford guide to australian
   languages}, chap.~34. Oxford: Oxford University Press.
 
-\bibitem[{Phillips \& Kotek()}]{PhilKotek}
-Phillips, Josh \& Hadas Kotek. ????
+\bibitem[{Phillips \& Kotek({ms})}]{PhilKotek}
+Phillips, Josh \& Hadas Kotek. {ms}.
 \newblock {Discourse anaphoric otherwise: Information structure {\&} modal
   subordination}.
 \newblock \urlprefix\url{https://ling.auf.net/lingbuzz/004800}.
-
-\bibitem[{Phillips \& Kotek(2019)}]{PhilKotek2019}
-Phillips, Josh \& Hadas Kotek. 2019.
-\newblock {Updates {\&} discourse anaphora: a dynamic approach to otherwise}.
-\newblock In Maggie Baird \& Jonathan Pesetsky (eds.), \emph{Nels 49:
-  Proceedings of the forty-ninth annual meeting of the north east linguistic
-  society}, vol.~3, 29--38. Ithaca, NY: GLSA.
 
 \bibitem[{Ploug \& {\O}hrstr{\o}m(2012)}]{Ploug2012}
 Ploug, Thomas \& Peter {\O}hrstr{\o}m. 2012.
@@ -2185,8 +2162,6 @@ Potts, Christopher. 2007.
 \newblock {The expressive dimension}.
 \newblock \emph{Theoretical Linguistics} 33. 165.
 \newblock \doi{10.1515/TL.2007.011}.
-\newblock
-  \urlprefix\url{www.degruyter.com/view/j/thli.2007.33.issue-2/tl.2007.011/tl.2007.011.xml}.
 
 \bibitem[{von Prince(2017)}]{VonPrince2017a}
 von Prince, Kilu. 2017.
@@ -2201,11 +2176,11 @@ von Prince, Kilu. 2019.
 \newblock \emph{Linguistics and Philosophy} 42(6). 577--615.
 \newblock \doi{10.1007/s10988-019-09259-6}.
 
-\bibitem[{von Prince et~al.()von Prince, Krajinovi{\'{c}} \&
+\bibitem[{von Prince et~al.(forthcoming)von Prince, Krajinovi{\'{c}} \&
   Krifka}]{VonPrincea}
-von Prince, Kilu, Ana Krajinovi{\'{c}} \& Manfred Krifka. ????
+von Prince, Kilu, Ana Krajinovi{\'{c}} \& Manfred Krifka. forthcoming.
 \newblock {Irrealis is real}.
-\newblock \emph{Language} (resubm.).
+\newblock \emph{Language} (resubmitted).
 \newblock
   \urlprefix\url{http://kiluvonprince.de/wp-content/uploads/2020/08/Irrealis.pdf}.
 
@@ -2299,7 +2274,7 @@ Roberts, Craige. 1996.
   Working papers in linguistics, OSU.
 \newblock
   \urlprefix\url{http://linguistics.osu.edu/files/linguistics/workingpapers/
-  osu{\_}wpl{\_}49.pdf}.
+  osu_wpl_49.pdf}.
 
 \bibitem[{Roberts(1998)}]{Roberts1998}
 Roberts, Craige. 1998.
@@ -2325,7 +2300,7 @@ Roberts, Craige. 2020.
   Thomas~E Zimmerman (eds.), \emph{The wiley blackwell companion to semantics},
   Wiley.
 \newblock \doi{10.1002/9781118788516.sem102}.
-\newblock \urlprefix\url{http://ling.osu.edu/{~}croberts/roberts.modal
+\newblock \urlprefix\url{http://ling.osu.edu/~croberts/roberts.modal
   subordination.SemCom.2019.final.pdf}.
 
 \bibitem[{Roberts(1990{\natexlab{b}})}]{Roberts1990a}
@@ -2424,7 +2399,7 @@ Schaden, Gerhard. 2012.
 \bibitem[{Schebeck(2001)}]{Schebeck2001}
 Schebeck, Bernhard. 2001.
 \newblock \emph{{Dialect and Social Groupings in Northeast Arnheim Land
-  [sic]}}.
+  {\textless}em{\textgreater}[sic]{\textless}/em{\textgreater}}}.
 \newblock Muenchen: LINCOM.
 
 \bibitem[{Schmerling(1975)}]{Schmerling1975}
@@ -2508,7 +2483,6 @@ Smith, Carlota~S. 1997.
   Philosophy.
 \newblock Dordrecht: Springer Netherlands 2nd edn.
 \newblock \doi{10.1007/978-94-011-5606-6}.
-\newblock \urlprefix\url{http://link.springer.com/10.1007/978-94-011-5606-6}.
 
 \bibitem[{Smith(2008)}]{Smith2008}
 Smith, Carlota~S. 2008.
@@ -2555,7 +2529,7 @@ Starr, William~B. 2010.
 Starr, William~B. 2011.
 \newblock {Conditionals and questions}.
 \newblock
-  \urlprefix\url{http://williamstarr.net/research/conditionals{\_}and{\_}questions.pdf}.
+  \urlprefix\url{http://williamstarr.net/research/conditionals_and_questions.pdf}.
 
 \bibitem[{Starr(2014)}]{Starr2014a}
 Starr, William~B. 2014.
@@ -2627,8 +2601,6 @@ Tchekhoff, Claude \& R~David Zorc. 1983.
 \newblock {Discourse and Djambarrpuyŋu: three features}.
 \newblock \emph{Linguistics} 21(6). 849--878.
 \newblock \doi{10.1515/ling.1983.21.6.849}.
-\newblock
-  \urlprefix\url{https://www.degruyter.com/view/j/ling.1983.21.issue-6/ling.1983.21.6.849/ling.1983.21.6.849.xml}.
 
 \bibitem[{Tedeschi(1981)}]{Tedeschi1981}
 Tedeschi, Philip~J. 1981.
@@ -2679,7 +2651,7 @@ Thomason, Richmond~H. 1984.
 \newblock {Combinations of Tense and Modality}.
 \newblock In D~Gabbay \& Guenthner F (eds.), \emph{Handbook of philosophical
   logic, vol. ii: Extensions of classical logic}, 135--165. Dordrecht: Reidel.
-\newblock \doi{https://doi.org/10.1007/978-94-009-6259-0}.
+\newblock \doi{10.1007/978-94-009-6259-0}.
 
 \bibitem[{Thomason \& Gupta(1980)}]{Thomason1980}
 Thomason, Richmond~H \& Anil Gupta. 1980.
@@ -2838,7 +2810,7 @@ Webber, Bonnie~Lynn, Aravind~K Joshi, Matthew Stone \& Alistair Knott. 2003.
 Webber, Bonnie~Lynn, Matthew Stone, Aravind~K Joshi \& Alistair Knott. 2001.
 \newblock {Anaphora and Discourse Semantics}.
 \newblock Tech. rep. University of Pennsylvania.
-\newblock \urlprefix\url{http://repository.upenn.edu/ircs{\_}reports/30}.
+\newblock \urlprefix\url{http://repository.upenn.edu/ircs_reports/30}.
 
 \bibitem[{de~Weert(2016)}]{deWeert2016}
 de~Weert, Danny. 2016.
@@ -2868,14 +2840,14 @@ Wilkins, David~P. 1989.
 \newblock \emph{{Mparntwe Arrernte (Aranda): Studies in the Structure and
   Semantics of Grammar}}: Australian National University Phd thesis.
 
-\bibitem[{Wilkinson()}]{Wilkinson}
-Wilkinson, Melanie~P. ????
-\newblock {Complementation strategies in Djambarrpuyŋu}.
-
 \bibitem[{Wilkinson(2012)}]{Wilkinson1991}
 Wilkinson, Melanie~P. 2012.
 \newblock \emph{{Djambarrpuyŋu: a Yolŋu variety of Northern Australia}}.
 \newblock Munich: LINCOM.
+
+\bibitem[{Wilkinson({ms})}]{Wilkinson}
+Wilkinson, Melanie~P. {ms}.
+\newblock {Complementation strategies in Djambarrpuyŋu}.
 
 \bibitem[{Williams(1986)}]{Williams1986}
 Williams, Nancy~M. 1986.
@@ -2893,19 +2865,18 @@ Williamson, Timothy. 1996.
 Wilmoth, Sasha. 2020.
 \newblock {Negation as a nominal property in Pitjantjatjara}.
 \newblock In \emph{Conference of the australian linguistic society},
-  \urlprefix\url{https://sashawilmoth.files.wordpress.com/2020/12/wilmoth{\_}als2020{\_}pitjantjatjara-negation-2.pdf}.
+  \urlprefix\url{https://sashawilmoth.files.wordpress.com/2020/12/wilmoth_als2020_pitjantjatjara-negation-2.pdf}.
 
-\bibitem[{Wiltschko(2016)}]{Wilt2016}
-Wiltschko, Martina. 2016.
+\bibitem[{Wiltschko(2017)}]{Wilt2016}
+Wiltschko, Martina. 2017.
 \newblock {The essence of a category: Lessons from the subjunctive}.
-\newblock In \emph{Mood, aspect, modality revisited}, Chicago.
-\newblock \doi{10.7208/chicago/9780226363660.001.0001}.
+\newblock In \emph{Mood, aspect, modality revisited: New answers to old
+  questions}, Chicago: University of Chicago Press.
+\newblock \doi{10.7208/chicago/9780226363660.003.0006}.
 
 \bibitem[{Winans(2016)}]{Winans2016}
 Winans, Lauren~Danae. 2016.
 \newblock \emph{{Inferences of will}}: UCLA Phd dissertation.
-\newblock
-  \urlprefix\url{https://escholarship.org/uc/item/0cz3t955{\%}0Ahttps://escholarship.org/uc/item/6cm9v671}.
 
 \bibitem[{de~Wit(2016)}]{DeWit2016}
 de~Wit, Astrid. 2016.

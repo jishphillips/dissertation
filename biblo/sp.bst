@@ -1,4 +1,4 @@
-%%% This is sp.bst, coded by Kai von Fintel as the house style for bibliographies in
+	%%% This is sp.bst, coded by Kai von Fintel as the house style for bibliographies in
 %%% the journal Semantics and Pragmatics. The style is based on a style generated
 %%% with custom-bib/merlin.mbs, a system for customizing bibliographic styles
 %%% created by Patrick W Daly. There have been some hand-coded adjustments to that
@@ -477,6 +477,7 @@ FUNCTION {format.doi}
     }
   if$
 }
+
 FUNCTION {format.note}
 {
  note empty$
