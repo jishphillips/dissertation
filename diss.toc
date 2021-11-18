@@ -28,139 +28,139 @@
 \contentsline {subsection}{\numberline {2.2.1}Apprehensionality as a semantic domain}{31}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Apprehensionality in the context of Australian Kriol}{35}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Temporal frame adverbs and apprehensionality}{38}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}The distribution of Kriol \textit {bambai}}{40}{section.2.3}
+\contentsline {section}{\numberline {2.3}The distribution of Kriol \textit {bambai}}{41}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Temporal frame reading}{41}{subsection.2.3.1}
-\contentsline {paragraph}{Narrative cohesion}{44}{section*.27}
+\contentsline {paragraph}{Narrative cohesion}{45}{section*.27}
 \contentsline {subsection}{\numberline {2.3.2}Apprehensional reading}{45}{subsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.2.1}Precautioning uses}{45}{subsubsection.2.3.2.1}
-\contentsline {paragraph}{Indicative `nonimplicationals.'}{45}{section*.28}
-\contentsline {paragraph}{Counterfactual `nonimplicationals'}{48}{section*.29}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Precautioning uses}{46}{subsubsection.2.3.2.1}
+\contentsline {paragraph}{Indicative `nonimplicationals.'}{46}{section*.28}
+\contentsline {paragraph}{Counterfactual `nonimplicationals'}{49}{section*.29}
 \contentsline {subsubsection}{\numberline {2.3.2.2}Apprehensive uses}{50}{subsubsection.2.3.2.2}
 \contentsline {paragraph}{Counterfactual}{52}{section*.30}
-\contentsline {paragraph}{cond}{52}{section*.31}
-\contentsline {subsection}{\numberline {2.3.3}Summary}{53}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}An apprehensional pragmatics}{55}{chapter.3}
-\contentsline {section}{\numberline {3.1}A modal subordination account}{56}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Accommodation and restriction}{58}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}A modal discourse representation language}{59}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Discourse representation of the precautioning construction}{62}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Modal subordination in action}{65}{subsubsection.3.1.1.3}
-\contentsline {subsection}{\numberline {3.1.2}Information structure}{68}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Apprehensive domain restriction}{71}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Apprehensionality emerging}{73}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Temporal sequence \& conditional modality}{74}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\textit {Conventionalized...not just conversational}}{77}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Use conditions}{80}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}The status of apprehensional ``attitude conditions''}{80}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Competition in the modal-adverb domain}{83}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Summary}{85}{section.3.4}
-\contentsline {chapter}{\numberline {4}A semantics for \textit {bambai}}{87}{chapter.4}
-\contentsline {section}{\numberline {4.1}Subsequentiality}{88}{section.4.1}
-\contentsline {section}{\numberline {4.2}`Settledness' \& intensionalisation}{90}{section.4.2}
-\contentsline {section}{\numberline {4.3}The omniscience restriction}{92}{section.4.3}
-\contentsline {section}{\numberline {4.4}Deriving the subsequential reading}{95}{section.4.4}
-\contentsline {section}{\numberline {4.5}Deriving the apprehensional reading}{97}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}The semantics of a counterfactual apprehensional}{101}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}The ``epistemic apprehensive'' use}{103}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Possibly pessimistic}{103}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Apprehensionalisation and the synchronic system}{104}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Conclusion}{105}{section.4.6}
-\contentsline {part}{II\hspace {1em}Semantics of the Negative Existential Cycle}{107}{part.2}
-\contentsline {chapter}{\numberline {5}The landscape of negation in Australia}{112}{chapter.5}
-\contentsline {section}{\numberline {5.1}The Australian negative domain \& a semantics for the privative case}{112}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Negation \& Australia: a typological snapshot}{113}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}``Standard'' negation}{114}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}The ``privative case'' and existential predications}{115}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Privatives and the \acrshort {NEC}}{119}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Negative domains \& the \acrshort {NEC} in three Pama-Nyungan subgroups}{120}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Thura-Yura: change \& renewal in the negative domain}{121}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}The Yolŋu negative domain}{124}{subsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Djambarrpuyŋu}{125}{subsubsection.5.2.2.1}
-\contentsline {subsubsection}{\numberline {5.2.2.2}Ritharrŋu}{128}{subsubsection.5.2.2.2}
-\contentsline {subsubsection}{\numberline {5.2.2.3}Wangurri}{130}{subsubsection.5.2.2.3}
-\contentsline {subsubsection}{\numberline {5.2.2.4}The \gls {priv}ative in Yolŋu}{132}{subsubsection.5.2.2.4}
-\contentsline {subsection}{\numberline {5.2.3}Arandic: the nominal status of negated verbals}{135}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}The \acrshort {NEC} and a unified semantics}{140}{chapter.6}
-\contentsline {section}{\numberline {6.1}Semantic change and grammaticalisation pathways}{140}{section.6.1}
-\contentsline {section}{\numberline {6.2}Unifying \gls {priv} and \gls {neg}}{142}{section.6.2}
-\contentsline {section}{\numberline {6.3}Event-privation}{143}{section.6.3}
-\contentsline {section}{\numberline {6.4}Negation as an impossibility operator}{147}{section.6.4}
-\contentsline {section}{\numberline {6.5}Domain expansion}{149}{section.6.5}
-\contentsline {section}{\numberline {6.6}Grammaticalization and indexicality}{150}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}A loss of indexical content}{151}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}A note on existential codas and the NƎC}{152}{subsection.6.6.2}
-\contentsline {section}{\numberline {6.7}Conclusion}{155}{section.6.7}
-\contentsline {part}{III\hspace {1em}Reality status \& the Yolŋu verbal paradigm}{157}{part.3}
-\contentsline {section}{Introduction}{158}{section*.48}
-\contentsline {chapter}{\numberline {7}Background}{162}{chapter.7}
-\contentsline {section}{\numberline {7.1}Grammars of TMA: the notion of ``prominence''}{162}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Futurity and mood-prominence}{163}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Negation and mood}{165}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Yolŋu Matha}{167}{section.7.2}
-\contentsline {section}{\numberline {7.3}The Yolŋu verb: Typology \& morphosemantics}{170}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}The Ritharrŋu-Wägilak paradigm}{171}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}The central Arnhem linguistic area}{174}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Verbal inflection in Western Dhuwal(a)}{175}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}The Primary inflection}{177}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}The Secondary inflection}{178}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}The Tertiary inflection}{180}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}The Quaternary inflection}{184}{subsection.7.4.4}
-\contentsline {subsection}{\numberline {7.4.5}Summary}{185}{subsection.7.4.5}
-\contentsline {chapter}{\numberline {8}Temporal interpretation \& cyclic tense\\{\relax \fontsize {12}{14}\selectfont \textsc {distinguishing \textbf {\leavevmode {\color {forest}I}}\nobreakspace {}from \textbf {\leavevmode {\color {blue}III}}}}}{187}{chapter.8}
-\contentsline {section}{\numberline {8.1}Aspectuality \& the \gls {wd} verb stem}{190}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}The \acrshort {wd} verb as a property of events}{190}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Modelling predication in \gls {wd}}{196}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Talking about the past}{200}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}An attempt at an aspect-based analysis}{201}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}A disjunctive semantics?}{203}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Proposal: A cyclic tense system}{205}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Metricality (temporal remoteness) in the past}{205}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Cyclicity --- discontinuous temporal reference}{208}{subsection.8.3.2}
-\contentsline {subsubsection}{\numberline {8.3.2.1}Event instantiation --- modelling assumptions}{209}{subsubsection.8.3.2.1}
-\contentsline {subsubsection}{\numberline {8.3.2.2}Non-final instantiation}{211}{subsubsection.8.3.2.2}
-\contentsline {paragraph}{Hodiernal}{213}{section*.67}
-\contentsline {paragraph}{Prehodiernal}{213}{section*.68}
-\contentsline {subsubsection}{\numberline {8.3.2.3}\textsc {\textit {MaxPresupp 1}}: A blocking account}{214}{subsubsection.8.3.2.3}
-\contentsline {section}{\numberline {8.4}Theorising cyclic tense \& the status of $ \mathbf {\mathtt {F}_c} $}{216}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}``Cognitive domains''}{217}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}\textit {Énonciation}, diachrony \& functional unity}{218}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Aspect \& temporal interpreation}{221}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Conclusion}{222}{section.8.5}
-\contentsline {chapter}{\numberline {9}Modal interpretation \& \textsc {negative asymmetry}\\{\relax \fontsize {12}{14}\selectfont \scshape distinguishing $\relax \mathversion {bold}{ \delimiter "426830A \gls {I},\gls {III}\delimiter "526930B }$ from $\relax \mathversion {bold}{ \delimiter "426830A \gls {II},\gls {IV}\delimiter "526930B }$}}{224}{chapter.9}
-\contentsline {section}{\numberline {9.1}Sentential negation and paradigm neutralisation}{225}{section.9.1}
-\contentsline {section}{\numberline {9.2}The meaning of the modal particles}{229}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}\textit {dhu}: irreality and the \textsc {future}}{229}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}\textit {balaŋ(u)} \& modal claims}{232}{subsection.9.2.2}
-\contentsline {section}{\numberline {9.3}Semantics of ``\textsc {nonrealised}'' inflections}{237}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}On the status of ``reality status''}{237}{subsection.9.3.1}
-\contentsline {subsection}{\numberline {9.3.2}Verbal mood}{238}{subsection.9.3.2}
-\contentsline {subsection}{\numberline {9.3.3}An \textsc {irrealis} mood}{240}{subsection.9.3.3}
-\contentsline {section}{\numberline {9.4}Metaphysical nonveridicality}{242}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}A nonveridical semantics for \textsc {irrealis}}{244}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Negation \& irrealis}{246}{subsection.9.4.2}
-\contentsline {subsubsection}{What does a negative sentence presuppose?}{249}{figure.caption.76}
-\contentsline {subsection}{\numberline {9.4.3}A temporomodal interaction}{252}{subsection.9.4.3}
-\contentsline {section}{\numberline {9.5}\textsc {\textit {MaxPresupp 2}}: The same-day future}{253}{section.9.5}
-\contentsline {paragraph}{Antipresuppositional: \textit {realis} as an epiphenomenon.}{254}{section*.78}
-\contentsline {section}{\numberline {9.6}Conclusion: motivating \textsc {nonveridicality} and \textsc {irrealis mood}}{255}{section.9.6}
-\contentsline {chapter}{\numberline {10}An analysis of the \gls {wd} paradigm}{257}{chapter.10}
-\contentsline {section}{\numberline {10.1}Assertoric force}{260}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Epistemic modality in \gls {wd}}{261}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}\textit {mak(u)} as an force modifier}{262}{subsection.10.1.2}
-\contentsline {subsection}{\numberline {10.1.3}Embedding predicates}{264}{subsection.10.1.3}
-\contentsline {subsection}{\numberline {10.1.4}Revisiting \textit {nonveridicality}}{265}{subsection.10.1.4}
-\contentsline {subsubsection}{\numberline {10.1.4.1}Locality}{265}{subsubsection.10.1.4.1}
-\contentsline {subsubsection}{\numberline {10.1.4.2}Objective nonveridicality}{266}{subsubsection.10.1.4.2}
-\contentsline {subsubsection}{\numberline {10.1.4.3}Indexicality \& indexical shift}{268}{subsubsection.10.1.4.3}
-\contentsline {section}{\numberline {10.2}Semantic change in Southern Yolŋu}{269}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{269}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Morphosemantic change}{273}{subsection.10.2.2}
-\contentsline {section}{\numberline {10.3}Conclusion}{275}{section.10.3}
-\contentsline {chapter}{\numberline {11}General conclusions}{278}{chapter.11}
-\contentsline {section}{\numberline {11.1}Dissertation summary}{278}{section.11.1}
-\contentsline {paragraph}{Part \textbf {\ref {bambai}}}{278}{section*.84}
-\contentsline {paragraph}{Part \textbf {\ref {NEC}}}{279}{section*.85}
-\contentsline {paragraph}{Part \textbf {\ref {yolŋu}}}{280}{section*.86}
-\contentsline {section}{\numberline {11.2}Implications}{281}{section.11.2}
-\contentsline {section}{\numberline {11.3}Envoi}{282}{section.11.3}
-\contentsline {chapter}{Bibliography}{284}{chapter*.87}
+\contentsline {paragraph}{cond}{53}{section*.31}
+\contentsline {subsection}{\numberline {2.3.3}Summary}{54}{subsection.2.3.3}
+\contentsline {chapter}{\numberline {3}An apprehensional pragmatics}{56}{chapter.3}
+\contentsline {section}{\numberline {3.1}A modal subordination account}{57}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Accommodation and restriction}{59}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}A modal discourse representation language}{60}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Discourse representation of the precautioning construction}{63}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Modal subordination in action}{66}{subsubsection.3.1.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Information structure}{69}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Apprehensive domain restriction}{72}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Apprehensionality emerging}{74}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Temporal sequence \& conditional modality}{75}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\textit {Conventionalized...not just conversational}}{78}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Use conditions}{81}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The status of apprehensional ``attitude conditions''}{81}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Competition in the modal-adverb domain}{84}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Summary}{86}{section.3.4}
+\contentsline {chapter}{\numberline {4}A semantics for \textit {bambai}}{88}{chapter.4}
+\contentsline {section}{\numberline {4.1}Subsequentiality}{89}{section.4.1}
+\contentsline {section}{\numberline {4.2}`Settledness' \& intensionalisation}{91}{section.4.2}
+\contentsline {section}{\numberline {4.3}The omniscience restriction}{93}{section.4.3}
+\contentsline {section}{\numberline {4.4}Deriving the subsequential reading}{96}{section.4.4}
+\contentsline {section}{\numberline {4.5}Deriving the apprehensional reading}{98}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}The semantics of a counterfactual apprehensional}{102}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}The ``epistemic apprehensive'' use}{104}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Possibly pessimistic}{104}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Apprehensionalisation and the synchronic system}{105}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusion}{106}{section.4.6}
+\contentsline {part}{II\hspace {1em}Semantics of the Negative Existential Cycle}{108}{part.2}
+\contentsline {chapter}{\numberline {5}The landscape of negation in Australia}{113}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Australian negative domain \& a semantics for the privative case}{113}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Negation \& Australia: a typological snapshot}{114}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}``Standard'' negation}{115}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}The ``privative case'' and existential predications}{116}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Privatives and the \acrshort {NEC}}{120}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Negative domains \& the \acrshort {NEC} in three Pama-Nyungan subgroups}{121}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Thura-Yura: change \& renewal in the negative domain}{122}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}The Yolŋu negative domain}{125}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Djambarrpuyŋu}{126}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Ritharrŋu}{129}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Wangurri}{131}{subsubsection.5.2.2.3}
+\contentsline {subsubsection}{\numberline {5.2.2.4}The \gls {priv}ative in Yolŋu}{133}{subsubsection.5.2.2.4}
+\contentsline {subsection}{\numberline {5.2.3}Arandic: the nominal status of negated verbals}{136}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {6}The \acrshort {NEC} and a unified semantics}{141}{chapter.6}
+\contentsline {section}{\numberline {6.1}Semantic change and grammaticalisation pathways}{141}{section.6.1}
+\contentsline {section}{\numberline {6.2}Unifying \gls {priv} and \gls {neg}}{143}{section.6.2}
+\contentsline {section}{\numberline {6.3}Event-privation}{144}{section.6.3}
+\contentsline {section}{\numberline {6.4}Negation as an impossibility operator}{148}{section.6.4}
+\contentsline {section}{\numberline {6.5}Domain expansion}{150}{section.6.5}
+\contentsline {section}{\numberline {6.6}Grammaticalization and indexicality}{151}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}A loss of indexical content}{152}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}A note on existential codas and the NƎC}{153}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.7}Conclusion}{156}{section.6.7}
+\contentsline {part}{III\hspace {1em}Reality status \& the Yolŋu verbal paradigm}{158}{part.3}
+\contentsline {section}{Introduction}{159}{section*.48}
+\contentsline {chapter}{\numberline {7}Background}{163}{chapter.7}
+\contentsline {section}{\numberline {7.1}Grammars of TMA: the notion of ``prominence''}{163}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Futurity and mood-prominence}{164}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Negation and mood}{166}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Yolŋu Matha}{168}{section.7.2}
+\contentsline {section}{\numberline {7.3}The Yolŋu verb: Typology \& morphosemantics}{171}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}The Ritharrŋu-Wägilak paradigm}{172}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}The central Arnhem linguistic area}{175}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Verbal inflection in Western Dhuwal(a)}{176}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}The Primary inflection}{178}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}The Secondary inflection}{179}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}The Tertiary inflection}{181}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}The Quaternary inflection}{185}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}Summary}{186}{subsection.7.4.5}
+\contentsline {chapter}{\numberline {8}Temporal interpretation \& cyclic tense\\{\relax \fontsize {12}{14}\selectfont \textsc {distinguishing \textbf {\leavevmode {\color {forest}I}}\nobreakspace {}from \textbf {\leavevmode {\color {blue}III}}}}}{188}{chapter.8}
+\contentsline {section}{\numberline {8.1}Aspectuality \& the \gls {wd} verb stem}{191}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}The \acrshort {wd} verb as a property of events}{191}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Modelling predication in \gls {wd}}{197}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Talking about the past}{201}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}An attempt at an aspect-based analysis}{202}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}A disjunctive semantics?}{204}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Proposal: A cyclic tense system}{206}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Metricality (temporal remoteness) in the past}{206}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Cyclicity --- discontinuous temporal reference}{209}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}Event instantiation --- modelling assumptions}{210}{subsubsection.8.3.2.1}
+\contentsline {subsubsection}{\numberline {8.3.2.2}Non-final instantiation}{212}{subsubsection.8.3.2.2}
+\contentsline {paragraph}{Hodiernal}{214}{section*.67}
+\contentsline {paragraph}{Prehodiernal}{214}{section*.68}
+\contentsline {subsubsection}{\numberline {8.3.2.3}\textsc {\textit {MaxPresupp 1}}: A blocking account}{215}{subsubsection.8.3.2.3}
+\contentsline {section}{\numberline {8.4}Theorising cyclic tense \& the status of $ \mathbf {\mathtt {F}_c} $}{217}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}``Cognitive domains''}{218}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}\textit {Énonciation}, diachrony \& functional unity}{219}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Aspect \& temporal interpretation}{222}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Conclusion}{223}{section.8.5}
+\contentsline {chapter}{\numberline {9}Modal interpretation \& \textsc {negative asymmetry}\\{\relax \fontsize {12}{14}\selectfont \scshape distinguishing $\relax \mathversion {bold}{ \delimiter "426830A \gls {I},\gls {III}\delimiter "526930B }$ from $\relax \mathversion {bold}{ \delimiter "426830A \gls {II},\gls {IV}\delimiter "526930B }$}}{225}{chapter.9}
+\contentsline {section}{\numberline {9.1}Sentential negation and paradigm neutralisation}{226}{section.9.1}
+\contentsline {section}{\numberline {9.2}The meaning of the modal particles}{230}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}\textit {dhu}: irreality and the \textsc {future}}{230}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}\textit {balaŋ(u)} \& modal claims}{233}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Semantics of ``\textsc {nonrealised}'' inflections}{238}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}On the status of ``reality status''}{238}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Verbal mood}{239}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}An \textsc {irrealis} mood}{241}{subsection.9.3.3}
+\contentsline {section}{\numberline {9.4}Metaphysical nonveridicality}{243}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}A nonveridical semantics for \textsc {irrealis}}{245}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Negation \& irrealis}{247}{subsection.9.4.2}
+\contentsline {subsubsection}{What does a negative sentence presuppose?}{250}{figure.caption.76}
+\contentsline {subsection}{\numberline {9.4.3}A temporomodal interaction}{253}{subsection.9.4.3}
+\contentsline {section}{\numberline {9.5}\textsc {\textit {MaxPresupp 2}}: The same-day future}{254}{section.9.5}
+\contentsline {paragraph}{Antipresuppositional: \textit {realis} as an epiphenomenon.}{255}{section*.78}
+\contentsline {section}{\numberline {9.6}Conclusion: motivating \textsc {nonveridicality} and \textsc {irrealis mood}}{256}{section.9.6}
+\contentsline {chapter}{\numberline {10}An analysis of the \gls {wd} paradigm}{258}{chapter.10}
+\contentsline {section}{\numberline {10.1}Assertoric force}{261}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Epistemic modality in \gls {wd}}{262}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}\textit {mak(u)} as an force modifier}{263}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Embedding predicates}{265}{subsection.10.1.3}
+\contentsline {subsection}{\numberline {10.1.4}Revisiting \textit {nonveridicality}}{266}{subsection.10.1.4}
+\contentsline {subsubsection}{\numberline {10.1.4.1}Locality}{266}{subsubsection.10.1.4.1}
+\contentsline {subsubsection}{\numberline {10.1.4.2}Objective nonveridicality}{267}{subsubsection.10.1.4.2}
+\contentsline {subsubsection}{\numberline {10.1.4.3}Indexicality \& indexical shift}{269}{subsubsection.10.1.4.3}
+\contentsline {section}{\numberline {10.2}Semantic change in Southern Yolŋu}{270}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Semantics of the Ritharrŋu-Wägilak verbal paradigm}{270}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Morphosemantic change}{274}{subsection.10.2.2}
+\contentsline {section}{\numberline {10.3}Conclusion}{276}{section.10.3}
+\contentsline {chapter}{\numberline {11}General conclusions}{279}{chapter.11}
+\contentsline {section}{\numberline {11.1}Dissertation summary}{279}{section.11.1}
+\contentsline {paragraph}{Part \textbf {\ref {bambai}}}{279}{section*.84}
+\contentsline {paragraph}{Part \textbf {\ref {NEC}}}{280}{section*.85}
+\contentsline {paragraph}{Part \textbf {\ref {yolŋu}}}{281}{section*.86}
+\contentsline {section}{\numberline {11.2}Implications}{282}{section.11.2}
+\contentsline {section}{\numberline {11.3}Envoi}{283}{section.11.3}
+\contentsline {chapter}{Bibliography}{285}{chapter*.87}

@@ -149,7 +149,7 @@
 %\usepackage{libertine}
 	\DeclareOldFontCommand{\sbseries}{\fontseries{sb}\selectfont}{\mathbf}
 	\DeclareTextFontCommand{\textsb}{\sbseries}
-\setsansfont{Linux Biolinum O}
+\setsansfont[Numbers={OldStyle},BoldItalicFont=Linux Biolinum T]{Linux Biolinum O}
 \usepackage{soul}
 
 
@@ -1353,47 +1353,49 @@
 
 	
 \begin{center}
-	\thispagestyle{empty}
+	\thispagestyle{empty}\setmainfont{Linux Libertine Display O}
 %	{\Large	\textsc{doctoral dissertation}}
 	\vfill
-	\HRule\vspace{.33cm}
-	
+%	\HRule
+	\vspace{.33cm}
+	{\Large
 	\setcounter{page}{-1}
-	\textbf{{\Large At the intersection of temporal \& modal interpretation:}\\
-		{\large Essays on irreality}}%\\\textit{[working title]}
+\vspace*{.75in}	\textbf{ At the Intersection of Temporal \& Modal Interpretation:}\\
+		{Essays on Irreality}%\\\textit{[working title]}
 	
-	\HRule\setmainfont{Linux Libertine Display O}
-	\vfill
-	\large	A Dissertation
+%	\HRule
+	\vfill\vfill
+	A Dissertation
 	
 	Presented to the Faculty of the Graduate School%todo get rid of the prospective marking!
 	
-	of
+	Of
 	
 	Yale University
 	
-	in Candidacy for the Degree of 
+	In Candidacy for the Degree of 
 	
 	Doctor of Philosophy
-	\vfill
-	{\small by
+	\vfill	\vfill
+	{ by
 		
-		{\normalsize\textbf{Joshua Phillips}}\\\scriptsize BInSt (Hons I\textasteriskcentered)  (UNSW)\\[-.625em]MA, MPhil (Yale)}
-	\vfill
+		{\textbf{Joshua Phillips}}%\\\scriptsize BInSt (Hons I\textsuperscript★)  (UNSW)\\[-.625em]MA, MPhil (Yale)
+	}
+	\vspace{.6in}
 	
-	\textbf{Dissertation director:} Claire Bowern
-	\vfill
-	{\normalsize\ul{\textit{\textbf{Committee}}}\\[.5em]
-	\begin{tabular}{ll}
-%		Claire Bowern (c.) & Yale U.\\
-		Veneeta Dayal & Yale U.\\
-		Cleo Condoravdi & Stanford U.\\
-		Ashwini Deo & Ohio State U.\\
-		Hadas Kotek & MIT  (alum.)\\
-		%Lisa Matthewson (??) & U. of British Columbia\\
-%		? María Piñango & Yale U.\\
-		%Judith Tonnhauser (??) & Ohio State U.
-	\end{tabular}}
+	\textbf{Dissertation Director\thinspace:} Claire Bowern
+
+%	{\normalsize\ul{\textit{\textbf{Committee}}}\\[.5em]
+%	\begin{tabular}{ll}
+%%		Claire Bowern (c.) & Yale U.\\
+%		Veneeta Dayal & Yale U.\\
+%		Cleo Condoravdi & Stanford U.\\
+%		Ashwini Deo & Ohio State U.\\
+%		Hadas Kotek & MIT  (alum.)\\
+%		%Lisa Matthewson (??) & U. of British Columbia\\
+%%		? María Piñango & Yale U.\\
+%		%Judith Tonnhauser (??) & Ohio State U.
+%	\end{tabular}}
 	
 	
 %	\vspace*{.3in}{\color{gray} \textit{+ one vacancy}}
@@ -1402,8 +1404,10 @@
 %	\sc Department of Linguistics
 %	
 %	Yale University
-	\vfill
+	\vspace{.6in}
 \textbf{\textsc{December 2021}}
+
+}
 	
 	
 \end{center}
@@ -1419,7 +1423,7 @@
 \hspace{0pt}
 \pagebreak
 
-	\setmainfont{Linux Libertine O}
+	\setmainfont[Numbers={OldStyle}]{Linux Libertine O}
 %%%%%%EVENTUAL ACKNOWLEDGEMENTS%%%%%%
 % Claire (doktormutter), Hadas, Veneeta, Ashwini, Cleo
 % Consultants
@@ -1593,14 +1597,14 @@ Each essay considers data from a number of languages spoken in Aboriginal Austra
 \section{Overview}\label{sec:overview}
 
 
-The body of this dissertation comprises three discrete parts, which represent three related but distinct projects. While they can each be read as independent pieces of work that tackle separate linguistic phenomena, the methodological tools, assumptions and upshots of each component are mutually informing. As described above, the four chapters all engage with various phenomena at the intersections of tense, mood/modality and negation. They each interrogate the linguistic manifestations of interactions between these semantic categories in view of contributing to a nuanced and cross-linguistically sound semantic theory, with particular implications for our theoretical conceptions of, for example, irreality and counterfactuality. Here, I provide a brief abstract of each of the dissertation's constituent parts.
+The body of this dissertation comprises three discrete parts, which represent three related but distinct projects. While they can each be read as independent pieces of work that tackle separate linguistic phenomena, the methodological tools, assumptions and upshots of each component are mutually informing. As described above, the three components all engage with various phenomena at the intersections of tense, mood/modality and negation. They each interrogate the linguistic manifestations of interactions between these semantic categories in view of contributing to a nuanced and cross-linguistically sound semantic theory, with particular implications for our theoretical conceptions of, for example, irreality and counterfactuality. Here, I provide a brief abstract of each of the dissertation's constituent parts.
 
 
-\paragraph{Part \ref{bambai}} provides a first formal semantic account of ``\textbf{apprehensionality}'' --- a ``mixed modal'' category that encodes possibility and negative affect with respect to some described eventuality. I pay particular attention to an apparent meaning change trajectory, where future-oriented temporal expressions develop modal readings: the semantical connections between futurity and modality are elegantly modelled by formal apparatus like that described in \S \ref{LitRev} below. In order to get at this, Chapter \ref{bambai.desc} describes and accounts for the changes in the distribution of the Australian Kriol adverb \textit{bambai}. An observation originally due to \citet{Angelo2016,Angelo2018}, \textit{bambai} started life as a temporal frame adverbial (`soon, shortly thereafter') and has developed so-called ``apprehensional'' uses. The chapter provides a detailed explanation of the range of uses available to \textit{bambai} in both its temporal and modal functions. 
+\paragraph{Part \ref{bambai}} provides a first formal semantic account of \textbf{\textit{apprehensionality}} --- a ``mixed modal'' category that encodes possibility and negative affect with respect to some described eventuality. I pay particular attention to an apparent meaning change trajectory, where future-oriented temporal expressions develop modal readings: the semantical connections between futurity and modality are elegantly modelled by formal apparatus like that described in \S \ref{LitRev} below. In order to get at this, Chapter \ref{bambai.desc} describes and accounts for the changes in the distribution of the Australian Kriol adverb \textit{bambai}. An observation originally due to \citet{Angelo2016,Angelo2018}, \textit{bambai} started life as a temporal frame adverbial (`soon, shortly thereafter') and has developed so-called ``apprehensional'' uses. The chapter provides a detailed explanation of the range of uses available to \textit{bambai} in both its temporal and modal functions. 
 
 In many contexts \textit{bambai} is translatable as `otherwise': the account defended here treats \textit{bambai}-type apprehensionals as discourse anaphors that involve the ``modal subordination'' of their prejacent to elements of foregoing discourse. An analysis of the mechanics of this process are provided in Chapter \ref{bambai.prag}. This chapter also provides a historical pragmatic account of the ``emergence'' of apprehensional readings --- their modal and expressive components --- in terms of the generalisation of speaker-based implicatures.
 
-On the basis of this, Chapter \ref{bambai.semx} comprises a proposal for a single lexical entry for \textit{bambai} which unifies the uses described in this chapter. 
+On the basis of this, Chapter \ref{bambai.semx} comprises a proposal for a single lexical entry for \textit{bambai} which unifies the uses described in this Part \ref{bambai}. 
 %which unifies these uses, in so doing, offering an account of the emergence of explicitly modal readings in a future-oriented (``subsequential'') temporal adverb, as well as a semantics for apprehensional marking.%todo about apprehensionality and temporality (subjectivity, speaker evaluativity and the links between temporality and modality etc.) and discourse relations
 
 \iffalse
@@ -1609,18 +1613,18 @@ On the basis of this, Chapter \ref{bambai.semx} comprises a proposal for a singl
 
 
  
-\paragraph{Part \ref{NEC}} represents a first semantic treatment of the \textbf{\acrfull{NEC}}, also demonstrating its instantiation in a number of subgroups of Pama-Nyungan on the basis of comparative data from Thura-Yura, Yolŋu Matha and Arandic. The \acrlong{NEC} (see \citealt{Croft1991,Veselinova2016}) is a proposed grammaticalisation process where negative existential predicates develop into markers of \acrlong{sn}. Chapter \ref{NEC1}) comprises a proposal for the \textsc{privative}---a grammatical category described in many Australian languages \citep[\textit{e.g.},][]{Dixon2002a,Phillips2021b}---where this marker taken to realise the semantics of a negative existential predicate. Diachronically, I provide evidence from each of these subgroups that erstwhile privatives generalise into sentential negators: instantiating the \acrlong{NEC}.
+\paragraph{Part \ref{NEC}} represents a first semantic treatment of the \textbf{\acrfull{NEC}}, also demonstrating its instantiation in a number of subgroups of Pama-Nyungan on the basis of comparative data from Thura-Yura, Yolŋu Matha and Arandic. The \acrlong{NEC} (see \citealt{Croft1991,Veselinova2016}) is a proposed grammaticalisation process where negative existential predicates develop into markers of \acrlong{sn}. Chapter \ref{NEC1} comprises a proposal for the \textsc{privative}---a grammatical category described in many Australian languages \citep[\textit{e.g.},][]{Dixon2002a,Phillips2021b}---where this marker taken to realise the semantics of a negative existential predicate. Diachronically, I provide evidence from each of these subgroups that erstwhile privatives generalise into sentential negators: instantiating the \acrlong{NEC}.
 
 In Chapter \ref{NEC2}, then, I propose a unified semantics for nominal and verbal negation (that is, one that accounts for the polyfunctionality of negative existential predicates which have generalised into markers of clausal negation: the core observation of the \acrshort{NEC}.
 I take this cycle to provide support for a treatment of \textbf{negation as a two-place operator} (comparable to contemporary treatments of modal expressions) and additionally suggest that this cycle can be united with general observations made in the grammaticalisation literatures regarding the functional pressures underpinning meaning change --- particularly the diachronic loss of the property of ``strict/discretional'' indexicality \citep[see][]{Perry2012}.
  
  
-\paragraph{Part \ref{yolŋu}} comprises a description and analysis of the encoding of temporal and modal information (``reality status'' in \acrfull{wd} --- a variety (or cluster of varieties of Yolŋu Matha spoken in northern Arnhem Land.
+\paragraph{Part \ref{yolŋu}} comprises a description and analysis of the encoding of temporal and modal information (``reality status'') in \acrfull{wd} --- a variety (or cluster of varieties) of Yolŋu Matha spoken in northern Arnhem Land.
 
 Unlike neighbouring varieties, \gls{wd} exhibits \textbf{cyclic tense} (a species of \textit{metricality}\slash temporal distance marking where a given inflectional category appears to encode the instantiation of a given property at discontinuous intervals) in addition to \textbf{negation-based asymmetries in reality-status marking} \citep[\textit{cf.}][]{Miestamo2005}: a phenomenon where mood distinctions are collapsed in negative predications. Part \textbf{\ref{yolŋu}}, then, provides a semantics for each of \acrshort{wd}'s four inflectional categories which captures and predicts the negative asymmetry. 
 
 
-Chapter \ref{sec:djr-temp} provides an account of temporal expression in \acrshort{wd}, motivating cyclic tense and explicating the grammaticalisation of a paradigmatic \textsc{contemporary\slash pre\-con\-temporary} distinction. Chapter \ref{sec:yol-mood} is concerned with \acrshort{wd} modal expression. Central to the analysis is the idea that the paradigm encodes a two-way mood (or ``reality status'') distinction. This is formulated as a presupposition that a metaphysical modal base is \textbf{nonveridical} with respect to the inflected predicate. The species of nonveridicality itself is encoded by a predicate modifier. In \gls{wd}, the negative particles \textit{yaka} and \textit{bäyŋu} realise two such nonveridical operators. In this sense, the account converges with observations made in Part \textbf{\ref{NEC}}, \textit{viz.} it advocates for a treatment of sentential negators and modal expressions as a natural class.
+Chapter \ref{sec:djr-temp} consists of an account of temporal expression in \acrshort{wd}, motivating cyclic tense and explicating the grammaticalisation of a paradigmatic \textsc{contemporary\slash pre\-con\-temporary} distinction. Chapter \ref{sec:yol-mood} is concerned with \acrshort{wd} modal expression. Central to the analysis is the idea that the paradigm encodes a two-way mood (or ``reality status'') distinction. This is formulated as a presupposition that a metaphysical modal base is \textbf{nonveridical} with respect to the inflected predicate. The species of nonveridicality itself is encoded by a predicate modifier. In \gls{wd}, the negative particles \textit{yaka} and \textit{bäyŋu} realise two such nonveridical operators. In this sense, the account converges with observations made in Part \textbf{\ref{NEC}}, \textit{viz.} it advocates for a treatment of sentential negators and modal expressions as a natural class.
 
 A complete proposal for the distribution of inflectional forms, then, is provided at the beginning of chapter \ref{ch:paradigm}, casting the relevant distinctions in terms of two semantical properties which capture the phenomena described above. These two phenomena (to varying degrees) represent areal features of the languages of central Arnhem Land. Part \textbf{\ref{yolŋu}} concludes with a note discussing change and variation with respect to the semantics of verbal inflections in varieties of Yolŋu Matha.
 \fancybreak
@@ -1644,12 +1648,12 @@ The next section introduces a number of the key assumptions and formal tools tha
 
 
 
-As indicated above, the three component parts that constitute the primary contribution of this dissertation comprise four treatments of data about natural language expressions responsible for temporal displacement, modal displacement and negation. In this section, I provide an overview of the formal semantic assumptions that guide and motivate these analyses.
+As indicated above, the three component parts that constitute the primary contribution of this dissertation comprise three treatments of data about natural language expressions responsible for temporal displacement, modal displacement and negation. In this section, I provide an overview of the formal semantic assumptions that guide and motivate these analyses.
 
 
-The primary goal of semantic theory is the development of models of linguistic meaning. To this end, an understanding of ``meaning'' as the conditions on the truth and felicity of a given linguistic expression has proved to underpin a particularly successful methodology. A crucial distinction, and one that is key to the work presented here, is that between \textit{extensional} and \textit{intensional} semantics. An \textit{extensional semantics} is one where the truth of a given sentence is ``defined entirely by its form and the extensions of its commponent sentences, predicates and terms'' \citep{Menzel2017}. On the other hand, truth in an \textit{intensional} logic requires appeal (or relativisation) to some object beyond these, \textit{sc.} some semantical index at which a sentence's truth or falsity is evaluated. These indices represent the parameters at which a given sentence is uttered -- that is, they might be taken to contain information about the time and world of utterance, the discourse participants, etc. --- also perhaps describable as ``qualifications (of states of affairs)'' \citep{Nuyts2005}.
+The primary goal of semantic theory is the development of models of linguistic meaning. To this end, an understanding of ``meaning'' as the conditions on the truth and felicity of a given linguistic expression has proved to underpin a particularly successful methodology. A crucial distinction, and one that is key to the work presented here, is that between \textit{extensional} and \textit{intensional} semantics. An \textit{extensional semantics} is one where the truth of a given sentence is ``defined entirely by its form and the extensions of its component sentences, predicates and terms'' \citep{Menzel2017}. On the other hand, truth in an \textit{intensional} logic requires appeal (or relativisation) to some object beyond these, \textit{sc.} some semantical index at which a sentence's truth or falsity is evaluated. These indices represent the parameters at which a given sentence is uttered -- that is, they might be taken to contain information about the time and world of utterance, the discourse participants, etc. --- also perhaps describable as ``qualifications (of states of affairs)'' \citep{Nuyts2005}.
 
-Formal approaches to semantics are largely developed from traditions of mathematical logic (\textit{e.g.}, \citealp{Montague1970}, see \citealp{Janssen2016} for an overview.) Importantly, the first formal temporal logics (\textit{e.g.}, \citealp{Prior1957} \textit{et seq.}) build on the frameworks of modal logic, in particular the notion of \textit{possible worlds semantics}. Where a possible world $ w $ is an imaginable state of affairs, a possible `way the world could be' \citep[\textit{e.g.},][]{Lewis1986}. The basic operationalisation of a possible worlds semantics lies in positing a modal ``frame'' $ \langle\mathcal{W,R}\rangle $ --- a set of worlds $ \mathcal W $ and an accessibility relation $ \mathcal{R\subseteq W}^2$ which makes ``relevant'' worlds available. That is, when a pair of worlds $\langle w,w' \rangle$ is in $ \mathcal R $, $ w' $ can be said to be \textit{accessible} from $ w $ or \textit{possible-relative-to} $ w $ (alternatively, if $ w\mathcal Rw' $, then $ w $ \textit{can see} $ w' $ \citep[37]{HC1996}. With a model frame --- \textit{sc.} a set of worlds and a way of relating them, a semantics can be defined for unary modal operators (normally $ \square $ or \textbf{L} $ \doteqdot $ `it is necessary that' and $ \lozenge $ or \textbf{M} $ \doteqdot $ `it is possible that'.) A standard semantics for these operators given a model $ \langle\mathcal{\langle W,R\rangle},\denote{•}\rangle $ --- that is, a modal frame and a valuation function \denote{•} is provided in (\nextx).
+Formal approaches to semantics are largely developed from traditions of mathematical logic (\textit{e.g.}, \citealp{Montague1970}, see \citealp{Janssen2016} for an overview.) Importantly, the first formal temporal logics (\textit{e.g.}, \citealp{Prior1957} \textit{et seq.}) build on the frameworks of modal logic, in particular the notion of \textit{possible worlds semantics}. Where a possible world $ w $ is an imaginable state of affairs, a possible `way the world could be' \citep[\textit{e.g.},][]{Lewis1986}. The basic operationalisation of a possible worlds semantics lies in positing a modal ``frame'' $ \langle\mathcal{W,R}\rangle $ --- a set of worlds $ \mathcal W $ and an accessibility relation $ \mathcal{R\subseteq W}^2$ which makes ``relevant'' worlds available. That is, when a pair of worlds $\langle w,w' \rangle$ is in $ \mathcal R $, $ w' $ can be said to be \textit{accessible} from $ w $ or \textit{possible-relative-to} $ w $ (alternatively, if $ w\mathcal Rw' $, then $ w $ \textit{can see} $ w' $ \citep[37]{HC1996}). With a model frame --- \textit{sc.} a set of worlds and a way of relating them, a semantics can be defined for unary modal operators (normally $ \square $ or \textbf{L} $ \doteqdot $ `it is necessary that' and $ \lozenge $ or \textbf{M} $ \doteqdot $ `it is possible that'.) A standard semantics for these operators given a model $ \langle\mathcal{\langle W,R\rangle},\denote{•}\rangle $ --- that is, a modal frame and a valuation function \denote{•} --- is provided in (\nextx).
 
 
 \pex A modal semantics for formulae containing the modal operators $ \square $ (necessity) and $ \lozenge $ (possibility)  \trailingcitation{\citep[\textit{e.g.},][39]{HC1996}}
@@ -1664,7 +1668,7 @@ Where $ \varphi $ is some well-formed formula, $ \lozenge\varphi $ is true in so
 	For completeness, a binary relation (\textit{e.g.}, $ \prec $ over $ \mathcal T $) is:
 \pex~[exno=,exnoformat=X,textoffset=2.5em,numoffset=1em] 
 \a  \textsc{linearly ordered} iff it is connex, transitive, irreflexive and asymmetric
-\a \textsc{dense} iff it is isomorphic to $ \mathbb R (\textit{i.e.}, \forall t,t''\big[[t\prec t'']\to\exists t'[t'\neq t\neq t''\wedge t\prec t'\prec t'']\big] )$
+\a \textsc{dense} iff it is isomorphic to $ \mathbb R\: (\textit{i.e.}, \forall t,t''\big[[t\prec t'']\to\exists t'[t'\neq t\neq t''\wedge t\prec t'\prec t'']\big] )$
 \xe	
 	} 
 The sets of times that are made available by each of these relations is schematised in Fig. \ref{temp-access}. 
@@ -1709,7 +1713,7 @@ Models of branching time capture a crucial asymmetry between past and future tem
 
  In effect, branching time formalisms seek to capture the idea that ``for any given time there may be not merely a single future course of time, but multiple possible futures'' (\citealp[63]{Dowty1977}, see also \citealp{Thomason1970,Burgess1978} a.o.) --- that is, a model of time as \textit{right-branching} (rather than linear.) This asymmetry between the past and the future is observed in multiple places by Prior (\citeyear{Prior1957,Prior1967}, see also \citealt{Copeland2020}), who develops what he refers to as a couple of alternative solutions, developed by indeterminists, to the problem of future contingency \citeyearpar[\textit{e.g.},][121\textit{ff}]{Prior1967}: namely an \textit{Ockhamist} versus a \textit{Peircian} conception of the truth of tensed propositions.\footnote{In adopting these descriptors -- recast in \citealt{Burgess1978} as the \textit{actualist} and \textit{antactualist} schools respectively -- Prior alludes to observations made in William of Ockham's tract \textit{De Prædestinatione} (\citeyear{praedestinatione} [ca. 1322-4]) and by Charles Sanders \citeauthor{Peirce} (\textit{e.g.}, Collected Works, Vol 6, ¶368). The primary flection point between these two notions of truth is the ``Peircian'' collapse of the distinction between Ockhamist notions of future necessity and contingency. For the Ockhamist \textbf{Fut}$ _t\varphi$ is valuable at $ t $, even if its truth value is unknown, whereas for the Peircian \textbf{Fut}$_t\varphi $ is false until that point in the future of $ t $ where (perhaps) $ p $ comes to be true (that is, the systems differ on whether or not $ \textbf{Fut}_t\varphi\wedge\textbf{Fut}_t\neg\varphi $ is valid.) \citet[126\textit{ff}]{Prior1967} formalises and give a detailed comparison of these two systems (also additional discussion in \citealp{Øhrstrøm1995,Øhrstrøm2020,Nishimura1979} including the so-called ``Leibnizian'' extensions made to the Ockhamist system.)\label{FutCont}} Here, the distinction between tense and modality begins to come apart.
 
-For the indeterminist (\textit{i.e.}, on the assumption that the future isn't settled and predetermined), then, \textsc{future} markers, are inherently modal operators insofar as they can be taken to quantify over different possible worlds --- here to be represented as ``branches.''\footnote{``Branches'' --- the set of (maximal) chains within the (poset) $\mathfrak T$ --- refers directly to this apparent ``right-branching'' property of time (\textit{sc.} future contingents). Prior also refers to ``routes.'' This terminology s apparently equivalent to the ``histories'' of other authors (\citealp{Thomason1970,Dowty1977,Tedeschi1981,Belnap2001a} a.o.) or ``chronicles'' of yet others \citep{Øhrstrøm1995}. For some authors \textit{histories} are distinguished from \textit{branches} in that branches consist only of sequences of indices $ \prec $-posterior to a specified branching point -- that is, $ \prec $-final subsets of histories \citep[\textit{e.g.},][4]{Zanardo1996}. I'll be using the terms interchangeably.} (Potential) futures, then, are calculated from with respect to a given evaluation time. Broadly speaking, $ \mathbf{Fut} \varphi $, when evaluated at $ t $, can be taken to say that, along all those futures branching from $ t $, there's some later time $ (t') $ at which $ \varphi $ is true \citep[see][267]{Thomason1970}.\footnote{Given a \textbf{Peircian} conception of truth-in-the-future (see fn \ref{FutCont}). In fact, on Thomason's modified, trivalent account of truth valuation, a given sentence is generally true at $ \alpha $ iff it is is true in all $ h\in\mathcal H_\alpha $ (\textit{i.e.} all those histories $ h $ that run through $ \alpha $) \citeyearpar[274\textit{ff}]{Thomason1970}. \citet{Thomason1984} uses $\mathit B_t $ equivalently. \citet[247]{Tedeschi1981} uses a closely related strategy. Note that this semantics yields \textsc{necessity}-in-the-future on an Ockhamist account.} 
+For the indeterminist (\textit{i.e.}, on the assumption that the future isn't settled and predetermined), then, \textsc{future} markers are inherently modal operators insofar as they can be taken to quantify over different possible worlds --- here to be represented as ``branches.''\footnote{``Branches'' --- the set of (maximal) chains within the (poset) $\mathfrak T$ --- refers directly to this apparent ``right-branching'' property of time (\textit{sc.} future contingents). Prior also refers to ``routes.'' This terminology s apparently equivalent to the ``histories'' of other authors (\citealp{Thomason1970,Dowty1977,Tedeschi1981,Belnap2001a} a.o.) or ``chronicles'' of yet others \citep{Øhrstrøm1995}. For some authors \textit{histories} are distinguished from \textit{branches} in that branches consist only of sequences of indices $ \prec $-posterior to a specified branching point -- that is, $ \prec $-final subsets of histories \citep[\textit{e.g.},][4]{Zanardo1996}. I'll be using the terms interchangeably.} (Potential) futures, then, are calculated from with respect to a given evaluation time. Broadly speaking, $ \mathbf{Fut} \varphi $, when evaluated at $ t $, can be taken to say that, along all those futures branching from $ t $, there's some later time $ (t') $ at which $ \varphi $ is true \citep[see][267]{Thomason1970}.\footnote{Given a \textbf{Peircian} conception of truth-in-the-future (see fn \ref{FutCont}). In fact, on Thomason's modified, trivalent account of truth valuation, a given sentence is generally true at $ \alpha $ iff it is is true in all $ h\in\mathcal H_\alpha $ (\textit{i.e.} all those histories $ h $ that run through $ \alpha $) \citeyearpar[274\textit{ff}]{Thomason1970}. \citet{Thomason1984} uses $\mathit B_t $ equivalently. \citet[247]{Tedeschi1981} uses a closely related strategy. Note that this semantics yields \textsc{necessity}-in-the-future on an Ockhamist account.} 
 
 Here, I briefly lay out a version of the ``branching time frame'' as laid out by authors including Thomason \citeyearpar[\textit{e.g.},][\S 5]{Thomason1984} and Burgess (\citeyear[\textit{e.g.},][]{Burgess1978} a.o.) 
 
@@ -1784,7 +1788,7 @@ The framework is diagrammed in Figure \ref{BT-dia} below.
 \end{tikzpicture}\end{figure}
 
 %$ \risingdotseq $
-\paragraph{Branches} A branch $b $ which runs through any $ i\in\mathcal I $ is a (maximal) linearly $ \prec $-ordered subset (\textit{sc.} \textit{chain}) of $ \mathcal I $. In this sense, a branch can be taken to correspond to a possible world/a complete possible course of events charting ``an entire possible temporal development of the world'' \citep[148]{Rumberg2019}. If all indices $ i$ are analogous to world-time pairs $\langle w,t\rangle $, then some $ b$ which contains $ i\, (\text{notated }b\ni i)$ is formally a chain of indices, effectively modelling a timeline/set of possible developments of a given world through time --- analogous to a chain over $ \mathcal{W\times T}:\big\langle\langle w,t\rangle,\langle w,t'\rangle,\langle w,t''\rangle,\allowbreak\hdots,\langle w,t_n\rangle\big\rangle$. Note that these frameworks normally appear to assume that indices correspond to the state of a world at a moment of time. I assume that this model can be extended relatively straightforwardly to capture interval semantic notions (\citealp[\textit{e.g.},][]{Landman1991,Dowty1982,Bennett} a.o.). \footnote{This extensibility is also suggested by \citet{Dowty1977} and \citet{Tedeschi1981}, who propose an interval semantic formalism for branching futures. Dowty gives a branching time (re)definition of an interval $ \boldsymbol\imath $ as a connected proper subset ($ \sqsubset $) of a history \citeyearpar[64]{Dowty1977} --- \textit{i.e.}, a ``sub-branch.'' Formally, an interval $ \boldsymbol\imath $ is a subset of $ \mathcal I $ such that: $\exists b\big[\boldsymbol\imath\sqsubset b\wedge\forall i,i',i''\in b[i,i''\in b\wedge i\prec i'\prec i''\to i'\in\boldsymbol\imath]\big] $\label{fn:intervals}}
+\paragraph{Branches} A branch $b $ which runs through any $ i\in\mathcal I $ is a (maximal) linearly $ \prec $-ordered subset (\textit{sc.} \textit{chain}) of $ \mathcal I $. In this sense, a branch can be taken to correspond to a possible world/a complete possible course of events charting ``an entire possible temporal development of the world'' \citep[148]{Rumberg2019}. If all indices $ i$ are analogous to world-time pairs $\langle w,t\rangle $, then some $ b$ which contains $ i\, (\text{notated }b\ni i)$ is formally a chain of indices, effectively modelling a timeline/set of possible developments of a given world through time --- analogous to a chain over $ \mathcal{W\times T}:\big\langle\langle w,t\rangle,\langle w,t'\rangle,\langle w,t''\rangle,\allowbreak\hdots,\langle w,t_n\rangle\big\rangle$. Note that these frameworks normally appear to assume that indices correspond to the state of a world at a moment of time. I assume that this model can be extended relatively straightforwardly to capture interval semantic notions (\citealp[\textit{e.g.},][]{Landman1991,Dowty1982,Bennett} a.o.).\footnote{This extensibility is also suggested by \citet{Dowty1977} and \citet{Tedeschi1981}, who propose an interval semantic formalism for branching futures. Dowty gives a branching time (re)definition of an interval $ \boldsymbol\imath $ as a connected proper subset ($ \sqsubset $) of a history \citeyearpar[64]{Dowty1977} --- \textit{i.e.}, a ``sub-branch.'' Formally, an interval $ \boldsymbol\imath $ is a subset of $ \mathcal I $ such that: $\exists b\big[\boldsymbol\imath\sqsubset b\wedge\forall i,i',i''\in b[i,i''\in b\wedge i\prec i'\prec i''\to i'\in\boldsymbol\imath]\big] $\label{fn:intervals}}
 
 I will refer to these indices, which constitute the elements of a given branch as \textbf{branchmates}. Given that branches are linearly ordered by $ \prec $, pairs of branchmates are necessarily related by $ \prec $ (and equally by the related linear orders: the weak counterpart $\boldsymbol\preccurlyeq$ and the complements of these two orders $\succ,\succcurlyeq $ respectively.)
 
@@ -1829,6 +1833,7 @@ $ \forall a.b,b'[(b\prec a\wedge b'\prec a)\to(b\prec b'\vee b=b'\vee b\succ b')
 Settledness/historical necessity is normally expressed in terms of \textbf{historical alternatives}. This refers to the notion of equivalence classes of possible worlds $\boldsymbol{(\approx_{t}}\subseteq\mathcal{W\times W})$: those worlds which have identical `histories' up to and including a reference time $t$. 
 
 The properties of the \textit{historical alternative} relation (in a $ \mathcal{T\times W} $ model) are given in (\nextx) which will permit for a formal definition of settledness as in (\anextx).
+ 
 	\pex \textbf{Historical alternatives} $\boldsymbol\approx\,\subset\mathcal{T\times W\times W}$\deftagex{histaltdef}
 	\a $\forall t[\approx_t\text{ is an equivalence relation}]$\\
 	All world-pairs in $\approx_t$ (at an arbitrary time) have identical pasts up to that time.\\Their futures may diverge.\\
@@ -1846,7 +1851,7 @@ The monotonicity property (\lastx{b}) captures the intuition that the metaphysic
 \xe
 
 
-Importantly, the notion of historical alternativeness/necessity is deployed in linguistic semantics to capture a number of natural language phenomena \citep[e.g.,][]{Thomason1984,Condoravdi2002,Kaufmann2002}.
+Importantly, the notion of historical alternativeness/necessity is deployed in linguistic semantics to capture a number of natural language phenomena \citep[\textit{e.g.},][]{Thomason1984,Condoravdi2002,Kaufmann2002}.
 
 Settledness, a related property, is satisfied if the instantiation of a given predicate is \textbf{identically determined} at all historical alternatives to a given world-time pair $\langle w*,t_0\rangle $ is adapted in (\getref{HistNec}) below).\footnote{That is \textit{settledness} is effectively the union of historical necessity and ``historical impossibility.''}
 
@@ -1886,7 +1891,7 @@ $\forall w^\prime:w^\prime\in\cap cg,\forall w^{\prime\prime}:w^\prime\approx_{t
 %todo edit
 A property $P$ (\textit{e.g.} an eventuality) is presumed settled in a common ground $cg$ iff $P$ is settled at all historical alternatives $ w'' $ to all worlds $ w' $ compatible with $ cg $.
 
-Here, a common ground is taken to be to be equivalent to a context set \citep[$ \cap\textit{cg} $, \textit{cf.}][321\textit{ff}]{Stalnaker1978} --- \textit{sc. }the set of worlds that the speaker takes to be epistemically accessible for participants in the discourse context/the set of worlds where all propositions known by the discourse participants are true (compare also \citeauthor{Kaufmann2005}'s definition of settledness (``decidedness'') in fn.~\ref{K05-presump}).
+Here, a common ground is taken to be equivalent to a context set \citep[$ \cap\textit{cg} $, \textit{cf.}][321\textit{ff}]{Stalnaker1978} --- \textit{sc. }the set of worlds that the speaker takes to be epistemically accessible for participants in the discourse context/the set of worlds where all propositions known by the discourse participants are true (compare also \citeauthor{Kaufmann2005}'s definition of settledness (``decidedness'') in fn.~\ref{K05-presump}).
 \xe
 
 Once again, and drawing on the relations described above, this relation between context set and property (\getref{HistNec}) can be recast in a branching-time model as in (\getref{HistNec}′); again $ i*\in\mathcal I $ represents the evaluation/reference index (analogous to $ \langle w_0,t_0\rangle $ above).
@@ -1913,7 +1918,7 @@ Once again, and drawing on the relations described above, this relation between 
 
 
 
-\paragraph{A modal trichotomy}\label{vP-trich} As a consequence of this,  \citeauthor{VonPrince2017a} (\citeyear{VonPrince2017a,VonPrince2019}; \citealp{VonPrincea} forthcoming) establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
+\paragraph{A modal trichotomy}\label{vP-trich} As a consequence of this,  \citeauthor{VonPrince2017a} (\citeyear{VonPrince2017a,VonPrince2019}; \citealp{VonPrincea}) establishes a neat formal trichotomy between the \textsc{actual, potential} and \textsc{counterfactual} domains by appealing to this framework \citetext{\citealp[see also][41]{Rumberg2016a}, \citeyear{Rumberg2019}}. This is modelled as having $ \boldsymbol{\prec} $ induce a partition of $ \mathcal I $: that is, all $ i\in\mathcal I $ can be sorted into (exactly) one of these three sets. This partition is reproduced in (\getref{trichot}).
 
 \pex Given a contextually defined \textsc{actual present} $( i*\doteqdot\langle w*,t*\rangle )$, $ \mathcal I $ can be partitioned into three subdomains:
 \a The \textsc{actual} (past/present) = $\boldsymbol{ \{i\mid i\preccurlyeq i*\} }$
@@ -1966,7 +1971,7 @@ A second type of conversational background, the \textbf{ordering source}, is for
 
 \ex \textbf{The best worlds in a modal base $ m $ according to an ordering} $\boldsymbol{\underset{o(w)}{\prec}}$
 
-$ \underset{o(w)}{\textsc{best}}\big((\cap m(w)\big)=\{w\in\cap m(w)\mid \neg\exists w'[w'\underset{o(w)}{\prec}w]\}$\label{ord-source}\xe
+$ \underset{o(w)}{\textsc{best}}\big(\cap{m(w)}\big)=\{w\in\cap m(w)\mid \neg\exists w'[w'\underset{o(w)}{\prec}w]\}$\label{ord-source}\xe
 \pex \textbf{\textit{must} relativised to two conversational backgrounds} (modal base $ m $ and ordering source $ o $)\deftagex{must.mo}
 
 $\denote[o,m]{\textit{must}}=\lambda p\lambda w.\forall w'[w'\in\underset{o(w)}{\textsc{best}}(\cap m(w))\to w'\in p] $
@@ -2019,7 +2024,7 @@ Building on other insight on usage of possibility modals \citep[notably][]{Kline
 
 Due to Kiparsky (\citeyear{Kiparsky2006} \textit{et seq.}), \textit{amphichronic} linguistics is an approach to linguistic theory that assumes that synchronic and diachronic levels of explanation ``feed each other'' \citep[see also][]{Bermudez-Otero2013}. This research program is motivated by the necessity to dissociate \textit{typological generalisations} from \textit{language universals}. Are the phenomena that we see (or don't see) expressed in natural language a function of universal design features and constraints on the human language faculty? Or are they derivable ``by-products'' from tendencies of language change? \citep[see also][]{Anderson2008,Anderson2016a}.%\marginnote{further elaboration; explanation of ``diachronic level of explanation''}
 
-In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langauge faculty at work. Formal renewal engenders new categories that conform to cross-linguistic generalisations regardless of their source'' \citep[73]{Kiparsky2015}. Over past decades, research on meaning change has led to the discovery of regular grammaticalisation ``clines\slash pathways\slash trajectories'': that is, a given lexical expression with meaning $ \alpha $ comes to denote $ \beta $, then $ \gamma $ \textit{etc.} as an independent development across languages separated in space and time \citep[see][]{Deo2015,Eckardt2011}. From the identification of these robust cross-linguistic tendencies emerges the question of what is driving this change and \textbf{\textit{why}}.
+In the semantic domain, for Kiparsky, ``[grammaticalisation] reveals the langauge faculty at work. Formal renewal engenders new categories that conform to cross-linguistic generalisations regardless of their source'' \citep[73]{Kiparsky2015}. Over past decades, research on meaning change has led to the discovery of regular grammaticalisation ``clines\slash pathways\slash trajectories'': that is, a given lexical expression with meaning $ \alpha $ comes to denote $ \beta $, then $ \gamma $ \textit{etc.} as an independent development across languages separated in space and time \citep[see][]{Deo2015,Eckardt2011}. From the identification of these robust cross-linguistic tendencies emerges the question of \textbf{\textit{what}} is driving this change and \textbf{\textit{why}}.
 
 As an example, \citet{Bybee1994} present a hypothesis that grammaticalisation pathways ought to be derivable from the meanings of the lexical items involved in them; frequently these changes involve the ``generalisation'' of a given item. As \citet[7]{Leow2020} points out, this idea has been taken seriously by diachronic semanticists, where \textit{generalisation} has been modelled as the expansion in the functional domain of a given expression \citep[\textit{e.g.},][]{Deo2015a,Condoravdi2014}.\footnote{Also James Leow's recent \citeyearpar{Leow2020} dissertation which conceives of variation and change in (semi)modal expressions in Cuban Spanish (viz. \textit{\textsc{iba} a, tener que}) as reflexes of grammaticalisation.
 
@@ -2187,7 +2192,7 @@ The three essays that constitute this dissertation have sought to provide new da
 
 \paragraph{Part \textbf{\ref{bambai}}} showed how an Australian Kriol future-oriented temporal frame expression has developed \textsc{apprehensional} meaning. From advancing the temporal reference of its prejacent (\textsc{subseq\-uentiality}-marking), \textit{bambai} has come to encode possibility and negative speaker affect. Further, it is a discourse anaphor that appears to, by default, restrict its modal base to (a subset of) the negation of some foregoing proposition. It was shown that the identification of this domain restriction is a pragmatic process, involving reasoning about alternatives.
 
-Crucially, as analysed here, the apprehensional reading of \textit{bambai} arises categorically when its prejacent is \textbf{presumed unsettled} (in the sense of \citealp{Condoravdi2002}). In view of this observation, I develop a monosemous, unified treatment of the meaning contribution of \textit{bambai}; it receives a \acrlong{TFA} reading in settled contexts and an apprehensional one in unsettled contexts. In both cases, \textit{bambai} advances the index $ i $ at which the eventuality its prejacent describes is instantiated. Ultimately, the modal meaning conventionally associated with apprehensional readings can be construed as having resulted from an (\textsc{r}-based) implicature: a predication $ P $ about something unsettled is unassertable, if the index $ i $ to which \textit{bambai} has advanced $ P $ is \textsc{non-actual} then $ P(i) $ can't be settled, therefore $ P(i) $ can't be being asserted. I've referred to this reasoning process as (emerging out of) the \textbf{omniscience restriction} (\getref{omni1}/\getref{omni2}). As a consequence of (iterations of) this reasoning process, and by virtue of semantic reanalysis (``the algebraic backbone of meaning change'' \citep{Eckardt2006}), \textit{bambai} is reanalysed as the locus of modal (apprehensional) displacement.
+Crucially, as analysed here, the apprehensional reading of \textit{bambai} arises categorically when its prejacent is \textbf{presumed unsettled} (in the sense of \citealp{Condoravdi2002}). In view of this observation, I develop a monosemous, unified treatment of the meaning contribution of \textit{bambai}; it receives a \acrlong{TFA} reading in settled contexts and an apprehensional one in unsettled contexts. In both cases, \textit{bambai} advances the index $ i $ at which the eventuality its prejacent describes is instantiated. Ultimately, the modal meaning conventionally associated with apprehensional readings can be construed as having resulted from an (\textsc{r}-based) implicature: a predication $ P $ about something unsettled is unassertable, if the index $ i $ to which \textit{bambai} has advanced $ P $ is \textsc{non-actual} then $ P(i) $ can't be settled, therefore $ P(i) $ can't be being asserted. I've referred to this reasoning process as (emerging out of) the \textbf{omniscience restriction} (\textit{pp.~}\getref{omni1}/\getref{omni2}). As a consequence of (iterations of) this reasoning process, and by virtue of semantic reanalysis (``the algebraic backbone of meaning change'' \citep{Eckardt2006}), \textit{bambai} is reanalysed as the locus of modal (apprehensional) displacement.
 \paragraph{Part \textbf{\ref{NEC}}} proposed a formal semantic treatment of the \acrlong{NEC} --- a grammaticalisation cycle described in the typological literature where nominal negators develop into sentential negators. I showed that the generalisation of \textsc{privative} case morphology in a number of Australian languages can be understood as an instantiation of this cycle. By formally treating \gls{priv} as a (negative) generalised quantifier, the \acrshort{NEC} can be conceived of as a stemming from the generalisation in the quantificational domain of this operator.
 
 Trading on insights about existential predications from \citet{Francez2007,Francez2009}, this account of privative marking and of the \acrshort{NEC} emphasises the radical context dependence of negative existential claims (modelled as \citeauthor{Francez2007}'s \textit{contextual closure} --- the pragmatic retrieval of a domain into which the absence of some entity is being predicated.) The ``in part or in whole'' dependence on utterance context to retrieve a domain restriction is a widely recognised property of quantificational elements \citep[see][661]{Roberts1995}. Worth noting is that an explicit \textit{coda} phrase is better modelled as a ``contextual modifier'' rather than directly supplying the quantificational domain in an existential proposition.

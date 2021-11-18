@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  16 MAY 2021 15:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.9.27)  18 NOV 2021 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2088,33 +2088,40 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 148.
 \g__fontspec_family_LinuxBiolinumO_int=\count368
+
+*************************************************
+* fontspec warning: "icu-feature-not-exist-in-font"
+* 
+* OpenType feature 'Numbers=Lowercase' (onum) not available for font 'Linux
+* Biolinum T' with script 'Latin' and language 'Default'.
+*************************************************
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'LinuxBiolinumO(0)' created for font 'Linux Biolinum O' with
-. options [Mapping=tex-text,Ligatures=TeX].
+. options
+. [Mapping=tex-text,Ligatures=TeX,Numbers={OldStyle},BoldItalicFont=Linux
+. Biolinum T].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Linux Biolinum
-. O/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: <->"Linux Biolinum
-. O/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Linux Biolinum
-. O/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Linux Biolinum
-. O/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Linux Biolinum
-. O/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Linux Biolinum
-. O/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Linux Biolinum
-. O/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Linux Biolinum
-. O/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. T/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \sffamily on input line 152.
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks78
@@ -2579,40 +2586,17 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 . O/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 1365.
+LaTeX Info: Redefining \rmfamily on input line 1356.
 
 
 LaTeX Font Warning: Font shape `TU/LinuxLibertineDisplayO(0)/bx/n' undefined
 (Font)              using `TU/LinuxLibertineDisplayO(0)/m/n' instead on input l
-ine 1381.
+ine 1363.
 
-
-LaTeX Font Warning: Font shape `TU/LinuxLibertineDisplayO(0)/m/it' undefined
-(Font)              using `TU/LinuxLibertineDisplayO(0)/m/n' instead on input l
-ine 1386.
-
-
-LaTeX Font Warning: Font shape `TU/LinuxLibertineDisplayO(0)/bx/it' undefined
-(Font)              using `TU/LinuxLibertineDisplayO(0)/bx/n' instead on input 
-line 1386.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 1387.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 1387.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+stmry on input line 1387
-.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 
 LaTeX Font Warning: Font shape `TU/LinuxLibertineDisplayO(0)/bx/sc' undefined
 (Font)              using `TU/LinuxLibertineDisplayO(0)/bx/n' instead on input 
-line 1406.
+line 1408.
 
 [-1
 
@@ -2621,33 +2605,46 @@ line 1406.
 . fontspec info: "defining-font"
 . 
 . Font family 'LinuxLibertineO(1)' created for font 'Linux Libertine O' with
-. options [Mapping=tex-text,Ligatures=TeX].
+. options [Mapping=tex-text,Ligatures=TeX,Numbers={OldStyle}].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 1422.
+LaTeX Info: Redefining \rmfamily on input line 1426.
 
 Use my own \@starttoc for toc
-(./diss.toc [3
+(./diss.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-] [4] [5]
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 1.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [3
+
+] [4]
+[5]
 
 LaTeX Font Warning: Command \mathversion invalid in math mode on input line 129
 .
@@ -2674,7 +2671,7 @@ Use my own \@starttoc for lot
 (./diss.lot) [10
 
 ]
-Overfull \hbox (24.6642pt too wide) in paragraph at lines 1527--1557
+Overfull \hbox (24.6642pt too wide) in paragraph at lines 1531--1561
 [][] 
  []
 
@@ -2699,28 +2696,44 @@ Chapter 1.
 . fontspec info: "defining-font"
 . 
 . Font family 'LinuxLibertineO(2)' created for font 'Linux Libertine O' with
-. options [Mapping=tex-text,Ligatures=TeX,VerticalPosition=Superior].
+. options
+. [Mapping=tex-text,Ligatures=TeX,Numbers={OldStyle},VerticalPosition=Superior]
+.
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;+sups;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+sups;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;+sups;+smcp;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+sups;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;+sups;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+sups;mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;+sups;+smcp;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+sups;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;+sups;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+sups;mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;+sups;+smcp;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+sups;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;+sups;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;+sups;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;+sups;+smcp;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;+sups;+smcp;mapping=tex-text;"
 .................................................
- [2] [3] [4] [5] [6] [7] [8]
+ [2] [3] [4] [5]
+
+LaTeX Warning: Command \: invalid in math mode on input line 1673.
+
+LaTeX Font Info:    Try loading font information for T3+LinuxLibertineO(1) on i
+nput line 1673.
+LaTeX Font Info:    No file T3LinuxLibertineO(1).fd. on input line 1673.
+
+LaTeX Font Warning: Font shape `T3/LinuxLibertineO(1)/m/n' undefined
+(Font)              using `T3/cmr/m/n' instead on input line 1673.
+
+
+LaTeX Warning: Command \: invalid in math mode on input line 1673.
+
+[6] [7] [8]
 File: figs/KCH06-95-WTframe.png Graphic file (type bmp)
 <figs/KCH06-95-WTframe.png>
 
@@ -2728,41 +2741,34 @@ File: figs/KCH06-95-WTframe.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10]
-Underfull \hbox (badness 1742) in paragraph at lines 1812--1812
+Underfull \hbox (badness 1742) in paragraph at lines 1816--1816
 [][]\TU/LinuxLibertineO(1)/m/n/9 This formalism, related to the alternativeness
  relation $\OT1/cmr/m/n/9 (\OMS/cmsy/m/n/9 ^^Y\OT1/cmr/m/n/9 )$ \TU/LinuxLibert
 ineO(1)/m/n/9 of [][]Thomason[][] ([][]1984[][]:149), has a similar out-
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 1820--1822
+Underfull \hbox (badness 10000) in paragraph at lines 1824--1826
  
  []
 
 [12]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1856.
-
-LaTeX Font Info:    Try loading font information for T3+LinuxLibertineO(1) on i
-nput line 1856.
-LaTeX Font Info:    No file T3LinuxLibertineO(1).fd. on input line 1856.
-
-LaTeX Font Warning: Font shape `T3/LinuxLibertineO(1)/m/n' undefined
-(Font)              using `T3/cmr/m/n' instead on input line 1856.
+LaTeX Warning: Command \! invalid in math mode on input line 1861.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1856.
+LaTeX Warning: Command \! invalid in math mode on input line 1861.
 
 [13]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1884.
+LaTeX Warning: Command \! invalid in math mode on input line 1889.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1884.
+LaTeX Warning: Command \! invalid in math mode on input line 1889.
 
 [14] [15] [16] [17]
 Missing character: There is no ⁣ in font Linux Libertine O/OT:script=latn;langu
-age=DFLT;mapping=tex-text;!
+age=DFLT;+onum;mapping=tex-text;!
  [18] [19] [20]
 File: figs/ALs.png Graphic file (type bmp)
 <figs/ALs.png>
@@ -2770,13 +2776,13 @@ File: figs/arnhem-mw2.png Graphic file (type bmp)
 <figs/arnhem-mw2.png>
  [21] [22] [23]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2071.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2076.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.68715pt too wide) in paragraph at lines 2115--2116
+Overfull \hbox (9.68715pt too wide) in paragraph at lines 2120--2121
 [][][]\TU/LinuxLibertineO(1)/m/n/10.95 Western Dhuwal-Dhuwala[][] data was elic
 ited from speakers in Ramingining and Kriol data in Ngukurr.
  []
@@ -2789,16 +2795,16 @@ Chapter 2.
 
 ] [28]
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineO(1) on 
-input line 51.
-LaTeX Font Info:    No file TS1LinuxLibertineO(1).fd. on input line 51.
+input line 52.
+LaTeX Font Info:    No file TS1LinuxLibertineO(1).fd. on input line 52.
 
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textdblhyphen' on input line 51.
+(Font)              for symbol `textdblhyphen' on input line 52.
 
 
-Overfull \hbox (7.37558pt too wide) in paragraph at lines 52--52
+Overfull \hbox (7.37558pt too wide) in paragraph at lines 53--53
 []|\TU/LinuxLibertineO(1)/m/n/10.95 ‘My dad went to the shop this morning, \TU/
 LinuxLibertineO(1)/bx/n/10.95 then \TU/LinuxLibertineO(1)/m/n/10.95 he came bac
 k to make lunch for us.’ | [AJ 23022017] 
@@ -2806,301 +2812,309 @@ k to make lunch for us.’ | [AJ 23022017]
 
 
 LaTeX Font Warning: Font shape `TU/LinuxLibertineO(1)/sb/n' undefined
-(Font)              using `TU/LinuxLibertineO(1)/m/n' instead on input line 62.
+(Font)              using `TU/LinuxLibertineO(1)/m/n' instead on input line 63.
 
 
 
 LaTeX Font Warning: Font shape `TU/lmtt/sb/n' undefined
-(Font)              using `TU/lmtt/m/n' instead on input line 62.
+(Font)              using `TU/lmtt/m/n' instead on input line 63.
 
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/m/it' undefined
 (Font)              using `TS1/LinuxLibertineO(1)/m/n' instead
-(Font)              for symbol `textdblhyphen' on input line 66.
+(Font)              for symbol `textdblhyphen' on input line 67.
 
-[29]
-Overfull \hbox (38.36156pt too wide) in paragraph at lines 90--91
+[29] [30]
+Overfull \hbox (38.36156pt too wide) in paragraph at lines 91--92
 \TU/LinuxLibertineO(1)/m/n/10.95 In the first piece of published work dedicated
  to the properties of apprehensional marking (“apprehensional-
  []
 
-[30]
 
 LaTeX Font Warning: Font shape `TU/LinuxLibertineO(1)/sb/it' undefined
-(Font)              using `TU/LinuxLibertineO(1)/sb/n' instead on input line 96
+(Font)              using `TU/LinuxLibertineO(1)/sb/n' instead on input line 97
 .
+
+
+LaTeX Font Warning: Font shape `TU/LinuxBiolinumO(0)/sb/it' undefined
+(Font)              using `TU/LinuxBiolinumO(0)/m/n' instead on input line 103.
+
 
 
 LaTeX Font Warning: Font shape `TU/LinuxLibertineO(1)/sb/sc' undefined
 (Font)              using `TU/LinuxLibertineO(1)/sb/n' instead on input line 10
-2.
+8.
 
 [31] [32]
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/sb/it' undefined
 (Font)              using `TS1/LinuxLibertineO(1)/m/n' instead
-(Font)              for symbol `textdblhyphen' on input line 131.
+(Font)              for symbol `textdblhyphen' on input line 132.
 
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/bx/it' undefined
 (Font)              using `TS1/LinuxLibertineO(1)/m/n' instead
-(Font)              for symbol `textdblhyphen' on input line 136.
+(Font)              for symbol `textdblhyphen' on input line 137.
 
 [33]
 LaTeX Font Info:    Font shape `TU/LinuxLibertineO(1)/m/sl' in size <10.95> not
  available
 (Font)              Font shape `TU/LinuxLibertineO(1)/m/it' tried instead on in
-put line 187.
+put line 188.
  [34] [35] [36]
 LaTeX Font Info:    Font shape `TU/LinuxLibertineO(1)/bx/sl' in size <10.95> no
 t available
 (Font)              Font shape `TU/LinuxLibertineO(1)/bx/it' tried instead on i
-nput line 273.
- [37] [38] [39]
-Overfull \hbox (18.56587pt too wide) in paragraph at lines 354--355
-[]\TU/LinuxLibertineO(1)/sb/sc/10.95 Per [][]Heath[][]’s analysis (1981:308), M
+nput line 274.
+ [37]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38] [39]
+Overfull \hbox (18.56587pt too wide) in paragraph at lines 355--356
+[]\TU/LinuxLibertineO(1)/sb/it/10.95 Per [][]Heath[][]’s analysis (1981:308), M
 arra has an inflectional apprehensional category (his ‘\TU/LinuxLibertineO(1)/m
-/sc/10.95 evitative\TU/LinuxLibertineO(1)/sb/sc/10.95 ’)
+/sc/10.95 evitative\TU/LinuxLibertineO(1)/sb/it/10.95 ’)
  []
 
-[40] [41] [42] [43] [44]
-Overfull \hbox (9.20724pt too wide) in paragraph at lines 444--445
+[40] [41] [42] [43] [44] [45]
+Overfull \hbox (9.20724pt too wide) in paragraph at lines 445--446
 [] []\TU/LinuxLibertineO(1)/bx/n/10.95 Indicative ‘nonimplicationals.’[] \TU/Li
-nuxLibertineO(1)/sb/sc/10.95 Apprehensional \TU/LinuxLibertineO(1)/m/it/10.95 b
-ambai \TU/LinuxLibertineO(1)/sb/sc/10.95 occurs in situations where the speaker
+nuxLibertineO(1)/sb/it/10.95 Apprehensional \TU/LinuxLibertineO(1)/m/it/10.95 b
+ambai \TU/LinuxLibertineO(1)/sb/it/10.95 occurs in situations where the speaker
 
  []
 
-[45] [46]
+[46] [47]
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 487.
+LaTeX Warning: Command \! invalid in math mode on input line 488.
 
-[47] [48] [49] [50] [51]
+
+LaTeX Warning: Command \! invalid in math mode on input line 488.
+
+[48] [49] [50] [51] [52]
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/m/sc' undefined
 (Font)              using `TS1/LinuxLibertineO(1)/m/n' instead
-(Font)              for symbol `textdblhyphen' on input line 633.
+(Font)              for symbol `textdblhyphen' on input line 635.
 
-[52] [53] [54]
+[53] [54] [55]
 Chapter 3.
-[55
+[56
 
-] [56] [57] [58] [59]
+] [57] [58] [59] [60]
 
-LaTeX Warning: Command \; invalid in math mode on input line 831.
+LaTeX Warning: Command \; invalid in math mode on input line 833.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 831.
+LaTeX Warning: Command \; invalid in math mode on input line 833.
 
-[60] [61]
-Overfull \hbox (69.40845pt too wide) in paragraph at lines 872--873
-\TU/LinuxLibertineO(1)/sb/sc/10.95 On the basis of this framework, we can propo
+[61] [62]
+Overfull \hbox (69.40845pt too wide) in paragraph at lines 874--875
+\TU/LinuxLibertineO(1)/sb/it/10.95 On the basis of this framework, we can propo
 se an account for the apparent clause-linking (avertive/precautioning)
  []
 
 
-Overfull \hbox (27.11203pt too wide) in paragraph at lines 872--873
-\TU/LinuxLibertineO(1)/sb/sc/10.95 uses of \TU/LinuxLibertineO(1)/m/it/10.95 ba
-mbai\TU/LinuxLibertineO(1)/sb/sc/10.95 , representing each clause as a discours
+Overfull \hbox (27.11203pt too wide) in paragraph at lines 874--875
+\TU/LinuxLibertineO(1)/sb/it/10.95 uses of \TU/LinuxLibertineO(1)/m/it/10.95 ba
+mbai\TU/LinuxLibertineO(1)/sb/it/10.95 , representing each clause as a discours
 e representation structure (\TU/LinuxLibertineO(1)/m/sc/10.95 drs\TU/LinuxLiber
-tineO(1)/sb/sc/10.95 ) — \TU/LinuxLibertineO(1)/m/it/10.95 sc. $[][][]$\TU/Linu
-xLibertineO(1)/sb/sc/10.95 .
+tineO(1)/sb/it/10.95 ) — \TU/LinuxLibertineO(1)/m/it/10.95 sc. $[][][]$\TU/Linu
+xLibertineO(1)/sb/it/10.95 .
  []
-
-[62]
-
-LaTeX Warning: Command \! invalid in math mode on input line 896.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 896.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 903.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 903.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 910.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 910.
 
 [63]
 
-LaTeX Warning: Command \; invalid in math mode on input line 928.
+LaTeX Warning: Command \! invalid in math mode on input line 898.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 928.
+LaTeX Warning: Command \! invalid in math mode on input line 898.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 928.
+LaTeX Warning: Command \! invalid in math mode on input line 905.
 
 
-LaTeX Warning: Command \; invalid in math mode on input line 928.
+LaTeX Warning: Command \! invalid in math mode on input line 905.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 912.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 912.
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 946--949
- 
- []
+
+LaTeX Warning: Command \; invalid in math mode on input line 930.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
-
- []
+LaTeX Warning: Command \; invalid in math mode on input line 930.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 953--954
-
- []
+LaTeX Warning: Command \; invalid in math mode on input line 930.
 
 
-Overfull \hbox (58.91673pt too wide) in paragraph at lines 956--957
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
-
- []
+LaTeX Warning: Command \; invalid in math mode on input line 930.
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 970--973
+Underfull \hbox (badness 10000) in paragraph at lines 948--951
  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--974
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 977--978
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
 
  []
 
 
-Overfull \hbox (64.56873pt too wide) in paragraph at lines 980--981
+Overfull \hbox (58.91673pt too wide) in paragraph at lines 958--959
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
-[66] [67]
-Overfull \hbox (12.1455pt too wide) in paragraph at lines 1041--1042
-[]\TU/LinuxLibertineO(1)/sb/sc/10.95 By deploying information-structural notion
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 972--975
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 975--976
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
+
+ []
+
+
+Overfull \hbox (64.56873pt too wide) in paragraph at lines 982--983
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
+
+ []
+
+[67] [68]
+Overfull \hbox (12.1455pt too wide) in paragraph at lines 1043--1044
+[]\TU/LinuxLibertineO(1)/sb/it/10.95 By deploying information-structural notion
 s developed in [][]Carlson[][] ([][]1983[][]) and [][]Roberts[][] ([][]1996[][]
 /[][]2012[][]),
  []
 
-[68] [69]
+[69] [70]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1085.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1085.
-
-[70] [71]
-
-LaTeX Warning: Command \! invalid in math mode on input line 1146.
+LaTeX Warning: Command \! invalid in math mode on input line 1087.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1146.
+LaTeX Warning: Command \! invalid in math mode on input line 1087.
 
-[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[71] [72]
+
+LaTeX Warning: Command \! invalid in math mode on input line 1148.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1148.
+
+[73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87]
 Chapter 4.
-[87
+[88
 
-] [88] [89] [90]
-Overfull \hbox (2.79158pt too wide) in paragraph at lines 1585--1586
-\TU/LinuxLibertineO(1)/m/sc/10.95 must” \TU/LinuxLibertineO(1)/sb/sc/10.95 ([][
+] [89] [90] [91]
+Overfull \hbox (2.79158pt too wide) in paragraph at lines 1587--1588
+\TU/LinuxLibertineO(1)/m/sc/10.95 must” \TU/LinuxLibertineO(1)/sb/it/10.95 ([][
 ]1984[][]:13), an utterance of \TU/LinuxLibertineO(1)/m/it/10.95 bambai $\OML/c
-mm/m/it/10.95 P$ \TU/LinuxLibertineO(1)/sb/sc/10.95 licenses the (speaker-based
+mm/m/it/10.95 P$ \TU/LinuxLibertineO(1)/sb/it/10.95 licenses the (speaker-based
 ) implicature that the Speaker
  []
 
-[91] [92]
+[92] [93]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1628.
+LaTeX Warning: Command \! invalid in math mode on input line 1630.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1628.
+LaTeX Warning: Command \! invalid in math mode on input line 1630.
 
 \g__fontspec_family_Cambria_int=\count407
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1643
 .
 
 .................................................
@@ -3128,357 +3142,373 @@ LaTeX Font Warning: Command \normalsize invalid in math mode on input line 1641
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"Cambria/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 1641.
-LaTeX Info: Redefining \rmfamily on input line 1649.
-[93]
-Overfull \hbox (8.11642pt too wide) in paragraph at lines 1667--1668
-\TU/LinuxLibertineO(1)/sb/sc/10.95 tional backgrounds, that all branches undivi
-ded at $\OML/cmm/m/it/10.95 i[]$ \TU/LinuxLibertineO(1)/sb/sc/10.95 will also b
-e undivided at $\OML/cmm/m/it/10.95 i[]$ $[]$\TU/LinuxLibertineO(1)/sb/sc/10.95
+LaTeX Info: Redefining \rmfamily on input line 1643.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinuxLibertineO(3)' created for font 'Linux Libertine O' with
+. options [Mapping=tex-text,Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"Linux Libertine
+. O/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Linux Libertine
+. O/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.: <->"Linux Libertine
+. O/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Linux Libertine
+. O/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.: <->"Linux Libertine
+. O/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Linux Libertine
+. O/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.: <->"Linux Libertine
+. O/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Linux Libertine
+. O/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+.................................................
+LaTeX Info: Redefining \rmfamily on input line 1651.
+[94]
+Overfull \hbox (8.11642pt too wide) in paragraph at lines 1669--1670
+\TU/LinuxLibertineO(1)/sb/it/10.95 tional backgrounds, that all branches undivi
+ded at $\OML/cmm/m/it/10.95 i[]$ \TU/LinuxLibertineO(1)/sb/it/10.95 will also b
+e undivided at $\OML/cmm/m/it/10.95 i[]$ $[]$\TU/LinuxLibertineO(1)/sb/it/10.95
  .[][][][][] 
  []
 
-[94]
-
-LaTeX Warning: Command \! invalid in math mode on input line 1710.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1710.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1724.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1724.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1724.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1724.
-
 [95]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1712.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1727.
+LaTeX Warning: Command \! invalid in math mode on input line 1712.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1731.
+LaTeX Warning: Command \! invalid in math mode on input line 1726.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1731.
+LaTeX Warning: Command \! invalid in math mode on input line 1726.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1731.
+LaTeX Warning: Command \! invalid in math mode on input line 1726.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1731.
+LaTeX Warning: Command \! invalid in math mode on input line 1726.
+
+[96]
+
+LaTeX Warning: Command \! invalid in math mode on input line 1729.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1729.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1733.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1733.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1733.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1733.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
 LaTeX Font Warning: Font shape `T3/LinuxLibertineO(1)/bx/n' undefined
 (Font)              using `T3/LinuxLibertineO(1)/m/n' instead on input line 176
-6.
+8.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1766.
+LaTeX Warning: Command \! invalid in math mode on input line 1768.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1779.
+LaTeX Warning: Command \! invalid in math mode on input line 1781.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1779.
-
-\excnt=1
-
-LaTeX Warning: Command \! invalid in math mode on input line 1779.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1779.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1782.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1782.
-
-[96]
-
-LaTeX Warning: Command \! invalid in math mode on input line 1796.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1796.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
+LaTeX Warning: Command \! invalid in math mode on input line 1781.
 
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
+LaTeX Warning: Command \! invalid in math mode on input line 1781.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
+LaTeX Warning: Command \! invalid in math mode on input line 1781.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
+LaTeX Warning: Command \! invalid in math mode on input line 1784.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1804.
+LaTeX Warning: Command \! invalid in math mode on input line 1784.
+
+[97]
+
+LaTeX Warning: Command \! invalid in math mode on input line 1798.
 
 
-Overfull \hbox (5.50424pt too wide) detected at line 1804
+LaTeX Warning: Command \! invalid in math mode on input line 1798.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+\excnt=1
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1806.
+
+
+Overfull \hbox (5.50424pt too wide) detected at line 1806
 []
  []
 
 
-Overfull \hbox (46.4937pt too wide) in paragraph at lines 1804--1804
+Overfull \hbox (46.4937pt too wide) in paragraph at lines 1806--1806
  [] 
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1843.
+LaTeX Warning: Command \! invalid in math mode on input line 1845.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1843.
+LaTeX Warning: Command \! invalid in math mode on input line 1845.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1843.
+LaTeX Warning: Command \! invalid in math mode on input line 1845.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1843.
+LaTeX Warning: Command \! invalid in math mode on input line 1845.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[97]
-\excnt=1
-
-LaTeX Warning: Command \! invalid in math mode on input line 1892.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1892.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1914.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1914.
-
 [98]
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
 \excnt=1
 
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
+LaTeX Warning: Command \! invalid in math mode on input line 1894.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
+LaTeX Warning: Command \! invalid in math mode on input line 1894.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
+LaTeX Warning: Command \! invalid in math mode on input line 1916.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1931.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-\excnt=1
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 1958.
+LaTeX Warning: Command \! invalid in math mode on input line 1916.
 
 [99]
-Overfull \hbox (27.48463pt too wide) in paragraph at lines 1967--1968
- \TU/LinuxLibertineO(1)/sb/sc/10.95 obtains at some index $\OT1/cmr/m/n/10.95 (
-\OML/cmm/m/it/10.95 i[]\OT1/cmr/m/n/10.95 )$ \TU/LinuxLibertineO(1)/sb/sc/10.95
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+\excnt=1
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1933.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+\excnt=1
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 1960.
+
+[100]
+Overfull \hbox (27.48463pt too wide) in paragraph at lines 1969--1970
+ \TU/LinuxLibertineO(1)/sb/it/10.95 obtains at some index $\OT1/cmr/m/n/10.95 (
+\OML/cmm/m/it/10.95 i[]\OT1/cmr/m/n/10.95 )$ \TU/LinuxLibertineO(1)/sb/it/10.95
  preceded by a contextually-retrieved reference time $\OML/cmm/m/it/10.95 i[]$ 
 \TU/LinuxLibertineO(1)/m/sc/10.95 drink.coffee
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 1973--1974
-\TU/LinuxLibertineO(1)/bx/n/10.95 time\TU/LinuxLibertineO(1)/sb/sc/10.95 , the 
-modal base $\OMS/cmsy/m/n/10.95 ^^Y[]$ \TU/LinuxLibertineO(1)/sb/sc/10.95 is \T
+Underfull \hbox (badness 2582) in paragraph at lines 1975--1976
+\TU/LinuxLibertineO(1)/bx/n/10.95 time\TU/LinuxLibertineO(1)/sb/it/10.95 , the 
+modal base $\OMS/cmsy/m/n/10.95 ^^Y[]$ \TU/LinuxLibertineO(1)/sb/it/10.95 is \T
 U/LinuxLibertineO(1)/bx/n/10.95 diverse with respect to the \TU/LinuxLibertineO
 (1)/bx/sc/10.95 subseq \TU/LinuxLibertineO(1)/bx/n/10.95 property \TU/LinuxLibe
-rtineO(1)/sb/sc/10.95 — that is:
+rtineO(1)/sb/it/10.95 — that is:
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1982.
+LaTeX Warning: Command \! invalid in math mode on input line 1984.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1982.
+LaTeX Warning: Command \! invalid in math mode on input line 1984.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1982.
+LaTeX Warning: Command \! invalid in math mode on input line 1984.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1982.
+LaTeX Warning: Command \! invalid in math mode on input line 1984.
 
-[100] [101]
+[101] [102]
 
-LaTeX Warning: Command \! invalid in math mode on input line 2070.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 2070.
+LaTeX Warning: Command \! invalid in math mode on input line 2072.
 
 
-Overfull \hbox (3.3349pt too wide) in paragraph at lines 2077--2078
- \TU/LinuxLibertineO(1)/sb/sc/10.95 temporal perspective (compare treatments of
- English \TU/LinuxLibertineO(1)/m/it/10.95 would\TU/LinuxLibertineO(1)/sb/sc/10
+LaTeX Warning: Command \! invalid in math mode on input line 2072.
+
+
+Overfull \hbox (3.3349pt too wide) in paragraph at lines 2079--2080
+ \TU/LinuxLibertineO(1)/sb/it/10.95 temporal perspective (compare treatments of
+ English \TU/LinuxLibertineO(1)/m/it/10.95 would\TU/LinuxLibertineO(1)/sb/it/10
 .95 .)[][][][][] Compare with the present
  []
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2081.
+LaTeX Warning: Command \! invalid in math mode on input line 2083.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2081.
+LaTeX Warning: Command \! invalid in math mode on input line 2083.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2081.
+LaTeX Warning: Command \! invalid in math mode on input line 2083.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2081.
+LaTeX Warning: Command \! invalid in math mode on input line 2083.
 
-[102]
-Overfull \hbox (0.43803pt too wide) in paragraph at lines 2098--2099
-\TU/LinuxLibertineO(1)/m/sc/10.95 seq \TU/LinuxLibertineO(1)/sb/sc/10.95 relati
+[103]
+Overfull \hbox (0.43803pt too wide) in paragraph at lines 2100--2101
+\TU/LinuxLibertineO(1)/m/sc/10.95 seq \TU/LinuxLibertineO(1)/sb/it/10.95 relati
 on between a predicate and a reference interval, where predictive force/apprehe
 nsionality
  []
 
-[103] [104] [105]) [106] [107
+[104] [105] [106]) [107] [108
 
 ]
 Package hyperref Info: bookmark level for unknown toc defaults to 0 on input li
-ne 2144.
+ne 2149.
  (./NEC/NegEx-diss.tex
 Overfull \hbox (1.64815pt too wide) in paragraph at lines 7--8
-[]\TU/LinuxLibertineO(1)/sb/sc/10.95 Taking the negative domains of three Pama-
+[]\TU/LinuxLibertineO(1)/sb/it/10.95 Taking the negative domains of three Pama-
 Nyungan subgroups as an empirical testing ground,
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[108
+[109
 
-]
-
-Package natbib Warning: Citation `Lichtenberk' on page 109 undefined on input l
-ine 60.
-
-[109] [110] [111]
+] [110] [111] [112]
 Chapter 5.
 File: figs/YolTYAr-leg.jpg Graphic file (type bmp)
 <figs/YolTYAr-leg.jpg>
-[112
+[113
 
-] [113] [114] [115] [116] [117] [118]
+] [114] [115] [116] [117] [118] [119]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 207.
 
-[119]
+[120]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 225.
 
-[120] [121] [122]
-
-LaTeX Warning: Reference `yolngu' on page 123 undefined on input line 336.
-
-[123] [124] [125] [126] [127]
+[121] [122] [123] [124] [125] [126] [127] [128]
 Overfull \hbox (1.5pt too wide) in paragraph at lines 458--458
  [][] [] 
  []
 
-[128]
+[129]
 Underfull \hbox (badness 7595) in paragraph at lines 478--478
 []\TU/LinuxLibertineO(1)/bx/n/10.95 Figure 14. |\TU/LinuxLibertineO(1)/sb/it/9 
 Not pre-
@@ -3505,21 +3535,17 @@ Underfull \hbox (badness 3271) in paragraph at lines 478--478
 \TU/LinuxLibertineO(1)/sb/it/9 unrelated non-PN language
  []
 
-[129] [130]
+[130] [131]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 536.
 
+[132] [133] [134] [135] [136]
 
-Package natbib Warning: Citation `BreenMS' on page 131 undefined on input line 
-539.
-
-[131] [132] [133] [134] [135]
-
-Package natbib Warning: Citation `KaytetyeDict' on page 136 undefined on input 
+Package natbib Warning: Citation `KaytetyeDict' on page 137 undefined on input 
 line 642.
 
-[136] [137]
+[137] [138]
 Underfull \hbox (badness 10000) in paragraph at lines 697--698
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 By hypothesis, pre-proto-Arandic conforms
  []
@@ -3529,30 +3555,30 @@ Underfull \hbox (badness 1132) in paragraph at lines 700--701
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 This strategy has likely been retained in
  []
 
-[138] [139]
+[139] [140]
 Chapter 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 716.
 
-[140
+[141
 
-] [141]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 786.
-
+] [142]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 786.
 
-[142] [143]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 786.
+
+[143] [144]
 
 LaTeX Font Warning: Font shape `TS1/LinuxLibertineO(1)/bx/n' undefined
 (Font)              using `TS1/LinuxLibertineO(1)/m/n' instead
 (Font)              for symbol `textdblhyphen' on input line 808.
 
-[144] [145] [146]
+[145] [146] [147]
 
 LaTeX Warning: Command \! invalid in math mode on input line 900.
 
@@ -3582,29 +3608,29 @@ LaTeX Warning: Command \! invalid in math mode on input line 904.
 
 
 LaTeX Warning: Command \! invalid in math mode on input line 904.
-
-[147]
-
-LaTeX Warning: Command \! invalid in math mode on input line 938.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 938.
 
 [148]
 
+LaTeX Warning: Command \! invalid in math mode on input line 938.
+
+
+LaTeX Warning: Command \! invalid in math mode on input line 938.
+
+[149]
+
 LaTeX Warning: Command \! invalid in math mode on input line 989.
 
 
 LaTeX Warning: Command \! invalid in math mode on input line 989.
 
-[149] [150] [151]
+[150] [151] [152]
 
 LaTeX Warning: Command \! invalid in math mode on input line 1009.
 
 
 LaTeX Warning: Command \! invalid in math mode on input line 1009.
 
-[152]
+[153]
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
@@ -3617,7 +3643,7 @@ Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
- [153] [154]
+ [154] [155]
 
 LaTeX Warning: Command \! invalid in math mode on input line 1097.
 
@@ -3654,12 +3680,12 @@ LaTeX Warning: Command \! invalid in math mode on input line 1097.
 
 LaTeX Warning: Command \! invalid in math mode on input line 1097.
 
-[155]
+[156]
 
 Package paralist Warning: Incorrect label; no or multiple counters.
 (paralist)                The label is: \bf 3  on input line 1117.
 
-) [156] [157
+) [157] [158
 
 ] (./Yolngu/Analysis/asymmetries.tex
 
@@ -3670,37 +3696,38 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
-[158] [159]
+[159] [160]
 File: figs/WilkinsonDiagram362Col.png Graphic file (type bmp)
 <figs/WilkinsonDiagram362Col.png>
- [160] [161]
+ [161] [162]
 Chapter 7.
-[162
+[163
 
 ]
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 106.
- [163]
+ [164]
 
-LaTeX Warning: Command \! invalid in math mode on input line 152.
-
-
-LaTeX Warning: Command \! invalid in math mode on input line 152.
+LaTeX Warning: Command \! invalid in math mode on input line 153.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 152.
+LaTeX Warning: Command \! invalid in math mode on input line 153.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 152.
+LaTeX Warning: Command \! invalid in math mode on input line 153.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 155.
+LaTeX Warning: Command \! invalid in math mode on input line 153.
+
+[165]
+
+LaTeX Warning: Command \! invalid in math mode on input line 156.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 155.
+LaTeX Warning: Command \! invalid in math mode on input line 156.
 
-[164] [165] [166]
-Overfull \hbox (9.93364pt too wide) in paragraph at lines 203--204
+[166] [167]
+Overfull \hbox (9.93364pt too wide) in paragraph at lines 204--205
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Consequently, for languages exhibiting [][
 ][]\TU/LinuxBiolinumO(0)/m/sc/10.95 a/nonreal[][]\TU/LinuxLibertineO(1)/sb/sc/1
 0.95 , irrealis and negative operators can be thought
@@ -3711,161 +3738,173 @@ File: figs/AustralianLangsCropped.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[167]
+[168]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[168] [169] [170] [171]
-Overfull \hbox (6.1977pt too wide) in paragraph at lines 307--308
+[169] [170] [171] [172]
+Overfull \hbox (6.1977pt too wide) in paragraph at lines 308--309
  [][]\TU/LinuxLibertineO(1)/bx/n/10.95 The \TU/LinuxLibertineO(1)/bx/sc/10.95 f
 uture \TU/LinuxLibertineO(1)/bx/n/10.95 and \TU/LinuxLibertineO(1)/bx/sc/10.95 
 past potential/counterfactual \TU/LinuxLibertineO(1)/bx/n/10.95 in modalised co
 ntexts in Ritharrŋu-
  []
 
-[172] [173] [174]
+[173] [174] [175]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[175]
+[176]
 .................................................
 . fontspec info: "defining-font"
 . 
-. Font family 'LinuxLibertineO(3)' created for font 'Linux Libertine O' with
+. Font family 'LinuxLibertineO(4)' created for font 'Linux Libertine O' with
 . options
-. [Mapping=tex-text,Ligatures=TeX,VerticalPosition=ScientificInferior].
+. [Mapping=tex-text,Ligatures=TeX,Numbers={OldStyle},VerticalPosition=Scientifi
+cInferior].
 .  
 .  This font family consists of the following NFSS series/shapes:
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;+sinf;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+sinf;mapping=tex-text;"
 . - 'small caps'  (m/sc) with NFSS spec.: <->"Linux Libertine
-. O/OT:script=latn;language=DFLT;+sinf;+smcp;mapping=tex-text;"
+. O/OT:script=latn;language=DFLT;+onum;+sinf;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;+sinf;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+sinf;mapping=tex-text;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Linux Libertine
-. O/B/OT:script=latn;language=DFLT;+sinf;+smcp;mapping=tex-text;"
+. O/B/OT:script=latn;language=DFLT;+onum;+sinf;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;+sinf;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+sinf;mapping=tex-text;"
 . - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Linux Libertine
-. O/I/OT:script=latn;language=DFLT;+sinf;+smcp;mapping=tex-text;"
+. O/I/OT:script=latn;language=DFLT;+onum;+sinf;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;+sinf;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;+sinf;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Linux Libertine
-. O/BI/OT:script=latn;language=DFLT;+sinf;+smcp;mapping=tex-text;"
+. O/BI/OT:script=latn;language=DFLT;+onum;+sinf;+smcp;mapping=tex-text;"
 .................................................
- [176] [177] [178] [179] [180]
+ [177] [178] [179] [180] [181]
 ====> EXPEX WARNING: tag neg-pst.munha is called but not defined.
-[181] [182] [183] [184] [185] [186]
+[182] [183] [184] [185] [186] [187]
 Chapter 8.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 825.
+(hyperref)                removing `\\' on input line 826.
 
-[187
+[188
 
 ]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 874.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 875.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 874.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 875.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 889.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 890.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 894.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 895.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[188]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 925.
-
 [189]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 945.
+(hyperref)                removing `\gls' on input line 926.
 
-[190] [191]
-Overfull \hbox (22.01552pt too wide) in paragraph at lines 1011--1012
+[190]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 946.
+
+[191] [192]
+====> EXPEX WARNING: tag latjin is called but not defined.
+====> EXPEX WARNING: tag latjin.bare is called but not defined.
+====> EXPEX WARNING: tag latjin.inch is called but not defined.
+
+Overfull \hbox (22.01552pt too wide) in paragraph at lines 1014--1015
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Relatedly, [][]Wilkinson[][] ([][]2012[][]
 :557) describes a ‘minor’ lexical category that she refers to as “adjectival”-
  []
 
-[192] [193] [194] [195]
+[193] [194] [195] [196]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 1134.
+(hyperref)                removing `\gls' on input line 1137.
 
 
-Overfull \hbox (7.60373pt too wide) in paragraph at lines 1162--1163
+Overfull \hbox (7.60373pt too wide) in paragraph at lines 1165--1166
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Above, we saw examples of derived (de-nomi
 nal) verbs with change-of-state semantics. Whereas
  []
 
-[196] [197] [198]
+[197] [198] [199]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1253.
+(caption)                particular \caption on input line 1256.
 See the caption package documentation for explanation.
 
 Missing character: There is no ; in font nullfont!
-[199] [200]
+[200] [201]
 LaTeX Font Info:    Font shape `TU/LinuxLibertineO(1)/m/sl' in size <9> not ava
 ilable
 (Font)              Font shape `TU/LinuxLibertineO(1)/m/it' tried instead on in
-put line 1443.
- [201]
-Overfull \hbox (11.01935pt too wide) in paragraph at lines 1483--1484
+put line 1447.
+ [202]
+Overfull \hbox (11.01935pt too wide) in paragraph at lines 1487--1488
 \TU/LinuxLibertineO(1)/sb/sc/10.95 tense marking as encoding a restricted indef
 inite (or alternatively a temporal pronoun/presupposition
  []
 
-[202] [203] [204]
+[203] [204] [205]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 1568.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 1572.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 1573.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 1577.
 
 Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
-[205]
 
-LaTeX Warning: Command \! invalid in math mode on input line 1598.
+Overfull \hbox (1.23007pt too wide) in paragraph at lines 1597--1598
+\TU/LinuxLibertineO(1)/sb/sc/10.95 are particularly well represented in Bantu (
+[][]Botne[][] [][]2012[][]; [][]Dahl[][] [][]1983[][]; [][]Mucha[][] [][]2017[]
+[]; [][]Mucha & Fominyam[][]
+ []
+
+[206]
+
+LaTeX Warning: Command \! invalid in math mode on input line 1602.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 1598.
+LaTeX Warning: Command \! invalid in math mode on input line 1602.
 
-[206] [207] [208] [209] [210]
-Overfull \hbox (17.36414pt too wide) in paragraph at lines 1737--1739
+[207] [208] [209] [210] [211]
+Overfull \hbox (17.36414pt too wide) in paragraph at lines 1741--1743
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Above, the verb inflection ([][][][]\TU/Li
 nuxLibertineO(1)/bx/n/10.95 I[][][]\TU/LinuxLibertineO(1)/sb/sc/10.95 ) in effe
 ct denotes an \TU/LinuxLibertineO(1)/m/sc/10.95 instantiation relation \TU/Linu
 xLibertineO(1)/sb/sc/10.95 between a contextually-
  []
 
-[211]
+[212]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1788.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1792.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1788.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1792.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1803.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1807.
 
 LaTeX Font Info:    Font shape `TU/LinuxLibertineO(1)/m/sl' in size <10> not av
 ailable
 (Font)              Font shape `TU/LinuxLibertineO(1)/m/it' tried instead on in
-put line 1803.
+put line 1807.
 
-Overfull \hbox (67.72838pt too wide) in paragraph at lines 1798--1804
+Overfull \hbox (67.72838pt too wide) in paragraph at lines 1802--1808
 \TU/LinuxLibertineO(1)/sb/sc/10.95 event descriptions: all non-final subinterva
 ls of $\OT1/cmr/m/n/10.95 ([]\OML/cmm/m/it/10.95 ; i\OMS/cmsy/m/n/10.95 ^^C\OT1
 /cmr/m/n/10.95 ]$ \TU/LinuxLibertineO(1)/sb/sc/10.95 forcibly exclude $\OML/cmm
@@ -3874,114 +3913,114 @@ result, \TU/LinuxLibertineO(1)/m/sc/10.95 NfInst$\OT1/cmr/m/n/10.95 (\OML/cmm/m
 /it/10.95 P; []; j\OT1/cmr/m/n/10.95 )$
  []
 
-[212]
-Overfull \hbox (13.63112pt too wide) in paragraph at lines 1812--1814
+[213]
+Overfull \hbox (13.63112pt too wide) in paragraph at lines 1816--1818
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Adapting [][]Condoravdi & Deo[][]’s \TU/Li
 nuxLibertineO(1)/m/sc/10.95 NfInst\TU/LinuxLibertineO(1)/sb/sc/10.95 , and arme
 d with two pairs of possible reference frame/final-
  []
 
-[213] [214]
+[214] [215]
 \excnt=1
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2017.
+(hyperref)                removing `math shift' on input line 2021.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 2017.
+(hyperref)                removing `subscript' on input line 2021.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2017.
+(hyperref)                removing `math shift' on input line 2021.
 
-[215] [216]
+[216] [217]
 File: figs/botnecogdoms.png Graphic file (type bmp)
 <figs/botnecogdoms.png>
- [217] [218] [219] [220] [221] [222] [223]
+ [218] [219] [220] [221] [222] [223] [224]
 Chapter 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 2159.
+(hyperref)                removing `\\' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2159.
+(hyperref)                removing `math shift' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2159.
+(hyperref)                removing `\delimiter' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2159.
+(hyperref)                removing `\gls' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2159.
+(hyperref)                removing `\gls' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2159.
+(hyperref)                removing `\delimiter' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2159.
+(hyperref)                removing `math shift' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2159.
+(hyperref)                removing `math shift' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2159.
+(hyperref)                removing `\delimiter' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2159.
+(hyperref)                removing `\gls' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 2159.
+(hyperref)                removing `\gls' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delimiter' on input line 2159.
+(hyperref)                removing `\delimiter' on input line 2163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2159.
+(hyperref)                removing `math shift' on input line 2163.
 
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2159.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2163.
 
 
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 215
-9.
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 216
+3.
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2159.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2163.
 
-LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2159.
-
-
-LaTeX Font Warning: Command \mathversion invalid in math mode on input line 215
-9.
-
-[224
-
-] [225] [226]
-
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2297.
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 2163.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2303.
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 216
+3.
+
+[225
+
+] [226] [227]
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2301.
+
+
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2307.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[227] [228] [229]
-Overfull \hbox (2.35796pt too wide) in paragraph at lines 2464--2465
+[228] [229] [230]
+Overfull \hbox (2.35796pt too wide) in paragraph at lines 2468--2469
 \TU/LinuxLibertineO(1)/sb/sc/10.95 Suggested in § [][]7.4.2[][], \TU/LinuxLiber
 tineO(1)/m/it/10.95 dhu \TU/LinuxLibertineO(1)/sb/sc/10.95 appears exclusively 
 in \TU/LinuxLibertineO(1)/m/it/10.95 future-oriented \TU/LinuxLibertineO(1)/sb/
@@ -3989,70 +4028,70 @@ sc/10.95 predications, apparently \TU/LinuxLibertineO(1)/m/it/10.95 with presen
 t
  []
 
-[230] [231] [232] [233] [234]
+[231] [232] [233] [234] [235]
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2653.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2657.
 
 
-LaTeX Font Warning: Command \sl invalid in math mode on input line 2659.
+LaTeX Font Warning: Command \sl invalid in math mode on input line 2663.
 
-[235]
-Underfull \hbox (badness 10000) in paragraph at lines 2691--2695
+[236]
+Underfull \hbox (badness 10000) in paragraph at lines 2695--2699
  
  []
 
-[236] [237] [238] [239] [240]
+[237] [238] [239] [240] [241]
 Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
 Missing character: There is no ŋ in font ectt1000!
- [241]
-Overfull \hbox (1.58795pt too wide) in paragraph at lines 2802--2804
+ [242]
+Overfull \hbox (1.58795pt too wide) in paragraph at lines 2806--2808
 [][] [] [] [] [] []  
  []
 
-[242] [243]
+[243] [244]
 
-LaTeX Warning: Command \! invalid in math mode on input line 2911.
+LaTeX Warning: Command \! invalid in math mode on input line 2915.
 
 
-LaTeX Warning: Command \! invalid in math mode on input line 2911.
+LaTeX Warning: Command \! invalid in math mode on input line 2915.
 
-[244] [245]
+[245] [246]
 
-LaTeX Warning: Reference `nec-modalneg' on page 246 undefined on input line 297
-5.
+LaTeX Warning: Reference `nec-modalneg' on page 247 undefined on input line 297
+9.
 
-[246]
+[247]
 
-LaTeX Warning: Reference `den.neg' on page 247 undefined on input line 2995.
+LaTeX Warning: Reference `den.neg' on page 248 undefined on input line 2999.
 
-[247] [248]
+[248] [249]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[249] [250] [251] [252] [253]
-Overfull \hbox (1.00935pt too wide) in paragraph at lines 3263--3264
+[250] [251] [252] [253] [254]
+Overfull \hbox (1.00935pt too wide) in paragraph at lines 3267--3268
 [] []\TU/LinuxLibertineO(1)/bx/n/10.95 Antipresuppositional: \TU/LinuxLibertine
 O(1)/bx/it/10.95 realis \TU/LinuxLibertineO(1)/bx/n/10.95 as an epiphenomenon.[
 ] \TU/LinuxLibertineO(1)/sb/sc/10.95 Above, we have modelled irrealis mood
  []
 
-[254]
-Overfull \hbox (2.77408pt too wide) in paragraph at lines 3267--3269
+[255]
+Overfull \hbox (2.77408pt too wide) in paragraph at lines 3271--3273
 \TU/LinuxLibertineO(1)/sb/sc/10.95 the same-day future — even if these are, \TU
 /LinuxLibertineO(1)/m/it/10.95 sensu stricto\TU/LinuxLibertineO(1)/sb/sc/10.95 
 , claims about properties of future (‘\TU/LinuxLibertineO(1)/m/sc/10.95 potenti
 al\TU/LinuxLibertineO(1)/sb/sc/10.95 ’)
  []
 
-[255] [256]
+[256] [257]
 Chapter 10.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3316.
+(hyperref)                removing `\gls' on input line 3320.
 
-[257
+[258
 
 ]
 File: figs/infldomains.png Graphic file (type bmp)
@@ -4061,145 +4100,142 @@ File: figs/infldomains.png Graphic file (type bmp)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[258] [259]
+[259] [260]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 3490.
+(hyperref)                removing `\gls' on input line 3494.
 
-[260] [261] [262] [263] [264]
+[261] [262] [263] [264] [265]
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
 Missing character: There is no ḻ in font ectt1000!
- [265] [266] [267] [268] [269]
+ [266] [267] [268] [269] [270]
 Missing character: There is no ḏ in font ectt1000!
 Missing character: There is no ḏ in font ectt1000!
 Missing character: There is no ḏ in font ectt1000!
 Missing character: There is no ḏ in font ectt1000!
 
-Overfull \hbox (1.3005pt too wide) in paragraph at lines 3815--3816
+Overfull \hbox (1.3005pt too wide) in paragraph at lines 3819--3820
 [][][]\TU/LinuxLibertineO(1)/sb/sc/10.95 Heath[][] ([][]1980a[][]:74-5) glosses
  Ritharrŋu’s fourth inflectional category as \TU/LinuxLibertineO(1)/m/sc/10.95 
 past potential\TU/LinuxLibertineO(1)/sb/sc/10.95 . Heath’s
  []
 
-[270] [271] [272]
-Overfull \hbox (8.12326pt too wide) in paragraph at lines 3886--3888
+[271] [272] [273]
+Overfull \hbox (8.12326pt too wide) in paragraph at lines 3890--3892
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Similarly, with the exception of the Manin
 grida family (Burarra, Gun-narpta Gurr-goni, Nakkara,
  []
 
-[273] [274] [275]) [276] [277]
+[274] [275] [276]) [277] [278]
 Chapter 11.
-[278
+[279
 
-] [279] [280] [281] [282] (./diss.bbl [283]
-Missing character: There is no ⹀ in font Linux Libertine O/OT:script=latn;langu
-age=DFLT;mapping=tex-text;!
- [284
+] [280] [281] [282] [283] (./diss.bbl [284] [285
 
 ]
-Underfull \hbox (badness 5862) in paragraph at lines 117--123
+Underfull \hbox (badness 5862) in paragraph at lines 116--122
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Bach, Emmon W. 1986.  The algebra of event
 s.  \TU/LinuxLibertineO(1)/m/it/10.95 Linguistics and Philosophy \TU/LinuxLiber
 tineO(1)/sb/sc/10.95 9(1).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--123
+Underfull \hbox (badness 10000) in paragraph at lines 116--122
 \TU/LinuxLibertineO(1)/sb/sc/10.95 5–16.  doi:[][]10.1007/bf00627432[][].  [][]
 $[][][][][] [] [] [] [][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [
 ] [][] []
  []
 
-[285] [286]
-Underfull \hbox (badness 1603) in paragraph at lines 325--329
+[286] [287]
+Underfull \hbox (badness 1603) in paragraph at lines 324--328
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Braun, David. 2017.  Indexicals.  [][]$[][
 ][][][] [] [] [] [][][][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][] [
 ] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 348--352
+Underfull \hbox (badness 1454) in paragraph at lines 352--356
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Burgess, John P. 1978.  The unreal future.
   \TU/LinuxLibertineO(1)/m/it/10.95 Theoria \TU/LinuxLibertineO(1)/sb/sc/10.95 
 44(3). 157–179.  doi:[][]10.1111/j.1755-
  []
 
-[287]
-Underfull \hbox (badness 10000) in paragraph at lines 514--518
+[288]
+Underfull \hbox (badness 10000) in paragraph at lines 513--517
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Copley, Bridget. 2009.  \TU/LinuxLibertine
 O(1)/m/it/10.95 The semantics of the future\TU/LinuxLibertineO(1)/sb/sc/10.95 .
   New York: Routledge.
  []
 
-[288]
-Underfull \hbox (badness 10000) in paragraph at lines 537--541
+[289]
+Underfull \hbox (badness 10000) in paragraph at lines 536--540
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Cristofaro, Sonia. 2005.  \TU/LinuxLiberti
 neO(1)/m/it/10.95 Subordination\TU/LinuxLibertineO(1)/sb/sc/10.95 .  Oxford Uni
 versity Press.
  []
 
-[289]
-Underfull \hbox (badness 2600) in paragraph at lines 708--713
+[290]
+Underfull \hbox (badness 2600) in paragraph at lines 707--712
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Duchet, Jean-Louis & Remzi Përnaska. 2016.
   The aorist and the perfect in Albanian.
  []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 708--713
+Underfull \hbox (badness 1389) in paragraph at lines 707--712
 \TU/LinuxLibertineO(1)/sb/sc/10.95 In \TU/LinuxLibertineO(1)/m/it/10.95 Aspectu
 ality and temporality: Descriptive and theoretical issues\TU/LinuxLibertineO(1)
 /sb/sc/10.95 , 357–374. Amsterdam.
  []
 
-[290]
-Underfull \hbox (badness 4543) in paragraph at lines 762--766
+[291]
+Underfull \hbox (badness 4543) in paragraph at lines 761--765
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Ernst, Thomas. 2016.  Modification of stat
 ive predicates.  \TU/LinuxLibertineO(1)/m/it/10.95 Language \TU/LinuxLibertineO
 (1)/sb/sc/10.95 92(2). 237–274.
  []
 
-[291]
-Underfull \hbox (badness 10000) in paragraph at lines 932--936
+[292]
+Underfull \hbox (badness 10000) in paragraph at lines 931--935
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Geurts, Bart, David Beaver & Emar Maier. 2
 016.  Discourse Representa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 932--936
+Underfull \hbox (badness 10000) in paragraph at lines 931--935
 \TU/LinuxLibertineO(1)/sb/sc/10.95 tion Theory.  [][]$[][][][][] [] [] [] [][][
 ][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] []
 [][][][][][] []
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 956--962
+Underfull \hbox (badness 2717) in paragraph at lines 955--961
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Giannakidou, Anastasia. 2016.  Evaluative 
 subjunctive and nonveridicality.  In Joanna
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 956--962
+Underfull \hbox (badness 8132) in paragraph at lines 955--961
 \TU/LinuxLibertineO(1)/sb/sc/10.95 Blaszczak, Anastasia Giannakidou, Dorota Kli
 mek-Jankowska & Krzysztof Migdalski
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 956--962
+Underfull \hbox (badness 1502) in paragraph at lines 955--961
 \TU/LinuxLibertineO(1)/sb/sc/10.95 (eds.), \TU/LinuxLibertineO(1)/m/it/10.95 Mo
 od, aspect, modality revisited\TU/LinuxLibertineO(1)/sb/sc/10.95 , chap. 5. Chi
 cago: University of Chicago Press.
  []
 
-[292]
-Underfull \hbox (badness 1009) in paragraph at lines 1045--1049
+[293]
+Underfull \hbox (badness 1009) in paragraph at lines 1044--1048
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 de Haan, Ferdinand. 2012.  Irrealis: fact 
 or fiction?  \TU/LinuxLibertineO(1)/m/it/10.95 Language Sciences \TU/LinuxLiber
 tineO(1)/sb/sc/10.95 34(2). 107–130.
  []
 
-[293] [294]
+[294] [295]
 Missing character: There is no ​ in font [lmmono10-regular]:!
 Missing character: There is no ​ in font [lmmono10-regular]:!
 Missing character: There is no ​ in font [lmmono10-regular]:!
@@ -4207,133 +4243,133 @@ Missing character: There is no ​ in font [lmmono10-regular]:!
 Missing character: There is no ​ in font [lmmono10-regular]:!
 Missing character: There is no ​ in font [lmmono10-regular]:!
 Missing character: There is no ​ in font [lmmono10-regular]:!
- [295]
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1359
+ [296]
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1358
 [] [] [][][][][] [] [][][][][][][] [] [][][][] [] [][][] [] [][][][][] [] [][][
 ][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][][][] []
  []
 
-[296]
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1386
+[297]
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1385
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Kamp, Hans. 1971.  Formal Properties of ‘N
 ow’.  \TU/LinuxLibertineO(1)/m/it/10.95 Theoria \TU/LinuxLibertineO(1)/sb/sc/10
 .95 37(3). 227–73.
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1466--1472
+Underfull \hbox (badness 1038) in paragraph at lines 1465--1471
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Kiparsky, Paul. 2015.  New perspectives in
  historical linguistics.  In Claire L Bowern &
  []
 
-[297]
-Underfull \hbox (badness 6063) in paragraph at lines 1572--1577
+[298]
+Underfull \hbox (badness 6063) in paragraph at lines 1571--1576
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Kratzer, Angelika. 1998.  More Structural 
 Analogies Between Pronouns and Tenses.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1579--1583
+Underfull \hbox (badness 10000) in paragraph at lines 1578--1582
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Kratzer, Angelika. 2012.  \TU/LinuxLiberti
 neO(1)/m/it/10.95 Modals and Conditionals\TU/LinuxLibertineO(1)/sb/sc/10.95 .  
 Oxford: OUP.
  []
 
-[298] [299] [300]
-Underfull \hbox (badness 1314) in paragraph at lines 1816--1821
+[299] [300] [301]
+Underfull \hbox (badness 1314) in paragraph at lines 1815--1820
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 McKay, Graham Richard. 2000.  Ndjébanna.  
 In R M W Dixon & Barry J Blake (eds.),
  []
 
-[301]
-Underfull \hbox (badness 1173) in paragraph at lines 2021--2026
+[302] [303]
+Underfull \hbox (badness 1173) in paragraph at lines 2037--2042
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Pancheva, Roumyana & Maria Luisa Zubizarre
 ta. 2019a.  On the role of person features
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 2021--2026
+Underfull \hbox (badness 1360) in paragraph at lines 2037--2042
 \TU/LinuxLibertineO(1)/sb/sc/10.95 in the evidential-Temporal connection.  \TU/
 LinuxLibertineO(1)/m/it/10.95 Canadian Journal of Linguistics \TU/LinuxLibertin
 eO(1)/sb/sc/10.95 64(4). 673–708.
  []
 
-[302]
-Underfull \hbox (badness 1038) in paragraph at lines 2127--2130
+[304]
+Underfull \hbox (badness 1038) in paragraph at lines 2143--2146
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Portner, Paul. 1997.  The semantics of moo
 d, complementation, and conversational force.
  []
 
-[303]
-Underfull \hbox (badness 10000) in paragraph at lines 2143--2147
+
+Underfull \hbox (badness 10000) in paragraph at lines 2159--2163
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Portner, Paul. 2018.  \TU/LinuxLibertineO(
 1)/m/it/10.95 Mood\TU/LinuxLibertineO(1)/sb/sc/10.95 .  Oxford: Oxford Universi
 ty Press.
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 2161--2165
+Underfull \hbox (badness 3849) in paragraph at lines 2177--2181
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Potts, Christopher. 2007.  The expressive 
 dimension.  \TU/LinuxLibertineO(1)/m/it/10.95 Theoretical Linguistics \TU/Linux
 LibertineO(1)/sb/sc/10.95 33. 165.
  []
 
-[304] [305] [306]
-Underfull \hbox (badness 5578) in paragraph at lines 2551--2556
+[305] [306] [307] [308]
+Underfull \hbox (badness 5578) in paragraph at lines 2567--2572
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Stirling, Lesley & Alan Dench. 2012.  Tens
 e, aspect, modality and evidentiality in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2551--2556
+Underfull \hbox (badness 10000) in paragraph at lines 2567--2572
 \TU/LinuxLibertineO(1)/sb/sc/10.95 Australian Languages: Foreword.  \TU/LinuxLi
 bertineO(1)/m/it/10.95 Australian Journal of Linguistics \TU/LinuxLibertineO(1)
 /sb/sc/10.95 32(1). 1–6.
  []
 
-[307]
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2569
+
+Underfull \hbox (badness 10000) in paragraph at lines 2582--2585
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Stone, Matthew. 1997.  The anaphoric paral
 lel between Modality and Tense.
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 2594--2598
+Underfull \hbox (badness 2662) in paragraph at lines 2610--2614
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Taylor, Barry. 1977.  Tense and continuity
 .  \TU/LinuxLibertineO(1)/m/it/10.95 Linguistics and Philosophy \TU/LinuxLibert
 ineO(1)/sb/sc/10.95 1(2). 199–220.
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 2631--2635
+Underfull \hbox (badness 1331) in paragraph at lines 2647--2651
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 The Bible Society of Australia. 2008.  \TU
 /LinuxLibertineO(1)/m/it/10.95 God-Waŋarrwu Walŋamirr Dhäruk: The new testa-
  []
 
-[308]
-Underfull \hbox (badness 2165) in paragraph at lines 2697--2702
+[309]
+Underfull \hbox (badness 2165) in paragraph at lines 2713--2718
 []\TU/LinuxLibertineO(1)/sb/sc/10.95 Traugott, Elizabeth Closs. 2003.  From sub
 jectification to intersubjectification.  In \TU/LinuxLibertineO(1)/m/it/10.95 M
 o-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 2697--2702
+Underfull \hbox (badness 2547) in paragraph at lines 2713--2718
 \TU/LinuxLibertineO(1)/m/it/10.95 tives for language change\TU/LinuxLibertineO(
 1)/sb/sc/10.95 , chap. 8, 124–140. Cambridge: Cambridge University Press.
  []
 
-[309] [310]) [311] (./diss.lang-gls [312
+[310] [311]) [312] (./diss.lang-gls [313
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[313]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2271.
+[314]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2276.
 \openout2 = `diss.wrt'.
 
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2276.
  (./diss.aux (./abstract.aux)
 Use my own \@writefile for toc
 Use my own \@writefile for toc
@@ -4559,7 +4595,7 @@ Use my own \@writefile for toc
 Use my own \@writefile for toc
 Use my own \@writefile for section
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2271.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2276.
 
 Process extension: `toc'
 \openout2 = `diss.toc'.
@@ -4573,10 +4609,10 @@ Process extension: `lot'
 \openout2 = `diss.lot'.
 
 (./diss.wrt)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2276.
 
 Package rerunfilecheck Info: File `diss.out' has not changed.
-(rerunfilecheck)             Checksum: 5B91B174A82A63510D0C7CBC22896348.
+(rerunfilecheck)             Checksum: D72F6DF4DB07A751921F8547DE11A72F.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -4584,31 +4620,31 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2271.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2276.
  )
-(\end occurred when \ifx on line 1740 was incomplete)
-(\end occurred when \ifx on line 304 was incomplete)
-(\end occurred when \ifx on line 2098 was incomplete)
-(\end occurred when \ifx on line 1727 was incomplete)
-(\end occurred when \ifx on line 1624 was incomplete)
-(\end occurred when \ifx on line 1624 was incomplete)
-(\end occurred when \ifx on line 1294 was incomplete)
-(\end occurred when \ifmmode on line 1137 was incomplete)
-(\end occurred when \ifx on line 1135 was incomplete)
-(\end occurred when \ifx on line 1135 was incomplete)
-(\end occurred when \ifx on line 1126 was incomplete)
-(\end occurred when \ifx on line 1105 was incomplete)
-(\end occurred when \ifx on line 991 was incomplete)
-(\end occurred when \ifx on line 967 was incomplete)
-(\end occurred when \ifx on line 614 was incomplete)
-(\end occurred when \ifx on line 1965 was incomplete) 
+(\end occurred when \ifx on line 1744 was incomplete)
+(\end occurred when \ifx on line 305 was incomplete)
+(\end occurred when \ifx on line 2100 was incomplete)
+(\end occurred when \ifx on line 1729 was incomplete)
+(\end occurred when \ifx on line 1626 was incomplete)
+(\end occurred when \ifx on line 1626 was incomplete)
+(\end occurred when \ifx on line 1296 was incomplete)
+(\end occurred when \ifmmode on line 1139 was incomplete)
+(\end occurred when \ifx on line 1137 was incomplete)
+(\end occurred when \ifx on line 1137 was incomplete)
+(\end occurred when \ifx on line 1128 was incomplete)
+(\end occurred when \ifx on line 1107 was incomplete)
+(\end occurred when \ifx on line 993 was incomplete)
+(\end occurred when \ifx on line 969 was incomplete)
+(\end occurred when \ifx on line 616 was incomplete)
+(\end occurred when \ifx on line 1970 was incomplete) 
 Here is how much of TeX's memory you used:
- 60154 strings out of 492970
- 1138097 string characters out of 6133938
- 1324737 words of memory out of 5000000
- 63002 multiletter control sequences out of 15000+600000
- 563983 words of font info for 284 fonts, out of 8000000 for 9000
+ 60212 strings out of 492970
+ 1141863 string characters out of 6133938
+ 1325245 words of memory out of 5000000
+ 63031 multiletter control sequences out of 15000+600000
+ 564712 words of font info for 311 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  78i,24n,100p,10435b,1953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on diss.pdf (330 pages).
+Output written on diss.pdf (331 pages).

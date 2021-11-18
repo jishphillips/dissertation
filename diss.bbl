@@ -1,4 +1,4 @@
-\begin{thebibliography}{481}
+\begin{thebibliography}{484}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{}
@@ -44,9 +44,9 @@ Anand, Pranav \& Valentine Hacquard. 2013.
 
 \bibitem[{AnderBois \& D{\c{a}}bkowski(2020)}]{AnderBois2020}
 AnderBois, Scott \& Maksymilian D{\c{a}}bkowski. 2020.
-\newblock {A'ingae ⹀sa'ne APPR and the semantic typology of apprehensional
-  adjuncts}.
-\newblock In \emph{Proceedings of salt 30}, 371--91. Linguistic Society of
+\newblock {A'ingae \textdblhyphen{}sa'ne APPR and the semantic typology of
+  apprehensional adjuncts}.
+\newblock In \emph{Proceedings of {SALT} 30}, 371--91. Linguistic Society of
   America.
 
 \bibitem[{Anderson(1992)}]{Anderson1992}
@@ -74,8 +74,7 @@ Anderson, Stephen~R. 2016.
 
 \bibitem[{Angelo \& Schultze-Berndt(2016)}]{Angelo2016}
 Angelo, Denise \& Eva Schultze-Berndt. 2016.
-\newblock {Beware {\textless}i{\textgreater}bambai{\textless}/i{\textgreater}
-  – soon it may turn apprehensive}.
+\newblock {Beware {\itshape bambai} -– soon it may turn apprehensive}.
 \newblock In Felicity Meakins \& Carmel O'Shannessy (eds.), \emph{Loss and
   renewal: Australian languages since contact}, 255--296. Berlin: Mouton de
   Gruyter.
@@ -257,12 +256,6 @@ Bouckaert, Remco~R, Claire Bowern \& Quentin~D Atkinson. 2018.
 \newblock \emph{Nature Ecology {\&} Evolution} 2. 741--9.
 \newblock \doi{10.1038/s41559-018-0489-3}.
 
-\bibitem[{Bowern()}]{BowernAL}
-Bowern, Claire (ed.). ????
-\newblock \emph{{The Oxford Guide to Australian Languages}} Oxford Guides to
-  the World's Languages.
-\newblock Oxford: Oxford University Press.
-
 \bibitem[{Bowern(1998)}]{Bowern1998}
 Bowern, Claire. 1998.
 \newblock {Towards a typology of irrealis marking in modality}.
@@ -291,6 +284,12 @@ Bowern, Claire. 2010.
 Bowern, Claire. 2012.
 \newblock \emph{{A grammar of Bardi}}.
 \newblock Berlin; Boston: Mouton de Gruyter.
+
+\bibitem[{Bowern(2021)}]{BowernAL}
+Bowern, Claire (ed.). 2021.
+\newblock \emph{{The Oxford Guide to Australian Languages}} Oxford Guides to
+  the World's Languages.
+\newblock Oxford: Oxford University Press.
 
 \bibitem[{Bowern(to appear 2021)}]{Bowern2021}
 Bowern, Claire. to appear 2021.
@@ -326,6 +325,11 @@ Braun, David. 2017.
 \newblock {Indexicals}.
 \newblock
   \urlprefix\url{https://plato.stanford.edu/archives/fall2014/entries/tarski-truth/}.
+
+\bibitem[{Breen(1970)}]{Breen1970}
+Breen, J~Gavan. 1970.
+\newblock \emph{{A description of the Waḷuwara Language}}.
+\newblock Melbourne: dissertation.
 
 \bibitem[{Breen(2000)}]{Breen1976}
 Breen, J~Gavan. 2000.
@@ -449,11 +453,6 @@ Cole, Peter. 1975.
 Comrie, Bernard. 1976.
 \newblock \emph{{Aspect}}.
 \newblock Cambridge: Cambridge University Press.
-
-\bibitem[{Comrie(1983)}]{Comrie1983}
-Comrie, Bernard. 1983.
-\newblock \emph{{Language Universals and Linguistic Typology}}.
-\newblock Oxford: Blackwell.
 
 \bibitem[{Comrie(1985)}]{Comrie1985}
 Comrie, Bernard. 1985.
@@ -1927,6 +1926,23 @@ Morphy, Frances. 1983.
 \newblock {Djapu, a Yolngu dialect}.
 \newblock In R~M~W Dixon \& Barry~J Blake (eds.), \emph{Handbook of australian
   languages}, 1--140.
+
+\bibitem[{Mucha(2015)}]{Mucha2015}
+Mucha, Anne. 2015.
+\newblock {Temporal Interpretation and Cross-linguistic Variation: A formal
+  semantic analysis of temporal and aspectual reference in Hausa and Medumba} .
+
+\bibitem[{Mucha(2017)}]{Mucha2017}
+Mucha, Anne. 2017.
+\newblock {Past interpretation and graded tense in Medumba}.
+\newblock \emph{Natural Language Semantics} 25(1). 1--52.
+\newblock \doi{10.1007/s11050-016-9128-1}.
+
+\bibitem[{Mucha \& Fominyam(2017)}]{Mucha2017a}
+Mucha, Anne \& Henry~Zamchang Fominyam. 2017.
+\newblock {(Un-)Restricting Tense in Awing}.
+\newblock In \emph{Proceedings of triplea 3: Fieldwork perspectives on the
+  semantics of african, asian and austronesian languages}, 32--46.
 
 \bibitem[{de~Mulder \& Carlier(2011)}]{deMulder2011}
 de~Mulder, Walter \& Anne Carlier. 2011.

@@ -1,0 +1,5 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'asymmetries.blg'
+[35] biber-darwin:313> INFO - === Fri Jun 18, 2021, 14:44:59
+[187] Utils.pm:209> ERROR - Cannot find control file 'asymmetries.bcf'! - Did latex run successfully on your .tex file before you ran biber?
+[188] Biber.pm:114> INFO - ERRORS: 1
